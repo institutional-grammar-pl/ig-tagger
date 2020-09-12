@@ -6,15 +6,16 @@ from igannotator.annotator.annotator import BaseAnnotator
 
 
 class StanfordAnnotator(BaseAnnotator):
-    def __init__(self):
+    def __init__(self, language):
         super().__init__()
+        self.language = language
         self._annotator = stanfordnlp.Pipeline(**self._get_config())
 
     def _get_config(self):
         return {
             "models_dir": self.resources_dir,
             "processors": "tokenize,pos,lemma,depparse",
-            "lang": "pl",
+            "lang": self.language,
         }
 
     def _sentence_to_df(self, sentence: str):

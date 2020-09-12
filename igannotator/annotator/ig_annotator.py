@@ -11,13 +11,14 @@ from igannotator.rulesexecutor.rules_executor import IGRulesExecutor
 
 
 class IgAnnotator(BaseAnnotator):
-    def __init__(self):
+    def __init__(self, language):
         super().__init__()
+        self.language = language
 
         stanfordnlp.download(
-            "pl", self.resources_dir, confirm_if_exists=False, force=True
+            self.language, self.resources_dir, confirm_if_exists=False, force=True
         )
-        self._stanford_annotator = StanfordAnnotator()
+        self._stanford_annotator = StanfordAnnotator(language = self.language)
         self._executor = IGRulesExecutor()
 
     def _preprocess(self, sentence):
