@@ -3,14 +3,17 @@ import warnings
 import pathlib
 
 from igannotator.output.mae import write_mae_representation
+from igannotator.output.tsv import write_tsv_representation
+
 from igannotator.annotator import IgAnnotator
 
 @click.command()
 @click.argument("input", type=click.Path(exists=True))
 @click.argument("output", type=click.Path(exists=False))
 @click.argument("language")
+@click.argument("output_format")
 
-def annotate_file(input, output, language):
+def annotate_file(input, output, language, output_format):
 
     with open(input, "r") as f:
         input_text = f.read()
@@ -18,7 +21,7 @@ def annotate_file(input, output, language):
     annotator = IgAnnotator(language)
     sentences = [x for x in input_text.split("\n\n") if len(x) > 0]
 
-    mae_data = list()
+    data = list()
     connlu_output = input.split('.')[0]+"_connlu.txt"
     connlu_out = open(connlu_output, "w")
 
@@ -28,9 +31,14 @@ def annotate_file(input, output, language):
         connlu_out.write('\n')
 
         tree, tags = annotator.annotate(sentence)
-        mae_data.append((tree, tags))
+        data.append((tree, tags))
     connlu_out.close()
-    write_mae_representation(output, mae_data)
+
+    if output_format == 'mae':
+        write_mae_representation(output, data)
+    elif output_format == 'tsv':
+        write_tsv_representation(output, data)
+
 
 if __name__ == "__main__":
     annotate_file()

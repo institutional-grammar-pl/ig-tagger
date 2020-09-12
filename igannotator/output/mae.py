@@ -20,12 +20,12 @@ def get_sentence_and_tags(
             sentence += word
 
     tag_names = {
-        "IGElement.AIM": "(I) Aim",
-        "IGElement.ATTRIBUTE": "(A) Attribute",
-        "IGElement.OBJECT": "Object",
-        "IGElement.ACTOR": "actor",
-        "IGElement.SEPARATOR": "Separator",
-        "IGElement.DEONTIC": "(D) Deontic",
+        "IGElement.AIM": "aIm",
+        "IGElement.ATTRIBUTE": "Attribute",
+        "IGElement.OBJECT": "oBject",
+        "IGElement.ACTOR": "aCtor",
+        "IGElement.SEPARATOR": "SEPARATOR",
+        "IGElement.DEONTIC": "Deontic",
     }
 
     tags_tuples = list()
