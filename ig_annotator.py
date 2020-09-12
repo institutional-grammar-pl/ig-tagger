@@ -16,11 +16,18 @@ def annotate_file(input, output):
     sentences = [x for x in input_text.split("\n\n") if len(x) > 0]
 
     mae_data = list()
+    connlu_output = input.split('.')[0]+"_connlu.txt"
+    print(connlu_output)
+    connlu_out = open(connlu_output, "w")
+
     for sentence in sentences:
+
+        connlu_out.write(annotator.get_connlu(sentence))
+        connlu_out.write('\n')
+
         tree, tags = annotator.annotate(sentence)
-
         mae_data.append((tree, tags))
-
+    connlu_out.close()
     write_mae_representation(output, mae_data)
 
 
