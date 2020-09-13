@@ -19,7 +19,7 @@ class IgAnnotator(BaseAnnotator):
             self.language, self.resources_dir, confirm_if_exists=False, force=True
         )
         self._stanford_annotator = StanfordAnnotator(language = self.language)
-        self._executor = IGRulesExecutor()
+        self._executor = IGRulesExecutor(language = self.language)
 
     def _preprocess(self, sentence):
         def remove_dots(x: str) -> str:

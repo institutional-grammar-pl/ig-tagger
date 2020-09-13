@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import List, Tuple, Dict
 
 from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.rules import IGTag
+from igannotator.rulesexecutor.rules import IGTag, find_word_tag_2
 
 
 def get_sentence_and_tags(
@@ -21,8 +21,11 @@ def get_sentence_and_tags(
     tag_names = {
         "IGElement.AIM": "(I) Aim",
         "IGElement.ATTRIBUTE": "(A) Attribute",
+        "IGElement.ATTRIBUTE_PROPERTY": "(A, prop) Attribute_Property",
         "IGElement.OBJECT": "Object",
-        "IGElement.ACTOR": "actor",
+        "IGElement.ACTOR": "(A, prop) Attribute_Property",
+        "IGElement.OBJECT_DIRECT": "(Bdir, prop) Object_Direct_Property",
+        "IGElement.EXEC_CONSTRAINT": "(Cex) Execution Constraint",
         "IGElement.SEPARATOR": "Separator",
         "IGElement.DEONTIC": "(D) Deontic",
     }
@@ -31,7 +34,7 @@ def get_sentence_and_tags(
 
     for x in tree.get_all_descendants():
 
-        tag = find_word_tag(tags, x)
+        tag = find_word_tag_2(tags, x.id)
         start = id_to_position[x.id]
         stop = id_to_position[x.id] + len(str(x)) 
         if tag is None:
@@ -43,6 +46,7 @@ def get_sentence_and_tags(
              (str(x), x.id, start, stop, tag_names[str(tag.tag_name)])
             )
     return (sentence, tags_tuples)
+
 
 def find_word_tag(tags, word):
     for tag_list in tags:

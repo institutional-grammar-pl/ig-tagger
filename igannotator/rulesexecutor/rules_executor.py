@@ -1,17 +1,9 @@
 from typing import List
 
 from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.rules import (
-    IGTag,
-    AimExtension,
-    AimIsXcompFromDeonticRoot,
-    NsubjIsAttribute,
-    ObjsFromAimAreObjects,
-    OneRootIsAimOrDeontic,
-    PunctFromAimIsSeparator,
-    Rule,
-)
-
+from igannotator.rulesexecutor.rules import IGTag, Rule
+from igannotator.rulesexecutor.rules_polish import *
+from igannotator.rulesexecutor.rules_english import *
 
 class RulesExecutor:
     def __init__(self, rules: List[Rule]):
@@ -25,14 +17,29 @@ class RulesExecutor:
 
 
 class IGRulesExecutor(RulesExecutor):
-    def __init__(self):
-        super().__init__(
-            [
-                OneRootIsAimOrDeontic(),
-                AimIsXcompFromDeonticRoot(),
-                AimExtension(),
-                NsubjIsAttribute(),
-                ObjsFromAimAreObjects(),
-                PunctFromAimIsSeparator(),
-            ]
-        )
+    def __init__(self, language):
+
+        if language == 'pl': 
+            super().__init__(
+                [
+                    OneRootIsAimOrDeontic(),
+                    AimIsXcompFromDeonticRoot(),
+                    AimExtension(),
+                    NsubjIsAttribute(),
+                    ObjsFromAimAreObjects(),
+                    PunctFromAimIsSeparator(),
+                ]
+            )
+
+        elif language == 'en': 
+            super().__init__(
+                [
+                    OneRootIsAimOrDeontic(),
+                    AimIsXcompFromDeonticRoot(),
+                    AimExtension(),
+                    NsubjIsAttribute(),
+                    ObjsFromAimAreObjects(),
+                    PunctFromAimIsSeparator(),
+                ]
+            )
+
