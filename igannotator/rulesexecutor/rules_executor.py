@@ -2,8 +2,8 @@ from typing import List
 
 from igannotator.annotator.lexical_tree import LexcialTreeNode
 from igannotator.rulesexecutor.rules import IGTag, Rule
-from igannotator.rulesexecutor.rules_polish import *
-from igannotator.rulesexecutor.rules_english import *
+import igannotator.rulesexecutor.rules_polish as rules_pl
+import igannotator.rulesexecutor.rules_english as rules_en
 
 class RulesExecutor:
     def __init__(self, rules: List[Rule]):
@@ -22,24 +22,24 @@ class IGRulesExecutor(RulesExecutor):
         if language == 'pl': 
             super().__init__(
                 [
-                    OneRootIsAimOrDeontic(),
-                    AimIsXcompFromDeonticRoot(),
-                    AimExtension(),
-                    NsubjIsAttribute(),
-                    ObjsFromAimAreObjects(),
-                    PunctFromAimIsSeparator(),
+                    rules_pl.OneRootIsAimOrDeontic(),
+                    rules_pl.AimIsXcompFromDeonticRoot(),
+                    rules_pl.AimExtension(),
+                    rules_pl.NsubjIsAttribute(),
+                    rules_pl.ObjsFromAimAreObjects(),
+                    rules_pl.PunctFromAimIsSeparator(),
                 ]
             )
 
         elif language == 'en': 
             super().__init__(
                 [
-                    OneRootIsAimOrDeontic(),
-                    AimIsXcompFromDeonticRoot(),
-                    AimExtension(),
-                    NsubjIsAttribute(),
-                    ObjsFromAimAreObjects(),
-                    PunctFromAimIsSeparator(),
+                    rules_en.OneRootIsAim(),
+                    rules_en.AuxilaryVerbs(),
+                    rules_en.AimExtension(),
+                    rules_en.NsubjIsAttribute(),
+                    rules_en.ObjsFromAimAreObjects(),
+                    rules_en.Context(),
+                    rules_en.PunctFromAimIsSeparator(),
                 ]
             )
-

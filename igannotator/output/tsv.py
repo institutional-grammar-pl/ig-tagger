@@ -34,6 +34,9 @@ def get_sentence_and_tags(
 
     for x in tree.get_all_descendants():
 
+        if type(x.value) == float:
+            x.value = str(int(x.value))
+        #print(x.value)
         tag = find_word_tag_2(tags, x.id)
         start = id_to_position[x.id]
         stop = id_to_position[x.id] + len(str(x)) 

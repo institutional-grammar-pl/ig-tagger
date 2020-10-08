@@ -1,33 +1,33 @@
 from igannotator.rulesexecutor.rules import *
 
-# 1. Jeżeli jest jeden root to bierzemy go jako:
-#    a) jeżeli jest pochodną od słowa móc, musieć, obowiązany to bieżemy go jako deontic
-#    b) jeżeli nie jest to bierzemy go jako aIm
-class OneRootIsAimOrDeontic(Rule):
+class OneRootIsAim(Rule):
 
     def apply(self, tree: LexcialTreeNode, annotations: List[IGTag]):
-
-        aux = [n for n in tree.get_all_descendants() if n.relation == "aux"]
-        if len(aux) == 1:
-            annotations.append(
-                IGTag(words=[(aux[0].id, aux[0].value)], tag_name=IGElement.DEONTIC)
-            )
 
         root = [n for n in tree.get_all_descendants() if n.relation == "root"]
         if len(root) == 1:
             annotations.append(
                 IGTag(words=[(root[0].id, root[0].value)], tag_name=IGElement.AIM)
             )
-            
-            
 
 
-# 3. Jeżeli w poddrzewie aIm jest:
-#    - aux:pass - oznacza stronę bierną np. "być przyznane"
-#                       - advmod (o polarity:Neg) - zmienia znaczenie słowa (wg dokumentacji), tutaj przeczenie
-#    - cop - jest/są np. "są realizowane"
-#
-# to te części są dodawane do aIm.
+class AuxilaryVerbs(Rule):
+
+    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag]):
+
+        root = [n for n in tree.get_all_descendants() if n.relation == "root"]
+        
+        if len(root) == 1:
+            aux = [n for n in root[0].children if n.relation == "aux" and n.lemm in ["must", "should", "may", "might", "can", "could", "need", "ought", "shall"]]
+            if len(aux) == 1:
+                annotations.append(
+                    IGTag(words=[(aux[0].id, aux[0].value)], tag_name=IGElement.DEONTIC)
+                )
+            aux_do = [n for n in root[0].children if n.relation == "aux" and n.lemm == "do"]
+            if len(aux_do) == 1:
+                annotations.append(
+                    IGTag(words=[(aux_do[0].id, aux_do[0].value)], tag_name=IGElement.AIM)
+                )
 
 
 class AimExtension(Rule):
@@ -45,11 +45,6 @@ class AimExtension(Rule):
             if c.relation == "advmod" and c.lemm == "not":
                 aim_tag.words.append((c.id, c.value))
 
-
-# 4. Attribute oznaczany jako
-#     a) root -> nsubj
-# 4. Attribute propery oznaczany jako
-#     a) root -> nsubj -> poddrzewa
 class NsubjIsAttribute(Rule):
     def apply(self, tree: LexcialTreeNode, annotations: List[IGTag]):
         found_nsubj = False
@@ -68,7 +63,6 @@ class NsubjIsAttribute(Rule):
                     )
                 )
 
-# 5. aIm -> obj + poddrzewa  lub aIm -> iobj + poddrzewa
 class ObjsFromAimAreObjects(Rule):
     def apply(self, tree: LexcialTreeNode, annotations: List[IGTag]):
         
@@ -76,7 +70,7 @@ class ObjsFromAimAreObjects(Rule):
 
         for c in aim_node.children:
             if c.relation == "obj":
-                print("obj", c.value, c.get_all_descendants())
+                #print("obj", c.value, c.get_all_descendants())
                 annotations.append(
                     IGTag(
                         words=[(cc.id, cc.value) for cc in c.get_all_descendants()],
@@ -84,7 +78,6 @@ class ObjsFromAimAreObjects(Rule):
                     )
                 )
 
-# 5. aIm -> obj + poddrzewa  lub aIm -> iobj + poddrzewa
 class Context(Rule):
     def apply(self, tree: LexcialTreeNode, annotations: List[IGTag]):
         

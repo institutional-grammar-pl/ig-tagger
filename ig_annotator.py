@@ -22,11 +22,13 @@ def annotate_file(input, output, language, output_format):
     sentences = [x for x in input_text.split("\n\n") if len(x) > 0]
 
     data = list()
-    connlu_output = input.split('.')[0]+"_connlu.txt"
+    print(input.split('/')[-1])
+    connlu_output = 'data/to_annotate/connlu/' + input.split('/')[-1][:-4]+"_connlu.txt"
     connlu_out = open(connlu_output, "w")
 
     for sentence in sentences:
 
+        #print(sentence)
         connlu_out.write(annotator.get_connlu(sentence))
         connlu_out.write('\n')
 
@@ -38,7 +40,6 @@ def annotate_file(input, output, language, output_format):
         write_mae_representation(output, data)
     elif output_format == 'tsv':
         write_tsv_representation(output, data)
-
 
 if __name__ == "__main__":
     annotate_file()

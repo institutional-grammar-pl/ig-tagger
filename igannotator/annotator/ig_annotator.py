@@ -34,7 +34,6 @@ class IgAnnotator(BaseAnnotator):
         if len(dfs) != 1:
             warnings.warn(f"Unable to annotate data: {sentence}")
             return LexcialTreeNode.from_sentence(sentence), []
-
         tree = LexcialTreeNode.from_conllu_df(dfs[0])
         tags = self._executor.execute(tree)
 

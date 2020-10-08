@@ -30,9 +30,9 @@ def find_word_tag(annotations: List[IGTag], word_id: str) -> Optional[IGTag]:
 def find_word_tag_2(annotations: List[IGTag], word_id: str) -> Optional[IGTag]:
     for ann in annotations:
         for id, word in ann.words:
-            print(word, id, word_id)
+            #print(word, id, word_id)
             if int(id) == int(word_id):
-                print('tak')
+                #sprint('tak')
                 return ann
 
     return None
