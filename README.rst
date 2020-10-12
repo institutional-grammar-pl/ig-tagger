@@ -11,6 +11,12 @@ igannotator
 
 Institutional Grammar annotator package.
 
+
+
+Authors
+-------
+Policydemic Instutional Grammar Annotator was written as a extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
+
 Usage
 -----
 
@@ -52,8 +58,3 @@ Example
 3. If you have installed ``igannotator`` as python package there is an option to run tool directly from CLI::
 
     ig_annotator INPUT OUTPUT
-
-Authors
--------
-
-``igannotator`` was written by the group of students during `Text Mining` course at Warsaw University of Technology.
