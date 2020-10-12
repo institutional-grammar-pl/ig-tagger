@@ -27,17 +27,6 @@ def find_word_tag(annotations: List[IGTag], word_id: str) -> Optional[IGTag]:
 
     return None
 
-def find_word_tag_2(annotations: List[IGTag], word_id: str) -> Optional[IGTag]:
-    for ann in annotations:
-        for id, word in ann.words:
-            #print(word, id, word_id)
-            if int(id) == int(word_id):
-                #sprint('tak')
-                return ann
-
-    return None
-
-
 def find_node_with_tag(
     annotations: List[IGTag], tree: LexcialTreeNode, ig: IGElement
 ) -> Optional[LexcialTreeNode]:

@@ -2,7 +2,7 @@ from collections import defaultdict
 from typing import List, Tuple, Dict
 
 from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.rules import IGTag, find_word_tag_2
+from igannotator.rulesexecutor.rules import IGTag, find_word_tag
 
 
 def get_sentence_and_tags(
@@ -37,7 +37,7 @@ def get_sentence_and_tags(
         if type(x.value) == float:
             x.value = str(int(x.value))
         #print(x.value)
-        tag = find_word_tag_2(tags, x.id)
+        tag = find_word_tag(tags, x.id)
         start = id_to_position[x.id]
         stop = id_to_position[x.id] + len(str(x)) 
         if tag is None:
@@ -50,13 +50,6 @@ def get_sentence_and_tags(
             )
     return (sentence, tags_tuples)
 
-
-def find_word_tag(tags, word):
-    for tag_list in tags:
-        for tag in tag_list.words:
-            if tag[1] == str(word):
-                return tag_list
-    return None
 
 def write_tsv_representation(
     output_file, trees_with_tags: List[Tuple[LexcialTreeNode, List[IGTag]]]

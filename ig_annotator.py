@@ -28,7 +28,6 @@ def annotate_file(input, output, language, output_format):
 
     for sentence in sentences:
 
-        #print(sentence)
         connlu_out.write(annotator.get_connlu(sentence))
         connlu_out.write('\n')
 
@@ -43,4 +42,3 @@ def annotate_file(input, output, language, output_format):
 
 if __name__ == "__main__":
     annotate_file()
-

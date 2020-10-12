@@ -19,10 +19,10 @@ setup(
     url=" ",
     license='MIT',
 
-    author="Pawel Rzepinski, Ryszard Szymanski",
+    author="Aleksandra Wichrowska, Karol Saputa",
     author_email=" ",
 
-    description="Institutional Grammar annotation package.",
+    description="Institutional Grammar 2.0 annotation package.",
     long_description=read("README.rst"),
 
     packages=find_packages(exclude=('tests',)),
