@@ -1,15 +1,10 @@
 igannotator
 ===========
-
-.. image:: https://img.shields.io/pypi/v/igannotator.svg
-    :target: https://pypi.python.org/pypi/igannotator
-    :alt: Latest PyPI version
-
-.. image::  .png
-   :target:  
-   :alt: Latest Travis CI build status
-
 Institutional Grammar annotator package.
+
+Authors
+-------
+New version of annotator for IG 2.0 was written as an extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
 
 Usage
 -----
@@ -52,8 +47,3 @@ Example
 3. If you have installed ``igannotator`` as python package there is an option to run tool directly from CLI::
 
     ig_annotator INPUT OUTPUT
-
-Authors
--------
-
-``igannotator`` was written by the group of students during `Text Mining` course at Warsaw University of Technology.
