@@ -23,7 +23,7 @@ def annotate_file(input, output, language, output_format):
 
     data = list()
     print(input.split('/')[-1])
-    connlu_output = 'data/to_annotate/connlu/' + input.split('/')[-1][:-4]+"_connlu.txt"
+    connlu_output = 'data/connlu/' + input.split('/')[-1][:-4]+"_connlu.txt"
     connlu_out = open(connlu_output, "w")
 
     for sentence in sentences:
