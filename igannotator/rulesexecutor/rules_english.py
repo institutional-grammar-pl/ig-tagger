@@ -1,4 +1,4 @@
-from igannotator.rulesexecutor.rules import *
+from ...igannotator.rulesexecutor.rules import *
 
 class OneRootIsAim(Rule):
 

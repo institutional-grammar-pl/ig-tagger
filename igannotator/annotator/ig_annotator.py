@@ -3,11 +3,11 @@ from typing import List, Tuple, Optional
 import stanfordnlp
 import warnings
 
-from igannotator.annotator.annotator import BaseAnnotator
-from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.rules import IGTag
-from igannotator.annotator import StanfordAnnotator
-from igannotator.rulesexecutor.rules_executor import IGRulesExecutor
+from ...igannotator.annotator.annotator import BaseAnnotator
+from ...igannotator.annotator.lexical_tree import LexcialTreeNode
+from ...igannotator.rulesexecutor.rules import IGTag
+from ...igannotator.annotator import StanfordAnnotator
+from ...igannotator.rulesexecutor.rules_executor import IGRulesExecutor
 
 
 class IgAnnotator(BaseAnnotator):

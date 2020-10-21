@@ -1,7 +1,7 @@
 import requests
 import json
 
-from igannotator.rulesexecutor.ig_element import IGElement
+from ...igannotator.rulesexecutor.ig_element import IGElement
 
 API_URL = "http://plwordnet.pwr.wroc.pl/wordnet/api/lexemes/"
 API_URL_2 = "http://plwordnet.pwr.wroc.pl/wordnet/api/senses/"

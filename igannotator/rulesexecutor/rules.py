@@ -2,9 +2,9 @@ from abc import ABC, abstractmethod
 from typing import List, Tuple, Optional
 from dataclasses import dataclass
 
-from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.noun_classifier import nounClassifier
-from igannotator.rulesexecutor.ig_element import IGElement
+from ...igannotator.annotator.lexical_tree import LexcialTreeNode
+from ...igannotator.rulesexecutor.noun_classifier import nounClassifier
+from ...igannotator.rulesexecutor.ig_element import IGElement
 
 
 @dataclass

@@ -1,9 +1,10 @@
 from typing import List
 
-from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.rules import IGTag, Rule
-import igannotator.rulesexecutor.rules_polish as rules_pl
-import igannotator.rulesexecutor.rules_english as rules_en
+from . import rules_polish as rules_pl
+from . import rules_english as rules_en
+from ...igannotator.annotator.lexical_tree import LexcialTreeNode
+from ...igannotator.rulesexecutor.rules import IGTag, Rule
+
 
 class RulesExecutor:
     def __init__(self, rules: List[Rule]):

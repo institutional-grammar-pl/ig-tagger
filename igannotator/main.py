@@ -1,10 +1,10 @@
 import click
 import warnings
 
-from igannotator.output.mae import write_mae_representation
-from igannotator.output.tsv import write_tsv_representation
+from ..igannotator.output.mae import write_mae_representation
+from ..igannotator.output.tsv import write_tsv_representation
 
-from igannotator.annotator import IgAnnotator
+from ..igannotator.annotator import IgAnnotator
 
 
 def annotate_file(input_file, output_file):

@@ -1,4 +1,4 @@
-from igannotator.rulesexecutor.rules import *
+from ...igannotator.rulesexecutor.rules import *
 
 # 1. Jeżeli jest jeden root to bierzemy go jako:
 #    a) jeżeli jest pochodną od słowa móc, musieć, obowiązany to bieżemy go jako deontic

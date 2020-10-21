@@ -2,7 +2,7 @@ import pandas as pd
 import stanfordnlp
 from io import StringIO
 
-from igannotator.annotator.annotator import BaseAnnotator
+from ...igannotator.annotator.annotator import BaseAnnotator
 
 
 class StanfordAnnotator(BaseAnnotator):
