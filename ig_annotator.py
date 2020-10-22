@@ -13,7 +13,7 @@ def annotate_text(sentences, output_path, language, output_format):
     annotator = IgAnnotator(language)
     conllu_file = tempfile.NamedTemporaryFile()
     data = list()
-    with open(conllu_file.name) as conllu_out:
+    with open(conllu_file.name, 'w') as conllu_out:
         for sentence in sentences:
             conllu_out.write(annotator.get_connlu(sentence))
             conllu_out.write('\n')
