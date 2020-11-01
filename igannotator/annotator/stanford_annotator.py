@@ -4,7 +4,6 @@ from io import StringIO
 
 from igannotator.annotator.annotator import BaseAnnotator
 
-
 class StanfordAnnotator(BaseAnnotator):
     def __init__(self, language):
         super().__init__()

@@ -35,9 +35,6 @@ class LexcialTreeNode:
             [f"{x.tag}, {x.relation}:{x.get_all_descendants()}" for x in self.children]
         )
 
-    def to_connlu(self):
-        return ""
-
     @staticmethod
     def from_conllu_df(df):
         id_to_word = dict()

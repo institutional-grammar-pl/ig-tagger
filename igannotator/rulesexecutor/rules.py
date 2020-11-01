@@ -3,9 +3,7 @@ from typing import List, Tuple, Optional
 from dataclasses import dataclass
 
 from igannotator.annotator.lexical_tree import LexcialTreeNode
-from igannotator.rulesexecutor.noun_classifier import nounClassifier
 from igannotator.rulesexecutor.ig_element import IGElement
-
 
 @dataclass
 class IGTag:
@@ -35,12 +33,9 @@ def find_node_with_tag(
             return t
     return None
 
-
 def find_word_igelement(annotations: List[IGTag], word_id: str) -> IGElement:
     tag = find_word_tag(annotations, word_id)
     if tag is not None:
         return tag.tag_name
     else:
         return None
-
-

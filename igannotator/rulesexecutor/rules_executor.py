@@ -15,7 +15,6 @@ class RulesExecutor:
             r.apply(tree, annotations)
         return [ann for ann in annotations if ann is not None]
 
-
 class IGRulesExecutor(RulesExecutor):
     def __init__(self, language):
 

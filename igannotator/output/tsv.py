@@ -36,7 +36,6 @@ def get_sentence_and_tags(
 
         if type(x.value) == float:
             x.value = str(int(x.value))
-        #print(x.value)
         tag = find_word_tag(tags, x.id)
         start = id_to_position[x.id]
         stop = id_to_position[x.id] + len(str(x)) 
