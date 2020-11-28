@@ -28,8 +28,8 @@ class IgAnnotator(BaseAnnotator):
         return remove_dots(sentence)
 
     def annotate(self, sentence: str) -> Tuple[LexcialTreeNode, List[IGTag]]:
-        processed_sentence = self._preprocess(sentence)
-
+        #processed_sentence = self._preprocess(sentence)
+        processed_sentence = sentence
         dfs = self._stanford_annotator.annotate(processed_sentence)
         if len(dfs) != 1:
             warnings.warn(f"Unable to annotate data: {sentence}")

@@ -8,13 +8,44 @@ from .igannotator.output.tsv import write_tsv_representation
 
 from .igannotator.annotator import IgAnnotator
 
+import re
 
-def annotate_text(sentences, output_path, language, output_format):
+#def annotate_text(sentences, output_path, language, output_format):
+#    annotator = IgAnnotator(language)
+#    conllu_file = tempfile.NamedTemporaryFile()
+#    data = list()
+#    with open(conllu_file.name, 'w') as conllu_out:
+#        for sentence in sentences:
+#            conllu_out.write(annotator.get_connlu(sentence))
+#            conllu_out.write('\n')
+#
+#            tree, tags = annotator.annotate(sentence)
+#            data.append((tree, tags))
+#
+#        if output_format == 'mae':
+#            write_mae_representation(output_path, data)
+#        elif output_format == 'tsv':
+#           write_tsv_representation(output_path, data)
+
+def annotate_text(text, output_path, language, output_format):
+
     annotator = IgAnnotator(language)
     conllu_file = tempfile.NamedTemporaryFile()
     data = list()
+    text = re.sub('[\.] (?=[A-Z])', '.\n', text) 
+    text = re.sub('\t', ' ', text)
+    text = re.sub('["|”|„|“]', '', text)
+    text = re.sub("'", '', text)
+    text = re.sub('\n[\d]+[. ]', "\n", text)
+    text = re.sub("\n(\s*\n){0,1}", "\n\n", text)
+    text = re.sub('[ ]+', ' ', text)
+    sentences = text.split('\n\n')
+    sentences = [text.strip() for text in sentences]
+    sentences = [text for text in sentences if text!= '']
+    print('text_splitted', sentences)
     with open(conllu_file.name, 'w') as conllu_out:
         for sentence in sentences:
+            print('sentence', sentence)
             conllu_out.write(annotator.get_connlu(sentence))
             conllu_out.write('\n')
 
