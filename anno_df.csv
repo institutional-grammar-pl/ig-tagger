@@ -1,0 +1,3347 @@
+,id,word,constitutive_component,constitutive_policydemic,regulative_component,regulative_policydemic
+0,1-1,DIVISION,_,_,_,_
+1,1-2,E,_,_,_,_
+2,1-3,<,_,_,_,_
+3,1-4,<,_,_,_,_
+4,1-5,NOTE,_,_,_,_
+5,1-6,:,_,_,_,_
+6,1-7,Emergency,_,_,_,_
+7,1-8,Paid,_,_,_,_
+8,1-9,Sick,_,_,_,_
+9,1-10,Leave,_,_,_,_
+10,1-11,Act,_,_,_,_
+11,1-12,.,_,_,_,_
+12,1-13,>,_,_,_,_
+13,1-14,>,_,_,_,_
+14,1-15,-,_,_,_,_
+15,1-16,-,_,_,_,_
+16,1-17,EMERGENCY,_,_,_,_
+17,1-18,PAID,_,_,_,_
+18,1-19,SICK,_,_,_,_
+19,1-20,LEAVE,_,_,_,_
+20,1-21,ACT,_,_,_,_
+21,1-22,SEC,_,_,_,_
+22,1-23,.,_,_,_,_
+23,1-24,5101,_,_,_,_
+24,1-25,.,_,_,_,_
+25,2-1,SHORT,_,_,_,_
+26,2-2,TITLE,_,_,_,_
+27,2-3,.,_,_,_,_
+28,3-1,This,_,_,_,_
+29,3-2,Act,_,_,_,_
+30,3-3,may,_,_,_,_
+31,3-4,be,_,_,_,_
+32,3-5,cited,_,_,_,_
+33,3-6,as,_,_,_,_
+34,3-7,the,_,_,_,_
+35,3-8,`,_,_,_,_
+36,3-9,`,_,_,_,_
+37,3-10,Emergency,_,_,_,_
+38,3-11,Paid,_,_,_,_
+39,3-12,Sick,_,_,_,_
+40,3-13,Leave,_,_,_,_
+41,3-14,Act,_,_,_,_
+42,3-15,',_,_,_,_
+43,3-16,',_,_,_,_
+44,3-17,.,_,_,_,_
+45,4-1,SEC,_,_,_,_
+46,4-2,.,_,_,_,_
+47,4-3,5102,_,_,_,_
+48,4-4,.,_,_,_,_
+49,5-1,PAID,_,_,_,_
+50,5-2,SICK,_,_,_,_
+51,5-3,TIME,_,_,_,_
+52,5-4,REQUIREMENT,_,_,_,_
+53,5-5,.,_,_,_,_
+54,6-1,(,_,_,_,_
+55,6-2,a,_,_,_,_
+56,6-3,),_,_,_,_
+57,6-4,IN,_,_,_,_
+58,6-5,GENERAL,_,_,_,_
+59,6-6,.,_,_,_,_
+60,7-1,-,_,_,_,_
+61,7-2,-,_,_,_,_
+62,7-3,An,_,_,(A) Attribute[39],(DB) Duty-bearer[39]
+63,7-4,employer,_,_,(A) Attribute[39],(DB) Duty-bearer[39]
+64,7-5,shall,_,_,(D) Deontic,*
+65,7-6,provide,_,_,(I) Aim,*
+66,7-7,to,_,_,_,_
+67,7-8,each,_,_,"(Bdir, prop) Object\_Direct\_Property",*
+68,7-9,employee,_,_,(Bind) Object\_Indirect,(C) Claimant
+69,7-10,employed,_,_,"(Bind, prop) Object\_Indirect\_Property[40]",(CP) Claimant Property[40]
+70,7-11,by,_,_,"(Bind, prop) Object\_Indirect\_Property[40]",(CP) Claimant Property[40]
+71,7-12,the,_,_,"(Bind, prop) Object\_Indirect\_Property[40]",(CP) Claimant Property[40]
+72,7-13,employer,_,_,"(Bind, prop) Object\_Indirect\_Property[40]",(CP) Claimant Property[40]
+73,7-14,paid,_,_,(Bdir) Object\_Direct[41],(B) Benefit[41]
+74,7-15,sick,_,_,(Bdir) Object\_Direct[41],(B) Benefit[41]
+75,7-16,time,_,_,(Bdir) Object\_Direct[41],(B) Benefit[41]
+76,7-17,to,_,_,(Cex) Execution Constraint[42],*[42]
+77,7-18,the,_,_,(Cex) Execution Constraint[42],*[42]
+78,7-19,extent,_,_,(Cex) Execution Constraint[42],*[42]
+79,7-20,that,_,_,_,_
+80,7-21,the,_,_,(A) Attribute[43],(C) Claimant[43]
+81,7-22,employee,_,_,(A) Attribute[43],(C) Claimant[43]
+82,7-23,is,_,_,(I) Aim,*
+83,7-24,unable,_,_,(Cex) Execution Constraint[44],*[44]
+84,7-25,to,_,_,(Cex) Execution Constraint[44],*[44]
+85,7-26,work,_,_,(Cex) Execution Constraint[44],*[44]
+86,7-27,(,_,_,(Cex) Execution Constraint[44],*[44]
+87,7-28,or,_,_,(Cex) Execution Constraint[44],*[44]
+88,7-29,telework,_,_,(Cex) Execution Constraint[44],*[44]
+89,7-30,),_,_,(Cex) Execution Constraint[44],*[44]
+90,7-31,due,_,_,(Cac) Activation Condition[45],*[45]
+91,7-32,to,_,_,(Cac) Activation Condition[45],*[45]
+92,7-33,a,_,_,(Cac) Activation Condition[45],*[45]
+93,7-34,need,_,_,(Cac) Activation Condition[45],*[45]
+94,7-35,for,_,_,(Cac) Activation Condition[45],*[45]
+95,7-36,leave,_,_,(Cac) Activation Condition[45],*[45]
+96,7-37,because,_,_,(Cac) Activation Condition[45],*[45]
+97,7-38,:,_,_,_,_
+98,7-39,(,_,_,_,_
+99,7-40,1,_,_,_,_
+100,7-41,),_,_,_,_
+101,7-42,The,(E) Constituted Entity[4],(C) Claimant[4],(Cac) Activation Condition[46],*[46]
+102,7-43,employee,(E) Constituted Entity[4],(C) Claimant[4],(Cac) Activation Condition[46],*[46]
+103,7-44,is,(F) Constitutive Function,*,(Cac) Activation Condition[46],*[46]
+104,7-45,subject,(P) Constituting Property,*,(Cac) Activation Condition[46],*[46]
+105,7-46,to,_,_,(Cac) Activation Condition[46],*[46]
+106,7-47,a,_,_,(Cac) Activation Condition[46],*[46]
+107,7-48,Federal,"(P, prop) Constituting Property Property",*,(Cac) Activation Condition[46],*[46]
+108,7-49,",",_,_,(Cac) Activation Condition[46],*[46]
+109,7-50,State,"(P, prop) Constituting Property Property",*,(Cac) Activation Condition[46],*[46]
+110,7-51,",",_,_,(Cac) Activation Condition[46],*[46]
+111,7-52,or,_,_,(Cac) Activation Condition[46],*[46]
+112,7-53,local,*,*,(Cac) Activation Condition[46],*[46]
+113,7-54,quarantine,"(P, prop) Constituting Property Property",*,(Cac) Activation Condition[46],*[46]
+114,7-55,or,_,_,(Cac) Activation Condition[46],*[46]
+115,7-56,isolation,"(P, prop) Constituting Property Property",*,(Cac) Activation Condition[46],*[46]
+116,7-57,order,"(P, prop) Constituting Property Property",*,(Cac) Activation Condition[46],*[46]
+117,7-58,related,"(P, prop) Constituting Property Property[5]",*[5],(Cac) Activation Condition[46],*[46]
+118,7-59,to,"(P, prop) Constituting Property Property[5]",*[5],(Cac) Activation Condition[46],*[46]
+119,7-60,COVID,"(P, prop) Constituting Property Property[5]",*[5],(Cac) Activation Condition[46],*[46]
+120,7-61,-,"(P, prop) Constituting Property Property[5]",*[5],(Cac) Activation Condition[46],*[46]
+121,7-62,19,"(P, prop) Constituting Property Property[5]",*[5],(Cac) Activation Condition[46],*[46]
+122,8-1,.,_,_,_,_
+123,9-1,(,_,_,_,_
+124,9-2,2,_,_,_,_
+125,9-3,),_,_,_,_
+126,9-4,The,_,_,(Cac) Activation Condition[47]|(Bdir) Object\_Direct[48],*[47]|(C) Claimant[48]
+127,9-5,employee,_,_,(Cac) Activation Condition[47]|(Bdir) Object\_Direct[48],*[47]|(C) Claimant[48]
+128,9-6,has,_,_,(Cac) Activation Condition[47],*[47]
+129,9-7,been,_,_,(Cac) Activation Condition[47],*[47]
+130,9-8,advised,_,_,(Cac) Activation Condition[47]|(I) Aim[49],*[47]|*[49]
+131,9-9,by,_,_,(Cac) Activation Condition[47],*[47]
+132,9-10,a,_,_,(Cac) Activation Condition[47]|(A) Attribute[50],*[47]|*[50]
+133,9-11,health,_,_,(Cac) Activation Condition[47]|(A) Attribute[50],*[47]|*[50]
+134,9-12,care,_,_,(Cac) Activation Condition[47]|(A) Attribute[50],*[47]|*[50]
+135,9-13,provider,_,_,(Cac) Activation Condition[47]|(A) Attribute[50],*[47]|*[50]
+136,9-14,to,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+137,9-15,self-quarantine,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+138,9-16,due,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+139,9-17,to,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+140,9-18,concerns,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+141,9-19,related,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+142,9-20,to,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+143,9-21,COVID,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+144,9-22,-,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+145,9-23,19,_,_,(Cac) Activation Condition[47]|(Cex) Execution Constraint[51],*[47]|*[51]
+146,10-1,.,_,_,_,_
+147,11-1,(,_,_,_,_
+148,11-2,3,_,_,_,_
+149,11-3,),_,_,_,_
+150,11-4,The,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(A) Attribute[54],*[52]|*[53]|(C) Claimant[54]
+151,11-5,employee,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(A) Attribute[54],*[52]|*[53]|(C) Claimant[54]
+152,11-6,is,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(I) Aim[55],*[52]|*[53]|*[55]
+153,11-7,experiencing,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(I) Aim[55],*[52]|*[53]|*[55]
+154,11-8,symptoms,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(Bdir) Object\_Direct[56],*[52]|*[53]|*[56]
+155,11-9,of,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(Bdir, prop) Object\_Direct\_Property[57]",*[52]|*[53]|*[57]
+156,11-10,COVID,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(Bdir, prop) Object\_Direct\_Property[57]",*[52]|*[53]|*[57]
+157,11-11,-,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(Bdir, prop) Object\_Direct\_Property[57]",*[52]|*[53]|*[57]
+158,11-12,19,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(Bdir, prop) Object\_Direct\_Property[57]",*[52]|*[53]|*[57]
+159,11-13,and,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[53],*[52]|*[53]
+160,11-14,seeking,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(A, prop) Attribute\_Property[58]",*[52]|*[53]|*[58]
+161,11-15,a,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(A, prop) Attribute\_Property[58]",*[52]|*[53]|*[58]
+162,11-16,medical,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(A, prop) Attribute\_Property[58]",*[52]|*[53]|*[58]
+163,11-17,diagnosis,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[53]|(A, prop) Attribute\_Property[58]",*[52]|*[53]|*[58]
+164,12-1,.,_,_,(Cex) Execution Constraint[52],*[52]
+165,13-1,(,_,_,(Cex) Execution Constraint[52],*[52]
+166,13-2,4,_,_,(Cex) Execution Constraint[52],*[52]
+167,13-3,),_,_,(Cex) Execution Constraint[52],*[52]
+168,13-4,The,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(A) Attribute[60],*[52]|*[59]|*[60]
+169,13-5,employee,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(A) Attribute[60],*[52]|*[59]|*[60]
+170,13-6,is,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(I) Aim[61],*[52]|*[59]|*[61]
+171,13-7,caring,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(I) Aim[61],*[52]|*[59]|*[61]
+172,13-8,for,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59],*[52]|*[59]
+173,13-9,an,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir) Object\_Direct[62],*[52]|*[59]|*[62]
+174,13-10,individual,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir) Object\_Direct[62],*[52]|*[59]|*[62]
+175,13-11,who,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+176,13-12,is,(F) Constitutive Function,*,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+177,13-13,subject,(P) Constituting Property,*,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+178,13-14,to,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+179,13-15,an,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+180,13-16,order,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+181,13-17,as,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+182,13-18,described,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+183,13-19,in,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+184,13-20,subparagraph,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+185,13-21,(,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+186,13-22,1,"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+187,13-23,),"(P, prop) Constituting Property Property[6]",*[6],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[63]",*[52]|*[59]|*[63]
+188,13-24,or,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[59],*[52]|*[59]
+189,13-25,has,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]",*[52]|*[59]|*[64]
+190,13-26,been,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]",*[52]|*[59]|*[64]
+191,13-27,advised,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(I) Aim[65]",*[52]|*[59]|*[64]|*[65]
+192,13-28,as,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+193,13-29,described,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+194,13-30,in,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+195,13-31,paragraph,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+196,13-32,(,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+197,13-33,2,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+198,13-34,),_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[59]|(Bdir, prop) Object\_Direct\_Property[64]|(Cex) Execution Constraint[66]",*[52]|*[59]|*[64]|*[66]
+199,14-1,.,_,_,(Cex) Execution Constraint[52],*[52]
+200,15-1,(,_,_,(Cex) Execution Constraint[52],*[52]
+201,15-2,5,_,_,(Cex) Execution Constraint[52],*[52]
+202,15-3,),_,_,(Cex) Execution Constraint[52],*[52]
+203,15-4,The,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(A) Attribute[68],*[52]|*[67]|(C) Claimant[68]
+204,15-5,employee,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(A) Attribute[68],*[52]|*[67]|(C) Claimant[68]
+205,15-6,is,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(I) Aim[69],*[52]|*[67]|*[69]
+206,15-7,caring,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(I) Aim[69],*[52]|*[67]|*[69]
+207,15-8,for,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67],*[52]|*[67]
+208,15-9,a,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Bdir) Object\_Direct[70],*[52]|*[67]|*[70]
+209,15-10,son,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Bdir) Object\_Direct[70],*[52]|*[67]|*[70]
+210,15-11,or,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67],*[52]|*[67]
+211,15-12,daughter,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Bdir) Object\_Direct[71],*[52]|*[67]|*[71]
+212,15-13,of,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Bdir, prop) Object\_Direct\_Property[72]",*[52]|*[67]|(C) Claimant[72]
+213,15-14,such,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Bdir, prop) Object\_Direct\_Property[72]",*[52]|*[67]|(C) Claimant[72]
+214,15-15,employee,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Bdir, prop) Object\_Direct\_Property[72]",*[52]|*[67]|(C) Claimant[72]
+215,15-16,if,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73],*[52]|*[67]|*[73]
+216,15-17,the,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir) Object\_Direct[74],*[52]|*[67]|*[73]|*[74]
+217,15-18,school,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir) Object\_Direct[74],*[52]|*[67]|*[73]|*[74]
+218,15-19,or,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73],*[52]|*[67]|*[73]
+219,15-20,place,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir) Object\_Direct[75],*[52]|*[67]|*[73]|*[75]
+220,15-21,of,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir) Object\_Direct[75],*[52]|*[67]|*[73]|*[75]
+221,15-22,care,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir) Object\_Direct[75],*[52]|*[67]|*[73]|*[75]
+222,15-23,of,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir, prop) Object\_Direct\_Property[76]",*[52]|*[67]|*[73]|*[76]
+223,15-24,the,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir, prop) Object\_Direct\_Property[76]",*[52]|*[67]|*[73]|*[76]
+224,15-25,son,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir, prop) Object\_Direct\_Property[76]",*[52]|*[67]|*[73]|*[76]
+225,15-26,or,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73],*[52]|*[67]|*[73]
+226,15-27,daughter,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|(Bdir, prop) Object\_Direct\_Property[77]",*[52]|*[67]|*[73]|*[77]
+227,15-28,has,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|*[78],*[52]|*[67]|*[73]|*[78]
+228,15-29,been,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|*[78],*[52]|*[67]|*[73]|*[78]
+229,15-30,closed,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[73]|*[78],*[52]|*[67]|*[73]|*[78]
+230,15-31,",",_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67],*[52]|*[67]
+231,15-32,or,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67],*[52]|*[67]
+232,15-33,the,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A) Attribute[80],*[52]|*[67]|*[79]|*[80]
+233,15-34,child,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A) Attribute[80],*[52]|*[67]|*[79]|*[80]
+234,15-35,care,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A) Attribute[80],*[52]|*[67]|*[79]|*[80]
+235,15-36,provider,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A) Attribute[80],*[52]|*[67]|*[79]|*[80]
+236,15-37,of,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A, prop) Attribute\_Property[81]",*[52]|*[67]|*[79]|*[81]
+237,15-38,such,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A, prop) Attribute\_Property[81]",*[52]|*[67]|*[79]|*[81]
+238,15-39,son,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A, prop) Attribute\_Property[81]",*[52]|*[67]|*[79]|*[81]
+239,15-40,or,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79],*[52]|*[67]|*[79]
+240,15-41,daughter,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(A, prop) Attribute\_Property[82]",*[52]|*[67]|*[79]|*[82]
+241,15-42,is,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(I) Aim[83],*[52]|*[67]|*[79]|*[83]
+242,15-43,unavailable,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cex) Execution Constraint[84],*[52]|*[67]|*[79]|*[84]
+243,15-44,",",_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79],*[52]|*[67]|*[79]
+244,15-45,due,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cac) Activation Condition[85],*[52]|*[67]|*[79]|*[85]
+245,15-46,to,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cac) Activation Condition[85],*[52]|*[67]|*[79]|*[85]
+246,15-47,COVID,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cac) Activation Condition[85],*[52]|*[67]|*[79]|*[85]
+247,15-48,-,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cac) Activation Condition[85],*[52]|*[67]|*[79]|*[85]
+248,15-49,19,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cac) Activation Condition[85],*[52]|*[67]|*[79]|*[85]
+249,15-50,precautions,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[67]|(Cac) Activation Condition[79]|(Cac) Activation Condition[85],*[52]|*[67]|*[79]|*[85]
+250,16-1,.,_,_,(Cex) Execution Constraint[52],*[52]
+251,17-1,(,_,_,(Cex) Execution Constraint[52],*[52]
+252,17-2,6,_,_,(Cex) Execution Constraint[52],*[52]
+253,17-3,),_,_,(Cex) Execution Constraint[52],*[52]
+254,17-4,The,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(A) Attribute[87],*[52]|*[86]|*[87]
+255,17-5,employee,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(A) Attribute[87],*[52]|*[86]|*[87]
+256,17-6,is,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(I) Aim[88],*[52]|*[86]|*[88]
+257,17-7,experiencing,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(I) Aim[88],*[52]|*[86]|*[88]
+258,17-8,any,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[89]",*[52]|*[86]|*[89]
+259,17-9,other,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[89]",*[52]|*[86]|*[89]
+260,17-10,substantially,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[89]",*[52]|*[86]|*[89]
+261,17-11,similar,_,_,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[89]",*[52]|*[86]|*[89]
+262,17-12,condition,_,_,(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir) Object\_Direct[90],*[52]|*[86]|*[90]
+263,17-13,specified,(F) Constitutive Function,*,"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+264,17-14,by,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+265,17-15,the,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+266,17-16,Secretary,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+267,17-17,of,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+268,17-18,Health,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+269,17-19,and,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+270,17-20,Human,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+271,17-21,Services,(P) Constituting Property[7],*[7],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+272,17-22,in,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+273,17-23,consultation,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+274,17-24,with,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+275,17-25,the,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+276,17-26,Secretary,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+277,17-27,of,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+278,17-28,the,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+279,17-29,Treasury,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+280,17-30,and,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+281,17-31,the,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+282,17-32,Secretary,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+283,17-33,of,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+284,17-34,Labor,(Cex) Execution Constraint[8],*[8],"(Cex) Execution Constraint[52]|(Cac) Activation Condition[86]|(Bdir, prop) Object\_Direct\_Property[91]",*[52]|*[86]|*[91]
+285,17-35,.,_,_,_,_
+286,18-1,Except,_,_,(I) Aim,*
+287,18-2,that,_,_,(Bdir) Object\_Direct[92],*[92]
+288,18-3,an,_,_,(Bdir) Object\_Direct[92]|(A) Attribute[93],*[92]|*[93]
+289,18-4,employer,_,_,(Bdir) Object\_Direct[92]|(A) Attribute[93],*[92]|*[93]
+290,18-5,of,_,_,(Bdir) Object\_Direct[92],*[92]
+291,18-6,an,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+292,18-7,employee,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+293,18-8,who,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+294,18-9,is,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+295,18-10,a,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+296,18-11,health,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+297,18-12,care,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+298,18-13,provider,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+299,18-14,or,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+300,18-15,an,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+301,18-16,emergency,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+302,18-17,responder,_,_,"(Bdir) Object\_Direct[92]|(A, prop) Attribute\_Property[94]",*[92]|*[94]
+303,18-18,may,_,_,(Bdir) Object\_Direct[92]|(D) Deontic[95],*[92]|*[95]
+304,18-19,elect,_,_,(Bdir) Object\_Direct[92]|(I) Aim[96],*[92]|*[96]
+305,18-20,to,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+306,18-21,exclude,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+307,18-22,such,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+308,18-23,employee,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+309,18-24,from,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+310,18-25,the,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+311,18-26,application,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+312,18-27,of,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+313,18-28,this,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+314,18-29,subsection,_,_,(Bdir) Object\_Direct[92]|(Bdir) Object\_Direct[97],*[92]|*[97]
+315,18-30,.,_,_,_,_
+316,19-1,(,_,_,_,_
+317,19-2,b,_,_,_,_
+318,19-3,),_,_,_,_
+319,19-4,DURATION,_,_,_,_
+320,19-5,OF,_,_,_,_
+321,19-6,PAID,_,_,_,_
+322,19-7,SICK,_,_,_,_
+323,19-8,TIME,_,_,_,_
+324,20-1,.,_,_,_,_
+325,21-1,(,_,_,_,_
+326,21-2,1,_,_,_,_
+327,21-3,),_,_,_,_
+328,21-4,IN,_,_,_,_
+329,21-5,GENERAL,_,_,_,_
+330,21-6,.,_,_,_,_
+331,22-1,-,_,_,_,_
+332,22-2,-,_,_,_,_
+333,22-3,An,(E) Constituted Entity[9],(C) Claimant[9],_,_
+334,22-4,employee,(E) Constituted Entity[9],(C) Claimant[9],_,_
+335,22-5,shall,(D) Deontic,*,_,_
+336,22-6,be,(F) Constitutive Function,*,_,_
+337,22-7,entitled,(P) Constituting Property,*,_,_
+338,22-8,to,"(P, prop) Constituting Property Property[10]",(B) Benefit[10],_,_
+339,22-9,paid,"(P, prop) Constituting Property Property[10]",(B) Benefit[10],_,_
+340,22-10,sick,"(P, prop) Constituting Property Property[10]",(B) Benefit[10],_,_
+341,22-11,time,"(P, prop) Constituting Property Property[10]",(B) Benefit[10],_,_
+342,22-12,for,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+343,22-13,an,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+344,22-14,amount,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+345,22-15,of,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+346,22-16,hours,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+347,22-17,determined,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+348,22-18,under,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+349,22-19,paragraph,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+350,22-20,(,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+351,22-21,2,(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+352,22-22,),(Cex) Execution Constraint[11],(PTL) Provision Time Limit[11],_,_
+353,23-1,.,_,_,_,_
+354,24-1,(,_,_,_,_
+355,24-2,2,_,_,_,_
+356,24-3,),_,_,_,_
+357,24-4,AMOUNT,_,_,_,_
+358,24-5,OF,_,_,_,_
+359,24-6,HOURS,_,_,_,_
+360,24-7,.,_,_,_,_
+361,25-1,-,_,_,_,_
+362,25-2,-,_,_,_,_
+363,25-3,The,(E) Constituted Entity[12],*[12],_,_
+364,25-4,amount,(E) Constituted Entity[12],*[12],_,_
+365,25-5,of,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+366,25-6,hours,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+367,25-7,of,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+368,25-8,paid,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+369,25-9,sick,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+370,25-10,time,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+371,25-11,to,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+372,25-12,which,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+373,25-13,an,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+374,25-14,employee,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+375,25-15,is,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+376,25-16,entitled,"(E, prop) Constituted Entity Property[13]",*[13],_,_
+377,25-17,shall,(D) Deontic,*,_,_
+378,25-18,be,(F) Constitutive Function,*,_,_
+379,25-19,as,(P) Constituting Property[14],*[14],_,_
+380,25-20,follows,(P) Constituting Property[14],*[14],_,_
+381,25-21,:,_,_,_,_
+382,25-22,(,_,_,_,_
+383,25-23,A,_,_,_,_
+384,25-24,),_,_,_,_
+385,25-25,For,(Cex) Execution Constraint[15],*[15],_,_
+386,25-26,full-time,(Cex) Execution Constraint[15],*[15],_,_
+387,25-27,employees,(Cex) Execution Constraint[15],*[15],_,_
+388,25-28,",",_,_,_,_
+389,25-29,80,"(P, prop) Constituting Property Property[16]",*[16],_,_
+390,25-30,hours,"(P, prop) Constituting Property Property[16]",*[16],_,_
+391,25-31,.,_,_,_,_
+392,26-1,(,_,_,_,_
+393,26-2,B,_,_,_,_
+394,26-3,),_,_,_,_
+395,26-4,For,(Cex) Execution Constraint[17],*[17],_,_
+396,26-5,part-time,(Cex) Execution Constraint[17],*[17],_,_
+397,26-6,employees,(Cex) Execution Constraint[17],*[17],_,_
+398,26-7,",",_,_,_,_
+399,26-8,a,"(P, prop) Constituting Property Property[18]",*[18],_,_
+400,26-9,number,"(P, prop) Constituting Property Property[18]",*[18],_,_
+401,26-10,of,"(P, prop) Constituting Property Property[18]",*[18],_,_
+402,26-11,hours,"(P, prop) Constituting Property Property[18]",*[18],_,_
+403,26-12,equal,"(P, prop) Constituting Property Property[18]",*[18],_,_
+404,26-13,to,"(P, prop) Constituting Property Property[18]",*[18],_,_
+405,26-14,the,"(P, prop) Constituting Property Property[18]",*[18],_,_
+406,26-15,number,"(P, prop) Constituting Property Property[18]",*[18],_,_
+407,26-16,of,"(P, prop) Constituting Property Property[18]",*[18],_,_
+408,26-17,hours,"(P, prop) Constituting Property Property[18]",*[18],_,_
+409,26-18,that,"(P, prop) Constituting Property Property[18]",*[18],_,_
+410,26-19,such,"(P, prop) Constituting Property Property[18]",*[18],_,_
+411,26-20,employee,"(P, prop) Constituting Property Property[18]",*[18],_,_
+412,26-21,works,"(P, prop) Constituting Property Property[18]",*[18],_,_
+413,26-22,",","(P, prop) Constituting Property Property[18]",*[18],_,_
+414,26-23,on,"(P, prop) Constituting Property Property[18]",*[18],_,_
+415,26-24,average,"(P, prop) Constituting Property Property[18]",*[18],_,_
+416,26-25,",","(P, prop) Constituting Property Property[18]",*[18],_,_
+417,26-26,over,"(P, prop) Constituting Property Property[18]",*[18],_,_
+418,26-27,a,"(P, prop) Constituting Property Property[18]",*[18],_,_
+419,26-28,2,"(P, prop) Constituting Property Property[18]",*[18],_,_
+420,26-29,-,"(P, prop) Constituting Property Property[18]",*[18],_,_
+421,26-30,week,"(P, prop) Constituting Property Property[18]",*[18],_,_
+422,26-31,period,"(P, prop) Constituting Property Property[18]",*[18],_,_
+423,27-1,.,_,_,_,_
+424,28-1,(,_,_,_,_
+425,28-2,3,_,_,_,_
+426,28-3,),_,_,_,_
+427,28-4,Carryover,_,_,_,_
+428,28-5,.,_,_,_,_
+429,29-1,-,_,_,_,_
+430,29-2,-,_,_,_,_
+431,29-3,Paid,_,_,(Bdir) Object\_Direct[98],*[98]
+432,29-4,sick,_,_,(Bdir) Object\_Direct[98],*[98]
+433,29-5,time,_,_,(Bdir) Object\_Direct[98],*[98]
+434,29-6,under,_,_,"(Bdir, prop) Object\_Direct\_Property[99]",*[99]
+435,29-7,this,_,_,"(Bdir, prop) Object\_Direct\_Property[99]",*[99]
+436,29-8,section,_,_,"(Bdir, prop) Object\_Direct\_Property[99]",*[99]
+437,29-9,shall,_,_,(D) Deontic,*
+438,29-10,not,_,_,_,_
+439,29-11,carry,_,_,(I) Aim,*
+440,29-12,over,_,_,(Cex) Execution Constraint[100],*[100]
+441,29-13,from,_,_,(Cex) Execution Constraint[100],*[100]
+442,29-14,1,_,_,(Cex) Execution Constraint[100],*[100]
+443,29-15,year,_,_,(Cex) Execution Constraint[100],*[100]
+444,29-16,to,_,_,(Cex) Execution Constraint[100],*[100]
+445,29-17,the,_,_,(Cex) Execution Constraint[100],*[100]
+446,29-18,next,_,_,(Cex) Execution Constraint[100],*[100]
+447,29-19,.,_,_,_,_
+448,30-1,(,_,_,_,_
+449,30-2,c,_,_,_,_
+450,30-3,),_,_,_,_
+451,30-4,EMPLOYER'S,_,_,_,_
+452,30-5,TERMINATION,_,_,_,_
+453,30-6,OF,_,_,_,_
+454,30-7,PAID,_,_,_,_
+455,30-8,SICK,_,_,_,_
+456,30-9,TIME,_,_,_,_
+457,30-10,.,_,_,_,_
+458,31-1,-,_,_,_,_
+459,31-2,-,_,_,_,_
+460,31-3,Paid,_,_,(Bdir) Object\_Direct[101],(B) Benefit[101]
+461,31-4,sick,_,_,(Bdir) Object\_Direct[101],(B) Benefit[101]
+462,31-5,time,_,_,(Bdir) Object\_Direct[101],(B) Benefit[101]
+463,31-6,provided,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+464,31-7,to,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+465,31-8,an,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+466,31-9,employee,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+467,31-10,under,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+468,31-11,this,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+469,31-12,Act,_,_,"(Bdir, prop) Object\_Direct\_Property[102]",(BP) Benefit Property[102]
+470,31-13,shall,_,_,(D) Deontic,*
+471,31-14,cease,_,_,(I) Aim,*
+472,31-15,beginning,_,_,(Cac) Activation Condition[103],*[103]
+473,31-16,with,_,_,(Cac) Activation Condition[103],*[103]
+474,31-17,the,_,_,(Cac) Activation Condition[103],*[103]
+475,31-18,employee's,_,_,(Cac) Activation Condition[103],*[103]
+476,31-19,next,_,_,(Cac) Activation Condition[103],*[103]
+477,31-20,scheduled,_,_,(Cac) Activation Condition[103],*[103]
+478,31-21,workshift,_,_,(Cac) Activation Condition[103],*[103]
+479,31-22,immediately,_,_,(Cex) Execution Constraint,*
+480,31-23,following,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+481,31-24,the,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+482,31-25,termination,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+483,31-26,of,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+484,31-27,the,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+485,31-28,need,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+486,31-29,for,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+487,31-30,paid,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+488,31-31,sick,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+489,31-32,time,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+490,31-33,under,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+491,31-34,subsection,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+492,31-35,(,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+493,31-36,a,_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+494,31-37,),_,_,(Cex) Execution Constraint[104]|(Cex) Execution Constraint[105],*[104]|*[105]
+495,31-38,.,_,_,_,_
+496,32-1,(,_,_,_,_
+497,32-2,d,_,_,_,_
+498,32-3,),_,_,_,_
+499,32-4,PROHIBITION,_,_,_,_
+500,32-5,.,_,_,_,_
+501,33-1,-,_,_,_,_
+502,33-2,-,_,_,_,_
+503,33-3,An,_,_,(A) Attribute[106],*[106]
+504,33-4,employer,_,_,(A) Attribute[106],*[106]
+505,33-5,may,_,_,*,*
+506,33-6,not,_,_,_,_
+507,33-7,require,_,_,(I) Aim,*
+508,33-8,",",_,_,_,_
+509,33-9,as,_,_,(Cex) Execution Constraint[107],*[107]
+510,33-10,a,_,_,(Cex) Execution Constraint[107],*[107]
+511,33-11,condition,_,_,(Cex) Execution Constraint[107],*[107]
+512,33-12,of,_,_,(Cex) Execution Constraint[107],*[107]
+513,33-13,providing,_,_,(Cex) Execution Constraint[107],*[107]
+514,33-14,paid,_,_,(Cex) Execution Constraint[107],*[107]
+515,33-15,sick,_,_,(Cex) Execution Constraint[107],*[107]
+516,33-16,time,_,_,(Cex) Execution Constraint[107],*[107]
+517,33-17,under,_,_,(Cex) Execution Constraint[107],*[107]
+518,33-18,this,_,_,(Cex) Execution Constraint[107],*[107]
+519,33-19,Act,_,_,(Cex) Execution Constraint[107],*[107]
+520,33-20,",",_,_,_,_
+521,33-21,that,_,_,(Bdir) Object\_Direct[108],*[108]
+522,33-22,the,_,_,(Bdir) Object\_Direct[108]|(A) Attribute[109],*[108]|*[109]
+523,33-23,employee,_,_,(Bdir) Object\_Direct[108]|(A) Attribute[109],*[108]|*[109]
+524,33-24,involved,_,_,(Bdir) Object\_Direct[108],*[108]
+525,33-25,search,_,_,(Bdir) Object\_Direct[108]|(I) Aim[110],*[108]|*[110]
+526,33-26,for,_,_,(Bdir) Object\_Direct[108],*[108]
+527,33-27,or,_,_,(Bdir) Object\_Direct[108],*[108]
+528,33-28,find,_,_,(Bdir) Object\_Direct[108]|(I) Aim[111],*[108]|*[111]
+529,33-29,a,_,_,(Bdir) Object\_Direct[108],*[108]
+530,33-30,replacement,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[112]",*[108]|*[112]
+531,33-31,employee,_,_,(Bdir) Object\_Direct[108]|(Bdir) Object\_Direct[113],*[108]|*[113]
+532,33-32,to,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+533,33-33,cover,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+534,33-34,the,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+535,33-35,hours,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+536,33-36,during,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+537,33-37,which,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+538,33-38,the,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+539,33-39,employee,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+540,33-40,is,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+541,33-41,using,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+542,33-42,paid,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+543,33-43,sick,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+544,33-44,time,_,_,"(Bdir) Object\_Direct[108]|(Bdir, prop) Object\_Direct\_Property[114]",*[108]|*[114]
+545,33-45,.,_,_,_,_
+546,34-1,(,_,_,_,_
+547,34-2,e,_,_,_,_
+548,34-3,),_,_,_,_
+549,34-4,USE,_,_,_,_
+550,34-5,OF,_,_,_,_
+551,34-6,PAID,_,_,_,_
+552,34-7,SICK,_,_,_,_
+553,34-8,TIME,_,_,_,_
+554,34-9,.,_,_,_,_
+555,34-10,-,_,_,_,_
+556,34-11,-,_,_,_,_
+557,34-12,(,_,_,_,_
+558,34-13,1,_,_,_,_
+559,34-14,),_,_,_,_
+560,34-15,IN,_,_,_,_
+561,34-16,GENERAL,_,_,_,_
+562,34-17,.,_,_,_,_
+563,34-18,-,_,_,_,_
+564,34-19,-,_,_,_,_
+565,34-20,The,(E) Constituted Entity[19],(B) Benefit[19],_,_
+566,34-21,paid,(E) Constituted Entity[19],(B) Benefit[19],_,_
+567,34-22,sick,(E) Constituted Entity[19],(B) Benefit[19],_,_
+568,34-23,time,(E) Constituted Entity[19],(B) Benefit[19],_,_
+569,34-24,under,"(E, prop) Constituted Entity Property[20]",(BP) Benefit Property[20],_,_
+570,34-25,subsection,"(E, prop) Constituted Entity Property[20]",(BP) Benefit Property[20],_,_
+571,34-26,(,"(E, prop) Constituted Entity Property[20]",(BP) Benefit Property[20],_,_
+572,34-27,a,"(E, prop) Constituted Entity Property[20]",(BP) Benefit Property[20],_,_
+573,34-28,),"(E, prop) Constituted Entity Property[20]",(BP) Benefit Property[20],_,_
+574,34-29,shall,(D) Deontic,*,_,_
+575,34-30,be,(F) Constitutive Function,*,_,_
+576,34-31,available,(P) Constituting Property,*,_,_
+577,34-32,for,"(P, prop) Constituting Property Property[21]",*[21],_,_
+578,34-33,immediate,"(P, prop) Constituting Property Property[21]",*[21],_,_
+579,34-34,use,"(P, prop) Constituting Property Property[21]",*[21],_,_
+580,34-35,by,"(P, prop) Constituting Property Property[21]",*[21],_,_
+581,34-36,the,"(P, prop) Constituting Property Property[21]",*[21],_,_
+582,34-37,employee,"(P, prop) Constituting Property Property[21]",*[21],_,_
+583,34-38,for,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+584,34-39,the,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+585,34-40,purposes,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+586,34-41,described,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+587,34-42,in,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+588,34-43,such,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+589,34-44,subsection,"(E, prop) Constituted Entity Property[22]",*[22],_,_
+590,34-45,",",_,_,_,_
+591,34-46,regardless,(Cex) Execution Constraint[23],*[23],_,_
+592,34-47,of,(Cex) Execution Constraint[23],*[23],_,_
+593,34-48,how,(Cex) Execution Constraint[23],*[23],_,_
+594,34-49,long,(Cex) Execution Constraint[23],*[23],_,_
+595,34-50,the,(Cex) Execution Constraint[23],*[23],_,_
+596,34-51,employee,(Cex) Execution Constraint[23],*[23],_,_
+597,34-52,has,(Cex) Execution Constraint[23],*[23],_,_
+598,34-53,been,(Cex) Execution Constraint[23],*[23],_,_
+599,34-54,employed,(Cex) Execution Constraint[23],*[23],_,_
+600,34-55,by,(Cex) Execution Constraint[23],*[23],_,_
+601,34-56,an,(Cex) Execution Constraint[23],*[23],_,_
+602,34-57,employer,(Cex) Execution Constraint[23],*[23],_,_
+603,35-1,.,_,_,_,_
+604,36-1,(,_,_,_,_
+605,36-2,2,_,_,_,_
+606,36-3,),_,_,_,_
+607,36-4,SEQUENCING,_,_,_,_
+608,36-5,.,_,_,_,_
+609,36-6,-,_,_,_,_
+610,36-7,-,_,_,_,_
+611,36-8,(,_,_,_,_
+612,36-9,A,_,_,_,_
+613,36-10,),_,_,_,_
+614,36-11,IN,_,_,_,_
+615,36-12,GENERAL,_,_,_,_
+616,36-13,.,_,_,_,_
+617,37-1,-,_,_,_,_
+618,37-2,-,_,_,_,_
+619,37-3,An,_,_,(A) Attribute[115],(C) Claimant[115]
+620,37-4,employee,_,_,(A) Attribute[115],(C) Claimant[115]
+621,37-5,may,_,_,(D) Deontic,*
+622,37-6,first,_,_,(Cex) Execution Constraint,*
+623,37-7,use,_,_,(I) Aim,*
+624,37-8,the,_,_,(Bdir) Object\_Direct[116],(B) Benefit[116]
+625,37-9,paid,_,_,(Bdir) Object\_Direct[116],(B) Benefit[116]
+626,37-10,sick,_,_,(Bdir) Object\_Direct[116],(B) Benefit[116]
+627,37-11,time,_,_,(Bdir) Object\_Direct[116],(B) Benefit[116]
+628,37-12,under,_,_,"(Bdir, prop) Object\_Direct\_Property[117]",(BP) Benefit Property[117]
+629,37-13,subsection,_,_,"(Bdir, prop) Object\_Direct\_Property[117]",(BP) Benefit Property[117]
+630,37-14,(,_,_,"(Bdir, prop) Object\_Direct\_Property[117]",(BP) Benefit Property[117]
+631,37-15,a,_,_,"(Bdir, prop) Object\_Direct\_Property[117]",(BP) Benefit Property[117]
+632,37-16,),_,_,"(Bdir, prop) Object\_Direct\_Property[117]",(BP) Benefit Property[117]
+633,37-17,for,_,_,(Cex) Execution Constraint[118],*[118]
+634,37-18,the,_,_,(Cex) Execution Constraint[118],*[118]
+635,37-19,purposes,_,_,(Cex) Execution Constraint[118],*[118]
+636,37-20,described,_,_,(Cex) Execution Constraint[118],*[118]
+637,37-21,in,_,_,(Cex) Execution Constraint[118],*[118]
+638,37-22,such,_,_,(Cex) Execution Constraint[118],*[118]
+639,37-23,subsection,_,_,(Cex) Execution Constraint[118],*[118]
+640,37-24,.,_,_,_,_
+641,38-1,(,_,_,_,_
+642,38-2,B,_,_,_,_
+643,38-3,),_,_,_,_
+644,38-4,PROHIBITION,_,_,_,_
+645,38-5,.,_,_,_,_
+646,39-1,-,_,_,_,_
+647,39-2,-,_,_,_,_
+648,39-3,An,_,_,(A) Attribute[119],*[119]
+649,39-4,employer,_,_,(A) Attribute[119],*[119]
+650,39-5,may,_,_,(D) Deontic,*
+651,39-6,not,_,_,_,_
+652,39-7,require,_,_,(I) Aim,*
+653,39-8,an,_,_,(Bdir) Object\_Direct[120],(C) Claimant[120]
+654,39-9,employee,_,_,(Bdir) Object\_Direct[120],(C) Claimant[120]
+655,39-10,to,_,_,*[121],*[121]
+656,39-11,use,_,_,*[121],*[121]
+657,39-12,other,_,_,*[121],*[121]
+658,39-13,paid,_,_,*[121],*[121]
+659,39-14,leave,_,_,*[121],*[121]
+660,39-15,provided,_,_,*[121],*[121]
+661,39-16,by,_,_,*[121],*[121]
+662,39-17,the,_,_,*[121],*[121]
+663,39-18,employer,_,_,*[121],*[121]
+664,39-19,to,_,_,*[121],*[121]
+665,39-20,the,_,_,*[121],*[121]
+666,39-21,employee,_,_,*[121],*[121]
+667,39-22,before,_,_,(Cac) Activation Condition[122],*[122]
+668,39-23,the,_,_,(Cac) Activation Condition[122],*[122]
+669,39-24,employee,_,_,(Cac) Activation Condition[122]|(A) Attribute[123],*[122]|(C) Claimant[123]
+670,39-25,uses,_,_,(Cac) Activation Condition[122]|(I) Aim[124],*[122]|*[124]
+671,39-26,the,_,_,(Cac) Activation Condition[122]|(Bdir) Object\_Direct[125],*[122]|(B) Benefit[125]
+672,39-27,paid,_,_,(Cac) Activation Condition[122]|(Bdir) Object\_Direct[125],*[122]|(B) Benefit[125]
+673,39-28,sick,_,_,(Cac) Activation Condition[122]|(Bdir) Object\_Direct[125],*[122]|(B) Benefit[125]
+674,39-29,time,_,_,(Cac) Activation Condition[122]|(Bdir) Object\_Direct[125],*[122]|(B) Benefit[125]
+675,39-30,under,_,_,"(Cac) Activation Condition[122]|(Bdir, prop) Object\_Direct\_Property[126]",*[122]|(BP) Benefit Property[126]
+676,39-31,subsection,_,_,"(Cac) Activation Condition[122]|(Bdir, prop) Object\_Direct\_Property[126]",*[122]|(BP) Benefit Property[126]
+677,39-32,(,_,_,"(Cac) Activation Condition[122]|(Bdir, prop) Object\_Direct\_Property[126]",*[122]|(BP) Benefit Property[126]
+678,39-33,a,_,_,"(Cac) Activation Condition[122]|(Bdir, prop) Object\_Direct\_Property[126]",*[122]|(BP) Benefit Property[126]
+679,39-34,),_,_,"(Cac) Activation Condition[122]|(Bdir, prop) Object\_Direct\_Property[126]",*[122]|(BP) Benefit Property[126]
+680,39-35,.,_,_,_,_
+681,40-1,SEC,_,_,_,_
+682,40-2,.,_,_,_,_
+683,40-3,5103,_,_,_,_
+684,40-4,NOTICE,_,_,_,_
+685,40-5,.,_,_,_,_
+686,41-1,(,_,_,_,_
+687,41-2,a,_,_,_,_
+688,41-3,),_,_,_,_
+689,41-4,IN,_,_,_,_
+690,41-5,GENERAL,_,_,_,_
+691,41-6,.,_,_,_,_
+692,42-1,-,_,_,_,_
+693,42-2,-,_,_,_,_
+694,42-3,Each,_,_,"(A, prop) Attribute\_Property",*
+695,42-4,employer,_,_,(A) Attribute,*
+696,42-5,shall,_,_,(D) Deontic,*
+697,42-6,post,_,_,(I) Aim,*
+698,42-7,and,_,_,_,_
+699,42-8,keep,_,_,_,_
+700,42-9,posted,_,_,_,_
+701,42-10,",",_,_,_,_
+702,42-11,in,_,_,(Cex) Execution Constraint[127],*[127]
+703,42-12,conspicuous,_,_,(Cex) Execution Constraint[127],*[127]
+704,42-13,places,_,_,(Cex) Execution Constraint[127],*[127]
+705,42-14,on,_,_,(Cex) Execution Constraint[127],*[127]
+706,42-15,the,_,_,(Cex) Execution Constraint[127],*[127]
+707,42-16,premises,_,_,(Cex) Execution Constraint[127],*[127]
+708,42-17,of,_,_,(Cex) Execution Constraint[127],*[127]
+709,42-18,the,_,_,(Cex) Execution Constraint[127],*[127]
+710,42-19,employer,_,_,(Cex) Execution Constraint[127],*[127]
+711,42-20,where,_,_,(Cex) Execution Constraint[127],*[127]
+712,42-21,notices,_,_,(Cex) Execution Constraint[127],*[127]
+713,42-22,to,_,_,(Cex) Execution Constraint[127],*[127]
+714,42-23,employees,_,_,(Cex) Execution Constraint[127],*[127]
+715,42-24,are,_,_,(Cex) Execution Constraint[127],*[127]
+716,42-25,customarily,_,_,(Cex) Execution Constraint[127],*[127]
+717,42-26,posted,_,_,(Cex) Execution Constraint[127],*[127]
+718,42-27,",",_,_,_,_
+719,42-28,a,_,_,_,_
+720,42-29,notice,_,_,(Bdir) Object\_Direct,*
+721,42-30,",",_,_,_,_
+722,42-31,to,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+723,42-32,be,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+724,42-33,prepared,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+725,42-34,or,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+726,42-35,approved,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+727,42-36,by,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+728,42-37,the,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+729,42-38,Secretary,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+730,42-39,of,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+731,42-40,Labor,_,_,"(Bdir, prop) Object\_Direct\_Property[128]",*[128]
+732,42-41,",",_,_,_,_
+733,42-42,of,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+734,42-43,the,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+735,42-44,requirements,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+736,42-45,described,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+737,42-46,in,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+738,42-47,this,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+739,42-48,Act,_,_,"(Bdir, prop) Object\_Direct\_Property[129]",*[129]
+740,42-49,.,_,_,_,_
+741,43-1,(,_,_,_,_
+742,43-2,b,_,_,_,_
+743,43-3,),_,_,_,_
+744,43-4,MODEL,_,_,_,_
+745,43-5,NOTICE,_,_,_,_
+746,43-6,.,_,_,_,_
+747,44-1,-,_,_,_,_
+748,44-2,-,_,_,_,_
+749,44-3,Not,_,_,(Cac) Activation Condition[130],*[130]
+750,44-4,later,_,_,(Cac) Activation Condition[130],*[130]
+751,44-5,than,_,_,(Cac) Activation Condition[130],*[130]
+752,44-6,7,_,_,(Cac) Activation Condition[130],*[130]
+753,44-7,days,_,_,(Cac) Activation Condition[130],*[130]
+754,44-8,after,_,_,(Cac) Activation Condition[130],*[130]
+755,44-9,the,_,_,(Cac) Activation Condition[130],*[130]
+756,44-10,date,_,_,(Cac) Activation Condition[130],*[130]
+757,44-11,of,_,_,(Cac) Activation Condition[130],*[130]
+758,44-12,enactment,_,_,(Cac) Activation Condition[130],*[130]
+759,44-13,of,_,_,(Cac) Activation Condition[130],*[130]
+760,44-14,this,_,_,(Cac) Activation Condition[130],*[130]
+761,44-15,Act,_,_,(Cac) Activation Condition[130],*[130]
+762,44-16,",",_,_,_,_
+763,44-17,the,_,_,(A) Attribute[131],*[131]
+764,44-18,Secretary,_,_,(A) Attribute[131],*[131]
+765,44-19,of,_,_,(A) Attribute[131],*[131]
+766,44-20,Labor,_,_,(A) Attribute[131],*[131]
+767,44-21,shall,_,_,(D) Deontic,*
+768,44-22,make,_,_,(I) Aim,*
+769,44-23,publicly,_,_,(Cex) Execution Constraint[132],*[132]
+770,44-24,available,_,_,(Cex) Execution Constraint[132],*[132]
+771,44-25,a,_,_,_,_
+772,44-26,model,_,_,(Bdir) Object\_Direct,*
+773,44-27,of,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+774,44-28,a,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+775,44-29,notice,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+776,44-30,that,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+777,44-31,meets,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+778,44-32,the,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+779,44-33,requirements,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+780,44-34,of,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+781,44-35,subsection,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+782,44-36,(,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+783,44-37,a,_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+784,44-38,),_,_,"(Bdir, prop) Object\_Direct\_Property[133]",*[133]
+785,44-39,.,_,_,_,_
+786,45-1,SEC,_,_,_,_
+787,45-2,.,_,_,_,_
+788,45-3,5104,_,_,_,_
+789,45-4,.,_,_,_,_
+790,46-1,PROHIBITED,_,_,_,_
+791,46-2,ACTS,_,_,_,_
+792,46-3,.,_,_,_,_
+793,47-1,It,(E) Constituted Entity,*,_,_
+794,47-2,shall,(D) Deontic,*,_,_
+795,47-3,be,(F) Constitutive Function,*,_,_
+796,47-4,unlawful,(P) Constituting Property,*,_,_
+797,47-5,for,(Cex) Execution Constraint[24],*[24],_,_
+798,47-6,any,(Cex) Execution Constraint[24],*[24],_,_
+799,47-7,employer,(Cex) Execution Constraint[24],*[24],_,_
+800,47-8,to,"(P, prop) Constituting Property Property[25]",*[25],_,_
+801,47-9,discharge,"(P, prop) Constituting Property Property[25]",*[25],_,_
+802,47-10,",","(P, prop) Constituting Property Property[25]",*[25],_,_
+803,47-11,discipline,"(P, prop) Constituting Property Property[25]",*[25],_,_
+804,47-12,",","(P, prop) Constituting Property Property[25]",*[25],_,_
+805,47-13,or,"(P, prop) Constituting Property Property[25]",*[25],_,_
+806,47-14,in,"(P, prop) Constituting Property Property[25]",*[25],_,_
+807,47-15,any,"(P, prop) Constituting Property Property[25]",*[25],_,_
+808,47-16,other,"(P, prop) Constituting Property Property[25]",*[25],_,_
+809,47-17,manner,"(P, prop) Constituting Property Property[25]",*[25],_,_
+810,47-18,discriminate,"(P, prop) Constituting Property Property[25]",*[25],_,_
+811,47-19,against,"(P, prop) Constituting Property Property[25]",*[25],_,_
+812,47-20,any,"(P, prop) Constituting Property Property[25]",*[25],_,_
+813,47-21,employee,"(P, prop) Constituting Property Property[25]",*[25],_,_
+814,47-22,who,"(P, prop) Constituting Property Property[25]",*[25],_,_
+815,47-23,-,"(P, prop) Constituting Property Property[25]",*[25],_,_
+816,47-24,-,"(P, prop) Constituting Property Property[25]",*[25],_,_
+817,47-25,(,"(P, prop) Constituting Property Property[25]",*[25],_,_
+818,47-26,1,"(P, prop) Constituting Property Property[25]",*[25],_,_
+819,47-27,),"(P, prop) Constituting Property Property[25]",*[25],_,_
+820,47-28,takes,"(P, prop) Constituting Property Property[25]",*[25],_,_
+821,47-29,leave,"(P, prop) Constituting Property Property[25]",*[25],_,_
+822,47-30,in,"(P, prop) Constituting Property Property[25]",*[25],_,_
+823,47-31,accordance,"(P, prop) Constituting Property Property[25]",*[25],_,_
+824,47-32,with,"(P, prop) Constituting Property Property[25]",*[25],_,_
+825,47-33,this,"(P, prop) Constituting Property Property[25]",*[25],_,_
+826,47-34,Act,"(P, prop) Constituting Property Property[25]",*[25],_,_
+827,47-35,;,"(P, prop) Constituting Property Property[25]",*[25],_,_
+828,47-36,and,"(P, prop) Constituting Property Property[25]",*[25],_,_
+829,47-37,(,"(P, prop) Constituting Property Property[25]",*[25],_,_
+830,47-38,2,"(P, prop) Constituting Property Property[25]",*[25],_,_
+831,47-39,),"(P, prop) Constituting Property Property[25]",*[25],_,_
+832,47-40,has,"(P, prop) Constituting Property Property[25]",*[25],_,_
+833,47-41,filed,"(P, prop) Constituting Property Property[25]",*[25],_,_
+834,47-42,any,"(P, prop) Constituting Property Property[25]",*[25],_,_
+835,47-43,complaint,"(P, prop) Constituting Property Property[25]",*[25],_,_
+836,47-44,or,"(P, prop) Constituting Property Property[25]",*[25],_,_
+837,47-45,instituted,"(P, prop) Constituting Property Property[25]",*[25],_,_
+838,47-46,or,"(P, prop) Constituting Property Property[25]",*[25],_,_
+839,47-47,caused,"(P, prop) Constituting Property Property[25]",*[25],_,_
+840,47-48,to,"(P, prop) Constituting Property Property[25]",*[25],_,_
+841,47-49,be,"(P, prop) Constituting Property Property[25]",*[25],_,_
+842,47-50,instituted,"(P, prop) Constituting Property Property[25]",*[25],_,_
+843,47-51,any,"(P, prop) Constituting Property Property[25]",*[25],_,_
+844,47-52,proceeding,"(P, prop) Constituting Property Property[25]",*[25],_,_
+845,47-53,under,"(P, prop) Constituting Property Property[25]",*[25],_,_
+846,47-54,or,"(P, prop) Constituting Property Property[25]",*[25],_,_
+847,47-55,related,"(P, prop) Constituting Property Property[25]",*[25],_,_
+848,47-56,to,"(P, prop) Constituting Property Property[25]",*[25],_,_
+849,47-57,this,"(P, prop) Constituting Property Property[25]",*[25],_,_
+850,47-58,Act,"(P, prop) Constituting Property Property[25]",*[25],_,_
+851,47-59,(,"(P, prop) Constituting Property Property[25]",*[25],_,_
+852,47-60,including,"(P, prop) Constituting Property Property[25]",*[25],_,_
+853,47-61,a,"(P, prop) Constituting Property Property[25]",*[25],_,_
+854,47-62,proceeding,"(P, prop) Constituting Property Property[25]",*[25],_,_
+855,47-63,that,"(P, prop) Constituting Property Property[25]",*[25],_,_
+856,47-64,seeks,"(P, prop) Constituting Property Property[25]",*[25],_,_
+857,47-65,enforcement,"(P, prop) Constituting Property Property[25]",*[25],_,_
+858,47-66,of,"(P, prop) Constituting Property Property[25]",*[25],_,_
+859,47-67,this,"(P, prop) Constituting Property Property[25]",*[25],_,_
+860,47-68,Act,"(P, prop) Constituting Property Property[25]",*[25],_,_
+861,47-69,),"(P, prop) Constituting Property Property[25]",*[25],_,_
+862,47-70,",","(P, prop) Constituting Property Property[25]",*[25],_,_
+863,47-71,or,"(P, prop) Constituting Property Property[25]",*[25],_,_
+864,47-72,has,"(P, prop) Constituting Property Property[25]",*[25],_,_
+865,47-73,testified,"(P, prop) Constituting Property Property[25]",*[25],_,_
+866,47-74,or,"(P, prop) Constituting Property Property[25]",*[25],_,_
+867,47-75,is,"(P, prop) Constituting Property Property[25]",*[25],_,_
+868,47-76,about,"(P, prop) Constituting Property Property[25]",*[25],_,_
+869,47-77,to,"(P, prop) Constituting Property Property[25]",*[25],_,_
+870,47-78,testify,"(P, prop) Constituting Property Property[25]",*[25],_,_
+871,47-79,in,"(P, prop) Constituting Property Property[25]",*[25],_,_
+872,47-80,any,"(P, prop) Constituting Property Property[25]",*[25],_,_
+873,47-81,such,"(P, prop) Constituting Property Property[25]",*[25],_,_
+874,47-82,proceeding,"(P, prop) Constituting Property Property[25]",*[25],_,_
+875,47-83,.,_,_,_,_
+876,48-1,SEC,_,_,_,_
+877,48-2,.,_,_,_,_
+878,48-3,5105,_,_,_,_
+879,48-4,.,_,_,_,_
+880,48-5,ENFORCEMENT,_,_,_,_
+881,48-6,.,_,_,_,_
+882,49-1,(,_,_,_,_
+883,49-2,a,_,_,_,_
+884,49-3,),_,_,_,_
+885,49-4,UNPAID,_,_,_,_
+886,49-5,SICK,_,_,_,_
+887,49-6,LEAVE,_,_,_,_
+888,49-7,.,_,_,_,_
+889,50-1,-,_,_,_,_
+890,50-2,-,_,_,_,_
+891,50-3,An,(E) Constituted Entity[26],*[26],_,_
+892,50-4,employer,(E) Constituted Entity[26],*[26],_,_
+893,50-5,who,"(E, prop) Constituted Entity Property[27]",*[27],_,_
+894,50-6,violates,"(E, prop) Constituted Entity Property[27]",*[27],_,_
+895,50-7,section,"(E, prop) Constituted Entity Property[27]",*[27],_,_
+896,50-8,5102,"(E, prop) Constituted Entity Property[27]",*[27],_,_
+897,50-9,shall,(D) Deontic,*,_,_
+898,50-10,-,_,_,_,_
+899,50-11,-,_,_,_,_
+900,50-12,(,_,_,_,_
+901,50-13,1,_,_,_,_
+902,50-14,),_,_,_,_
+903,50-15,be,(F) Constitutive Function[28],*[28],_,_
+904,50-16,considered,(F) Constitutive Function[28],*[28],_,_
+905,50-17,to,(F) Constitutive Function[28],*[28],_,_
+906,50-18,have,(F) Constitutive Function[28],*[28],_,_
+907,50-19,failed,(P) Constituting Property,*,_,_
+908,50-20,to,*[29],*[29],_,_
+909,50-21,pay,*[29],*[29],_,_
+910,50-22,minimum,*[29],*[29],_,_
+911,50-23,wages,*[29],*[29],_,_
+912,50-24,in,*[29],*[29],_,_
+913,50-25,violation,*[29],*[29],_,_
+914,50-26,of,*[29],*[29],_,_
+915,50-27,section,*[29],*[29],_,_
+916,50-28,6,*[29],*[29],_,_
+917,50-29,of,*[29],*[29],_,_
+918,50-30,the,*[29],*[29],_,_
+919,50-31,Fair,*[29],*[29],_,_
+920,50-32,Labor,*[29],*[29],_,_
+921,50-33,Standards,*[29],*[29],_,_
+922,50-34,Act,*[29],*[29],_,_
+923,50-35,of,*[29],*[29],_,_
+924,50-36,1938,*[29],*[29],_,_
+925,50-37,(,*[29],*[29],_,_
+926,50-38,29,*[29],*[29],_,_
+927,50-39,U.S.C,*[29],*[29],_,_
+928,50-40,.,*[29],*[29],_,_
+929,50-41,206,*[29],*[29],_,_
+930,50-42,),*[29],*[29],_,_
+931,50-43,;,_,_,_,_
+932,50-44,and,_,_,_,_
+933,50-45,(,_,_,_,_
+934,50-46,2,_,_,_,_
+935,50-47,),_,_,_,_
+936,50-48,be,_,_,_,_
+937,50-49,subject,(P) Constituting Property,*,_,_
+938,50-50,to,"(P, prop) Constituting Property Property[30]",*[30],_,_
+939,50-51,the,"(P, prop) Constituting Property Property[30]",*[30],_,_
+940,50-52,penalties,"(P, prop) Constituting Property Property[30]",*[30],_,_
+941,50-53,described,"(P, prop) Constituting Property Property[30]",*[30],_,_
+942,50-54,in,"(P, prop) Constituting Property Property[30]",*[30],_,_
+943,50-55,sections,"(P, prop) Constituting Property Property[30]",*[30],_,_
+944,50-56,16,"(P, prop) Constituting Property Property[30]",*[30],_,_
+945,50-57,and,"(P, prop) Constituting Property Property[30]",*[30],_,_
+946,50-58,17,"(P, prop) Constituting Property Property[30]",*[30],_,_
+947,50-59,of,"(P, prop) Constituting Property Property[30]",*[30],_,_
+948,50-60,such,"(P, prop) Constituting Property Property[30]",*[30],_,_
+949,50-61,Act,"(P, prop) Constituting Property Property[30]",*[30],_,_
+950,50-62,(,"(P, prop) Constituting Property Property[30]",*[30],_,_
+951,50-63,29,"(P, prop) Constituting Property Property[30]",*[30],_,_
+952,50-64,U.S.C,"(P, prop) Constituting Property Property[30]",*[30],_,_
+953,50-65,.,"(P, prop) Constituting Property Property[30]",*[30],_,_
+954,50-66,216,"(P, prop) Constituting Property Property[30]",*[30],_,_
+955,50-67,;,"(P, prop) Constituting Property Property[30]",*[30],_,_
+956,50-68,217,"(P, prop) Constituting Property Property[30]",*[30],_,_
+957,50-69,),"(P, prop) Constituting Property Property[30]",*[30],_,_
+958,50-70,with,"(P, prop) Constituting Property Property[30]",*[30],_,_
+959,50-71,respect,"(P, prop) Constituting Property Property[30]",*[30],_,_
+960,50-72,to,"(P, prop) Constituting Property Property[30]",*[30],_,_
+961,50-73,such,"(P, prop) Constituting Property Property[30]",*[30],_,_
+962,50-74,violation,"(P, prop) Constituting Property Property[30]",*[30],_,_
+963,50-75,.,_,_,_,_
+964,51-1,(,_,_,_,_
+965,51-2,b,_,_,_,_
+966,51-3,),_,_,_,_
+967,51-4,UNLAWFUL,_,_,_,_
+968,51-5,TERMINATION,_,_,_,_
+969,51-6,.,_,_,_,_
+970,52-1,-,_,_,_,_
+971,52-2,-,_,_,_,_
+972,52-3,An,(E) Constituted Entity[31],*[31],_,_
+973,52-4,employer,(E) Constituted Entity[31],*[31],_,_
+974,52-5,who,"(E, prop) Constituted Entity Property[32]",*[32],_,_
+975,52-6,willfully,"(E, prop) Constituted Entity Property[32]",*[32],_,_
+976,52-7,violates,"(E, prop) Constituted Entity Property[32]",*[32],_,_
+977,52-8,section,"(E, prop) Constituted Entity Property[32]",*[32],_,_
+978,52-9,5104,"(E, prop) Constituted Entity Property[32]",*[32],_,_
+979,52-10,shall,(D) Deontic,*,_,_
+980,52-11,-,_,_,_,_
+981,52-12,-,_,_,_,_
+982,52-13,(,_,_,_,_
+983,52-14,1,_,_,_,_
+984,52-15,),_,_,_,_
+985,52-16,be,_,_,_,_
+986,52-17,considered,_,_,_,_
+987,52-18,to,_,_,_,_
+988,52-19,be,(F) Constitutive Function,*,_,_
+989,52-20,in,*[33],*[33],_,_
+990,52-21,violation,*[33],*[33],_,_
+991,52-22,of,*[33],*[33],_,_
+992,52-23,section,*[33],*[33],_,_
+993,52-24,15,*[33],*[33],_,_
+994,52-25,(,*[33],*[33],_,_
+995,52-26,a,*[33],*[33],_,_
+996,52-27,),*[33],*[33],_,_
+997,52-28,(,*[33],*[33],_,_
+998,52-29,3,*[33],*[33],_,_
+999,52-30,),*[33],*[33],_,_
+1000,52-31,of,*[33],*[33],_,_
+1001,52-32,the,*[33],*[33],_,_
+1002,52-33,Fair,*[33],*[33],_,_
+1003,52-34,Labor,*[33],*[33],_,_
+1004,52-35,Standards,*[33],*[33],_,_
+1005,52-36,Act,*[33],*[33],_,_
+1006,52-37,of,*[33],*[33],_,_
+1007,52-38,1938,*[33],*[33],_,_
+1008,52-39,(,*[33],*[33],_,_
+1009,52-40,29,*[33],*[33],_,_
+1010,52-41,U.S.C,*[33],*[33],_,_
+1011,52-42,.,*[33],*[33],_,_
+1012,52-43,215,*[33],*[33],_,_
+1013,52-44,(,*[33],*[33],_,_
+1014,52-45,a,*[33],*[33],_,_
+1015,52-46,),*[33],*[33],_,_
+1016,52-47,(,*[33],*[33],_,_
+1017,52-48,3,*[33],*[33],_,_
+1018,52-49,),*[33],*[33],_,_
+1019,52-50,),*[33],*[33],_,_
+1020,52-51,;,_,_,_,_
+1021,52-52,and,_,_,_,_
+1022,52-53,(,_,_,_,_
+1023,52-54,2,_,_,_,_
+1024,52-55,),_,_,_,_
+1025,52-56,be,(F) Constitutive Function,*,_,_
+1026,52-57,subject,(P) Constituting Property,*,_,_
+1027,52-58,to,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1028,52-59,the,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1029,52-60,penalties,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1030,52-61,described,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1031,52-62,in,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1032,52-63,sections,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1033,52-64,16,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1034,52-65,and,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1035,52-66,17,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1036,52-67,of,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1037,52-68,such,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1038,52-69,Act,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1039,52-70,(,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1040,52-71,29,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1041,52-72,U.S.C,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1042,52-73,.,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1043,52-74,216,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1044,52-75,;,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1045,52-76,217,"(P, prop) Constituting Property Property[34]",*[34],_,_
+1046,52-77,),"(P, prop) Constituting Property Property[34]",*[34],_,_
+1047,52-78,with,(Cex) Execution Constraint[35],*[35],_,_
+1048,52-79,respect,(Cex) Execution Constraint[35],*[35],_,_
+1049,52-80,to,(Cex) Execution Constraint[35],*[35],_,_
+1050,52-81,such,(Cex) Execution Constraint[35],*[35],_,_
+1051,52-82,violation,(Cex) Execution Constraint[35],*[35],_,_
+1052,52-83,.,_,_,_,_
+1053,53-1,SEC,_,_,_,_
+1054,53-2,.,_,_,_,_
+1055,53-3,5106,_,_,_,_
+1056,53-4,.,_,_,_,_
+1057,54-1,EMPLOYMENT,_,_,_,_
+1058,54-2,UNDER,_,_,_,_
+1059,54-3,MULTI-EMPLOYER,_,_,_,_
+1060,54-4,BARGAINING,_,_,_,_
+1061,54-5,AGREEMENTS,_,_,_,_
+1062,54-6,.,_,_,_,_
+1063,55-1,(,_,_,_,_
+1064,55-2,a,_,_,_,_
+1065,55-3,),_,_,_,_
+1066,55-4,EMPLOYERS,_,_,_,_
+1067,55-5,.,_,_,_,_
+1068,56-1,-,_,_,_,_
+1069,56-2,-,_,_,_,_
+1070,56-3,An,_,_,(A) Attribute[134],*[134]
+1071,56-4,employer,_,_,(A) Attribute[134],*[134]
+1072,56-5,signatory,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1073,56-6,to,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1074,56-7,a,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1075,56-8,multiemployer,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1076,56-9,collective,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1077,56-10,bargaining,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1078,56-11,agreement,_,_,"(A, prop) Attribute\_Property[135]",*[135]
+1079,56-12,may,_,_,(D) Deontic,*
+1080,56-13,",",_,_,_,_
+1081,56-14,consistent,_,_,(Cex) Execution Constraint[136],*[136]
+1082,56-15,with,_,_,(Cex) Execution Constraint[136],*[136]
+1083,56-16,its,_,_,(Cex) Execution Constraint[136],*[136]
+1084,56-17,bargaining,_,_,(Cex) Execution Constraint[136],*[136]
+1085,56-18,obligations,_,_,(Cex) Execution Constraint[136],*[136]
+1086,56-19,and,_,_,(Cex) Execution Constraint[136],*[136]
+1087,56-20,its,_,_,(Cex) Execution Constraint[136],*[136]
+1088,56-21,collective,_,_,(Cex) Execution Constraint[136],*[136]
+1089,56-22,bargaining,_,_,(Cex) Execution Constraint[136],*[136]
+1090,56-23,agreement,_,_,(Cex) Execution Constraint[136],*[136]
+1091,56-24,",",_,_,_,_
+1092,56-25,fulfill,_,_,(I) Aim,*
+1093,56-26,its,_,_,"(Bdir, prop) Object\_Direct\_Property",*
+1094,56-27,obligations,_,_,(Bdir) Object\_Direct,*
+1095,56-28,under,_,_,"(Bdir, prop) Object\_Direct\_Property[137]",*[137]
+1096,56-29,this,_,_,"(Bdir, prop) Object\_Direct\_Property[137]",*[137]
+1097,56-30,Act,_,_,"(Bdir, prop) Object\_Direct\_Property[137]",*[137]
+1098,56-31,by,_,_,_,_
+1099,56-32,making,_,_,_,_
+1100,56-33,contributions,_,_,_,_
+1101,56-34,to,_,_,_,_
+1102,56-35,a,_,_,_,_
+1103,56-36,multiemployer,_,_,_,_
+1104,56-37,fund,_,_,_,_
+1105,56-38,",",_,_,_,_
+1106,56-39,plan,_,_,_,_
+1107,56-40,",",_,_,_,_
+1108,56-41,or,_,_,_,_
+1109,56-42,program,_,_,_,_
+1110,56-43,based,_,_,_,_
+1111,56-44,on,_,_,_,_
+1112,56-45,the,_,_,_,_
+1113,56-46,hours,_,_,_,_
+1114,56-47,of,_,_,_,_
+1115,56-48,paid,_,_,_,_
+1116,56-49,sick,_,_,_,_
+1117,56-50,time,_,_,_,_
+1118,56-51,each,_,_,_,_
+1119,56-52,of,_,_,_,_
+1120,56-53,its,_,_,_,_
+1121,56-54,employees,_,_,_,_
+1122,56-55,is,_,_,_,_
+1123,56-56,entitled,_,_,_,_
+1124,56-57,to,_,_,_,_
+1125,56-58,under,_,_,_,_
+1126,56-59,this,_,_,_,_
+1127,56-60,Act,_,_,_,_
+1128,56-61,while,_,_,_,_
+1129,56-62,working,_,_,_,_
+1130,56-63,under,_,_,_,_
+1131,56-64,the,_,_,_,_
+1132,56-65,multiemployer,_,_,_,_
+1133,56-66,collective,_,_,_,_
+1134,56-67,bargaining,_,_,_,_
+1135,56-68,agreement,_,_,_,_
+1136,56-69,",",_,_,_,_
+1137,56-70,provided,_,_,_,_
+1138,56-71,that,_,_,_,_
+1139,56-72,the,_,_,_,_
+1140,56-73,fund,_,_,_,_
+1141,56-74,",",_,_,_,_
+1142,56-75,plan,_,_,_,_
+1143,56-76,",",_,_,_,_
+1144,56-77,or,_,_,_,_
+1145,56-78,program,_,_,_,_
+1146,56-79,enables,_,_,_,_
+1147,56-80,employees,_,_,_,_
+1148,56-81,to,_,_,_,_
+1149,56-82,secure,_,_,_,_
+1150,56-83,pay,_,_,_,_
+1151,56-84,from,_,_,_,_
+1152,56-85,such,_,_,_,_
+1153,56-86,fund,_,_,_,_
+1154,56-87,",",_,_,_,_
+1155,56-88,plan,_,_,_,_
+1156,56-89,",",_,_,_,_
+1157,56-90,or,_,_,_,_
+1158,56-91,program,_,_,_,_
+1159,56-92,based,_,_,_,_
+1160,56-93,on,_,_,_,_
+1161,56-94,hours,_,_,_,_
+1162,56-95,they,_,_,_,_
+1163,56-96,have,_,_,_,_
+1164,56-97,worked,_,_,_,_
+1165,56-98,under,_,_,_,_
+1166,56-99,the,_,_,_,_
+1167,56-100,multiemployer,_,_,_,_
+1168,56-101,collective,_,_,_,_
+1169,56-102,bargaining,_,_,_,_
+1170,56-103,agreement,_,_,_,_
+1171,56-104,and,_,_,_,_
+1172,56-105,for,_,_,_,_
+1173,56-106,the,_,_,_,_
+1174,56-107,uses,_,_,_,_
+1175,56-108,specified,_,_,_,_
+1176,56-109,under,_,_,_,_
+1177,56-110,section,_,_,_,_
+1178,56-111,5102,_,_,_,_
+1179,56-112,(,_,_,_,_
+1180,56-113,a,_,_,_,_
+1181,56-114,),_,_,_,_
+1182,56-115,.,_,_,_,_
+1183,57-1,(,_,_,_,_
+1184,57-2,b,_,_,_,_
+1185,57-3,),_,_,_,_
+1186,57-4,EMPLOYEES,_,_,_,_
+1187,57-5,.,_,_,_,_
+1188,58-1,-,_,_,_,_
+1189,58-2,-,_,_,_,_
+1190,58-3,Employees,_,_,(A) Attribute,(C) Claimant
+1191,58-4,who,_,_,"(A, prop) Attribute\_Property[138]|(A) Attribute[139]",(CP) Claimant Property[138]|(C) Claimant[139]
+1192,58-5,work,_,_,"(A, prop) Attribute\_Property[138]|(I) Aim[140]",(CP) Claimant Property[138]|*[140]
+1193,58-6,under,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1194,58-7,a,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1195,58-8,multiemployer,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1196,58-9,collective,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1197,58-10,bargaining,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1198,58-11,agreement,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1199,58-12,into,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1200,58-13,which,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1201,58-14,their,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1202,58-15,employers,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1203,58-16,make,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1204,58-17,contributions,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1205,58-18,as,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1206,58-19,provided,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1207,58-20,in,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1208,58-21,subsection,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1209,58-22,(,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1210,58-23,a,_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1211,58-24,),_,_,"(A, prop) Attribute\_Property[138]|(Cex) Execution Constraint[141]",(CP) Claimant Property[138]|*[141]
+1212,58-25,may,_,_,(D) Deontic,*
+1213,58-26,secure,_,_,(I) Aim,*
+1214,58-27,pay,_,_,(Bdir) Object\_Direct,*
+1215,58-28,from,_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1216,58-29,such,_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1217,58-30,fund,_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1218,58-31,",",_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1219,58-32,plan,_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1220,58-33,",",_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1221,58-34,or,_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1222,58-35,program,_,_,"(Bdir, prop) Object\_Direct\_Property[142]",*[142]
+1223,58-36,based,_,_,(Cex) Execution Constraint[143],*[143]
+1224,58-37,on,_,_,(Cex) Execution Constraint[143],*[143]
+1225,58-38,hours,_,_,(Cex) Execution Constraint[143],*[143]
+1226,58-39,they,_,_,(Cex) Execution Constraint[143],*[143]
+1227,58-40,have,_,_,(Cex) Execution Constraint[143],*[143]
+1228,58-41,worked,_,_,(Cex) Execution Constraint[143],*[143]
+1229,58-42,under,_,_,(Cex) Execution Constraint[143],*[143]
+1230,58-43,the,_,_,(Cex) Execution Constraint[143],*[143]
+1231,58-44,multiemployer,_,_,(Cex) Execution Constraint[143],*[143]
+1232,58-45,collective,_,_,(Cex) Execution Constraint[143],*[143]
+1233,58-46,bargaining,_,_,(Cex) Execution Constraint[143],*[143]
+1234,58-47,agreement,_,_,(Cex) Execution Constraint[143],*[143]
+1235,58-48,for,_,_,(Cex) Execution Constraint[144],*[144]
+1236,58-49,the,_,_,(Cex) Execution Constraint[144],*[144]
+1237,58-50,uses,_,_,(Cex) Execution Constraint[144],*[144]
+1238,58-51,specified,_,_,(Cex) Execution Constraint[144],*[144]
+1239,58-52,in,_,_,(Cex) Execution Constraint[144],*[144]
+1240,58-53,section,_,_,(Cex) Execution Constraint[144],*[144]
+1241,58-54,5102,_,_,(Cex) Execution Constraint[144],*[144]
+1242,58-55,(,_,_,(Cex) Execution Constraint[144],*[144]
+1243,58-56,a,_,_,(Cex) Execution Constraint[144],*[144]
+1244,58-57,),_,_,(Cex) Execution Constraint[144],*[144]
+1245,58-58,.,_,_,_,_
+1246,59-1,SEC,_,_,_,_
+1247,59-2,.,_,_,_,_
+1248,59-3,5107,_,_,_,_
+1249,59-4,.,_,_,_,_
+1250,60-1,RULES,_,_,_,_
+1251,60-2,OF,_,_,_,_
+1252,60-3,CONSTRUCTION,_,_,_,_
+1253,60-4,.,_,_,_,_
+1254,61-1,Nothing,(E) Constituted Entity,*,_,_
+1255,61-2,in,"(E, prop) Constituted Entity Property[36]",*[36],_,_
+1256,61-3,this,"(E, prop) Constituted Entity Property[36]",*[36],_,_
+1257,61-4,Act,"(E, prop) Constituted Entity Property[36]",*[36],_,_
+1258,61-5,shall,(D) Deontic,*,_,_
+1259,61-6,be,(F) Constitutive Function,*,_,_
+1260,61-7,construed,(P) Constituting Property,*,_,_
+1261,61-8,-,_,_,_,_
+1262,61-9,-,_,_,_,_
+1263,61-10,(,_,_,_,_
+1264,61-11,1,_,_,_,_
+1265,61-12,),_,_,_,_
+1266,61-13,to,_,_,_,_
+1267,61-14,in,"(P, prop) Constituting Property Property[37]",*[37],_,_
+1268,61-15,any,"(P, prop) Constituting Property Property[37]",*[37],_,_
+1269,61-16,way,"(P, prop) Constituting Property Property[37]",*[37],_,_
+1270,61-17,diminish,"(P, prop) Constituting Property Property",*,_,_
+1271,61-18,the,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1272,61-19,rights,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1273,61-20,or,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1274,61-21,benefits,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1275,61-22,that,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1276,61-23,an,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1277,61-24,employee,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1278,61-25,is,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1279,61-26,entitled,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1280,61-27,to,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1281,61-28,under,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1282,61-29,any,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1283,61-30,-,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1284,61-31,-,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1285,61-32,(,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1286,61-33,A,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1287,61-34,),"(P, prop) Constituting Property Property[38]",*[38],_,_
+1288,61-35,other,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1289,61-36,Federal,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1290,61-37,",","(P, prop) Constituting Property Property[38]",*[38],_,_
+1291,61-38,State,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1292,61-39,",","(P, prop) Constituting Property Property[38]",*[38],_,_
+1293,61-40,or,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1294,61-41,local,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1295,61-42,law,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1296,61-43,;,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1297,61-44,(,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1298,61-45,B,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1299,61-46,),"(P, prop) Constituting Property Property[38]",*[38],_,_
+1300,61-47,collective,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1301,61-48,bargaining,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1302,61-49,agreement,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1303,61-50,;,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1304,61-51,or,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1305,61-52,(,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1306,61-53,C,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1307,61-54,),"(P, prop) Constituting Property Property[38]",*[38],_,_
+1308,61-55,existing,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1309,61-56,employer,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1310,61-57,policy,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1311,61-58,;,"(P, prop) Constituting Property Property[38]",*[38],_,_
+1312,61-59,or,_,_,_,_
+1313,61-60,(,_,_,_,_
+1314,61-61,2,_,_,_,_
+1315,61-62,),_,_,_,_
+1316,61-63,to,_,_,_,_
+1317,61-64,require,"(P, prop) Constituting Property Property",*,_,_
+1318,61-65,financial,_,_,_,_
+1319,61-66,or,_,_,_,_
+1320,61-67,other,_,_,_,_
+1321,61-68,reimbursement,_,_,_,_
+1322,61-69,to,_,_,_,_
+1323,61-70,an,_,_,_,_
+1324,61-71,employee,_,_,_,_
+1325,61-72,from,_,_,_,_
+1326,61-73,an,_,_,_,_
+1327,61-74,employer,_,_,_,_
+1328,61-75,upon,_,_,_,_
+1329,61-76,the,_,_,_,_
+1330,61-77,employee's,_,_,_,_
+1331,61-78,termination,_,_,_,_
+1332,61-79,",",_,_,_,_
+1333,61-80,resignation,_,_,_,_
+1334,61-81,",",_,_,_,_
+1335,61-82,retirement,_,_,_,_
+1336,61-83,",",_,_,_,_
+1337,61-84,or,_,_,_,_
+1338,61-85,other,_,_,_,_
+1339,61-86,separation,_,_,_,_
+1340,61-87,from,_,_,_,_
+1341,61-88,employment,_,_,_,_
+1342,61-89,for,_,_,_,_
+1343,61-90,paid,_,_,_,_
+1344,61-91,sick,_,_,_,_
+1345,61-92,time,_,_,_,_
+1346,61-93,under,_,_,_,_
+1347,61-94,this,_,_,_,_
+1348,61-95,Act,_,_,_,_
+1349,61-96,that,_,_,_,_
+1350,61-97,has,_,_,_,_
+1351,61-98,not,_,_,_,_
+1352,61-99,been,_,_,_,_
+1353,61-100,used,_,_,_,_
+1354,61-101,by,_,_,_,_
+1355,61-102,such,_,_,_,_
+1356,61-103,employee,_,_,_,_
+1357,61-104,.,_,_,_,_
+1358,62-1,SEC,_,_,_,_
+1359,62-2,.,_,_,_,_
+1360,62-3,5108,_,_,_,_
+1361,62-4,.,_,_,_,_
+1362,63-1,EFFECTIVE,_,_,_,_
+1363,63-2,DATE,_,_,_,_
+1364,63-3,.,_,_,_,_
+1365,64-1,This,_,_,_,_
+1366,64-2,Act,_,_,_,_
+1367,64-3,",",_,_,_,_
+1368,64-4,and,_,_,_,_
+1369,64-5,the,_,_,_,_
+1370,64-6,requirements,_,_,_,_
+1371,64-7,under,_,_,_,_
+1372,64-8,this,_,_,_,_
+1373,64-9,Act,_,_,_,_
+1374,64-10,",",_,_,_,_
+1375,64-11,shall,_,_,_,_
+1376,64-12,take,_,_,_,_
+1377,64-13,effect,_,_,_,_
+1378,64-14,not,_,_,_,_
+1379,64-15,later,_,_,_,_
+1380,64-16,than,_,_,_,_
+1381,64-17,15,_,_,_,_
+1382,64-18,days,_,_,_,_
+1383,64-19,after,_,_,_,_
+1384,64-20,the,_,_,_,_
+1385,64-21,date,_,_,_,_
+1386,64-22,of,_,_,_,_
+1387,64-23,enactment,_,_,_,_
+1388,64-24,of,_,_,_,_
+1389,64-25,this,_,_,_,_
+1390,64-26,Act,_,_,_,_
+1391,64-27,.,_,_,_,_
+1392,65-1,SEC,_,_,_,_
+1393,65-2,.,_,_,_,_
+1394,65-3,5109,_,_,_,_
+1395,65-4,.,_,_,_,_
+1396,66-1,SUNSET,_,_,_,_
+1397,66-2,.,_,_,_,_
+1398,67-1,This,_,_,_,_
+1399,67-2,Act,_,_,_,_
+1400,67-3,",",_,_,_,_
+1401,67-4,and,_,_,_,_
+1402,67-5,the,_,_,_,_
+1403,67-6,requirements,_,_,_,_
+1404,67-7,under,_,_,_,_
+1405,67-8,this,_,_,_,_
+1406,67-9,Act,_,_,_,_
+1407,67-10,",",_,_,_,_
+1408,67-11,shall,_,_,_,_
+1409,67-12,expire,_,_,_,_
+1410,67-13,on,_,_,_,_
+1411,67-14,December,_,_,_,_
+1412,67-15,31,_,_,_,_
+1413,67-16,",",_,_,_,_
+1414,67-17,2020,_,_,_,_
+1415,67-18,.,_,_,_,_
+1416,68-1,SEC,_,_,_,_
+1417,68-2,.,_,_,_,_
+1418,68-3,5110,_,_,_,_
+1419,68-4,.,_,_,_,_
+1420,69-1,DEFINITIONS,_,_,_,_
+1421,69-2,.,_,_,_,_
+1422,70-1,For,_,_,_,_
+1423,70-2,purposes,_,_,_,_
+1424,70-3,of,_,_,_,_
+1425,70-4,the,_,_,_,_
+1426,70-5,Act,_,_,_,_
+1427,70-6,:,_,_,_,_
+1428,70-7,(,_,_,_,_
+1429,70-8,1,_,_,_,_
+1430,70-9,),_,_,_,_
+1431,70-10,EMPLOYEE,_,_,_,_
+1432,70-11,.,_,_,_,_
+1433,71-1,-,_,_,_,_
+1434,71-2,-,_,_,_,_
+1435,71-3,The,_,_,_,_
+1436,71-4,terms,_,_,_,_
+1437,71-5,`,_,_,_,_
+1438,71-6,`,_,_,_,_
+1439,71-7,employee,_,_,_,_
+1440,71-8,',_,_,_,_
+1441,71-9,',_,_,_,_
+1442,71-10,means,_,_,_,_
+1443,71-11,an,_,_,_,_
+1444,71-12,individual,_,_,_,_
+1445,71-13,who,_,_,_,_
+1446,71-14,is,_,_,_,_
+1447,71-15,-,_,_,_,_
+1448,71-16,-,_,_,_,_
+1449,71-17,(,_,_,_,_
+1450,71-18,A,_,_,_,_
+1451,71-19,),_,_,_,_
+1452,71-20,(,_,_,_,_
+1453,71-21,i,_,_,_,_
+1454,71-22,),_,_,_,_
+1455,71-23,an,_,_,_,_
+1456,71-24,employee,_,_,_,_
+1457,71-25,",",_,_,_,_
+1458,71-26,as,_,_,_,_
+1459,71-27,defined,_,_,_,_
+1460,71-28,in,_,_,_,_
+1461,71-29,section,_,_,_,_
+1462,71-30,3,_,_,_,_
+1463,71-31,(,_,_,_,_
+1464,71-32,e,_,_,_,_
+1465,71-33,),_,_,_,_
+1466,71-34,of,_,_,_,_
+1467,71-35,the,_,_,_,_
+1468,71-36,Fair,_,_,_,_
+1469,71-37,Labor,_,_,_,_
+1470,71-38,Standards,_,_,_,_
+1471,71-39,Act,_,_,_,_
+1472,71-40,of,_,_,_,_
+1473,71-41,1938,_,_,_,_
+1474,71-42,(,_,_,_,_
+1475,71-43,29,_,_,_,_
+1476,71-44,U.S.C,_,_,_,_
+1477,71-45,.,_,_,_,_
+1478,71-46,203,_,_,_,_
+1479,71-47,(,_,_,_,_
+1480,71-48,e,_,_,_,_
+1481,71-49,),_,_,_,_
+1482,71-50,),_,_,_,_
+1483,71-51,",",_,_,_,_
+1484,71-52,who,_,_,_,_
+1485,71-53,is,_,_,_,_
+1486,71-54,not,_,_,_,_
+1487,71-55,covered,_,_,_,_
+1488,71-56,under,_,_,_,_
+1489,71-57,subparagraph,_,_,_,_
+1490,71-58,(,_,_,_,_
+1491,71-59,E,_,_,_,_
+1492,71-60,),_,_,_,_
+1493,71-61,or,_,_,_,_
+1494,71-62,(,_,_,_,_
+1495,71-63,F,_,_,_,_
+1496,71-64,),_,_,_,_
+1497,71-65,",",_,_,_,_
+1498,71-66,including,_,_,_,_
+1499,71-67,such,_,_,_,_
+1500,71-68,an,_,_,_,_
+1501,71-69,employee,_,_,_,_
+1502,71-70,of,_,_,_,_
+1503,71-71,the,_,_,_,_
+1504,71-72,Library,_,_,_,_
+1505,71-73,of,_,_,_,_
+1506,71-74,Congress,_,_,_,_
+1507,71-75,",",_,_,_,_
+1508,71-76,except,_,_,_,_
+1509,71-77,that,_,_,_,_
+1510,71-78,a,_,_,_,_
+1511,71-79,reference,_,_,_,_
+1512,71-80,in,_,_,_,_
+1513,71-81,such,_,_,_,_
+1514,71-82,section,_,_,_,_
+1515,71-83,to,_,_,_,_
+1516,71-84,an,_,_,_,_
+1517,71-85,employer,_,_,_,_
+1518,71-86,shall,_,_,_,_
+1519,71-87,be,_,_,_,_
+1520,71-88,considered,_,_,_,_
+1521,71-89,to,_,_,_,_
+1522,71-90,be,_,_,_,_
+1523,71-91,a,_,_,_,_
+1524,71-92,reference,_,_,_,_
+1525,71-93,to,_,_,_,_
+1526,71-94,an,_,_,_,_
+1527,71-95,employer,_,_,_,_
+1528,71-96,described,_,_,_,_
+1529,71-97,in,_,_,_,_
+1530,71-98,clauses,_,_,_,_
+1531,71-99,(,_,_,_,_
+1532,71-100,i,_,_,_,_
+1533,71-101,),_,_,_,_
+1534,71-102,(,_,_,_,_
+1535,71-103,I,_,_,_,_
+1536,71-104,),_,_,_,_
+1537,71-105,and,_,_,_,_
+1538,71-106,(,_,_,_,_
+1539,71-107,ii,_,_,_,_
+1540,71-108,),_,_,_,_
+1541,71-109,of,_,_,_,_
+1542,71-110,paragraph,_,_,_,_
+1543,71-111,(,_,_,_,_
+1544,71-112,5,_,_,_,_
+1545,71-113,),_,_,_,_
+1546,71-114,(,_,_,_,_
+1547,71-115,A,_,_,_,_
+1548,71-116,),_,_,_,_
+1549,71-117,;,_,_,_,_
+1550,71-118,or,_,_,_,_
+1551,71-119,(,_,_,_,_
+1552,71-120,ii,_,_,_,_
+1553,71-121,),_,_,_,_
+1554,71-122,an,_,_,_,_
+1555,71-123,employee,_,_,_,_
+1556,71-124,of,_,_,_,_
+1557,71-125,the,_,_,_,_
+1558,71-126,Government,_,_,_,_
+1559,71-127,Accountability,_,_,_,_
+1560,71-128,Office,_,_,_,_
+1561,71-129,;,_,_,_,_
+1562,71-130,(,_,_,_,_
+1563,71-131,B,_,_,_,_
+1564,71-132,),_,_,_,_
+1565,71-133,a,_,_,_,_
+1566,71-134,State,_,_,_,_
+1567,71-135,employee,_,_,_,_
+1568,71-136,described,_,_,_,_
+1569,71-137,in,_,_,_,_
+1570,71-138,section,_,_,_,_
+1571,71-139,304,_,_,_,_
+1572,71-140,(,_,_,_,_
+1573,71-141,a,_,_,_,_
+1574,71-142,),_,_,_,_
+1575,71-143,of,_,_,_,_
+1576,71-144,the,_,_,_,_
+1577,71-145,Government,_,_,_,_
+1578,71-146,Employee,_,_,_,_
+1579,71-147,Rights,_,_,_,_
+1580,71-148,Act,_,_,_,_
+1581,71-149,of,_,_,_,_
+1582,71-150,1991,_,_,_,_
+1583,71-151,(,_,_,_,_
+1584,71-152,42,_,_,_,_
+1585,71-153,U.S.C,_,_,_,_
+1586,71-154,.,_,_,_,_
+1587,71-155,2000e,_,_,_,_
+1588,71-156,-,_,_,_,_
+1589,71-157,16c,_,_,_,_
+1590,71-158,(,_,_,_,_
+1591,71-159,a,_,_,_,_
+1592,71-160,),_,_,_,_
+1593,71-161,),_,_,_,_
+1594,71-162,;,_,_,_,_
+1595,71-163,(,_,_,_,_
+1596,71-164,C,_,_,_,_
+1597,71-165,),_,_,_,_
+1598,71-166,a,_,_,_,_
+1599,71-167,covered,_,_,_,_
+1600,71-168,employee,_,_,_,_
+1601,71-169,",",_,_,_,_
+1602,71-170,as,_,_,_,_
+1603,71-171,defined,_,_,_,_
+1604,71-172,in,_,_,_,_
+1605,71-173,section,_,_,_,_
+1606,71-174,101,_,_,_,_
+1607,71-175,of,_,_,_,_
+1608,71-176,the,_,_,_,_
+1609,71-177,Congressional,_,_,_,_
+1610,71-178,Accountability,_,_,_,_
+1611,71-179,Act,_,_,_,_
+1612,71-180,of,_,_,_,_
+1613,71-181,1995,_,_,_,_
+1614,71-182,(,_,_,_,_
+1615,71-183,2,_,_,_,_
+1616,71-184,U.S.C,_,_,_,_
+1617,71-185,.,_,_,_,_
+1618,71-186,1301,_,_,_,_
+1619,71-187,),_,_,_,_
+1620,71-188,",",_,_,_,_
+1621,71-189,other,_,_,_,_
+1622,71-190,than,_,_,_,_
+1623,71-191,an,_,_,_,_
+1624,71-192,applicant,_,_,_,_
+1625,71-193,for,_,_,_,_
+1626,71-194,employment,_,_,_,_
+1627,71-195,;,_,_,_,_
+1628,71-196,(,_,_,_,_
+1629,71-197,D,_,_,_,_
+1630,71-198,),_,_,_,_
+1631,71-199,a,_,_,_,_
+1632,71-200,covered,_,_,_,_
+1633,71-201,employee,_,_,_,_
+1634,71-202,",",_,_,_,_
+1635,71-203,as,_,_,_,_
+1636,71-204,defined,_,_,_,_
+1637,71-205,in,_,_,_,_
+1638,71-206,section,_,_,_,_
+1639,71-207,411,_,_,_,_
+1640,71-208,(,_,_,_,_
+1641,71-209,c,_,_,_,_
+1642,71-210,),_,_,_,_
+1643,71-211,of,_,_,_,_
+1644,71-212,title,_,_,_,_
+1645,71-213,3,_,_,_,_
+1646,71-214,",",_,_,_,_
+1647,71-215,United,_,_,_,_
+1648,71-216,States,_,_,_,_
+1649,71-217,Code,_,_,_,_
+1650,71-218,;,_,_,_,_
+1651,71-219,(,_,_,_,_
+1652,71-220,E,_,_,_,_
+1653,71-221,),_,_,_,_
+1654,71-222,a,_,_,_,_
+1655,71-223,Federal,_,_,_,_
+1656,71-224,officer,_,_,_,_
+1657,71-225,or,_,_,_,_
+1658,71-226,employee,_,_,_,_
+1659,71-227,covered,_,_,_,_
+1660,71-228,under,_,_,_,_
+1661,71-229,subchapter,_,_,_,_
+1662,71-230,V,_,_,_,_
+1663,71-231,of,_,_,_,_
+1664,71-232,chapter,_,_,_,_
+1665,71-233,63,_,_,_,_
+1666,71-234,of,_,_,_,_
+1667,71-235,title,_,_,_,_
+1668,71-236,5,_,_,_,_
+1669,71-237,",",_,_,_,_
+1670,71-238,United,_,_,_,_
+1671,71-239,States,_,_,_,_
+1672,71-240,Code,_,_,_,_
+1673,71-241,;,_,_,_,_
+1674,71-242,or,_,_,_,_
+1675,71-243,(,_,_,_,_
+1676,71-244,F,_,_,_,_
+1677,71-245,),_,_,_,_
+1678,71-246,any,_,_,_,_
+1679,71-247,other,_,_,_,_
+1680,71-248,individual,_,_,_,_
+1681,71-249,occupying,_,_,_,_
+1682,71-250,a,_,_,_,_
+1683,71-251,position,_,_,_,_
+1684,71-252,in,_,_,_,_
+1685,71-253,the,_,_,_,_
+1686,71-254,civil,_,_,_,_
+1687,71-255,service,_,_,_,_
+1688,71-256,(,_,_,_,_
+1689,71-257,as,_,_,_,_
+1690,71-258,that,_,_,_,_
+1691,71-259,term,_,_,_,_
+1692,71-260,is,_,_,_,_
+1693,71-261,defined,_,_,_,_
+1694,71-262,in,_,_,_,_
+1695,71-263,section,_,_,_,_
+1696,71-264,2101,_,_,_,_
+1697,71-265,(,_,_,_,_
+1698,71-266,1,_,_,_,_
+1699,71-267,),_,_,_,_
+1700,71-268,of,_,_,_,_
+1701,71-269,title,_,_,_,_
+1702,71-270,5,_,_,_,_
+1703,71-271,",",_,_,_,_
+1704,71-272,United,_,_,_,_
+1705,71-273,States,_,_,_,_
+1706,71-274,Code,_,_,_,_
+1707,71-275,),_,_,_,_
+1708,72-1,.,_,_,_,_
+1709,73-1,(,_,_,_,_
+1710,73-2,2,_,_,_,_
+1711,73-3,),_,_,_,_
+1712,73-4,EMPLOYER,_,_,_,_
+1713,73-5,.,_,_,_,_
+1714,73-6,-,_,_,_,_
+1715,73-7,-,_,_,_,_
+1716,73-8,(,_,_,_,_
+1717,73-9,A,_,_,_,_
+1718,73-10,),_,_,_,_
+1719,73-11,IN,_,_,_,_
+1720,73-12,GENERAL,_,_,_,_
+1721,73-13,.,_,_,_,_
+1722,74-1,-,_,_,_,_
+1723,74-2,-,_,_,_,_
+1724,74-3,The,_,_,_,_
+1725,74-4,term,_,_,_,_
+1726,74-5,`,_,_,_,_
+1727,74-6,`,_,_,_,_
+1728,74-7,employer,_,_,_,_
+1729,74-8,',_,_,_,_
+1730,74-9,',_,_,_,_
+1731,74-10,means,_,_,_,_
+1732,74-11,a,_,_,_,_
+1733,74-12,person,_,_,_,_
+1734,74-13,who,_,_,_,_
+1735,74-14,is,_,_,_,_
+1736,74-15,-,_,_,_,_
+1737,74-16,-,_,_,_,_
+1738,74-17,(,_,_,_,_
+1739,74-18,i,_,_,_,_
+1740,74-19,),_,_,_,_
+1741,74-20,(,_,_,_,_
+1742,74-21,I,_,_,_,_
+1743,74-22,),_,_,_,_
+1744,74-23,a,_,_,_,_
+1745,74-24,covered,_,_,_,_
+1746,74-25,employer,_,_,_,_
+1747,74-26,",",_,_,_,_
+1748,74-27,as,_,_,_,_
+1749,74-28,defined,_,_,_,_
+1750,74-29,in,_,_,_,_
+1751,74-30,subparagraph,_,_,_,_
+1752,74-31,(,_,_,_,_
+1753,74-32,B,_,_,_,_
+1754,74-33,),_,_,_,_
+1755,74-34,",",_,_,_,_
+1756,74-35,who,_,_,_,_
+1757,74-36,is,_,_,_,_
+1758,74-37,not,_,_,_,_
+1759,74-38,covered,_,_,_,_
+1760,74-39,under,_,_,_,_
+1761,74-40,subclause,_,_,_,_
+1762,74-41,(,_,_,_,_
+1763,74-42,V,_,_,_,_
+1764,74-43,),_,_,_,_
+1765,74-44,;,_,_,_,_
+1766,74-45,(,_,_,_,_
+1767,74-46,II,_,_,_,_
+1768,74-47,),_,_,_,_
+1769,74-48,an,_,_,_,_
+1770,74-49,entity,_,_,_,_
+1771,74-50,employing,_,_,_,_
+1772,74-51,a,_,_,_,_
+1773,74-52,State,_,_,_,_
+1774,74-53,employee,_,_,_,_
+1775,74-54,described,_,_,_,_
+1776,74-55,in,_,_,_,_
+1777,74-56,section,_,_,_,_
+1778,74-57,304,_,_,_,_
+1779,74-58,(,_,_,_,_
+1780,74-59,a,_,_,_,_
+1781,74-60,),_,_,_,_
+1782,74-61,of,_,_,_,_
+1783,74-62,the,_,_,_,_
+1784,74-63,Government,_,_,_,_
+1785,74-64,Employee,_,_,_,_
+1786,74-65,Rights,_,_,_,_
+1787,74-66,Act,_,_,_,_
+1788,74-67,of,_,_,_,_
+1789,74-68,1991,_,_,_,_
+1790,74-69,;,_,_,_,_
+1791,74-70,(,_,_,_,_
+1792,74-71,III,_,_,_,_
+1793,74-72,),_,_,_,_
+1794,74-73,an,_,_,_,_
+1795,74-74,employing,_,_,_,_
+1796,74-75,office,_,_,_,_
+1797,74-76,",",_,_,_,_
+1798,74-77,as,_,_,_,_
+1799,74-78,defined,_,_,_,_
+1800,74-79,in,_,_,_,_
+1801,74-80,section,_,_,_,_
+1802,74-81,101,_,_,_,_
+1803,74-82,of,_,_,_,_
+1804,74-83,the,_,_,_,_
+1805,74-84,Congressional,_,_,_,_
+1806,74-85,Accountability,_,_,_,_
+1807,74-86,Act,_,_,_,_
+1808,74-87,of,_,_,_,_
+1809,74-88,1995,_,_,_,_
+1810,74-89,;,_,_,_,_
+1811,74-90,(,_,_,_,_
+1812,74-91,IV,_,_,_,_
+1813,74-92,),_,_,_,_
+1814,74-93,an,_,_,_,_
+1815,74-94,employing,_,_,_,_
+1816,74-95,office,_,_,_,_
+1817,74-96,",",_,_,_,_
+1818,74-97,as,_,_,_,_
+1819,74-98,defined,_,_,_,_
+1820,74-99,in,_,_,_,_
+1821,74-100,section,_,_,_,_
+1822,74-101,411,_,_,_,_
+1823,74-102,(,_,_,_,_
+1824,74-103,c,_,_,_,_
+1825,74-104,),_,_,_,_
+1826,74-105,of,_,_,_,_
+1827,74-106,title,_,_,_,_
+1828,74-107,3,_,_,_,_
+1829,74-108,",",_,_,_,_
+1830,74-109,United,_,_,_,_
+1831,74-110,States,_,_,_,_
+1832,74-111,Code,_,_,_,_
+1833,74-112,;,_,_,_,_
+1834,74-113,or,_,_,_,_
+1835,74-114,(,_,_,_,_
+1836,74-115,V,_,_,_,_
+1837,74-116,),_,_,_,_
+1838,74-117,an,_,_,_,_
+1839,74-118,Executive,_,_,_,_
+1840,74-119,Agency,_,_,_,_
+1841,74-120,as,_,_,_,_
+1842,74-121,defined,_,_,_,_
+1843,74-122,in,_,_,_,_
+1844,74-123,section,_,_,_,_
+1845,74-124,105,_,_,_,_
+1846,74-125,of,_,_,_,_
+1847,74-126,title,_,_,_,_
+1848,74-127,5,_,_,_,_
+1849,74-128,",",_,_,_,_
+1850,74-129,United,_,_,_,_
+1851,74-130,States,_,_,_,_
+1852,74-131,Code,_,_,_,_
+1853,74-132,",",_,_,_,_
+1854,74-133,and,_,_,_,_
+1855,74-134,including,_,_,_,_
+1856,74-135,the,_,_,_,_
+1857,74-136,U.S,_,_,_,_
+1858,74-137,.,_,_,_,_
+1859,75-1,Postal,_,_,_,_
+1860,75-2,Service,_,_,_,_
+1861,75-3,and,_,_,_,_
+1862,75-4,the,_,_,_,_
+1863,75-5,Postal,_,_,_,_
+1864,75-6,Regulatory,_,_,_,_
+1865,75-7,Commission,_,_,_,_
+1866,75-8,;,_,_,_,_
+1867,75-9,and,_,_,_,_
+1868,75-10,(,_,_,_,_
+1869,75-11,ii,_,_,_,_
+1870,75-12,),_,_,_,_
+1871,75-13,engaged,_,_,_,_
+1872,75-14,in,_,_,_,_
+1873,75-15,commerce,_,_,_,_
+1874,75-16,(,_,_,_,_
+1875,75-17,including,_,_,_,_
+1876,75-18,government,_,_,_,_
+1877,75-19,),_,_,_,_
+1878,75-20,",",_,_,_,_
+1879,75-21,or,_,_,_,_
+1880,75-22,an,_,_,_,_
+1881,75-23,industry,_,_,_,_
+1882,75-24,or,_,_,_,_
+1883,75-25,activity,_,_,_,_
+1884,75-26,affecting,_,_,_,_
+1885,75-27,commerce,_,_,_,_
+1886,75-28,(,_,_,_,_
+1887,75-29,including,_,_,_,_
+1888,75-30,government,_,_,_,_
+1889,75-31,),_,_,_,_
+1890,75-32,",",_,_,_,_
+1891,75-33,as,_,_,_,_
+1892,75-34,defined,_,_,_,_
+1893,75-35,in,_,_,_,_
+1894,75-36,subparagraph,_,_,_,_
+1895,75-37,(,_,_,_,_
+1896,75-38,B,_,_,_,_
+1897,75-39,),_,_,_,_
+1898,75-40,(,_,_,_,_
+1899,75-41,iii,_,_,_,_
+1900,75-42,),_,_,_,_
+1901,75-43,.,_,_,_,_
+1902,76-1,(,_,_,_,_
+1903,76-2,B,_,_,_,_
+1904,76-3,),_,_,_,_
+1905,76-4,COVERED,_,_,_,_
+1906,76-5,EMPLOYER,_,_,_,_
+1907,76-6,.,_,_,_,_
+1908,76-7,-,_,_,_,_
+1909,76-8,-,_,_,_,_
+1910,76-9,(,_,_,_,_
+1911,76-10,i,_,_,_,_
+1912,76-11,),_,_,_,_
+1913,76-12,IN,_,_,_,_
+1914,76-13,GENERAL,_,_,_,_
+1915,76-14,.,_,_,_,_
+1916,77-1,-,_,_,_,_
+1917,77-2,-,_,_,_,_
+1918,77-3,In,_,_,_,_
+1919,77-4,subparagraph,_,_,_,_
+1920,77-5,(,_,_,_,_
+1921,77-6,A,_,_,_,_
+1922,77-7,),_,_,_,_
+1923,77-8,(,_,_,_,_
+1924,77-9,i,_,_,_,_
+1925,77-10,),_,_,_,_
+1926,77-11,(,_,_,_,_
+1927,77-12,I,_,_,_,_
+1928,77-13,),_,_,_,_
+1929,77-14,",",_,_,_,_
+1930,77-15,the,_,_,_,_
+1931,77-16,term,_,_,_,_
+1932,77-17,`,_,_,_,_
+1933,77-18,`,_,_,_,_
+1934,77-19,covered,_,_,_,_
+1935,77-20,employer,_,_,_,_
+1936,77-21,',_,_,_,_
+1937,77-22,',_,_,_,_
+1938,77-23,-,_,_,_,_
+1939,77-24,-,_,_,_,_
+1940,77-25,(,_,_,_,_
+1941,77-26,I,_,_,_,_
+1942,77-27,),_,_,_,_
+1943,77-28,means,_,_,_,_
+1944,77-29,any,_,_,_,_
+1945,77-30,person,_,_,_,_
+1946,77-31,engaged,_,_,_,_
+1947,77-32,in,_,_,_,_
+1948,77-33,commerce,_,_,_,_
+1949,77-34,or,_,_,_,_
+1950,77-35,in,_,_,_,_
+1951,77-36,any,_,_,_,_
+1952,77-37,industry,_,_,_,_
+1953,77-38,or,_,_,_,_
+1954,77-39,activity,_,_,_,_
+1955,77-40,affecting,_,_,_,_
+1956,77-41,commerce,_,_,_,_
+1957,77-42,that,_,_,_,_
+1958,77-43,-,_,_,_,_
+1959,77-44,-,_,_,_,_
+1960,77-45,(,_,_,_,_
+1961,77-46,aa,_,_,_,_
+1962,77-47,),_,_,_,_
+1963,77-48,in,_,_,_,_
+1964,77-49,the,_,_,_,_
+1965,77-50,case,_,_,_,_
+1966,77-51,of,_,_,_,_
+1967,77-52,a,_,_,_,_
+1968,77-53,private,_,_,_,_
+1969,77-54,entity,_,_,_,_
+1970,77-55,or,_,_,_,_
+1971,77-56,individual,_,_,_,_
+1972,77-57,",",_,_,_,_
+1973,77-58,employs,_,_,_,_
+1974,77-59,fewer,_,_,_,_
+1975,77-60,than,_,_,_,_
+1976,77-61,500,_,_,_,_
+1977,77-62,employees,_,_,_,_
+1978,77-63,;,_,_,_,_
+1979,77-64,and,_,_,_,_
+1980,77-65,(,_,_,_,_
+1981,77-66,bb,_,_,_,_
+1982,77-67,),_,_,_,_
+1983,77-68,in,_,_,_,_
+1984,77-69,the,_,_,_,_
+1985,77-70,case,_,_,_,_
+1986,77-71,of,_,_,_,_
+1987,77-72,a,_,_,_,_
+1988,77-73,public,_,_,_,_
+1989,77-74,agency,_,_,_,_
+1990,77-75,or,_,_,_,_
+1991,77-76,any,_,_,_,_
+1992,77-77,other,_,_,_,_
+1993,77-78,entity,_,_,_,_
+1994,77-79,that,_,_,_,_
+1995,77-80,is,_,_,_,_
+1996,77-81,not,_,_,_,_
+1997,77-82,a,_,_,_,_
+1998,77-83,private,_,_,_,_
+1999,77-84,entity,_,_,_,_
+2000,77-85,or,_,_,_,_
+2001,77-86,individual,_,_,_,_
+2002,77-87,",",_,_,_,_
+2003,77-88,employs,_,_,_,_
+2004,77-89,1,_,_,_,_
+2005,77-90,or,_,_,_,_
+2006,77-91,more,_,_,_,_
+2007,77-92,employees,_,_,_,_
+2008,77-93,;,_,_,_,_
+2009,77-94,(,_,_,_,_
+2010,77-95,II,_,_,_,_
+2011,77-96,),_,_,_,_
+2012,77-97,includes,_,_,_,_
+2013,77-98,-,_,_,_,_
+2014,77-99,-,_,_,_,_
+2015,77-100,(,_,_,_,_
+2016,77-101,aa,_,_,_,_
+2017,77-102,),_,_,_,_
+2018,77-103,includes,_,_,_,_
+2019,77-104,any,_,_,_,_
+2020,77-105,person,_,_,_,_
+2021,77-106,acting,_,_,_,_
+2022,77-107,directly,_,_,_,_
+2023,77-108,or,_,_,_,_
+2024,77-109,indirectly,_,_,_,_
+2025,77-110,in,_,_,_,_
+2026,77-111,the,_,_,_,_
+2027,77-112,interest,_,_,_,_
+2028,77-113,of,_,_,_,_
+2029,77-114,an,_,_,_,_
+2030,77-115,employer,_,_,_,_
+2031,77-116,in,_,_,_,_
+2032,77-117,relation,_,_,_,_
+2033,77-118,to,_,_,_,_
+2034,77-119,an,_,_,_,_
+2035,77-120,employee,_,_,_,_
+2036,77-121,(,_,_,_,_
+2037,77-122,within,_,_,_,_
+2038,77-123,the,_,_,_,_
+2039,77-124,meaning,_,_,_,_
+2040,77-125,of,_,_,_,_
+2041,77-126,such,_,_,_,_
+2042,77-127,phrase,_,_,_,_
+2043,77-128,in,_,_,_,_
+2044,77-129,section,_,_,_,_
+2045,77-130,3,_,_,_,_
+2046,77-131,(,_,_,_,_
+2047,77-132,d,_,_,_,_
+2048,77-133,),_,_,_,_
+2049,77-134,of,_,_,_,_
+2050,77-135,the,_,_,_,_
+2051,77-136,Fair,_,_,_,_
+2052,77-137,Labor,_,_,_,_
+2053,77-138,Standards,_,_,_,_
+2054,77-139,Act,_,_,_,_
+2055,77-140,of,_,_,_,_
+2056,77-141,1938,_,_,_,_
+2057,77-142,(,_,_,_,_
+2058,77-143,29,_,_,_,_
+2059,77-144,U.S.C,_,_,_,_
+2060,77-145,.,_,_,_,_
+2061,77-146,203,_,_,_,_
+2062,77-147,(,_,_,_,_
+2063,77-148,d,_,_,_,_
+2064,77-149,),_,_,_,_
+2065,77-150,),_,_,_,_
+2066,77-151,;,_,_,_,_
+2067,77-152,and,_,_,_,_
+2068,77-153,(,_,_,_,_
+2069,77-154,bb,_,_,_,_
+2070,77-155,),_,_,_,_
+2071,77-156,any,_,_,_,_
+2072,77-157,successor,_,_,_,_
+2073,77-158,in,_,_,_,_
+2074,77-159,interest,_,_,_,_
+2075,77-160,of,_,_,_,_
+2076,77-161,an,_,_,_,_
+2077,77-162,employer,_,_,_,_
+2078,77-163,;,_,_,_,_
+2079,77-164,(,_,_,_,_
+2080,77-165,III,_,_,_,_
+2081,77-166,),_,_,_,_
+2082,77-167,includes,_,_,_,_
+2083,77-168,any,_,_,_,_
+2084,77-169,`,_,_,_,_
+2085,77-170,`,_,_,_,_
+2086,77-171,public,_,_,_,_
+2087,77-172,agency,_,_,_,_
+2088,77-173,',_,_,_,_
+2089,77-174,',_,_,_,_
+2090,77-175,",",_,_,_,_
+2091,77-176,as,_,_,_,_
+2092,77-177,defined,_,_,_,_
+2093,77-178,in,_,_,_,_
+2094,77-179,section,_,_,_,_
+2095,77-180,3,_,_,_,_
+2096,77-181,(,_,_,_,_
+2097,77-182,x,_,_,_,_
+2098,77-183,),_,_,_,_
+2099,77-184,of,_,_,_,_
+2100,77-185,the,_,_,_,_
+2101,77-186,Fair,_,_,_,_
+2102,77-187,Labor,_,_,_,_
+2103,77-188,Standards,_,_,_,_
+2104,77-189,Act,_,_,_,_
+2105,77-190,of,_,_,_,_
+2106,77-191,1938,_,_,_,_
+2107,77-192,(,_,_,_,_
+2108,77-193,29,_,_,_,_
+2109,77-194,U.S.C,_,_,_,_
+2110,77-195,.,_,_,_,_
+2111,77-196,203,_,_,_,_
+2112,77-197,(,_,_,_,_
+2113,77-198,x,_,_,_,_
+2114,77-199,),_,_,_,_
+2115,77-200,),_,_,_,_
+2116,77-201,;,_,_,_,_
+2117,77-202,and,_,_,_,_
+2118,77-203,(,_,_,_,_
+2119,77-204,IV,_,_,_,_
+2120,77-205,),_,_,_,_
+2121,77-206,includes,_,_,_,_
+2122,77-207,the,_,_,_,_
+2123,77-208,Government,_,_,_,_
+2124,77-209,Accountability,_,_,_,_
+2125,77-210,Office,_,_,_,_
+2126,77-211,and,_,_,_,_
+2127,77-212,the,_,_,_,_
+2128,77-213,Library,_,_,_,_
+2129,77-214,of,_,_,_,_
+2130,77-215,Congress,_,_,_,_
+2131,77-216,.,_,_,_,_
+2132,78-1,(,_,_,_,_
+2133,78-2,ii,_,_,_,_
+2134,78-3,),_,_,_,_
+2135,78-4,PUBLIC,_,_,_,_
+2136,78-5,AGENCY,_,_,_,_
+2137,78-6,.,_,_,_,_
+2138,79-1,-,_,_,_,_
+2139,79-2,-,_,_,_,_
+2140,79-3,For,_,_,_,_
+2141,79-4,purposes,_,_,_,_
+2142,79-5,of,_,_,_,_
+2143,79-6,clause,_,_,_,_
+2144,79-7,(,_,_,_,_
+2145,79-8,i,_,_,_,_
+2146,79-9,),_,_,_,_
+2147,79-10,(,_,_,_,_
+2148,79-11,IV,_,_,_,_
+2149,79-12,),_,_,_,_
+2150,79-13,",",_,_,_,_
+2151,79-14,a,_,_,_,_
+2152,79-15,public,_,_,_,_
+2153,79-16,agency,_,_,_,_
+2154,79-17,shall,_,_,_,_
+2155,79-18,be,_,_,_,_
+2156,79-19,considered,_,_,_,_
+2157,79-20,to,_,_,_,_
+2158,79-21,be,_,_,_,_
+2159,79-22,a,_,_,_,_
+2160,79-23,person,_,_,_,_
+2161,79-24,engaged,_,_,_,_
+2162,79-25,in,_,_,_,_
+2163,79-26,commerce,_,_,_,_
+2164,79-27,or,_,_,_,_
+2165,79-28,in,_,_,_,_
+2166,79-29,an,_,_,_,_
+2167,79-30,industry,_,_,_,_
+2168,79-31,or,_,_,_,_
+2169,79-32,activity,_,_,_,_
+2170,79-33,affecting,_,_,_,_
+2171,79-34,commerce,_,_,_,_
+2172,79-35,.,_,_,_,_
+2173,80-1,(,_,_,_,_
+2174,80-2,iii,_,_,_,_
+2175,80-3,),_,_,_,_
+2176,80-4,DEFINITIONS,_,_,_,_
+2177,80-5,.,_,_,_,_
+2178,81-1,-,_,_,_,_
+2179,81-2,-,_,_,_,_
+2180,81-3,For,_,_,_,_
+2181,81-4,purposes,_,_,_,_
+2182,81-5,of,_,_,_,_
+2183,81-6,this,_,_,_,_
+2184,81-7,subparagraph,_,_,_,_
+2185,81-8,:,_,_,_,_
+2186,81-9,(,_,_,_,_
+2187,81-10,I,_,_,_,_
+2188,81-11,),_,_,_,_
+2189,81-12,COMMERCE,_,_,_,_
+2190,81-13,.,_,_,_,_
+2191,82-1,-,_,_,_,_
+2192,82-2,-,_,_,_,_
+2193,82-3,The,_,_,_,_
+2194,82-4,terms,_,_,_,_
+2195,82-5,`,_,_,_,_
+2196,82-6,`,_,_,_,_
+2197,82-7,commerce,_,_,_,_
+2198,82-8,',_,_,_,_
+2199,82-9,',_,_,_,_
+2200,82-10,and,_,_,_,_
+2201,82-11,`,_,_,_,_
+2202,82-12,`,_,_,_,_
+2203,82-13,industry,_,_,_,_
+2204,82-14,or,_,_,_,_
+2205,82-15,activity,_,_,_,_
+2206,82-16,affecting,_,_,_,_
+2207,82-17,commerce,_,_,_,_
+2208,82-18,',_,_,_,_
+2209,82-19,',_,_,_,_
+2210,82-20,means,_,_,_,_
+2211,82-21,any,_,_,_,_
+2212,82-22,activity,_,_,_,_
+2213,82-23,",",_,_,_,_
+2214,82-24,business,_,_,_,_
+2215,82-25,",",_,_,_,_
+2216,82-26,or,_,_,_,_
+2217,82-27,industry,_,_,_,_
+2218,82-28,in,_,_,_,_
+2219,82-29,commerce,_,_,_,_
+2220,82-30,or,_,_,_,_
+2221,82-31,in,_,_,_,_
+2222,82-32,which,_,_,_,_
+2223,82-33,a,_,_,_,_
+2224,82-34,labor,_,_,_,_
+2225,82-35,dispute,_,_,_,_
+2226,82-36,would,_,_,_,_
+2227,82-37,hinder,_,_,_,_
+2228,82-38,or,_,_,_,_
+2229,82-39,obstruct,_,_,_,_
+2230,82-40,commerce,_,_,_,_
+2231,82-41,or,_,_,_,_
+2232,82-42,the,_,_,_,_
+2233,82-43,free,_,_,_,_
+2234,82-44,flow,_,_,_,_
+2235,82-45,of,_,_,_,_
+2236,82-46,commerce,_,_,_,_
+2237,82-47,",",_,_,_,_
+2238,82-48,and,_,_,_,_
+2239,82-49,include,_,_,_,_
+2240,82-50,`,_,_,_,_
+2241,82-51,`,_,_,_,_
+2242,82-52,commerce,_,_,_,_
+2243,82-53,',_,_,_,_
+2244,82-54,',_,_,_,_
+2245,82-55,and,_,_,_,_
+2246,82-56,any,_,_,_,_
+2247,82-57,`,_,_,_,_
+2248,82-58,`,_,_,_,_
+2249,82-59,industry,_,_,_,_
+2250,82-60,affecting,_,_,_,_
+2251,82-61,commerce,_,_,_,_
+2252,82-62,',_,_,_,_
+2253,82-63,',_,_,_,_
+2254,82-64,",",_,_,_,_
+2255,82-65,as,_,_,_,_
+2256,82-66,defined,_,_,_,_
+2257,82-67,in,_,_,_,_
+2258,82-68,paragraphs,_,_,_,_
+2259,82-69,(,_,_,_,_
+2260,82-70,1,_,_,_,_
+2261,82-71,),_,_,_,_
+2262,82-72,and,_,_,_,_
+2263,82-73,(,_,_,_,_
+2264,82-74,3,_,_,_,_
+2265,82-75,),_,_,_,_
+2266,82-76,of,_,_,_,_
+2267,82-77,section,_,_,_,_
+2268,82-78,501,_,_,_,_
+2269,82-79,of,_,_,_,_
+2270,82-80,the,_,_,_,_
+2271,82-81,Labor,_,_,_,_
+2272,82-82,Management,_,_,_,_
+2273,82-83,Relations,_,_,_,_
+2274,82-84,Act,_,_,_,_
+2275,82-85,of,_,_,_,_
+2276,82-86,1947,_,_,_,_
+2277,82-87,(,_,_,_,_
+2278,82-88,29,_,_,_,_
+2279,82-89,U.S.C,_,_,_,_
+2280,82-90,.,_,_,_,_
+2281,82-91,142,_,_,_,_
+2282,82-92,(,_,_,_,_
+2283,82-93,1,_,_,_,_
+2284,82-94,),_,_,_,_
+2285,82-95,and,_,_,_,_
+2286,82-96,(,_,_,_,_
+2287,82-97,3,_,_,_,_
+2288,82-98,),_,_,_,_
+2289,82-99,),_,_,_,_
+2290,82-100,.,_,_,_,_
+2291,83-1,(,_,_,_,_
+2292,83-2,II,_,_,_,_
+2293,83-3,),_,_,_,_
+2294,83-4,EMPLOYEE,_,_,_,_
+2295,83-5,.,_,_,_,_
+2296,84-1,-,_,_,_,_
+2297,84-2,-,_,_,_,_
+2298,84-3,The,_,_,_,_
+2299,84-4,term,_,_,_,_
+2300,84-5,`,_,_,_,_
+2301,84-6,`,_,_,_,_
+2302,84-7,employee,_,_,_,_
+2303,84-8,',_,_,_,_
+2304,84-9,',_,_,_,_
+2305,84-10,has,_,_,_,_
+2306,84-11,the,_,_,_,_
+2307,84-12,same,_,_,_,_
+2308,84-13,meaning,_,_,_,_
+2309,84-14,given,_,_,_,_
+2310,84-15,such,_,_,_,_
+2311,84-16,term,_,_,_,_
+2312,84-17,in,_,_,_,_
+2313,84-18,section,_,_,_,_
+2314,84-19,3,_,_,_,_
+2315,84-20,(,_,_,_,_
+2316,84-21,e,_,_,_,_
+2317,84-22,),_,_,_,_
+2318,84-23,of,_,_,_,_
+2319,84-24,the,_,_,_,_
+2320,84-25,Fair,_,_,_,_
+2321,84-26,Labor,_,_,_,_
+2322,84-27,Standards,_,_,_,_
+2323,84-28,Act,_,_,_,_
+2324,84-29,of,_,_,_,_
+2325,84-30,1938,_,_,_,_
+2326,84-31,(,_,_,_,_
+2327,84-32,29,_,_,_,_
+2328,84-33,U.S.C,_,_,_,_
+2329,84-34,.,_,_,_,_
+2330,84-35,203,_,_,_,_
+2331,84-36,(,_,_,_,_
+2332,84-37,e,_,_,_,_
+2333,84-38,),_,_,_,_
+2334,84-39,),_,_,_,_
+2335,84-40,.,_,_,_,_
+2336,85-1,(,_,_,_,_
+2337,85-2,III,_,_,_,_
+2338,85-3,),_,_,_,_
+2339,85-4,PERSON,_,_,_,_
+2340,85-5,.,_,_,_,_
+2341,86-1,-,_,_,_,_
+2342,86-2,-,_,_,_,_
+2343,86-3,The,_,_,_,_
+2344,86-4,term,_,_,_,_
+2345,86-5,`,_,_,_,_
+2346,86-6,`,_,_,_,_
+2347,86-7,person,_,_,_,_
+2348,86-8,',_,_,_,_
+2349,86-9,',_,_,_,_
+2350,86-10,has,_,_,_,_
+2351,86-11,the,_,_,_,_
+2352,86-12,same,_,_,_,_
+2353,86-13,meaning,_,_,_,_
+2354,86-14,given,_,_,_,_
+2355,86-15,such,_,_,_,_
+2356,86-16,term,_,_,_,_
+2357,86-17,in,_,_,_,_
+2358,86-18,section,_,_,_,_
+2359,86-19,3,_,_,_,_
+2360,86-20,(,_,_,_,_
+2361,86-21,a,_,_,_,_
+2362,86-22,),_,_,_,_
+2363,86-23,of,_,_,_,_
+2364,86-24,the,_,_,_,_
+2365,86-25,Fair,_,_,_,_
+2366,86-26,Labor,_,_,_,_
+2367,86-27,Standards,_,_,_,_
+2368,86-28,Act,_,_,_,_
+2369,86-29,of,_,_,_,_
+2370,86-30,1938,_,_,_,_
+2371,86-31,(,_,_,_,_
+2372,86-32,29,_,_,_,_
+2373,86-33,U.S.C,_,_,_,_
+2374,86-34,.,_,_,_,_
+2375,86-35,203,_,_,_,_
+2376,86-36,(,_,_,_,_
+2377,86-37,a,_,_,_,_
+2378,86-38,),_,_,_,_
+2379,86-39,),_,_,_,_
+2380,87-1,.,_,_,_,_
+2381,88-1,(,_,_,_,_
+2382,88-2,3,_,_,_,_
+2383,88-3,),_,_,_,_
+2384,88-4,FLSA,_,_,_,_
+2385,88-5,TERMS,_,_,_,_
+2386,88-6,.,_,_,_,_
+2387,89-1,-,_,_,_,_
+2388,89-2,-,_,_,_,_
+2389,89-3,The,_,_,_,_
+2390,89-4,terms,_,_,_,_
+2391,89-5,`,_,_,_,_
+2392,89-6,`,_,_,_,_
+2393,89-7,employ,_,_,_,_
+2394,89-8,',_,_,_,_
+2395,89-9,',_,_,_,_
+2396,89-10,and,_,_,_,_
+2397,89-11,`,_,_,_,_
+2398,89-12,`,_,_,_,_
+2399,89-13,State,_,_,_,_
+2400,89-14,',_,_,_,_
+2401,89-15,',_,_,_,_
+2402,89-16,have,_,_,_,_
+2403,89-17,the,_,_,_,_
+2404,89-18,meanings,_,_,_,_
+2405,89-19,given,_,_,_,_
+2406,89-20,such,_,_,_,_
+2407,89-21,terms,_,_,_,_
+2408,89-22,in,_,_,_,_
+2409,89-23,section,_,_,_,_
+2410,89-24,3,_,_,_,_
+2411,89-25,of,_,_,_,_
+2412,89-26,the,_,_,_,_
+2413,89-27,Fair,_,_,_,_
+2414,89-28,Labor,_,_,_,_
+2415,89-29,Standards,_,_,_,_
+2416,89-30,Act,_,_,_,_
+2417,89-31,of,_,_,_,_
+2418,89-32,1938,_,_,_,_
+2419,89-33,(,_,_,_,_
+2420,89-34,29,_,_,_,_
+2421,89-35,U.S.C,_,_,_,_
+2422,89-36,.,_,_,_,_
+2423,89-37,203,_,_,_,_
+2424,89-38,),_,_,_,_
+2425,90-1,.,_,_,_,_
+2426,91-1,(,_,_,_,_
+2427,91-2,4,_,_,_,_
+2428,91-3,),_,_,_,_
+2429,91-4,FMLA,_,_,_,_
+2430,91-5,terms,_,_,_,_
+2431,91-6,.,_,_,_,_
+2432,92-1,-,_,_,_,_
+2433,92-2,-,_,_,_,_
+2434,92-3,The,_,_,_,_
+2435,92-4,terms,_,_,_,_
+2436,92-5,`,_,_,_,_
+2437,92-6,`,_,_,_,_
+2438,92-7,health,_,_,_,_
+2439,92-8,care,_,_,_,_
+2440,92-9,provider,_,_,_,_
+2441,92-10,',_,_,_,_
+2442,92-11,',_,_,_,_
+2443,92-12,and,_,_,_,_
+2444,92-13,`,_,_,_,_
+2445,92-14,`,_,_,_,_
+2446,92-15,son,_,_,_,_
+2447,92-16,or,_,_,_,_
+2448,92-17,daughter,_,_,_,_
+2449,92-18,',_,_,_,_
+2450,92-19,',_,_,_,_
+2451,92-20,have,_,_,_,_
+2452,92-21,the,_,_,_,_
+2453,92-22,meanings,_,_,_,_
+2454,92-23,given,_,_,_,_
+2455,92-24,such,_,_,_,_
+2456,92-25,terms,_,_,_,_
+2457,92-26,in,_,_,_,_
+2458,92-27,section,_,_,_,_
+2459,92-28,101,_,_,_,_
+2460,92-29,of,_,_,_,_
+2461,92-30,the,_,_,_,_
+2462,92-31,Family,_,_,_,_
+2463,92-32,and,_,_,_,_
+2464,92-33,Medical,_,_,_,_
+2465,92-34,Leave,_,_,_,_
+2466,92-35,Act,_,_,_,_
+2467,92-36,of,_,_,_,_
+2468,92-37,1993,_,_,_,_
+2469,92-38,(,_,_,_,_
+2470,92-39,29,_,_,_,_
+2471,92-40,U.S.C,_,_,_,_
+2472,92-41,.,_,_,_,_
+2473,92-42,2611,_,_,_,_
+2474,92-43,),_,_,_,_
+2475,93-1,.,_,_,_,_
+2476,94-1,(,_,_,_,_
+2477,94-2,5,_,_,_,_
+2478,94-3,),_,_,_,_
+2479,94-4,PAID,_,_,_,_
+2480,94-5,SICK,_,_,_,_
+2481,94-6,TIME,_,_,_,_
+2482,94-7,.,_,_,_,_
+2483,95-1,-,_,_,_,_
+2484,95-2,-,_,_,_,_
+2485,95-3,(,_,_,_,_
+2486,95-4,A,_,_,_,_
+2487,95-5,),_,_,_,_
+2488,95-6,IN,_,_,_,_
+2489,95-7,GENERAL,_,_,_,_
+2490,95-8,.,_,_,_,_
+2491,96-1,-,_,_,_,_
+2492,96-2,-,_,_,_,_
+2493,96-3,The,_,_,_,_
+2494,96-4,term,_,_,_,_
+2495,96-5,`,_,_,_,_
+2496,96-6,`,_,_,_,_
+2497,96-7,paid,_,_,_,_
+2498,96-8,sick,_,_,_,_
+2499,96-9,time,_,_,_,_
+2500,96-10,',_,_,_,_
+2501,96-11,',_,_,_,_
+2502,96-12,means,_,_,_,_
+2503,96-13,an,_,_,_,_
+2504,96-14,increment,_,_,_,_
+2505,96-15,of,_,_,_,_
+2506,96-16,compensated,_,_,_,_
+2507,96-17,leave,_,_,_,_
+2508,96-18,that,_,_,_,_
+2509,96-19,-,_,_,_,_
+2510,96-20,-,_,_,_,_
+2511,96-21,(,_,_,_,_
+2512,96-22,i,_,_,_,_
+2513,96-23,),_,_,_,_
+2514,96-24,is,_,_,_,_
+2515,96-25,provided,_,_,_,_
+2516,96-26,by,_,_,_,_
+2517,96-27,an,_,_,_,_
+2518,96-28,employer,_,_,_,_
+2519,96-29,for,_,_,_,_
+2520,96-30,use,_,_,_,_
+2521,96-31,during,_,_,_,_
+2522,96-32,an,_,_,_,_
+2523,96-33,absence,_,_,_,_
+2524,96-34,from,_,_,_,_
+2525,96-35,employment,_,_,_,_
+2526,96-36,for,_,_,_,_
+2527,96-37,a,_,_,_,_
+2528,96-38,reason,_,_,_,_
+2529,96-39,described,_,_,_,_
+2530,96-40,in,_,_,_,_
+2531,96-41,any,_,_,_,_
+2532,96-42,paragraph,_,_,_,_
+2533,96-43,of,_,_,_,_
+2534,96-44,section,_,_,_,_
+2535,96-45,2,_,_,_,_
+2536,96-46,(,_,_,_,_
+2537,96-47,a,_,_,_,_
+2538,96-48,),_,_,_,_
+2539,96-49,;,_,_,_,_
+2540,96-50,and,_,_,_,_
+2541,96-51,(,_,_,_,_
+2542,96-52,ii,_,_,_,_
+2543,96-53,),_,_,_,_
+2544,96-54,is,_,_,_,_
+2545,96-55,calculated,_,_,_,_
+2546,96-56,based,_,_,_,_
+2547,96-57,on,_,_,_,_
+2548,96-58,the,_,_,_,_
+2549,96-59,employee's,_,_,_,_
+2550,96-60,required,_,_,_,_
+2551,96-61,compensation,_,_,_,_
+2552,96-62,under,_,_,_,_
+2553,96-63,subparagraph,_,_,_,_
+2554,96-64,(,_,_,_,_
+2555,96-65,B,_,_,_,_
+2556,96-66,),_,_,_,_
+2557,96-67,and,_,_,_,_
+2558,96-68,the,_,_,_,_
+2559,96-69,number,_,_,_,_
+2560,96-70,of,_,_,_,_
+2561,96-71,hours,_,_,_,_
+2562,96-72,the,_,_,_,_
+2563,96-73,employee,_,_,_,_
+2564,96-74,would,_,_,_,_
+2565,96-75,otherwise,_,_,_,_
+2566,96-76,be,_,_,_,_
+2567,96-77,normally,_,_,_,_
+2568,96-78,scheduled,_,_,_,_
+2569,96-79,to,_,_,_,_
+2570,96-80,work,_,_,_,_
+2571,96-81,(,_,_,_,_
+2572,96-82,or,_,_,_,_
+2573,96-83,the,_,_,_,_
+2574,96-84,number,_,_,_,_
+2575,96-85,of,_,_,_,_
+2576,96-86,hours,_,_,_,_
+2577,96-87,calculated,_,_,_,_
+2578,96-88,under,_,_,_,_
+2579,96-89,subparagraph,_,_,_,_
+2580,96-90,(,_,_,_,_
+2581,96-91,C,_,_,_,_
+2582,96-92,),_,_,_,_
+2583,96-93,),_,_,_,_
+2584,96-94,",",_,_,_,_
+2585,96-95,except,_,_,_,_
+2586,96-96,that,_,_,_,_
+2587,96-97,in,_,_,_,_
+2588,96-98,no,_,_,_,_
+2589,96-99,event,_,_,_,_
+2590,96-100,shall,_,_,_,_
+2591,96-101,such,_,_,_,_
+2592,96-102,paid,_,_,_,_
+2593,96-103,sick,_,_,_,_
+2594,96-104,time,_,_,_,_
+2595,96-105,exceed,_,_,_,_
+2596,96-106,-,_,_,_,_
+2597,96-107,-,_,_,_,_
+2598,96-108,(,_,_,_,_
+2599,96-109,I,_,_,_,_
+2600,96-110,),_,_,_,_
+2601,96-111,$511,_,_,_,_
+2602,96-112,per,_,_,_,_
+2603,96-113,day,_,_,_,_
+2604,96-114,and,_,_,_,_
+2605,96-115,"$5,110",_,_,_,_
+2606,96-116,in,_,_,_,_
+2607,96-117,the,_,_,_,_
+2608,96-118,aggregate,_,_,_,_
+2609,96-119,for,_,_,_,_
+2610,96-120,a,_,_,_,_
+2611,96-121,use,_,_,_,_
+2612,96-122,described,_,_,_,_
+2613,96-123,in,_,_,_,_
+2614,96-124,paragraph,_,_,_,_
+2615,96-125,(,_,_,_,_
+2616,96-126,1,_,_,_,_
+2617,96-127,),_,_,_,_
+2618,96-128,",",_,_,_,_
+2619,96-129,(,_,_,_,_
+2620,96-130,2,_,_,_,_
+2621,96-131,),_,_,_,_
+2622,96-132,",",_,_,_,_
+2623,96-133,or,_,_,_,_
+2624,96-134,(,_,_,_,_
+2625,96-135,3,_,_,_,_
+2626,96-136,),_,_,_,_
+2627,96-137,of,_,_,_,_
+2628,96-138,section,_,_,_,_
+2629,96-139,5102,_,_,_,_
+2630,96-140,(,_,_,_,_
+2631,96-141,a,_,_,_,_
+2632,96-142,),_,_,_,_
+2633,96-143,;,_,_,_,_
+2634,96-144,and,_,_,_,_
+2635,96-145,(,_,_,_,_
+2636,96-146,II,_,_,_,_
+2637,96-147,),_,_,_,_
+2638,96-148,$200,_,_,_,_
+2639,96-149,per,_,_,_,_
+2640,96-150,day,_,_,_,_
+2641,96-151,and,_,_,_,_
+2642,96-152,"$2,000",_,_,_,_
+2643,96-153,in,_,_,_,_
+2644,96-154,the,_,_,_,_
+2645,96-155,aggregate,_,_,_,_
+2646,96-156,for,_,_,_,_
+2647,96-157,a,_,_,_,_
+2648,96-158,use,_,_,_,_
+2649,96-159,described,_,_,_,_
+2650,96-160,in,_,_,_,_
+2651,96-161,paragraph,_,_,_,_
+2652,96-162,(,_,_,_,_
+2653,96-163,4,_,_,_,_
+2654,96-164,),_,_,_,_
+2655,96-165,",",_,_,_,_
+2656,96-166,(,_,_,_,_
+2657,96-167,5,_,_,_,_
+2658,96-168,),_,_,_,_
+2659,96-169,",",_,_,_,_
+2660,96-170,or,_,_,_,_
+2661,96-171,(,_,_,_,_
+2662,96-172,6,_,_,_,_
+2663,96-173,),_,_,_,_
+2664,96-174,of,_,_,_,_
+2665,96-175,section,_,_,_,_
+2666,96-176,5102,_,_,_,_
+2667,96-177,(,_,_,_,_
+2668,96-178,a,_,_,_,_
+2669,96-179,),_,_,_,_
+2670,96-180,.,_,_,_,_
+2671,97-1,(,_,_,_,_
+2672,97-2,B,_,_,_,_
+2673,97-3,),_,_,_,_
+2674,97-4,REQUIRED,_,_,_,_
+2675,97-5,COMPENSATION,_,_,_,_
+2676,97-6,.,_,_,_,_
+2677,98-1,-,_,_,_,_
+2678,98-2,-,_,_,_,_
+2679,98-3,(,_,_,_,_
+2680,98-4,i,_,_,_,_
+2681,98-5,),_,_,_,_
+2682,98-6,In,_,_,_,_
+2683,98-7,general,_,_,_,_
+2684,98-8,.,_,_,_,_
+2685,99-1,-,_,_,_,_
+2686,99-2,-,_,_,_,_
+2687,99-3,Subject,_,_,_,_
+2688,99-4,to,_,_,_,_
+2689,99-5,subparagraph,_,_,_,_
+2690,99-6,(,_,_,_,_
+2691,99-7,A,_,_,_,_
+2692,99-8,),_,_,_,_
+2693,99-9,(,_,_,_,_
+2694,99-10,ii,_,_,_,_
+2695,99-11,),_,_,_,_
+2696,99-12,",",_,_,_,_
+2697,99-13,the,_,_,_,_
+2698,99-14,employee's,_,_,_,_
+2699,99-15,required,_,_,_,_
+2700,99-16,compensation,_,_,_,_
+2701,99-17,under,_,_,_,_
+2702,99-18,this,_,_,_,_
+2703,99-19,subparagraph,_,_,_,_
+2704,99-20,shall,_,_,_,_
+2705,99-21,be,_,_,_,_
+2706,99-22,not,_,_,_,_
+2707,99-23,less,_,_,_,_
+2708,99-24,than,_,_,_,_
+2709,99-25,the,_,_,_,_
+2710,99-26,greater,_,_,_,_
+2711,99-27,of,_,_,_,_
+2712,99-28,the,_,_,_,_
+2713,99-29,following,_,_,_,_
+2714,99-30,:,_,_,_,_
+2715,99-31,(,_,_,_,_
+2716,99-32,I,_,_,_,_
+2717,99-33,),_,_,_,_
+2718,99-34,The,_,_,_,_
+2719,99-35,employee's,_,_,_,_
+2720,99-36,regular,_,_,_,_
+2721,99-37,rate,_,_,_,_
+2722,99-38,of,_,_,_,_
+2723,99-39,pay,_,_,_,_
+2724,99-40,(,_,_,_,_
+2725,99-41,as,_,_,_,_
+2726,99-42,determined,_,_,_,_
+2727,99-43,under,_,_,_,_
+2728,99-44,section,_,_,_,_
+2729,99-45,7,_,_,_,_
+2730,99-46,(,_,_,_,_
+2731,99-47,e,_,_,_,_
+2732,99-48,),_,_,_,_
+2733,99-49,of,_,_,_,_
+2734,99-50,the,_,_,_,_
+2735,99-51,Fair,_,_,_,_
+2736,99-52,Labor,_,_,_,_
+2737,99-53,Standards,_,_,_,_
+2738,99-54,Act,_,_,_,_
+2739,99-55,of,_,_,_,_
+2740,99-56,1938,_,_,_,_
+2741,99-57,(,_,_,_,_
+2742,99-58,29,_,_,_,_
+2743,99-59,U.S.C,_,_,_,_
+2744,99-60,.,_,_,_,_
+2745,99-61,207,_,_,_,_
+2746,99-62,(,_,_,_,_
+2747,99-63,e,_,_,_,_
+2748,99-64,),_,_,_,_
+2749,99-65,),_,_,_,_
+2750,99-66,.,_,_,_,_
+2751,100-1,(,_,_,_,_
+2752,100-2,II,_,_,_,_
+2753,100-3,),_,_,_,_
+2754,100-4,The,_,_,_,_
+2755,100-5,minimum,_,_,_,_
+2756,100-6,wage,_,_,_,_
+2757,100-7,rate,_,_,_,_
+2758,100-8,in,_,_,_,_
+2759,100-9,effect,_,_,_,_
+2760,100-10,under,_,_,_,_
+2761,100-11,section,_,_,_,_
+2762,100-12,6,_,_,_,_
+2763,100-13,(,_,_,_,_
+2764,100-14,a,_,_,_,_
+2765,100-15,),_,_,_,_
+2766,100-16,(,_,_,_,_
+2767,100-17,1,_,_,_,_
+2768,100-18,),_,_,_,_
+2769,100-19,of,_,_,_,_
+2770,100-20,the,_,_,_,_
+2771,100-21,Fair,_,_,_,_
+2772,100-22,Labor,_,_,_,_
+2773,100-23,Standards,_,_,_,_
+2774,100-24,Act,_,_,_,_
+2775,100-25,of,_,_,_,_
+2776,100-26,1938,_,_,_,_
+2777,100-27,(,_,_,_,_
+2778,100-28,29,_,_,_,_
+2779,100-29,U.S.C,_,_,_,_
+2780,100-30,.,_,_,_,_
+2781,100-31,206,_,_,_,_
+2782,100-32,(,_,_,_,_
+2783,100-33,a,_,_,_,_
+2784,100-34,),_,_,_,_
+2785,100-35,(,_,_,_,_
+2786,100-36,1,_,_,_,_
+2787,100-37,),_,_,_,_
+2788,100-38,),_,_,_,_
+2789,100-39,.,_,_,_,_
+2790,101-1,(,_,_,_,_
+2791,101-2,III,_,_,_,_
+2792,101-3,),_,_,_,_
+2793,101-4,The,_,_,_,_
+2794,101-5,minimum,_,_,_,_
+2795,101-6,wage,_,_,_,_
+2796,101-7,rate,_,_,_,_
+2797,101-8,in,_,_,_,_
+2798,101-9,effect,_,_,_,_
+2799,101-10,for,_,_,_,_
+2800,101-11,such,_,_,_,_
+2801,101-12,employee,_,_,_,_
+2802,101-13,in,_,_,_,_
+2803,101-14,the,_,_,_,_
+2804,101-15,applicable,_,_,_,_
+2805,101-16,State,_,_,_,_
+2806,101-17,or,_,_,_,_
+2807,101-18,locality,_,_,_,_
+2808,101-19,",",_,_,_,_
+2809,101-20,whichever,_,_,_,_
+2810,101-21,is,_,_,_,_
+2811,101-22,greater,_,_,_,_
+2812,101-23,",",_,_,_,_
+2813,101-24,in,_,_,_,_
+2814,101-25,which,_,_,_,_
+2815,101-26,the,_,_,_,_
+2816,101-27,employee,_,_,_,_
+2817,101-28,is,_,_,_,_
+2818,101-29,employed,_,_,_,_
+2819,101-30,.,_,_,_,_
+2820,102-1,(,_,_,_,_
+2821,102-2,ii,_,_,_,_
+2822,102-3,),_,_,_,_
+2823,102-4,SPECIAL,_,_,_,_
+2824,102-5,RULE,_,_,_,_
+2825,102-6,FOR,_,_,_,_
+2826,102-7,CARE,_,_,_,_
+2827,102-8,OF,_,_,_,_
+2828,102-9,FAMILY,_,_,_,_
+2829,102-10,MEMBERS,_,_,_,_
+2830,102-11,.,_,_,_,_
+2831,103-1,-,_,_,_,_
+2832,103-2,-,_,_,_,_
+2833,103-3,Subject,_,_,_,_
+2834,103-4,to,_,_,_,_
+2835,103-5,subparagraph,_,_,_,_
+2836,103-6,(,_,_,_,_
+2837,103-7,A,_,_,_,_
+2838,103-8,),_,_,_,_
+2839,103-9,(,_,_,_,_
+2840,103-10,ii,_,_,_,_
+2841,103-11,),_,_,_,_
+2842,103-12,",",_,_,_,_
+2843,103-13,with,_,_,_,_
+2844,103-14,respect,_,_,_,_
+2845,103-15,to,_,_,_,_
+2846,103-16,any,_,_,_,_
+2847,103-17,paid,_,_,_,_
+2848,103-18,sick,_,_,_,_
+2849,103-19,time,_,_,_,_
+2850,103-20,provided,_,_,_,_
+2851,103-21,for,_,_,_,_
+2852,103-22,any,_,_,_,_
+2853,103-23,use,_,_,_,_
+2854,103-24,described,_,_,_,_
+2855,103-25,in,_,_,_,_
+2856,103-26,paragraph,_,_,_,_
+2857,103-27,(,_,_,_,_
+2858,103-28,4,_,_,_,_
+2859,103-29,),_,_,_,_
+2860,103-30,",",_,_,_,_
+2861,103-31,(,_,_,_,_
+2862,103-32,5,_,_,_,_
+2863,103-33,),_,_,_,_
+2864,103-34,",",_,_,_,_
+2865,103-35,or,_,_,_,_
+2866,103-36,(,_,_,_,_
+2867,103-37,6,_,_,_,_
+2868,103-38,),_,_,_,_
+2869,103-39,of,_,_,_,_
+2870,103-40,section,_,_,_,_
+2871,103-41,5102,_,_,_,_
+2872,103-42,(,_,_,_,_
+2873,103-43,a,_,_,_,_
+2874,103-44,),_,_,_,_
+2875,103-45,",",_,_,_,_
+2876,103-46,the,_,_,_,_
+2877,103-47,employee's,_,_,_,_
+2878,103-48,required,_,_,_,_
+2879,103-49,compensation,_,_,_,_
+2880,103-50,under,_,_,_,_
+2881,103-51,this,_,_,_,_
+2882,103-52,subparagraph,_,_,_,_
+2883,103-53,shall,_,_,_,_
+2884,103-54,be,_,_,_,_
+2885,103-55,two-thirds,_,_,_,_
+2886,103-56,of,_,_,_,_
+2887,103-57,the,_,_,_,_
+2888,103-58,amount,_,_,_,_
+2889,103-59,described,_,_,_,_
+2890,103-60,in,_,_,_,_
+2891,103-61,clause,_,_,_,_
+2892,103-62,(,_,_,_,_
+2893,103-63,B,_,_,_,_
+2894,103-64,),_,_,_,_
+2895,103-65,(,_,_,_,_
+2896,103-66,i,_,_,_,_
+2897,103-67,),_,_,_,_
+2898,103-68,.,_,_,_,_
+2899,104-1,(,_,_,_,_
+2900,104-2,C,_,_,_,_
+2901,104-3,),_,_,_,_
+2902,104-4,VARYING,_,_,_,_
+2903,104-5,SCHEDULE,_,_,_,_
+2904,104-6,HOURS,_,_,_,_
+2905,104-7,CALCULATION,_,_,_,_
+2906,104-8,.,_,_,_,_
+2907,105-1,-,_,_,_,_
+2908,105-2,-,_,_,_,_
+2909,105-3,In,_,_,_,_
+2910,105-4,the,_,_,_,_
+2911,105-5,case,_,_,_,_
+2912,105-6,of,_,_,_,_
+2913,105-7,a,_,_,_,_
+2914,105-8,part-time,_,_,_,_
+2915,105-9,employee,_,_,_,_
+2916,105-10,described,_,_,_,_
+2917,105-11,in,_,_,_,_
+2918,105-12,section,_,_,_,_
+2919,105-13,5102,_,_,_,_
+2920,105-14,(,_,_,_,_
+2921,105-15,b,_,_,_,_
+2922,105-16,),_,_,_,_
+2923,105-17,(,_,_,_,_
+2924,105-18,2,_,_,_,_
+2925,105-19,),_,_,_,_
+2926,105-20,(,_,_,_,_
+2927,105-21,B,_,_,_,_
+2928,105-22,),_,_,_,_
+2929,105-23,whose,_,_,_,_
+2930,105-24,schedule,_,_,_,_
+2931,105-25,varies,_,_,_,_
+2932,105-26,from,_,_,_,_
+2933,105-27,week,_,_,_,_
+2934,105-28,to,_,_,_,_
+2935,105-29,week,_,_,_,_
+2936,105-30,to,_,_,_,_
+2937,105-31,such,_,_,_,_
+2938,105-32,an,_,_,_,_
+2939,105-33,extent,_,_,_,_
+2940,105-34,that,_,_,_,_
+2941,105-35,an,_,_,_,_
+2942,105-36,employer,_,_,_,_
+2943,105-37,is,_,_,_,_
+2944,105-38,unable,_,_,_,_
+2945,105-39,to,_,_,_,_
+2946,105-40,determine,_,_,_,_
+2947,105-41,with,_,_,_,_
+2948,105-42,certainty,_,_,_,_
+2949,105-43,the,_,_,_,_
+2950,105-44,number,_,_,_,_
+2951,105-45,of,_,_,_,_
+2952,105-46,hours,_,_,_,_
+2953,105-47,the,_,_,_,_
+2954,105-48,employee,_,_,_,_
+2955,105-49,would,_,_,_,_
+2956,105-50,have,_,_,_,_
+2957,105-51,worked,_,_,_,_
+2958,105-52,if,_,_,_,_
+2959,105-53,such,_,_,_,_
+2960,105-54,employee,_,_,_,_
+2961,105-55,had,_,_,_,_
+2962,105-56,not,_,_,_,_
+2963,105-57,taken,_,_,_,_
+2964,105-58,paid,_,_,_,_
+2965,105-59,sick,_,_,_,_
+2966,105-60,time,_,_,_,_
+2967,105-61,under,_,_,_,_
+2968,105-62,section,_,_,_,_
+2969,105-63,2,_,_,_,_
+2970,105-64,(,_,_,_,_
+2971,105-65,a,_,_,_,_
+2972,105-66,),_,_,_,_
+2973,105-67,",",_,_,_,_
+2974,105-68,the,_,_,_,_
+2975,105-69,employer,_,_,_,_
+2976,105-70,shall,_,_,_,_
+2977,105-71,use,_,_,_,_
+2978,105-72,the,_,_,_,_
+2979,105-73,following,_,_,_,_
+2980,105-74,in,_,_,_,_
+2981,105-75,place,_,_,_,_
+2982,105-76,of,_,_,_,_
+2983,105-77,such,_,_,_,_
+2984,105-78,number,_,_,_,_
+2985,105-79,:,_,_,_,_
+2986,105-80,(,_,_,_,_
+2987,105-81,i,_,_,_,_
+2988,105-82,),_,_,_,_
+2989,105-83,Subject,_,_,_,_
+2990,105-84,to,_,_,_,_
+2991,105-85,clause,_,_,_,_
+2992,105-86,(,_,_,_,_
+2993,105-87,ii,_,_,_,_
+2994,105-88,),_,_,_,_
+2995,105-89,",",_,_,_,_
+2996,105-90,a,_,_,_,_
+2997,105-91,number,_,_,_,_
+2998,105-92,equal,_,_,_,_
+2999,105-93,to,_,_,_,_
+3000,105-94,the,_,_,_,_
+3001,105-95,average,_,_,_,_
+3002,105-96,number,_,_,_,_
+3003,105-97,of,_,_,_,_
+3004,105-98,hours,_,_,_,_
+3005,105-99,that,_,_,_,_
+3006,105-100,the,_,_,_,_
+3007,105-101,employee,_,_,_,_
+3008,105-102,was,_,_,_,_
+3009,105-103,scheduled,_,_,_,_
+3010,105-104,per,_,_,_,_
+3011,105-105,day,_,_,_,_
+3012,105-106,over,_,_,_,_
+3013,105-107,the,_,_,_,_
+3014,105-108,6,_,_,_,_
+3015,105-109,-,_,_,_,_
+3016,105-110,month,_,_,_,_
+3017,105-111,period,_,_,_,_
+3018,105-112,ending,_,_,_,_
+3019,105-113,on,_,_,_,_
+3020,105-114,the,_,_,_,_
+3021,105-115,date,_,_,_,_
+3022,105-116,on,_,_,_,_
+3023,105-117,which,_,_,_,_
+3024,105-118,the,_,_,_,_
+3025,105-119,employee,_,_,_,_
+3026,105-120,takes,_,_,_,_
+3027,105-121,the,_,_,_,_
+3028,105-122,paid,_,_,_,_
+3029,105-123,sick,_,_,_,_
+3030,105-124,time,_,_,_,_
+3031,105-125,",",_,_,_,_
+3032,105-126,including,_,_,_,_
+3033,105-127,hours,_,_,_,_
+3034,105-128,for,_,_,_,_
+3035,105-129,which,_,_,_,_
+3036,105-130,the,_,_,_,_
+3037,105-131,employee,_,_,_,_
+3038,105-132,took,_,_,_,_
+3039,105-133,leave,_,_,_,_
+3040,105-134,of,_,_,_,_
+3041,105-135,any,_,_,_,_
+3042,105-136,type,_,_,_,_
+3043,105-137,.,_,_,_,_
+3044,106-1,(,_,_,_,_
+3045,106-2,ii,_,_,_,_
+3046,106-3,),_,_,_,_
+3047,106-4,If,_,_,_,_
+3048,106-5,the,_,_,_,_
+3049,106-6,employee,_,_,_,_
+3050,106-7,did,_,_,_,_
+3051,106-8,not,_,_,_,_
+3052,106-9,work,_,_,_,_
+3053,106-10,over,_,_,_,_
+3054,106-11,such,_,_,_,_
+3055,106-12,period,_,_,_,_
+3056,106-13,",",_,_,_,_
+3057,106-14,the,_,_,_,_
+3058,106-15,reasonable,_,_,_,_
+3059,106-16,expectation,_,_,_,_
+3060,106-17,of,_,_,_,_
+3061,106-18,the,_,_,_,_
+3062,106-19,employee,_,_,_,_
+3063,106-20,at,_,_,_,_
+3064,106-21,the,_,_,_,_
+3065,106-22,time,_,_,_,_
+3066,106-23,of,_,_,_,_
+3067,106-24,hiring,_,_,_,_
+3068,106-25,of,_,_,_,_
+3069,106-26,the,_,_,_,_
+3070,106-27,average,_,_,_,_
+3071,106-28,number,_,_,_,_
+3072,106-29,of,_,_,_,_
+3073,106-30,hours,_,_,_,_
+3074,106-31,per,_,_,_,_
+3075,106-32,day,_,_,_,_
+3076,106-33,that,_,_,_,_
+3077,106-34,the,_,_,_,_
+3078,106-35,employee,_,_,_,_
+3079,106-36,would,_,_,_,_
+3080,106-37,normally,_,_,_,_
+3081,106-38,be,_,_,_,_
+3082,106-39,scheduled,_,_,_,_
+3083,106-40,to,_,_,_,_
+3084,106-41,work,_,_,_,_
+3085,106-42,.,_,_,_,_
+3086,107-1,(,_,_,_,_
+3087,107-2,D,_,_,_,_
+3088,107-3,),_,_,_,_
+3089,107-4,GUIDELINES,_,_,_,_
+3090,107-5,.,_,_,_,_
+3091,108-1,-,_,_,_,_
+3092,108-2,-,_,_,_,_
+3093,108-3,Not,_,_,_,_
+3094,108-4,later,_,_,_,_
+3095,108-5,than,_,_,_,_
+3096,108-6,15,_,_,_,_
+3097,108-7,days,_,_,_,_
+3098,108-8,after,_,_,_,_
+3099,108-9,the,_,_,_,_
+3100,108-10,date,_,_,_,_
+3101,108-11,of,_,_,_,_
+3102,108-12,the,_,_,_,_
+3103,108-13,enactment,_,_,_,_
+3104,108-14,of,_,_,_,_
+3105,108-15,this,_,_,_,_
+3106,108-16,Act,_,_,_,_
+3107,108-17,",",_,_,_,_
+3108,108-18,the,_,_,_,_
+3109,108-19,Secretary,_,_,_,_
+3110,108-20,of,_,_,_,_
+3111,108-21,Labor,_,_,_,_
+3112,108-22,shall,_,_,_,_
+3113,108-23,issue,_,_,_,_
+3114,108-24,guidelines,_,_,_,_
+3115,108-25,to,_,_,_,_
+3116,108-26,assist,_,_,_,_
+3117,108-27,employers,_,_,_,_
+3118,108-28,in,_,_,_,_
+3119,108-29,calculating,_,_,_,_
+3120,108-30,the,_,_,_,_
+3121,108-31,amount,_,_,_,_
+3122,108-32,of,_,_,_,_
+3123,108-33,paid,_,_,_,_
+3124,108-34,sick,_,_,_,_
+3125,108-35,time,_,_,_,_
+3126,108-36,under,_,_,_,_
+3127,108-37,subparagraph,_,_,_,_
+3128,108-38,(,_,_,_,_
+3129,108-39,A,_,_,_,_
+3130,108-40,),_,_,_,_
+3131,108-41,.,_,_,_,_
+3132,109-1,(,_,_,_,_
+3133,109-2,E,_,_,_,_
+3134,109-3,),_,_,_,_
+3135,109-4,Reasonable,_,_,_,_
+3136,109-5,notice,_,_,_,_
+3137,109-6,.,_,_,_,_
+3138,110-1,-,_,_,_,_
+3139,110-2,-,_,_,_,_
+3140,110-3,After,_,_,_,_
+3141,110-4,the,_,_,_,_
+3142,110-5,first,_,_,_,_
+3143,110-6,workday,_,_,_,_
+3144,110-7,(,_,_,_,_
+3145,110-8,or,_,_,_,_
+3146,110-9,portion,_,_,_,_
+3147,110-10,thereof,_,_,_,_
+3148,110-11,),_,_,_,_
+3149,110-12,an,_,_,_,_
+3150,110-13,employee,_,_,_,_
+3151,110-14,receives,_,_,_,_
+3152,110-15,paid,_,_,_,_
+3153,110-16,sick,_,_,_,_
+3154,110-17,time,_,_,_,_
+3155,110-18,under,_,_,_,_
+3156,110-19,this,_,_,_,_
+3157,110-20,Act,_,_,_,_
+3158,110-21,",",_,_,_,_
+3159,110-22,an,_,_,_,_
+3160,110-23,employer,_,_,_,_
+3161,110-24,may,_,_,_,_
+3162,110-25,require,_,_,_,_
+3163,110-26,the,_,_,_,_
+3164,110-27,employee,_,_,_,_
+3165,110-28,to,_,_,_,_
+3166,110-29,follow,_,_,_,_
+3167,110-30,reasonable,_,_,_,_
+3168,110-31,notice,_,_,_,_
+3169,110-32,procedures,_,_,_,_
+3170,110-33,in,_,_,_,_
+3171,110-34,order,_,_,_,_
+3172,110-35,to,_,_,_,_
+3173,110-36,continue,_,_,_,_
+3174,110-37,receiving,_,_,_,_
+3175,110-38,such,_,_,_,_
+3176,110-39,paid,_,_,_,_
+3177,110-40,sick,_,_,_,_
+3178,110-41,time,_,_,_,_
+3179,110-42,.,_,_,_,_
+3180,111-1,SEC,_,_,_,_
+3181,111-2,.,_,_,_,_
+3182,111-3,5111,_,_,_,_
+3183,111-4,.,_,_,_,_
+3184,112-1,REGULATORY,_,_,_,_
+3185,112-2,AUTHORITIES,_,_,_,_
+3186,112-3,.,_,_,_,_
+3187,113-1,The,_,_,_,_
+3188,113-2,Secretary,_,_,_,_
+3189,113-3,of,_,_,_,_
+3190,113-4,Labor,_,_,_,_
+3191,113-5,shall,_,_,_,_
+3192,113-6,have,_,_,_,_
+3193,113-7,the,_,_,_,_
+3194,113-8,authority,_,_,_,_
+3195,113-9,to,_,_,_,_
+3196,113-10,issue,_,_,_,_
+3197,113-11,regulations,_,_,_,_
+3198,113-12,for,_,_,_,_
+3199,113-13,good,_,_,_,_
+3200,113-14,cause,_,_,_,_
+3201,113-15,under,_,_,_,_
+3202,113-16,sections,_,_,_,_
+3203,113-17,553,_,_,_,_
+3204,113-18,(,_,_,_,_
+3205,113-19,b,_,_,_,_
+3206,113-20,),_,_,_,_
+3207,113-21,(,_,_,_,_
+3208,113-22,B,_,_,_,_
+3209,113-23,),_,_,_,_
+3210,113-24,and,_,_,_,_
+3211,113-25,553,_,_,_,_
+3212,113-26,(,_,_,_,_
+3213,113-27,d,_,_,_,_
+3214,113-28,),_,_,_,_
+3215,113-29,(,_,_,_,_
+3216,113-30,A,_,_,_,_
+3217,113-31,),_,_,_,_
+3218,113-32,of,_,_,_,_
+3219,113-33,title,_,_,_,_
+3220,113-34,5,_,_,_,_
+3221,113-35,",",_,_,_,_
+3222,113-36,United,_,_,_,_
+3223,113-37,States,_,_,_,_
+3224,113-38,Code,_,_,_,_
+3225,113-39,-,_,_,_,_
+3226,113-40,-,_,_,_,_
+3227,113-41,(,_,_,_,_
+3228,113-42,1,_,_,_,_
+3229,113-43,),_,_,_,_
+3230,113-44,to,_,_,_,_
+3231,113-45,exclude,_,_,_,_
+3232,113-46,certain,_,_,_,_
+3233,113-47,health,_,_,_,_
+3234,113-48,care,_,_,_,_
+3235,113-49,providers,_,_,_,_
+3236,113-50,and,_,_,_,_
+3237,113-51,emergency,_,_,_,_
+3238,113-52,responders,_,_,_,_
+3239,113-53,from,_,_,_,_
+3240,113-54,the,_,_,_,_
+3241,113-55,definition,_,_,_,_
+3242,113-56,of,_,_,_,_
+3243,113-57,employee,_,_,_,_
+3244,113-58,under,_,_,_,_
+3245,113-59,section,_,_,_,_
+3246,113-60,5110,_,_,_,_
+3247,113-61,(,_,_,_,_
+3248,113-62,1,_,_,_,_
+3249,113-63,),_,_,_,_
+3250,113-64,including,_,_,_,_
+3251,113-65,by,_,_,_,_
+3252,113-66,allowing,_,_,_,_
+3253,113-67,the,_,_,_,_
+3254,113-68,employer,_,_,_,_
+3255,113-69,of,_,_,_,_
+3256,113-70,such,_,_,_,_
+3257,113-71,health,_,_,_,_
+3258,113-72,care,_,_,_,_
+3259,113-73,providers,_,_,_,_
+3260,113-74,and,_,_,_,_
+3261,113-75,emergency,_,_,_,_
+3262,113-76,responders,_,_,_,_
+3263,113-77,to,_,_,_,_
+3264,113-78,opt,_,_,_,_
+3265,113-79,out,_,_,_,_
+3266,113-80,;,_,_,_,_
+3267,113-81,(,_,_,_,_
+3268,113-82,2,_,_,_,_
+3269,113-83,),_,_,_,_
+3270,113-84,to,_,_,_,_
+3271,113-85,exempt,_,_,_,_
+3272,113-86,small,_,_,_,_
+3273,113-87,businesses,_,_,_,_
+3274,113-88,with,_,_,_,_
+3275,113-89,fewer,_,_,_,_
+3276,113-90,than,_,_,_,_
+3277,113-91,50,_,_,_,_
+3278,113-92,employees,_,_,_,_
+3279,113-93,from,_,_,_,_
+3280,113-94,the,_,_,_,_
+3281,113-95,requirements,_,_,_,_
+3282,113-96,of,_,_,_,_
+3283,113-97,section,_,_,_,_
+3284,113-98,5102,_,_,_,_
+3285,113-99,(,_,_,_,_
+3286,113-100,a,_,_,_,_
+3287,113-101,),_,_,_,_
+3288,113-102,(,_,_,_,_
+3289,113-103,5,_,_,_,_
+3290,113-104,),_,_,_,_
+3291,113-105,when,_,_,_,_
+3292,113-106,the,_,_,_,_
+3293,113-107,imposition,_,_,_,_
+3294,113-108,of,_,_,_,_
+3295,113-109,such,_,_,_,_
+3296,113-110,requirements,_,_,_,_
+3297,113-111,would,_,_,_,_
+3298,113-112,jeopardize,_,_,_,_
+3299,113-113,the,_,_,_,_
+3300,113-114,viability,_,_,_,_
+3301,113-115,of,_,_,_,_
+3302,113-116,the,_,_,_,_
+3303,113-117,business,_,_,_,_
+3304,113-118,as,_,_,_,_
+3305,113-119,a,_,_,_,_
+3306,113-120,going,_,_,_,_
+3307,113-121,concern,_,_,_,_
+3308,113-122,;,_,_,_,_
+3309,113-123,and,_,_,_,_
+3310,113-124,(,_,_,_,_
+3311,113-125,3,_,_,_,_
+3312,113-126,),_,_,_,_
+3313,113-127,as,_,_,_,_
+3314,113-128,necessary,_,_,_,_
+3315,113-129,",",_,_,_,_
+3316,113-130,to,_,_,_,_
+3317,113-131,carry,_,_,_,_
+3318,113-132,out,_,_,_,_
+3319,113-133,the,_,_,_,_
+3320,113-134,purposes,_,_,_,_
+3321,113-135,of,_,_,_,_
+3322,113-136,this,_,_,_,_
+3323,113-137,Act,_,_,_,_
+3324,113-138,",",_,_,_,_
+3325,113-139,including,_,_,_,_
+3326,113-140,to,_,_,_,_
+3327,113-141,ensure,_,_,_,_
+3328,113-142,consistency,_,_,_,_
+3329,113-143,between,_,_,_,_
+3330,113-144,this,_,_,_,_
+3331,113-145,Act,_,_,_,_
+3332,113-146,and,_,_,_,_
+3333,113-147,Division,_,_,_,_
+3334,113-148,C,_,_,_,_
+3335,113-149,and,_,_,_,_
+3336,113-150,Division,_,_,_,_
+3337,113-151,G,_,_,_,_
+3338,113-152,of,_,_,_,_
+3339,113-153,the,_,_,_,_
+3340,113-154,Families,_,_,_,_
+3341,113-155,First,_,_,_,_
+3342,113-156,Coronavirus,_,_,_,_
+3343,113-157,Response,_,_,_,_
+3344,113-158,Act,_,_,_,_
+3345,113-159,.,_,_,_,_

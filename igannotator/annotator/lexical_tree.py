@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 class LexcialTreeNode:
     def __init__(self, row):
         self.id = row[0]
@@ -27,6 +26,11 @@ class LexcialTreeNode:
         descendants = [self] + [
             y for x in self.children for y in x.get_all_descendants()
         ]
+        descendants.sort(key=lambda x: x.id)
+        return descendants
+
+    def get_direct_descendants(self):
+        descendants = self.children
         descendants.sort(key=lambda x: x.id)
         return descendants
 

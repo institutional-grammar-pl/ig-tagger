@@ -1,9 +1,7 @@
 from collections import defaultdict
 from typing import List, Tuple, Dict
-
-from igannotator.annotator.lexical_tree import LexcialTreeNode
 from igannotator.rulesexecutor.rules import IGTag
-
+from igannotator.annotator.lexical_tree import LexcialTreeNode
 
 def get_sentence_and_tags(
     tree: LexcialTreeNode, tags: List[IGTag]

@@ -1,15 +1,14 @@
 from abc import ABC, abstractmethod
 from typing import List, Tuple, Optional
 from dataclasses import dataclass
-
-from igannotator.annotator.lexical_tree import LexcialTreeNode
 from igannotator.rulesexecutor.ig_element import IGElement
+from igannotator.annotator.lexical_tree import LexcialTreeNode
 
 @dataclass
 class IGTag:
     words: List[Tuple[str, str]]
     tag_name: IGElement
-
+    tag_id: int
 
 class Rule(ABC):
     @abstractmethod

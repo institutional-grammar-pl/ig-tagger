@@ -24,10 +24,19 @@ def get_sentence_and_tags(
         "IGElement.ATTRIBUTE_PROPERTY": "(A, prop) Attribute_Property",
         "IGElement.OBJECT": "Object",
         "IGElement.ACTOR": "(A, prop) Attribute_Property",
-        "IGElement.OBJECT_DIRECT": "(Bdir, prop) Object_Direct_Property",
+        "IGElement.OBJECT_DIRECT": "(Bdir) Object_Direct",
+        "IGElement.OBJECT_DIRECT_PROPERTY": "(Bdir, prop) Object_Direct_Property",
         "IGElement.EXEC_CONSTRAINT": "(Cex) Execution Constraint",
-        "IGElement.SEPARATOR": "Separator",
+        "IGElement.SEPARATOR": "(S) Separator",
         "IGElement.DEONTIC": "(D) Deontic",
+        "IGElement.ACTIVATION_CONDITION": "(Cac) Activation Condition",
+        "IGElement.CONTEXT": "(C) Context",
+        "IGElement.CONSTITUTED_ENTITY": "Entity",
+        "IGElement.CONSTITUTED_FUNCTION": "Function",
+        "IGElement.CONSTITUTING_PROPERTIES": "Properties",
+        "IGElement.CONSTITUTED_DEONTIC": "Deontic",
+        "IGElement.CONSTITUTED_CONTEXT": "Context",
+        "IGElement.CONSTITUTED_SEPARATOR": "Separator"
     }
 
     tags_tuples = list()
@@ -41,11 +50,11 @@ def get_sentence_and_tags(
         stop = id_to_position[x.id] + len(str(x)) 
         if tag is None:
             tags_tuples.append(
-             (str(x), x.id, start, stop, '-')
+             (str(x), x.id, start, stop, '-', '')
              )
         else:
             tags_tuples.append(
-             (str(x), x.id, start, stop, tag_names[str(tag.tag_name)])
+             (str(x), x.id, start, stop, tag_names[str(tag.tag_name)], tag.tag_id)
             )
     return (sentence, tags_tuples)
 
@@ -70,19 +79,21 @@ def write_tsv_representation(
         for index, (sentence, tags) in enumerate(sentences_with_tags):
         
             output.write('#Text='+sentence+'\n')
-
-            for index_tag, (tag_text, tag_id, start, stop, tag_name) in enumerate(tags):
-
+            for index_tag, (tag_text, tag_id, start, stop, tag_name, component_id) in enumerate(tags):
+                if component_id in [None, '']:
+                    component_id = ''
+                else:
+                    component_id = '[' + str(component_id) + ']'
                 string = str(index + 1) + "-" + str(tag_id) + "\t"
                 span = str(offset+start)+"-"+str(offset + stop)
                 string = string + span + "\t"
                 string = string + tag_text + "\t"
-                string += "*\t*\t*\t"
+                string += "*" + component_id + "\t*" + component_id + "\t*" + component_id + "\t"
                 if tag_name == 'None':
                     string += "_\t"
                 else:
-                    string = string + tag_name + "\t"
-                string += "false\t*\tfalse\tfalse\t*\t"
+                    string = string + tag_name + str(component_id) + "\t"
+                string += "false" + component_id + "\t*" + component_id + "\tfalse" + component_id + "\tfalse" + component_id + "\t*" + component_id + "\t"
                 output.write(string + '\n')
             offset += len(sentence) + 2
             if not index == len(sentences_with_tags) - 1: output.write('\n')
