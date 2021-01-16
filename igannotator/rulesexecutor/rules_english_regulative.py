@@ -1,246 +1,190 @@
-from igannotator.rulesexecutor.rules import *
+from igannotator.rulesexecutor.rules import Rule, IGTag
+from typing import List
+from igannotator.rulesexecutor.ig_element import IGElement
+from igannotator.annotator.lexical_tree import LexicalTreeNode
+
 
 class Aim(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
+    def apply(self, tree: LexicalTreeNode, annotations: List[IGTag], component_id, level_id):
         root = [n for n in tree.get_all_descendants() if n.relation == "root"]
-
         if len(root) == 1:
             annotations.append(
-                IGTag(words=[(root[0].id, root[0].value)], tag_name=IGElement.AIM, tag_id=None)
+                IGTag(word_id=root[0].id, word=root[0].value, tag_name=IGElement.AIM, tag_id=None, level_id=level_id, layer='reg')
             )
+            for c in root[0].children:
+                if (c.relation in ["aux:pass", "cop"]) or (c.relation == "aux" and c.lemm in ["be", "have", "do"]) or (c.relation == "advmod" and c.lemm == "not"):
+                    annotations.append(
+                        IGTag(word_id=c.id, word=c.value, tag_name=IGElement.AIM, tag_id=None, level_id=level_id, layer='reg')
+                    )
+        else:
+            return -1
         return component_id
 
-class AuxilaryVerbs(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
+
+class Deontic(Rule):
+    def apply(self, tree: LexicalTreeNode, annotations: List[IGTag], component_id, level_id):
         root = [n for n in tree.get_all_descendants() if n.relation == "root"]
-        
         if len(root) == 1:
             aux = [n for n in root[0].children if n.relation == "aux" and n.lemm in ["must", "should", "may", "might", "can", "could", "need", "ought", "shall"]]
             if len(aux) == 1:
                 annotations.append(
-                    IGTag(words=[(aux[0].id, aux[0].value)], tag_name=IGElement.DEONTIC, tag_id = None)
-                )
-        return component_id
-
-class AimExtension(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
-        aim_node = find_node_with_tag(annotations, tree, IGElement.AIM)
-
-        if aim_node is None:
-            return
-
-        for c in aim_node.children:
-            if (c.relation in ["aux:pass", "cop"]) or (c.relation == "aux" and c.lemm in ["be", "have", "do"]) or (c.relation == "advmod" and c.lemm == "not"):
-                annotations.append(
-                    IGTag(words=[(c.id, c.value)], tag_name=IGElement.AIM, tag_id = None)
+                    IGTag(word_id=aux[0].id, word=aux[0].value, tag_name=IGElement.DEONTIC, tag_id=None, level_id=level_id, layer='reg')
                 )
         return component_id
 
 
 class Attribute(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
-        found_nsubj = False
-
+    def apply(self, tree: LexicalTreeNode, annotations: List[IGTag], component_id, level_id):
+        attribute_found = 0
         for c in tree.children:
-            words = {'ATTRIBUTE': [], 'ATTRIBUTE_PROPERTY': []}
+            attribute, attribute_prop = 0, 0
             if c.relation in ["nsubj", "nsubj:pass"]:
                 for cc in c.get_all_descendants():
-                    tag_name = None
                     if cc == c or (cc.relation == "det" and cc.parent == c.id):
-                        words['ATTRIBUTE'].append((cc.id, cc.value))
+                        attribute = 1
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.ATTRIBUTE, tag_id=component_id, level_id=level_id, layer='reg')
+                        )
                     else:
-                        words['ATTRIBUTE_PROPERTY'].append((cc.id, cc.value))
+                        attribute_prop = 1
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.ATTRIBUTE_PROPERTY, tag_id=component_id + 1, level_id=level_id, layer='reg')
+                        )
+                component_id += attribute + attribute_prop
+                attribute_found = 1
 
-                if words['ATTRIBUTE']:
-                    annotations.append(
-                        IGTag(
-                            words=words['ATTRIBUTE'],
-                            tag_name=IGElement.ATTRIBUTE,
-                            tag_id = component_id 
+            elif c.relation == "conj":
+                for cc in c.get_all_descendants():
+                    if cc.relation != "cc":
+                        annotations.append(
+                            IGTag(
+                                word_id=cc.id, word=cc.value,
+                                tag_name=IGElement.ATTRIBUTE_PROPERTY, tag_id=component_id,
+                                level_id=level_id, layer='reg'
+                            )
                         )
-                    )
-                if words['ATTRIBUTE_PROPERTY']:
-                    annotations.append(
-                        IGTag(
-                            words=words['ATTRIBUTE_PROPERTY'],
-                            tag_name=IGElement.ATTRIBUTE_PROPERTY,
-                            tag_id = component_id + 1
-                        )
-                    )
-                component_id += 2            
+                component_id += 1
+                attribute_found = 1
+
+        if attribute_found == 0:
+            return -1
+
         return component_id
 
 
-class Objects(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
-        root = [n for n in tree.get_all_descendants() if n.relation == "root"]
+class Object_Context(Rule):
+    def apply(self, tree: LexicalTreeNode, annotations: List[IGTag], component_id, level_id):
 
-        obj_found = False
         for c in tree.children:
-            if c.relation == "obj" :
-                words = {'OBJECT_DIRECT': [], 'OBJECT_DIRECT_PROPERTY': []}
-                for cc in c.get_all_descendants():
-                    tag_name = None
-                    if cc == c or (cc.relation in ["det", "amod"] and cc.parent == cc.id): 
-                        obj_found = True
-                        words['OBJECT_DIRECT'].append((cc.id, cc.value)) 
+
+            object_direct, object_direct_prop = 0, 0
+            if c.relation == "obj":
+                print("obj", c)
+                annotations.append(
+                    IGTag(
+                        word_id=c.id, word=c.value,
+                        tag_name=IGElement.OBJECT, tag_id=component_id, level_id=level_id, layer='reg'
+                    )
+                )
+
+                for cc in c.children:
+
+                    if cc.relation == "advcl" and cc.parent == c.id:
+                        for ccc in cc.get_all_descendants():
+                            annotations.append(
+                                IGTag(
+                                    word_id=ccc.id, word=ccc.value,
+                                    tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, layer='reg'
+                                )
+                            )
+                        component_id += 1
+
+                    elif cc.relation in ["det", "amod", "case", "compound"]:
+                        object_direct = 1
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.OBJECT, tag_id=component_id, level_id=level_id, layer='reg')
+                        )
+                        for ccc in cc.get_all_descendants():
+                            annotations.append(
+                                IGTag(word_id=ccc.id, word=ccc.value, tag_name=IGElement.OBJECT_PROPERTY, tag_id=component_id, level_id=level_id, layer='reg')
+                            )
+
+                    elif cc.relation in ["nmod", "nmod:poss"]:
+                        object_direct = 1
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.OBJECT, tag_id=component_id, level_id=level_id, layer='reg')
+                        )
+                        for ccc in cc.get_all_descendants():
+                            if (ccc.relation in ["case", "amod"] and ccc.parent == cc.id):
+                                print("obj nmod", ccc.relation, ccc.value)
+                                annotations.append(
+                                    IGTag(word_id=ccc.id, word=ccc.value, tag_name=IGElement.OBJECT, tag_id=component_id, level_id=level_id, layer='reg')
+                                )
+                            else:
+                                annotations.append(
+                                    IGTag(word_id=ccc.id, word=ccc.value, tag_name=IGElement.OBJECT_PROPERTY, tag_id=component_id, level_id=level_id, layer='reg')
+                                )
+
                     else:
-                        words['OBJECT_DIRECT_PROPERTY'].append((cc.id, cc.value)) 
-                
-                if words['OBJECT_DIRECT']:
+                        for ccc in cc.get_all_descendants():
+                            annotations.append(
+                                    IGTag(
+                                        word_id=ccc.id, word=ccc.value, tag_name=IGElement.OBJECT_PROPERTY,
+                                        tag_id=component_id + 1, level_id=level_id, layer='reg'
+                                    )
+                                )
+                component_id += object_direct + object_direct_prop
+
+            elif c.relation in ["advcl", "obl"] or (c.relation == "advmod" and c.lemm != "not"):
+                for cc in c.get_all_descendants():
                     annotations.append(
                         IGTag(
-                            words=words['OBJECT_DIRECT'],
-                            tag_name=IGElement.OBJECT_DIRECT,
-                            tag_id = component_id 
-                        )
+                            word_id=cc.id, word=cc.value,
+                            tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, layer='reg')
                     )
-                if words['OBJECT_DIRECT_PROPERTY']:
-                    annotations.append(
-                        IGTag(
-                            words=words['OBJECT_DIRECT_PROPERTY'],
-                            tag_name=IGElement.OBJECT_DIRECT_PROPERTY,
-                            tag_id = component_id + 1
+                component_id += 1
+            elif c.relation == "ccomp":
+                that = [cc for cc in c.children if cc.value == 'that' and cc.relation == 'mark']
+                if len(that) != 0:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                            IGTag(
+                                word_id=cc.id, word=cc.value,
+                                tag_name=IGElement.OBJECT, tag_id=component_id, level_id=level_id, layer='reg')
                         )
-                    )
-                component_id += 2   
+                else:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                            IGTag(
+                                word_id=cc.id, word=cc.value,
+                                tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, layer='reg')
+                        )
 
             elif c.relation == "xcomp":
                 for cc in c.children:
                     if cc.relation == "obj":
                         annotations.append(
                             IGTag(
-                                words=[(cc.id, cc.value)],
-                                tag_name=IGElement.OBJECT_DIRECT, tag_id = component_id
+                                word_id=cc.id, word=cc.value,
+                                tag_name=IGElement.OBJECT, tag_id=component_id+1, level_id=level_id, layer='reg'
                             )
                         )
-                        annotations.append(
-                            IGTag(
-                                words=[(ccc.id, ccc.value) for ccc in cc.get_all_descendants() if ccc != cc],
-                                tag_name=IGElement.OBJECT_DIRECT_PROPERTY, tag_id = component_id 
-                            )
-                        )
-                    component_id += 1
-
-            elif c.relation == "conj":
-                for cc in c.get_all_descendants():
-                    if cc.relation != "cc":
-                        IGTag(
-                        words=[(cc.id, cc.value)],
-                        tag_name=IGElement.OBJECT_DIRECT_PROPERTY, tag_id = component_id
-                        )
-                component_id +=1
-
-            elif c.relation == "ccomp":
-                annotations.append(
-                    IGTag(
-                        words=[(cc.id, cc.value) for cc in c.get_all_descendants()],
-                        tag_name=IGElement.OBJECT_DIRECT, tag_id = component_id
-                    )
-                )
-                component_id += 1
-
-            # elif c.relation == "obl":    
-            #     for cc in c.get_all_descendants():
-            #         tag_name = None
-            #         if cc == c and not obj_found:  
-            #             tag_name = IGElement.OBJECT_DIRECT
-            #         else:
-            #             tag_name = IGElement.OBJECT_DIRECT_PROPERTY
-            #         if tag_name:
-            #             annotations.append(
-            #                 IGTag(
-            #                     words=[(cc.id, cc.value)],
-            #                     tag_name=tag_name,
-            #                 )
-            #             )
-        return component_id
-
-
-class Context(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
-
-        for c in tree.children:
-            if c.relation == "obj" :
-                for cc in c.get_all_descendants():
-                    if cc.relation == "advcl":
-                        annotations.append(
-                            IGTag(
-                                words=[(ccc.id, ccc.value) for ccc in cc.get_all_descendants()],
-                                tag_name=IGElement.CONTEXT,tag_id = component_id
-                            )
-                        )
-                    component_id += 1
-                    
-            if c.relation == "advcl":
-                for cc in c.get_all_descendants():
-                    annotations.append(
-                        IGTag(
-                            words=[(cc.id, cc.value) for cc in c.get_all_descendants()],
-                            tag_name=IGElement.CONTEXT, tag_id = component_id                        )
-                    )
-                    component_id += 1
-
-            elif c.relation == "obl":
-                annotations.append(
-                    IGTag(
-                        words=[(cc.id, cc.value) for cc in c.get_all_descendants()],
-                        tag_name=IGElement.CONTEXT, tag_id = component_id 
-                    )
-                )
-                component_id += 1
-
-            elif c.relation == "advmod" and c.lemm != "not":
-                annotations.append(
-                    IGTag(
-                        words=[(cc.id, cc.value) for cc in c.get_all_descendants()],
-                        tag_name=IGElement.CONTEXT, tag_id = component_id                     )
-                )
-                component_id += 1
-
-            elif c.relation == "xcomp":
-                for cc in c.children:
-                    if cc.relation in ["obl", "advmod"]:   
-                        annotations.append(
-                            IGTag(
-                                words=[(ccc.id, ccc.value) for ccc in cc.get_all_descendants()],
-                                tag_name=IGElement.CONTEXT, tag_id = component_id
-                            )
-                        )
-                    else:
-                       annotations.append(
-                            IGTag(
-                                words=[(ccc.id, ccc.value) for ccc in cc.get_all_descendants()],
-                                tag_name=IGElement.CONTEXT, tag_id = component_id
-                            )
-                        ) 
-                    component_id += 1
-
-
-            elif c.relation == "conj":
-                for cc in c.children: 
-                    if cc.relation == "xcomp":
-                        for ccc in cc.children:
-                            if ccc.relation in ["obl", "advmod"]:   
+                        for ccc in cc.get_all_descendants():
+                            if ccc != cc:
                                 annotations.append(
                                     IGTag(
-                                        words=[(cccc.id, cccc.value) for cccc in ccc.get_all_descendants()],
-                                        tag_name=IGElement.CONTEXT, tag_id = component_id
+                                        word_id=ccc.id, word=ccc.value,
+                                        tag_name=IGElement.OBJECT_PROPERTY, tag_id=component_id+1, level_id=level_id, layer='reg'
                                     )
                                 )
-                    component_id += 1
-        return component_id
-
-class Separator(Rule):
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
-
-        if find_word_igelement(annotations, tree.id) != IGElement.AIM:
-            return
-
-        for c in tree.children:
-            if c.relation == "punct":
-                annotations.append(
-                    IGTag(words=[(c.id, c.value)], tag_name=IGElement.SEPARATOR, tag_id = None)
-                )
+                    else:
+                        for ccc in cc.get_all_descendants():
+                            annotations.append(
+                                IGTag(
+                                    word_id=ccc.id, word=ccc.value,
+                                    tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, layer='reg'
+                                )
+                            )
+                component_id += 2
 
         return component_id

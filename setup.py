@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="igannotator",
-    version="0.1.0",
+    version="1.1.0",
     url=" ",
     license='MIT',
 

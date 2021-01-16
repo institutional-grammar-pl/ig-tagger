@@ -1,96 +1,120 @@
-from igannotator.rulesexecutor.rules import *
+from igannotator.rulesexecutor.rules import Rule, IGTag
+from typing import List
+from igannotator.rulesexecutor.ig_element import IGElement
+from igannotator.annotator.lexical_tree import LexicalTreeNode
+
 
 class ConstitutiveRules(Rule):
 
-    def apply(self, tree: LexcialTreeNode, annotations: List[IGTag], component_id):
+    def apply(self, tree: LexicalTreeNode, annotations: List[IGTag], component_id, level_id):
 
         root = [n for n in tree.get_all_descendants() if n.relation == "root"]
         if len(root) == 1:
-            print('root', root[0])
-            if root[0].tag == 'VERB':
-                print('root is verb')
-                annotations.append(
-                    IGTag(words=[(root[0].id, root[0].value)], tag_name=IGElement.CONSTITUTED_FUNCTION, tag_id = None)
-                )
 
-                aux_pass = [n for n in root[0].children if n.relation == "aux:pass"]
-                if len(aux_pass) == 1:
-                    annotations.append(
-                        IGTag(words=[(aux_pass[0].id, aux_pass[0].value)], tag_name=IGElement.CONSTITUTED_FUNCTION, tag_id = None)
-                    )
+            if root[0].tag == 'VERB' or root[0].tag == 'ADJ':
 
-                nsubj = [w for w in root[0].children if w.relation in ["nsubj", "nsubj:pass"] ]
-                print('nsubj', nsubj)
-                for w in nsubj:
+                if root[0].tag == 'ADJ':
+                    print(root[0])
                     annotations.append(
-                        IGTag(words=[(ww.id, ww.value) for ww in w.get_all_descendants()], tag_name=IGElement.CONSTITUTED_ENTITY, tag_id = None)
-                    )  
-
-                obl = [w for w in root[0].children if w.relation in ["obl"]]
-                print('obl', obl)
-                for w in obl:
-                    annotations.append(
-                        IGTag(words=[(ww.id, ww.value) for ww in w.get_all_descendants()], tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id = component_id)
-                    )  
-                    component_id += 1                 
-
-            elif root[0].tag == 'noun':
-                csubj = [n for n in root[0].children if n.relation == "csubj"]
-                if len(csubj) == 1:
-                    annotations.append(
-                        IGTag(words=[(csubj[0].id, csubj[0].value)], tag_name=IGElement.CONSTITUTED_FUNCTION, tag_id = None)
+                        IGTag(
+                            word_id=root[0].id, word=root[0].value,
+                            tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=None,
+                            level_id=level_id, leyer='cons')
                     )
                 else:
-                    cop = [n for n in root[0].children if n.relation == "cop"]
-                    if len(cop) == 1:
+                    annotations.append(
+                        IGTag(
+                            word_id=root[0].id, word=root[0].value,
+                            tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None,
+                            level_id=level_id, leyer='cons')
+                    )
+
+                for c in root[0].children:
+                    if (c.relation in ["aux:pass", "cop"]) or (c.relation == "aux" and c.lemm in ["be", "have", "do"]) or (c.relation == "advmod" and c.lemm == "not"):
                         annotations.append(
-                            IGTag(words=[(cop[0].id, cop[0].value)], tag_name=IGElement.CONSTITUTED_FUNCTION, tag_id = None)
-                        ) 
-                det = [n for n in root[0].children if n.relation ==  "det"]
-                acl = [n for n in root[0].children if n.relation == "acl"]
-                nmod_npmod = [n for n in root[0].children if n.relation == "nmod:npmod "]
+                            IGTag(word_id=c.id, word=c.value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, leyer='cons')
+                        )
 
-                for w in det, acl, nmod_npmod:
-                    annotations.append(
-                       IGTag(words=[(w[0].id, w[0].value)], tag_name=IGElement.CONSTITUTED_ENTITY, tag_id = component_id)
-                    )
-                    component_id += 1 
-                    annotations.append(
-                       IGTag(words=[(ww[0].id, ww[0].value) for ww in w.get_all_descendants() 
-                        if ww!= w and ww.relation not in ['mark', 'det']], tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id = component_id)
-                    ) 
-                    component_id += 1
-                
-                for w in acl:
-                    mark = [ww for ww in n.children if ww!= w and ww.relation == 'mark']
-                    annotations.append(
-                       IGTag(words=[(w[0].id, w[0].value) for w in mark], tag_name=IGElement.CONSTITUTED_ENTITY, tag_id = component_id)
-                    )
+                entities = [c for c in root[0].children if c.relation in ["nsubj", "nsubj:pass", "expl"]]
+                if entities == []:
+                    return -1
+                for c in entities:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, leyer='cons')
+                        )
                     component_id += 1
 
-                nsubj = [w for w in root[0].children if w.relation in ["nsubj", "nsubj:pass"] ]
-                for w in nsubj:
-                    annotations.append(
-                        IGTag(words=[(ww[0].id, ww[0].value) for ww in w.get_all_descendants()], tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id = component_id)
-                    )                
+                properties = [c for c in root[0].children if c.relation in ["obl", "obj", "advcl"]]
+                for c in properties:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=component_id, level_id=level_id, leyer='cons')
+                        )
                     component_id += 1
 
-            elif root[0].tag == 'propn':
+                context = [c for c in root[0].children if c.relation in ["advmod", "xcomp"]]
+                for c in context:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, leyer='cons')
+                        )
+                    component_id += 1
+
+            elif root[0].tag == 'NOUN':
+
+                csubj = [c for c in root[0].children if c.relation == "csubj"]
                 cop = [n for n in root[0].children if n.relation == "cop"]
-                if len(cop) == 1:
+                if len(csubj) == 1:
                     annotations.append(
-                        IGTag(words=[(cop[0].id, cop[0].value)], tag_name=IGElement.CONSTITUTED_FUNCTION, tag_id = None)
-                    )  
+                        IGTag(word_id=csubj[0].id, word=csubj[0].value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, leyer='cons')
+                    )
 
-            aux = [n for n in root[0].children if n.relation == "aux" and n.lemm in ["must", "should", "may", "might", "can", "could", "need", "ought", "shall"]]
+                    csubj_obl = [c for c in csubj[0].children if c.relation == "obl"]
+                    for c in csubj_obl:
+                        for cc in c.get_all_descendants():
+                            annotations.append(
+                                IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, leyer='cons')
+                            )
+                        component_id += 1
+                    for c in cop:
+                        for cc in c.get_all_descendants():
+                            annotations.append(
+                                IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=None, level_id=level_id, leyer='cons')
+                            )
+                else:
+                    cop = [n for n in root[0].children if n.relation == "cop"]
+                    if cop == []:
+                        return -1
+                    elif len(cop) == 1:
+                        annotations.append(
+                            IGTag(word_id=cop[0].id, word=cop[0].value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, leyer='cons')
+                        )
+
+                entities = [c for c in root[0].children if c.relation in ["det", "acl", "nmod:npmod"]]
+                if entities == []:
+                    return -1
+                annotations.append(
+                    IGTag(word_id=root[0].id, word=root[0].value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=None, level_id=level_id, leyer='cons')
+                )
+                for c in entities:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                           IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, leyer='cons')
+                        )
+                    component_id += 1
+
+                properties = [c for c in root[0].children if c.relation in ["nsubj", "nsubj:pass"]]
+                for c in properties:
+                    for cc in c.get_all_descendants():
+                        annotations.append(
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=component_id, level_id=level_id, leyer='cons')
+                        )
+                    component_id += 1
+
+            aux = [c for c in root[0].children if c.relation == "aux" and c.lemm in ["must", "should", "may", "might", "can", "could", "need", "ought", "shall"]]
             if len(aux) == 1:
                 annotations.append(
-                    IGTag(words=[(aux[0].id, aux[0].value)], tag_name=IGElement.CONSTITUTED_DEONTIC, tag_id = None)
-                )
-
-        for c in tree.children:
-            if c.relation == "punct":
-                annotations.append(
-                    IGTag(words=[(c.id, c.value)], tag_name=IGElement.CONSTITUTED_SEPARATOR, tag_id = None)
+                    IGTag(word_id=aux[0].id, word=aux[0].value, tag_name=IGElement.MODAL, tag_id=None, level_id=level_id, leyer='cons')
                 )
         return component_id

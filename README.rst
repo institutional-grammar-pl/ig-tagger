@@ -4,7 +4,8 @@ Institutional Grammar annotator package.
 
 Authors
 -------
-New version of annotator for IG 2.0 was written as an extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
+New version of annotator for IG 2.0 was written as a part of diploma thesis.
+It is an extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
 
 Usage
 -----
@@ -28,4 +29,4 @@ Example
 
 1. Run annotation for example.txt file (sentence are separated by empty line)::
 
-	python ig_annotator.py data/example.txt data/example.tsv en tsv
+	python ig_annotator.py data/example.txt data/example.tsv reg en tsv

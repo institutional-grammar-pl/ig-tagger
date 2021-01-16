@@ -1,6 +1,4 @@
-import pandas as pd
-
-class LexcialTreeNode:
+class LexicalTreeNode:
     def __init__(self, row):
         self.id = row[0]
         self.value = row[1]
@@ -43,7 +41,7 @@ class LexcialTreeNode:
     def from_conllu_df(df):
         id_to_word = dict()
         for index, row in df.iterrows():
-            node = LexcialTreeNode(row)
+            node = LexicalTreeNode(row)
             id_to_word[node.id] = node
 
         root = None
@@ -61,8 +59,8 @@ class LexcialTreeNode:
             return (id, word, "", "", "", "", "", "")
 
         words = sentence.split(" ")
-        root = LexcialTreeNode(get_empty_data(1, words[0]))
+        root = LexicalTreeNode(get_empty_data(1, words[0]))
         for id, word in enumerate(words[1:], 2):
-            root.children.append(LexcialTreeNode(get_empty_data(id, word)))
+            root.children.append(LexicalTreeNode(get_empty_data(id, word)))
 
         return root
