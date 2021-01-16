@@ -1,9 +1,7 @@
-igannotator
+policydemic-annotator
 ===========
 Institutional Grammar annotator package.
 
-Authors
--------
 New version of annotator for IG 2.0 was written as a part of diploma thesis.
 It is an extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
 
