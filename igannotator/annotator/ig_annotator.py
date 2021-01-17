@@ -27,11 +27,13 @@ class IgAnnotator(BaseAnnotator):
         for layer in self.layers:
             self._executor[layer] = IGRulesExecutor(language=self.language, layer=layer)
 
+
     def _preprocess(self, sentence: str) -> str:
         def remove_dots(x: str) -> str:
             return x.replace(".", "") + "."
 
         return remove_dots(sentence)
+
 
     def annotate_sentence(self, sentence: str, current_component_id, depth, layers) -> Tuple[LexicalTreeNode, List[IGTag]]:
         processed_sentence = self._preprocess(sentence)
@@ -52,11 +54,13 @@ class IgAnnotator(BaseAnnotator):
             tags_all += nested_tags
         return tree, tags_all, current_component_id, used_layers
 
+
     def get_connlu_sentence(self, sentence: str) -> str:
         processed_sentence = self._preprocess(sentence)
 
         doc_response = self._stanford_annotator._annotator(processed_sentence)
         return doc_response.conll_file.conll_as_string()
+
 
     def annotate_nested_statement(self, annotations, tree, current_component_id, depth, layer):
         if layer == 'reg':
@@ -76,9 +80,7 @@ class IgAnnotator(BaseAnnotator):
             max_id = max(word_ids)
             if max_id - min_id >= 5:
                 sentence += ' '.join(sent[min_id:max_id])
-                print('Try annotating nested statement: ', sentence)
                 _, tags, current_component_id, _ = self.annotate_sentence(sentence, current_component_id, depth, [layer])
-                print('Tags: ', tags)
                 correct_tags = []
                 for tag in tags:
                     x = tag

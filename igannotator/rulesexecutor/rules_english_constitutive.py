@@ -14,25 +14,24 @@ class ConstitutiveRules(Rule):
             if root[0].tag == 'VERB' or root[0].tag == 'ADJ':
 
                 if root[0].tag == 'ADJ':
-                    print(root[0])
                     annotations.append(
                         IGTag(
                             word_id=root[0].id, word=root[0].value,
                             tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=None,
-                            level_id=level_id, leyer='cons')
+                            level_id=level_id, layer='cons')
                     )
                 else:
                     annotations.append(
                         IGTag(
                             word_id=root[0].id, word=root[0].value,
                             tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None,
-                            level_id=level_id, leyer='cons')
+                            level_id=level_id, layer='cons')
                     )
 
                 for c in root[0].children:
                     if (c.relation in ["aux:pass", "cop"]) or (c.relation == "aux" and c.lemm in ["be", "have", "do"]) or (c.relation == "advmod" and c.lemm == "not"):
                         annotations.append(
-                            IGTag(word_id=c.id, word=c.value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, leyer='cons')
+                            IGTag(word_id=c.id, word=c.value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, layer='cons')
                         )
 
                 entities = [c for c in root[0].children if c.relation in ["nsubj", "nsubj:pass", "expl"]]
@@ -41,7 +40,7 @@ class ConstitutiveRules(Rule):
                 for c in entities:
                     for cc in c.get_all_descendants():
                         annotations.append(
-                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, leyer='cons')
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
                         )
                     component_id += 1
 
@@ -49,7 +48,7 @@ class ConstitutiveRules(Rule):
                 for c in properties:
                     for cc in c.get_all_descendants():
                         annotations.append(
-                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=component_id, level_id=level_id, leyer='cons')
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=component_id, level_id=level_id, layer='cons')
                         )
                     component_id += 1
 
@@ -57,7 +56,7 @@ class ConstitutiveRules(Rule):
                 for c in context:
                     for cc in c.get_all_descendants():
                         annotations.append(
-                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, leyer='cons')
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, layer='cons')
                         )
                     component_id += 1
 
@@ -67,20 +66,20 @@ class ConstitutiveRules(Rule):
                 cop = [n for n in root[0].children if n.relation == "cop"]
                 if len(csubj) == 1:
                     annotations.append(
-                        IGTag(word_id=csubj[0].id, word=csubj[0].value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, leyer='cons')
+                        IGTag(word_id=csubj[0].id, word=csubj[0].value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, layer='cons')
                     )
 
                     csubj_obl = [c for c in csubj[0].children if c.relation == "obl"]
                     for c in csubj_obl:
                         for cc in c.get_all_descendants():
                             annotations.append(
-                                IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, leyer='cons')
+                                IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONTEXT, tag_id=component_id, level_id=level_id, layer='cons')
                             )
                         component_id += 1
                     for c in cop:
                         for cc in c.get_all_descendants():
                             annotations.append(
-                                IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=None, level_id=level_id, leyer='cons')
+                                IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=None, level_id=level_id, layer='cons')
                             )
                 else:
                     cop = [n for n in root[0].children if n.relation == "cop"]
@@ -88,19 +87,19 @@ class ConstitutiveRules(Rule):
                         return -1
                     elif len(cop) == 1:
                         annotations.append(
-                            IGTag(word_id=cop[0].id, word=cop[0].value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, leyer='cons')
+                            IGTag(word_id=cop[0].id, word=cop[0].value, tag_name=IGElement.CONSTITUTIVE_FUNCTION, tag_id=None, level_id=level_id, layer='cons')
                         )
 
                 entities = [c for c in root[0].children if c.relation in ["det", "acl", "nmod:npmod"]]
                 if entities == []:
                     return -1
                 annotations.append(
-                    IGTag(word_id=root[0].id, word=root[0].value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=None, level_id=level_id, leyer='cons')
+                    IGTag(word_id=root[0].id, word=root[0].value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=None, level_id=level_id, layer='cons')
                 )
                 for c in entities:
                     for cc in c.get_all_descendants():
                         annotations.append(
-                           IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, leyer='cons')
+                           IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
                         )
                     component_id += 1
 
@@ -108,13 +107,13 @@ class ConstitutiveRules(Rule):
                 for c in properties:
                     for cc in c.get_all_descendants():
                         annotations.append(
-                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=component_id, level_id=level_id, leyer='cons')
+                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTING_PROPERTIES, tag_id=component_id, level_id=level_id, layer='cons')
                         )
                     component_id += 1
 
             aux = [c for c in root[0].children if c.relation == "aux" and c.lemm in ["must", "should", "may", "might", "can", "could", "need", "ought", "shall"]]
             if len(aux) == 1:
                 annotations.append(
-                    IGTag(word_id=aux[0].id, word=aux[0].value, tag_name=IGElement.MODAL, tag_id=None, level_id=level_id, leyer='cons')
+                    IGTag(word_id=aux[0].id, word=aux[0].value, tag_name=IGElement.MODAL, tag_id=None, level_id=level_id, layer='cons')
                 )
         return component_id

@@ -79,7 +79,6 @@ class Object_Context(Rule):
 
             object_direct, object_direct_prop = 0, 0
             if c.relation == "obj":
-                print("obj", c)
                 annotations.append(
                     IGTag(
                         word_id=c.id, word=c.value,
@@ -116,7 +115,6 @@ class Object_Context(Rule):
                         )
                         for ccc in cc.get_all_descendants():
                             if (ccc.relation in ["case", "amod"] and ccc.parent == cc.id):
-                                print("obj nmod", ccc.relation, ccc.value)
                                 annotations.append(
                                     IGTag(word_id=ccc.id, word=ccc.value, tag_name=IGElement.OBJECT, tag_id=component_id, level_id=level_id, layer='reg')
                                 )
