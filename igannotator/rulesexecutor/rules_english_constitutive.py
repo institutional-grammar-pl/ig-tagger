@@ -38,10 +38,20 @@ class ConstitutiveRules(Rule):
                 if entities == []:
                     return -1
                 for c in entities:
-                    for cc in c.get_all_descendants():
-                        annotations.append(
+                    annotations.append(
                             IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
                         )
+                    for cc in c.children:
+                        if cc.relation in ["det", "compound", "mark"]:
+                            for ccc in cc.get_all_descendants():
+                                annotations.append(
+                                    IGTag(word_id=ccc.id, word=ccc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
+                                )
+                        else:
+                            for ccc in cc.get_all_descendants():
+                                annotations.append(
+                                    IGTag(word_id=ccc.id, word=ccc.value, tag_name=IGElement.CONSTITUTED_ENTITY_PROPERTY, tag_id=component_id, level_id=level_id, layer='cons')
+                                )                            
                     component_id += 1
 
                 properties = [c for c in root[0].children if c.relation in ["obl", "obj", "advcl"]]
@@ -98,9 +108,14 @@ class ConstitutiveRules(Rule):
                 )
                 for c in entities:
                     for cc in c.get_all_descendants():
-                        annotations.append(
-                           IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
-                        )
+                        if (cc == c) or (cc.parent == cc.id and cc.relation in ["det", "mark"]):
+                            annotations.append(
+                               IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
+                            )
+                        else:
+                            annotations.append(
+                               IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY_PROPERTY, tag_id=component_id, level_id=level_id, layer='cons')
+                            )
                     component_id += 1
 
                 properties = [c for c in root[0].children if c.relation in ["nsubj", "nsubj:pass"]]

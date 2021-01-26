@@ -1,0 +1,120 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.IGCoreRegulativeSyntax|Component
+
+
+#Text=Certifier believes farmer violates code of conduct.
+1-1	0-9	Certifier	(A) Attribute[1]
+1-2	10-18	believes	(I) Aim
+1-3	19-25	farmer	(C) Context[2]
+1-4	26-34	violates	(C) Context[2]
+1-5	35-39	code	(C) Context[2]
+1-6	40-42	of	(C) Context[2]
+1-7	43-50	conduct	(C) Context[2]
+1-8	51-52	.	
+
+#Text=Farmer violates code of conduct.
+2-1	53-59	Farmer	(A) Attribute[2]
+2-2	60-68	violates	(I) Aim
+2-3	69-73	code	(B) Object[3]
+2-4	74-76	of	(B) Object[3]
+2-5	77-84	conduct	(B) Object[3]|(B, prop) Object_Property[3]
+2-6	85-86	.	
+
+#Text=Certifier monitor farmers.
+3-1	87-96	Certifier	(A) Attribute[4]
+3-2	97-104	monitor	(I) Aim
+3-3	105-112	farmers	(B) Object[5]
+3-4	113-114	.	
+
+#Text=Certifier administers certifications.
+4-1	115-124	Certifier	(A) Attribute[5]
+4-2	125-136	administers	(I) Aim
+4-3	137-151	certifications	(B) Object[6]
+4-4	152-153	.	
+
+#Text=Certifier registers certification for organic farmer.
+5-1	154-163	Certifier	(A) Attribute[6]
+5-2	164-173	registers	(I) Aim
+5-3	174-187	certification	(B) Object[7]
+5-4	188-191	for	(B) Object[7]
+5-5	192-199	organic	(B) Object[7]
+5-6	200-206	farmer	(B) Object[7]|(B, prop) Object_Property[7]
+5-7	207-208	.	
+
+#Text=Certifier must monitor farmers.
+6-1	209-218	Certifier	(A) Attribute[8]
+6-2	219-223	must	(D) Deontic
+6-3	224-231	monitor	(I) Aim
+6-4	232-239	farmers	(B) Object[9]
+6-5	240-241	.	
+
+#Text=Upon accreditation certifier must monitor farmers.
+7-1	242-246	Upon	(A, prop) Attribute_Property[10]
+7-2	247-260	accreditation	(A, prop) Attribute_Property[10]
+7-3	261-270	certifier	(A) Attribute[9]
+7-4	271-275	must	(D) Deontic
+7-5	276-283	monitor	(I) Aim
+7-6	284-291	farmers	(B) Object[11]
+7-7	292-293	.	
+
+#Text=Certifier must monitor farmers at any time.
+8-1	294-303	Certifier	(A) Attribute[11]
+8-2	304-308	must	(D) Deontic
+8-3	309-316	monitor	(I) Aim
+8-4	317-324	farmers	(B) Object[12]
+8-5	325-327	at	(C) Context[12]
+8-6	328-331	any	(C) Context[12]
+8-7	332-336	time	(C) Context[12]
+8-8	337-338	.	
+
+#Text=Certified organic farmers must respond to formal certification requirements.
+9-1	339-348	Certified	(A, prop) Attribute_Property[14]
+9-2	349-356	organic	(A, prop) Attribute_Property[14]
+9-3	357-364	farmers	(A) Attribute[13]
+9-4	365-369	must	(D) Deontic
+9-5	370-377	respond	(I) Aim
+9-6	378-380	to	(C) Context[15]
+9-7	381-387	formal	(C) Context[15]
+9-8	388-401	certification	(C) Context[15]
+9-9	402-414	requirements	(C) Context[15]
+9-10	415-416	.	
+
+#Text=Certified farmer must submit an organic system plan annually.
+10-1	417-426	Certified	(A, prop) Attribute_Property[17]
+10-2	427-433	farmer	(A) Attribute[16]
+10-3	434-438	must	(D) Deontic
+10-4	439-445	submit	(I) Aim
+10-5	446-448	an	(B) Object[18]|(B, prop) Object_Property[18]
+10-6	449-456	organic	(B, prop) Object_Property[18]
+10-7	457-463	system	(B) Object[18]|(B, prop) Object_Property[18]
+10-8	464-468	plan	(B) Object[18]
+10-9	469-477	annually	(C) Context[19]
+10-10	478-479	.	
+
+#Text=Organic certifier must send farmer notification of compliance within thirty days of inspection.
+11-1	480-487	Organic	(A, prop) Attribute_Property[21]
+11-2	488-497	certifier	(A) Attribute[20]
+11-3	498-502	must	(D) Deontic
+11-4	503-507	send	(I) Aim
+11-5	508-514	farmer	(B) Object[22]|(B, prop) Object_Property[22]
+11-6	515-527	notification	(B) Object[22]
+11-7	528-530	of	(B) Object[22]
+11-8	531-541	compliance	(B) Object[22]|(B, prop) Object_Property[22]
+11-9	542-548	within	(C) Context[23]
+11-10	549-555	thirty	(C) Context[23]
+11-11	556-560	days	(C) Context[23]
+11-12	561-563	of	(C) Context[23]
+11-13	564-574	inspection	(C) Context[23]
+11-14	575-576	.	
+
+#Text=Organic certifier must send farmer notification of compliance.
+
+12-1	577-584	Organic	(A, prop) Attribute_Property[25]
+12-2	585-594	certifier	(A) Attribute[24]
+12-3	595-599	must	(D) Deontic
+12-4	600-604	send	(I) Aim
+12-5	605-611	farmer	(B) Object[26]|(B, prop) Object_Property[26]
+12-6	612-624	notification	(B) Object[26]
+12-7	625-627	of	(B) Object[26]
+12-8	628-638	compliance	(B) Object[26]|(B, prop) Object_Property[26]
+12-9	639-640	.	

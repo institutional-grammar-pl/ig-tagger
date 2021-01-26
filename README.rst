@@ -27,4 +27,16 @@ Example
 
 1. Run annotation for example.txt file (sentence are separated by empty line)::
 
-	python ig_annotator.py data/example.txt data/example.tsv reg en tsv
+	python main.py data/example.txt data/example.tsv reg
+
+Description of parameters
+-------
+
+``input``  - path to input file. Sentences in this file should be separated by empty line.
+
+``output`` - path to output file
+
+``layer`` - which IG layers should be used in annotation. Values 'reg', 'cons' and 'both' are allowed. Default: 'both'.
+
+``conllu_path`` - if specified then conllu file will be saved to this path. Default: 'None'
+
