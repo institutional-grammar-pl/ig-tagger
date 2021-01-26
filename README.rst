@@ -36,13 +36,7 @@ Description of parameters
 
 * ``output`` - path to output file
 
-* ``layer`` - which IG layers should be used in annotation
-. 
-Values 'reg', 'cons' and 'both' are allowed. 
+* ``layer`` - which IG layers should be used in annotation. Values 'reg', 'cons' and 'both' are allowed. Default: 'both'.
 
-Default: 'both'.
-
-* ``conllu_path`` - if specified then conllu file will be saved to this path. 
-
-Default: 'None'
+* ``conllu_path`` - if specified then conllu file will be saved to this path. Default: 'None'
 
