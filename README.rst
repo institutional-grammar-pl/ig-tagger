@@ -32,11 +32,17 @@ Example
 Description of parameters
 -------
 
-``input``  - path to input file. Sentences in this file should be separated by empty line.
+* ``input``  - path to input file. Sentences in this file should be separated by empty line.
 
-``output`` - path to output file
+* ``output`` - path to output file
 
-``layer`` - which IG layers should be used in annotation. Values 'reg', 'cons' and 'both' are allowed. Default: 'both'.
+* ``layer`` - which IG layers should be used in annotation
+. 
+Values 'reg', 'cons' and 'both' are allowed. 
 
-``conllu_path`` - if specified then conllu file will be saved to this path. Default: 'None'
+Default: 'both'.
+
+* ``conllu_path`` - if specified then conllu file will be saved to this path. 
+
+Default: 'None'
 
