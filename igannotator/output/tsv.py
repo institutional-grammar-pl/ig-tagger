@@ -1,6 +1,6 @@
 from typing import List, Tuple
-from .annotator.lexical_tree import LexicalTreeNode
-from .rulesexecutor.rules import IGTag, find_word_tag
+from ..annotator.lexical_tree import LexicalTreeNode
+from ..rulesexecutor.rules import IGTag, find_word_tag
 
 
 def get_sentence_and_tags(
