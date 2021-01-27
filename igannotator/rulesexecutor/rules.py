@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 from dataclasses import dataclass
-from igannotator.rulesexecutor.ig_element import IGElement
-from igannotator.annotator.lexical_tree import LexicalTreeNode
+from .ig_element import IGElement
+from ..annotator.lexical_tree import LexicalTreeNode
 
 
 @dataclass
