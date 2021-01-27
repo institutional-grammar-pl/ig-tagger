@@ -73,10 +73,11 @@ def write_tsv_representation(
 ):
     with open(output_file, "w", encoding="utf-8") as output:
         output.write('#FORMAT=WebAnno TSV 3.2\n')
-        if 'reg' in layers:
-            output.write('#T_SP=webanno.custom.IGCoreRegulativeSyntax|Component\n')
+        layers = sorted(layers)
         if 'cons' in layers:
             output.write('#T_SP=webanno.custom.IGCoreConstitutiveSyntax|Component\n')
+        if 'reg' in layers:
+            output.write('#T_SP=webanno.custom.IGCoreRegulativeSyntax|Component\n')
         output.write('\n')
         output.write('\n')
 
