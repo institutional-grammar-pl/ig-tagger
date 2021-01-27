@@ -1,6 +1,6 @@
 import click
-from igannotator.output.tsv import write_tsv_representation
-from igannotator.annotator.ig_annotator import IgAnnotator
+from .igannotator.output.tsv import write_tsv_representation
+from .igannotator.annotator.ig_annotator import IgAnnotator
 import re
 
 def preprocess_text(text):
