@@ -1,6 +1,6 @@
-from .rulesexecutor.rules import Rule, IGTag
+from .rules import Rule, IGTag
 from typing import List
-from .rulesexecutor.ig_element import IGElement
+from .ig_element import IGElement
 from ..annotator.lexical_tree import LexicalTreeNode
 
 

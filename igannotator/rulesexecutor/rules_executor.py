@@ -1,6 +1,6 @@
 from typing import List
-import .rules_english_constitutive as rules_en_cons
-import .rules_english_regulative as rules_en_reg
+import policydemic_annotator.igannotator.rulesexecutor.rules_english_constitutive as rules_en_cons
+import policydemic_annotator.igannotator.rulesexecutor.rules_english_regulative as rules_en_reg
 
 from .rules import IGTag, Rule
 from ..annotator.lexical_tree import LexicalTreeNode

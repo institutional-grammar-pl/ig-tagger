@@ -3,11 +3,11 @@ import stanfordnlp
 import warnings
 import numpy as np
 
-from .annotator.annotator import BaseAnnotator
-from .annotator.lexical_tree import LexicalTreeNode
-from .rulesexecutor.rules import IGTag
-from .annotator.stanford_annotator import StanfordAnnotator
-from .rulesexecutor.rules_executor import IGRulesExecutor
+from .annotator import BaseAnnotator
+from .lexical_tree import LexicalTreeNode
+from ..rulesexecutor.rules import IGTag
+from .stanford_annotator import StanfordAnnotator
+from ..rulesexecutor.rules_executor import IGRulesExecutor
 
 
 class IgAnnotator(BaseAnnotator):
