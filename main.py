@@ -57,7 +57,7 @@ def annotate_sentences(sentences, output_path, language, output_format, layer, c
         write_tsv_representation(output_path, data, list(final_layers))
 
 
-def annotate_text(text, output_path, language, output_format, layer, conllu_path):
+def annotate_text(text, output_path, language='en', output_format='tsv', layer='both', conllu_path=None):
 
     text = preprocess_text(text)
     sentences = split_text(text)

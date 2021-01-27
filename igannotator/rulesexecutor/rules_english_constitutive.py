@@ -39,7 +39,7 @@ class ConstitutiveRules(Rule):
                     return -1
                 for c in entities:
                     annotations.append(
-                            IGTag(word_id=cc.id, word=cc.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
+                            IGTag(word_id=c.id, word=c.value, tag_name=IGElement.CONSTITUTED_ENTITY, tag_id=component_id, level_id=level_id, layer='cons')
                         )
                     for cc in c.children:
                         if cc.relation in ["det", "compound", "mark"]:
