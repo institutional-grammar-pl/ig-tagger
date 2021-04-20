@@ -1,0 +1,2852 @@
+
+#Text=The employee is unable to work.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+unable	(P) Constituting Properties	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+work	(C) Context	(P) Constituting Properties
+
+#Text=The employee is unable to telework.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+unable	(P) Constituting Properties	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+telework	(C) Context	(P) Constituting Properties
+
+#Text=The employee is subject to a Federal quarantine order related to COVID-19.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties Property
+Federal	(P) Constituting Properties	(P) Constituting Properties Property
+quarantine	(P) Constituting Properties	(P) Constituting Properties Property
+order	(P) Constituting Properties	(P) Constituting Properties Property
+related	(P) Constituting Properties	(P) Constituting Properties Property
+to	(P) Constituting Properties	(P) Constituting Properties Property
+COVID	(P) Constituting Properties	(P) Constituting Properties Property
+19	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=The employee is subject to a Federal isolation order related to COVID-19.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties Property
+Federal	(P) Constituting Properties	(P) Constituting Properties Property
+isolation	(P) Constituting Properties	(P) Constituting Properties Property
+order	(P) Constituting Properties	(P) Constituting Properties Property
+related	(P) Constituting Properties	(P) Constituting Properties Property
+to	(P) Constituting Properties	(P) Constituting Properties Property
+COVID	(P) Constituting Properties	(P) Constituting Properties Property
+19	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=The employee is subject to a State quarantine order related to COVID-19.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties Property
+State	(P) Constituting Properties	(P) Constituting Properties Property
+quarantine	(P) Constituting Properties	(P) Constituting Properties Property
+order	(P) Constituting Properties	(P) Constituting Properties Property
+related	(P) Constituting Properties	(P) Constituting Properties Property
+to	(P) Constituting Properties	(P) Constituting Properties Property
+COVID	(P) Constituting Properties	(P) Constituting Properties Property
+19	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=The employee is subject to a State isolation order related to COVID-19.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties Property
+State	(P) Constituting Properties	(P) Constituting Properties Property
+isolation	(P) Constituting Properties	(P) Constituting Properties Property
+order	(P) Constituting Properties	(P) Constituting Properties Property
+related	(P) Constituting Properties	(P) Constituting Properties Property
+to	(P) Constituting Properties	(P) Constituting Properties Property
+COVID	(P) Constituting Properties	(P) Constituting Properties Property
+19	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=The employee is subject to a local quarantine order related to COVID-19.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties Property
+local	(P) Constituting Properties	(P) Constituting Properties Property
+quarantine	(P) Constituting Properties	(P) Constituting Properties Property
+order	(P) Constituting Properties	(P) Constituting Properties Property
+related	(P) Constituting Properties	(P) Constituting Properties Property
+to	(P) Constituting Properties	(P) Constituting Properties Property
+COVID	(P) Constituting Properties	(P) Constituting Properties Property
+19	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=The employee is subject to a local isolation order related to COVID-19.
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties Property
+local	(P) Constituting Properties	(P) Constituting Properties Property
+isolation	(P) Constituting Properties	(P) Constituting Properties Property
+order	(P) Constituting Properties	(P) Constituting Properties Property
+related	(P) Constituting Properties	(P) Constituting Properties Property
+to	(P) Constituting Properties	(P) Constituting Properties Property
+COVID	(P) Constituting Properties	(P) Constituting Properties Property
+19	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=An employee who is a health care provider.
+
+employee		(E) Constituted Entity
+who		
+is		(F) Constitutive Function
+health		(P) Constituting Properties
+care		(P) Constituting Properties
+provider		(P) Constituting Properties
+
+#Text=An employee who is an emergency responder
+
+employee		(E) Constituted Entity
+who		
+is		(F) Constitutive Function
+emergency		(P) Constituting Properties
+responder		(P) Constituting Properties
+
+#Text=An employee shall be entitled to paid sick time for an amount of hours determined under [statement 4].
+
+employee	(E) Constituted Entity	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+entitled	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+paid	(P) Constituting Properties	(P) Constituting Properties
+sick	(P) Constituting Properties	(P) Constituting Properties
+time	(P) Constituting Properties	(P) Constituting Properties
+for	(P) Constituting Properties	(P) Constituting Properties
+amount	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+hours	(P) Constituting Properties	(P) Constituting Properties
+determined	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+statement	(P) Constituting Properties	(P) Constituting Properties
+4	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=The amount of hours of paid sick time to which a full-time employees are entitled shall be 80 hours.
+
+amount		(E) Constituted Entity
+of		(E) Constituted Entity
+hours		(E) Constituted Entity
+of		(E) Constituted Entity
+paid		(E) Constituted Entity
+sick		(E) Constituted Entity
+time		(E) Constituted Entity
+to		(E, prop) Constituted Entity Property
+which		(E, prop) Constituted Entity Property
+full		(E, prop) Constituted Entity Property
+time		(E) Constituted Entity
+employees		(E, prop) Constituted Entity Property
+are		(E, prop) Constituted Entity Property
+entitled		(E, prop) Constituted Entity Property
+shall		(M) Modal
+be		(F) Constitutive Function
+80		(P) Constituting Properties
+hours		(E) Constituted Entity
+
+#Text=The amount of hours of paid sick time to which a part-time employees are entitled shall be a number of hours equal to the number of hours that such employee works, on average, over a 2-week period.	
+
+amount	(P) Constituting Properties	(E) Constituted Entity
+of	(P) Constituting Properties	(E) Constituted Entity
+hours	(P) Constituting Properties	(E) Constituted Entity
+of	(P) Constituting Properties	(E) Constituted Entity
+paid	(P) Constituting Properties	(E) Constituted Entity
+sick	(P) Constituting Properties	(E) Constituted Entity
+time	(P) Constituting Properties	(E) Constituted Entity
+to	(P) Constituting Properties	(E, prop) Constituted Entity Property
+which	(P) Constituting Properties	(E, prop) Constituted Entity Property
+part	(P) Constituting Properties	(E, prop) Constituted Entity Property
+time	(P) Constituting Properties	(E) Constituted Entity
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+are	(P) Constituting Properties	(E, prop) Constituted Entity Property
+entitled	(P) Constituting Properties	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+number	(E) Constituted Entity	(P) Constituting Properties
+of		(E) Constituted Entity
+hours		(E) Constituted Entity
+equal		(P) Constituting Properties
+to		(E, prop) Constituted Entity Property
+number		(P) Constituting Properties
+of		(E) Constituted Entity
+hours		(E) Constituted Entity
+that		(P) Constituting Properties
+such		(P) Constituting Properties
+employee		(P) Constituting Properties
+works		
+on		(P) Constituting Properties
+average		
+over		(P) Constituting Properties
+2		(P) Constituting Properties
+week		(P) Constituting Properties
+period		(P) Constituting Properties
+
+#Text=Paid sick time under this section shall not carry over from 1 year to the next
+
+Paid		
+sick		(E) Constituted Entity
+time		(E) Constituted Entity
+under		(E, prop) Constituted Entity Property
+this		(E, prop) Constituted Entity Property
+section		(E, prop) Constituted Entity Property
+shall		(M) Modal
+not		(F) Constitutive Function
+carry		(F) Constitutive Function
+over		(P) Constituting Properties
+from		(P) Constituting Properties
+1		(P) Constituting Properties
+year		(P) Constituting Properties
+to		(P) Constituting Properties
+next		(P) Constituting Properties
+
+#Text=Paid sick time provided to an employee under this Act shall cease beginning with the employee's next scheduled workshift.
+
+Paid		
+sick		(E, prop) Constituted Entity Property
+time		(E, prop) Constituted Entity Property
+provided		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+employee		(E, prop) Constituted Entity Property
+under		(E, prop) Constituted Entity Property
+this		(E, prop) Constituted Entity Property
+
+#Text=Paid sick time provided to an employee under this Act shall cease immediately following the termination of the need for paid sick time under subsection (a).
+
+Paid		
+sick		(E, prop) Constituted Entity Property
+time		(E, prop) Constituted Entity Property
+provided		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+employee		(E, prop) Constituted Entity Property
+under		(E, prop) Constituted Entity Property
+this		(E, prop) Constituted Entity Property
+
+#Text=The paid sick time under subsection (a) shall be available for immediate use by the employee for the purposes described in such subsection, regardless of how long the employee has been employed by an employer.
+
+paid	(E, prop) Constituted Entity Property	(E) Constituted Entity
+sick	(E, prop) Constituted Entity Property	(E) Constituted Entity
+time	(E) Constituted Entity	(E) Constituted Entity
+under	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+subsection	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+available	(P) Constituting Properties	(P) Constituting Properties
+for	(P) Constituting Properties	(P) Constituting Properties
+immediate	(P) Constituting Properties	(P) Constituting Properties
+use	(P) Constituting Properties	(P) Constituting Properties
+by	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+for	(P) Constituting Properties	(P) Constituting Properties
+purposes	(P) Constituting Properties	(P) Constituting Properties
+described	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties
+such	(P) Constituting Properties	(P) Constituting Properties
+subsection	(P) Constituting Properties	(E, prop) Constituted Entity Property
+regardless	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+how	(P) Constituting Properties	(C) Context
+long	(P) Constituting Properties	(C) Context
+employee	(P) Constituting Properties	(P) Constituting Properties
+has	(P) Constituting Properties	(C) Context
+been	(P) Constituting Properties	(C) Context
+employed	(P) Constituting Properties	(C) Context
+by	(P) Constituting Properties	(P) Constituting Properties
+employer	(P) Constituting Properties	(C) Context
+
+#Text=An employee may first use the paid sick time under subsection (a) for the purposes described in such subsection.
+
+employee	(E) Constituted Entity	
+may	(M) Modal	
+first	(C) Context	
+use	(F) Constitutive Function	
+paid	(P) Constituting Properties	
+sick	(P) Constituting Properties	
+time	(P) Constituting Properties	
+under	(P) Constituting Properties	
+subsection	(P) Constituting Properties	
+for	(P) Constituting Properties	
+purposes	(P) Constituting Properties	
+described	(P) Constituting Properties	
+in	(P) Constituting Properties	
+such	(P) Constituting Properties	
+subsection	(P) Constituting Properties	
+
+#Text=Discharge shall be unlawful. 
+
+Discharge	(E) Constituted Entity	
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+unlawful	(P) Constituting Properties	(F) Constitutive Function
+
+#Text=Discipline shall be unlawful.
+
+Discipline	(E) Constituted Entity	
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+unlawful	(P) Constituting Properties	(F) Constitutive Function
+
+#Text=Discriminate against shall be unlawful.
+
+Discriminate		
+against		(E) Constituted Entity
+shall		(M) Modal
+be		(F) Constitutive Function
+unlawful		(F) Constitutive Function
+
+#Text=An employer who violates section 5102 shall be considered to have failed to pay minimum wages in violation of section 6 of the Fair Labor Standards Act of 1938 (29 U.S.C. 206).
+
+employer	(E) Constituted Entity	(E) Constituted Entity
+who	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+violates	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+section	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+5102	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+considered	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+have	(C) Context	(P) Constituting Properties
+failed	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+pay	(C) Context	(P) Constituting Properties
+minimum	(C) Context	(P) Constituting Properties
+wages	(C) Context	(P) Constituting Properties
+in	(C) Context	(P) Constituting Properties
+violation	(C) Context	(P) Constituting Properties
+of	(C) Context	(P) Constituting Properties
+section	(C) Context	(E, prop) Constituted Entity Property
+6	(C) Context	(P) Constituting Properties
+of	(C) Context	(P) Constituting Properties
+Fair	(C) Context	(P) Constituting Properties
+Labor	(C) Context	(P) Constituting Properties
+Standards	(C) Context	(P) Constituting Properties
+Act	(C) Context	(P) Constituting Properties
+of	(C) Context	(P) Constituting Properties
+1938	(C) Context	(P) Constituting Properties
+29	(C) Context	
+USC	(C) Context	
+206	(C) Context	
+
+#Text=An employer who violates section 5102 shall be subject to the penalties described in sections 16 and 17 of such Act (29 U.S.C. 216; 217) with respect to such violation.
+
+employer	(E) Constituted Entity	(E) Constituted Entity
+who	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+violates	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+section	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+5102	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+subject	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+penalties	(P) Constituting Properties	(P) Constituting Properties
+described	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties
+sections	(P) Constituting Properties	(P) Constituting Properties
+16	(P) Constituting Properties	(P) Constituting Properties
+and	(P) Constituting Properties	(P) Constituting Properties
+17	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+such	(P) Constituting Properties	(P) Constituting Properties
+Act	(P) Constituting Properties	(P) Constituting Properties
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+216	(P) Constituting Properties	
+;	(P) Constituting Properties	
+217	(P) Constituting Properties	
+with	(P) Constituting Properties	(P) Constituting Properties
+respect	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+such	(P) Constituting Properties	(P) Constituting Properties
+violation	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any other Federal law.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+rights	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+other	(P) Constituting Properties	(P) Constituting Properties
+Federal	(P) Constituting Properties	(P) Constituting Properties
+law	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any other Federal law.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+benefits	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+other	(P) Constituting Properties	(P) Constituting Properties
+Federal	(P) Constituting Properties	(P) Constituting Properties
+law	(P) Constituting Properties	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any other State.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+rights	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+other	(P) Constituting Properties	(P) Constituting Properties
+State	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any other State.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+benefits	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+other	(P) Constituting Properties	(P) Constituting Properties
+State	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any local law.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+rights	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+local	(P) Constituting Properties	(P) Constituting Properties
+law	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any local law.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+benefits	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+local	(P) Constituting Properties	(P) Constituting Properties
+law	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any collective bargaining agreement.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+rights	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+collective	(P) Constituting Properties	(P) Constituting Properties
+bargaining	(P) Constituting Properties	(P) Constituting Properties
+agreement	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any collective bargaining agreement.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+benefits	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+collective	(P) Constituting Properties	(P) Constituting Properties
+bargaining	(P) Constituting Properties	(P) Constituting Properties
+agreement	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any existing employer policy.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+rights	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+existing	(P) Constituting Properties	(P) Constituting Properties
+employer	(P) Constituting Properties	(P) Constituting Properties
+policy	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any existing employer policy.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(E, prop) Constituted Entity Property
+any	(P) Constituting Properties	(P) Constituting Properties
+way	(P) Constituting Properties	(P) Constituting Properties
+diminish	(P) Constituting Properties	(P) Constituting Properties
+benefits	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+is	(P) Constituting Properties	(P) Constituting Properties
+entitled	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+any	(P) Constituting Properties	(P) Constituting Properties
+existing	(P) Constituting Properties	(P) Constituting Properties
+employer	(P) Constituting Properties	(P) Constituting Properties
+policy	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's termination from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+financial	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+termination	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's resignation from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+financial	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+resignation	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's retirement from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+financial	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+retirement	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's other separation from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+financial	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+other	(C) Context	(P) Constituting Properties
+separation	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee's termination from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+other	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+termination	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee' resignation from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+other	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'	(C) Context	
+resignation	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee's retirement from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+other	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+retirement	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee's other separation from employment for paid sick time under this Act that has not been used by such employee.
+
+Nothing	(E) Constituted Entity	
+in	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+construed	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+require	(C) Context	(P) Constituting Properties
+other	(C) Context	(P) Constituting Properties
+reimbursement	(C) Context	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employer	(C) Context	(P) Constituting Properties
+upon	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+'s	(C) Context	
+other	(C) Context	(P) Constituting Properties
+separation	(C) Context	(P) Constituting Properties
+from	(C) Context	(P) Constituting Properties
+employment	(C) Context	(P) Constituting Properties
+for	(C) Context	(P) Constituting Properties
+paid	(C) Context	(P) Constituting Properties
+sick	(C) Context	(P) Constituting Properties
+time	(C) Context	(P) Constituting Properties
+under	(C) Context	(P) Constituting Properties
+this	(C) Context	(E, prop) Constituted Entity Property
+Act	(C) Context	(E, prop) Constituted Entity Property
+that	(C) Context	(P) Constituting Properties
+has	(C) Context	(P) Constituting Properties
+not	(C) Context	(P) Constituting Properties
+been	(C) Context	(P) Constituting Properties
+used	(C) Context	(P) Constituting Properties
+by	(C) Context	(P) Constituting Properties
+such	(C) Context	(P) Constituting Properties
+employee	(C) Context	(P) Constituting Properties
+
+#Text=This Act shall take effect not later than 15 days after the date of enactment of this Act.
+
+This	(E) Constituted Entity	
+Act	(E) Constituted Entity	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+take	(F) Constitutive Function	(F) Constitutive Function
+effect	(P) Constituting Properties	(P) Constituting Properties
+not	(C) Context	(C) Context
+later	(C) Context	(C) Context
+than	(P) Constituting Properties	(C) Context
+15	(P) Constituting Properties	(C) Context
+days	(P) Constituting Properties	(C) Context
+after	(P) Constituting Properties	(C) Context
+date	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+enactment	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(E, prop) Constituted Entity Property
+Act.	(P) Constituting Properties	
+
+#Text=The requirements under this Act shall take effect not later than 15 days after the date of enactment of this Act.
+
+requirements	(E) Constituted Entity	(E) Constituted Entity
+under	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+take	(F) Constitutive Function	(F) Constitutive Function
+effect	(P) Constituting Properties	(P) Constituting Properties
+not	(C) Context	(C) Context
+later	(C) Context	(C) Context
+than	(P) Constituting Properties	(C) Context
+15	(P) Constituting Properties	(C) Context
+days	(P) Constituting Properties	(C) Context
+after	(P) Constituting Properties	(C) Context
+date	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+enactment	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(E, prop) Constituted Entity Property
+Act.	(P) Constituting Properties	
+
+#Text=This Act shall expire on December 31, 2020.
+
+This	(E) Constituted Entity	
+Act	(E) Constituted Entity	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+expire	(F) Constitutive Function	(F) Constitutive Function
+on	(P) Constituting Properties	(C) Context
+December	(P) Constituting Properties	(C) Context
+31	(P) Constituting Properties	
+2020	(P) Constituting Properties	(C) Context
+
+#Text=The requirements under this Act, shall expire on December 31, 2020.
+
+requirements	(E) Constituted Entity	(E) Constituted Entity
+under	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+this	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+Act	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+shall	(M) Modal	(M) Modal
+expire	(F) Constitutive Function	(F) Constitutive Function
+on	(P) Constituting Properties	(C) Context
+December	(P) Constituting Properties	(C) Context
+31	(P) Constituting Properties	
+2020	(P) Constituting Properties	(C) Context
+
+#Text=The terms ``employee'' means an individual. 
+
+terms	(E) Constituted Entity	(E) Constituted Entity
+`	(E, prop) Constituted Entity Property	
+`	(E, prop) Constituted Entity Property	
+employee	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+individual	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=[Individual] is an employee, as defined in section 3(e) of the Fair Labor Standards Act of 1938 (29 U.S.C. 203(e)), except that a reference in such section to an employer shall be considered to be a reference to an employer described in clauses (i)(I) and (ii) of paragraph (5)(A). 
+
+Individual	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+employee	(E) Constituted Entity	(P) Constituting Properties
+as		
+defined		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+section		(P) Constituting Properties Property
+3		
+e		
+of		(P) Constituting Properties Property
+Fair		(P) Constituting Properties Property
+Labor		(P) Constituting Properties Property
+Standards		(P) Constituting Properties Property
+Act		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+1938		(P) Constituting Properties Property
+29		
+USC		
+203		
+e		
+except		
+that		
+reference		
+in		(P) Constituting Properties Property
+such		
+section		(P) Constituting Properties Property
+to		
+employer		
+shall		
+be		
+considered		
+to		
+be		
+reference		
+to		
+employer		
+described		
+in		(P) Constituting Properties Property
+clauses		
+i		
+I		
+and		
+ii		
+of		(P) Constituting Properties Property
+paragraph		
+5		
+
+#Text=[Individual] is not covered under subparagraph (E)including such an employee of the Library of Congress.  
+
+Individual	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+not	(F) Constitutive Function|(C) Context	
+covered	(F) Constitutive Function	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+subparagraph	(P) Constituting Properties	(P) Constituting Properties
+E	(P) Constituting Properties	
+including	(P) Constituting Properties	(P) Constituting Properties
+such	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+Library	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+Congress	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=[Individual] is not covered under subparagraph(F) including such an employee of the Library of Congress. 
+
+Individual	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+not	(F) Constitutive Function|(C) Context	
+covered	(F) Constitutive Function	(P) Constituting Properties
+under	(P) Constituting Properties	(P) Constituting Properties
+subparagraph	(P) Constituting Properties	
+F	(P) Constituting Properties	
+including	(P) Constituting Properties	(P) Constituting Properties
+such	(P) Constituting Properties	(P) Constituting Properties
+employee	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+Library	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+Congress	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=[Individual] [is] employee of the Government Accountability Office.
+
+Individual		(E) Constituted Entity
+is		(F) Constitutive Function
+employee		(P) Constituting Properties
+of		(P) Constituting Properties Property
+Government		(P) Constituting Properties Property
+Accountability		(P) Constituting Properties Property
+Office		(P) Constituting Properties Property
+
+#Text=[Individual] is a State employee described in section 304(a) of the Government Employee Rights Act of 1991 (42 U.S.C. 2000e-16c(a)).
+
+Individual	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+State		
+employee	(E) Constituted Entity	(P) Constituting Properties
+described	(E) Constituted Entity	(P) Constituting Properties Property
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+section	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+304	(E, prop) Constituted Entity Property	
+of		(P) Constituting Properties Property
+Government		(P) Constituting Properties Property
+Employee		(P) Constituting Properties Property
+Rights		(P) Constituting Properties Property
+Act		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+1991		(P) Constituting Properties Property
+42		
+USC		
+2000e		(P) Constituting Properties Property
+16c		
+
+#Text=[Individual] is a State employee described in section 304(a) of the Government Employee Rights Act of 1991 (42 U.S.C. 2000e-16c(a)).
+
+Individual	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+State		
+employee	(E) Constituted Entity	(P) Constituting Properties
+described	(E) Constituted Entity	(P) Constituting Properties Property
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+section	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+304	(E, prop) Constituted Entity Property	
+of		(P) Constituting Properties Property
+Government		(P) Constituting Properties Property
+Employee		(P) Constituting Properties Property
+Rights		(P) Constituting Properties Property
+Act		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+1991		(P) Constituting Properties Property
+42		
+USC		
+2000e		(P) Constituting Properties Property
+16c		
+
+#Text=[Individual] is covered employee, as defined in section 101 of the Congressional Accountability Act of 1995 (2 U.S.C. 1301), other than an applicant for employment.
+
+Individual	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+covered	(F) Constitutive Function	(P) Constituting Properties Property
+employee	(C) Context	(P) Constituting Properties
+as	(P) Constituting Properties	(P) Constituting Properties Property
+defined	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+101	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Congressional	(P) Constituting Properties	(P) Constituting Properties Property
+Accountability	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1995	(P) Constituting Properties	(P) Constituting Properties Property
+2	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+1301	(P) Constituting Properties	
+other	(P) Constituting Properties	(P) Constituting Properties Property
+than	(P) Constituting Properties	(P) Constituting Properties Property
+applicant	(P) Constituting Properties	(P) Constituting Properties Property
+for	(P) Constituting Properties	(P) Constituting Properties Property
+employment	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=[Individual] is a covered employee, as defined in section 411(c) of title 3, United States Code.
+
+Individual	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+covered		(P) Constituting Properties Property
+employee	(E) Constituted Entity	(P) Constituting Properties
+as		(P) Constituting Properties Property
+defined		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+section		(P) Constituting Properties Property
+411		
+c		
+of		(P) Constituting Properties Property
+title		(P) Constituting Properties Property
+3		
+United		(P) Constituting Properties Property
+States		(P) Constituting Properties Property
+Code		(P) Constituting Properties Property
+
+#Text=[Individual] is a Federal officer covered under subchapter V of chapter 63 of title 5, United States Code.
+
+Individual		(E) Constituted Entity
+is		(F) Constitutive Function
+Federal		(P) Constituting Properties
+officer		(P) Constituting Properties
+covered		(P) Constituting Properties Property
+under		(P) Constituting Properties Property
+subchapter		(P) Constituting Properties Property
+V		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+chapter		(P) Constituting Properties Property
+63		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+title		(P) Constituting Properties Property
+5		
+United		(P) Constituting Properties Property
+States		(P) Constituting Properties Property
+Code		(P) Constituting Properties Property
+
+#Text=[Individual] is a employee covered under subchapter V of chapter 63 of title 5, United States Code.
+
+Individual		(E) Constituted Entity
+is		(F) Constitutive Function
+employee		(P) Constituting Properties
+covered		(P) Constituting Properties Property
+under		(P) Constituting Properties Property
+subchapter		(P) Constituting Properties Property
+V		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+chapter		(P) Constituting Properties Property
+63		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+title		(P) Constituting Properties Property
+5		
+United		(P) Constituting Properties Property
+States		(P) Constituting Properties Property
+Code		(P) Constituting Properties Property
+
+#Text=[Individual] is any other individual occupying a position in the civil service (as that term is defined in section 2101(1) of title 5, United States Code).
+
+Individual	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+any	(E) Constituted Entity	(P) Constituting Properties Property
+other	(E, prop) Constituted Entity Property	
+individual	(E) Constituted Entity	(P) Constituting Properties
+occupying	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+position	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+civil	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+service	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+as	(P) Constituting Properties	
+that	(P) Constituting Properties	(P) Constituting Properties Property
+term	(P) Constituting Properties	(P) Constituting Properties Property
+is	(P) Constituting Properties	(F) Constitutive Function
+defined	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+2101	(P) Constituting Properties	
+1	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+title	(P) Constituting Properties	(P) Constituting Properties Property
+5	(P) Constituting Properties	
+United	(P) Constituting Properties	(P) Constituting Properties Property
+States	(P) Constituting Properties	(P) Constituting Properties Property
+Code	(P) Constituting Properties	
+
+#Text=The term ``employer'' means a person
+
+term	(E) Constituted Entity	(E) Constituted Entity
+`	(E, prop) Constituted Entity Property	
+`	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+person	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=A person is a covered employer, as defined in subparagraph (B), who is not covered under subclause (V).
+
+person	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+covered		(P) Constituting Properties Property
+employer	(E) Constituted Entity	(P) Constituting Properties
+as		(P) Constituting Properties Property
+defined		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+subparagraph		
+B		
+who		
+is		(F) Constitutive Function
+not		
+covered		(P) Constituting Properties Property
+under		(P) Constituting Properties Property
+subclause		(P) Constituting Properties Property
+V		
+
+#Text=A person is an entity employing a State employee described in section 304(a) of the Government Employee Rights Act of 1991.
+
+person	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+entity	(E) Constituted Entity	(P) Constituting Properties
+employing	(E) Constituted Entity	(P) Constituting Properties Property
+State	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+employee	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+described	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+section	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+304	(E, prop) Constituted Entity Property	
+of	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+Government	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+Employee	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+Rights	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+Act	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+of	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+1991	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+
+#Text=A person is an employing office, as defined in section 101 of the Congressional Accountability Act of 1995.
+
+person	(P) Constituting Properties	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+employing		(P) Constituting Properties Property
+office	(E) Constituted Entity	(P) Constituting Properties
+as		(P) Constituting Properties Property
+defined		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+section		(P) Constituting Properties Property
+101		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+Congressional		(P) Constituting Properties Property
+Accountability		(P) Constituting Properties Property
+Act		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+1995		(P) Constituting Properties Property
+
+#Text=A person is an employing office as defined in section 411(c) of title 3, United States Code.
+
+person	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+employing	(F) Constitutive Function	(P) Constituting Properties Property
+office	(P) Constituting Properties	(P) Constituting Properties
+as	(P) Constituting Properties	(P) Constituting Properties Property
+defined	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+411	(P) Constituting Properties	
+c	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+title	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+United	(P) Constituting Properties	(P) Constituting Properties Property
+States	(P) Constituting Properties	(P) Constituting Properties Property
+Code	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=A person is an Executive Agency as defined in section 105 of title 5, United States Code, and including the U.S. Postal Service and the Postal Regulatory Commission.
+
+person		(E) Constituted Entity
+is		(F) Constitutive Function
+Executive		(P) Constituting Properties
+Agency		(P) Constituting Properties
+as		(P) Constituting Properties Property
+defined		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+section		(P) Constituting Properties Property
+105		(P) Constituting Properties Property
+of		(P) Constituting Properties Property
+title		(P) Constituting Properties Property
+5		
+United		(P) Constituting Properties Property
+States		(P) Constituting Properties Property
+Code		
+and		
+including		
+US		
+Postal		(P) Constituting Properties Property
+Service		
+and		
+Postal		(P) Constituting Properties Property
+Regulatory		(P) Constituting Properties Property
+Commission		(P) Constituting Properties Property
+
+#Text=A person is engaged in commerce (including government).
+
+person	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+engaged	(F) Constitutive Function	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties
+commerce	(P) Constituting Properties	(P) Constituting Properties
+including	(P) Constituting Properties	
+government	(P) Constituting Properties	
+
+#Text=A person is engaged in an industry.
+
+person	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+engaged	(F) Constitutive Function	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties
+industry	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=A person is engaged in activity affecting commerce (including government), as defined in subparagraph (B)(iii).
+
+person	(E) Constituted Entity	(E) Constituted Entity
+is	(F) Constitutive Function	(F) Constitutive Function
+engaged	(F) Constitutive Function	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties
+activity	(P) Constituting Properties	(P) Constituting Properties
+affecting	(P) Constituting Properties	(P) Constituting Properties
+commerce	(P) Constituting Properties	(P) Constituting Properties
+including	(P) Constituting Properties	
+government	(P) Constituting Properties	
+as	(P) Constituting Properties	(P) Constituting Properties
+defined	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties
+subparagraph	(P) Constituting Properties	(P) Constituting Properties
+B	(P) Constituting Properties	
+iii	(P) Constituting Properties	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' means.
+
+In	(P) Constituting Properties	
+subparagraph	(P) Constituting Properties	(C) Context
+i		
+I		
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+covered	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+
+#Text=Any person engaged in commerce that in the case of a private entity, employs fewer than 500 employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+private	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+fewer	(P) Constituting Properties	(E, prop) Constituted Entity Property
+than	(P) Constituting Properties	(E, prop) Constituted Entity Property
+500	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in commerce that in the case of a individual entity, employs fewer than 500 employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+individual	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+fewer	(P) Constituting Properties	(E, prop) Constituted Entity Property
+than	(P) Constituting Properties	(E, prop) Constituted Entity Property
+500	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in commerce that in the case of a public agency employs 1 or more  employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+public	(P) Constituting Properties	(C) Context
+agency	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+1	(P) Constituting Properties	(E, prop) Constituted Entity Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+more	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in commerce that in the case of any other entity that is not a private entity or individual, employs 1 or more  employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(P) Constituting Properties	(C) Context
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+any	(P) Constituting Properties	(C) Context
+other	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+that	(P) Constituting Properties	(C) Context
+is	(P) Constituting Properties	(C) Context
+not	(P) Constituting Properties	(C) Context
+private	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+individual	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+1	(P) Constituting Properties	(E, prop) Constituted Entity Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+more	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in any industry that in the case of a private entity, employs fewer than 500 employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+any	(E, prop) Constituted Entity Property	(P) Constituting Properties
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+private	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+fewer	(P) Constituting Properties	(E, prop) Constituted Entity Property
+than	(P) Constituting Properties	(E, prop) Constituted Entity Property
+500	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in any industry that in the case of a individual entity, employs fewer than 500 employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+any	(E, prop) Constituted Entity Property	(P) Constituting Properties
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+individual	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+fewer	(P) Constituting Properties	(E, prop) Constituted Entity Property
+than	(P) Constituting Properties	(E, prop) Constituted Entity Property
+500	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in any industry that in the case of a public agency employs 1 or more  employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+any	(E, prop) Constituted Entity Property	(P) Constituting Properties
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+public	(P) Constituting Properties	(C) Context
+agency	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+1	(P) Constituting Properties	(E, prop) Constituted Entity Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+more	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged in any industry that in the case of any other entity that is not a private entity or individual, employs 1 or more  employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+in	(E, prop) Constituted Entity Property	(P) Constituting Properties
+any	(E, prop) Constituted Entity Property	(P) Constituting Properties
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+that	(P) Constituting Properties	(C) Context
+in	(P) Constituting Properties	(P) Constituting Properties
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+any	(P) Constituting Properties	(P) Constituting Properties
+other	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+that	(P) Constituting Properties	(C) Context
+is	(P) Constituting Properties	(C) Context
+not	(P) Constituting Properties	(C) Context
+private	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+individual	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+1	(P) Constituting Properties	(E, prop) Constituted Entity Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+more	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged activity affecting commerce that in the case of a private entity employs fewer than 500 employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+activity	(E, prop) Constituted Entity Property	(P) Constituting Properties
+affecting	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(C) Context
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+private	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+fewer	(P) Constituting Properties	(E, prop) Constituted Entity Property
+than	(P) Constituting Properties	(E, prop) Constituted Entity Property
+500	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged activity affecting commerce that in the case of a individual entity employs fewer than 500 employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+activity	(E, prop) Constituted Entity Property	(P) Constituting Properties
+affecting	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+that	(E) Constituted Entity	
+in	(P) Constituting Properties	(C) Context
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+individual	(P) Constituting Properties	(C) Context
+entity	(P) Constituting Properties	(C) Context
+employs	(F) Constitutive Function	
+fewer	(P) Constituting Properties	(E, prop) Constituted Entity Property
+than	(P) Constituting Properties	(E, prop) Constituted Entity Property
+500	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged activity affecting commerce that in the case of a public agency employs 1 or more  employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(F) Constitutive Function	
+activity	(P) Constituting Properties	(P) Constituting Properties
+affecting	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+that	(P) Constituting Properties	
+in	(P) Constituting Properties	(C) Context
+case	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+public	(P) Constituting Properties	(C) Context
+agency	(P) Constituting Properties	(C) Context
+employs	(P) Constituting Properties	
+1	(P) Constituting Properties	(E, prop) Constituted Entity Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+more	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=Any person engaged activity affecting commerce that in the case any other entity that is not a private entity or individual, employs 1 or more  employees.
+
+Any	(E) Constituted Entity	
+person	(E) Constituted Entity	(E) Constituted Entity
+engaged	(E, prop) Constituted Entity Property	
+activity	(E, prop) Constituted Entity Property	(P) Constituting Properties
+affecting	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+that	(E) Constituted Entity	(C) Context
+in	(E, prop) Constituted Entity Property	(C) Context
+case	(E, prop) Constituted Entity Property	(C) Context
+any	(E) Constituted Entity	(C) Context
+other	(E, prop) Constituted Entity Property	(C) Context
+entity	(E) Constituted Entity	(C) Context
+that	(E, prop) Constituted Entity Property	(C) Context
+is	(E, prop) Constituted Entity Property	(C) Context
+not	(E, prop) Constituted Entity Property	(C) Context
+private	(E, prop) Constituted Entity Property	(C) Context
+entity	(E, prop) Constituted Entity Property	(C) Context
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+individual	(E, prop) Constituted Entity Property	(C) Context
+employs	(F) Constitutive Function	
+1	(P) Constituting Properties	(E, prop) Constituted Entity Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+more	(P) Constituting Properties	(E, prop) Constituted Entity Property
+employees	(P) Constituting Properties	(E, prop) Constituted Entity Property
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes.
+
+In	(P) Constituting Properties	
+subparagraph	(P) Constituting Properties	(C) Context
+i		
+I		
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+covered	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+includes	(F) Constitutive Function	(F) Constitutive Function
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes any successor in  interest of an employer.
+
+In	(P) Constituting Properties	
+subparagraph	(P) Constituting Properties	(C) Context
+i		
+I		
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+covered	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+includes	(F) Constitutive Function	(F) Constitutive Function
+any	(P) Constituting Properties	
+successor	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	(P) Constituting Properties Property
+interest	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+employer	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes any ``public agency'', as defined in section 3(x) of  the Fair Labor Standards Act of 1938 (29  U.S.C. 203(x)). 
+
+In	(P) Constituting Properties	
+subparagraph	(P) Constituting Properties	(C) Context
+i		
+I		
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+covered	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+includes	(F) Constitutive Function	(F) Constitutive Function
+any	(P) Constituting Properties	
+``	(P) Constituting Properties	
+public	(P) Constituting Properties	
+agency	(P) Constituting Properties	
+''	(P) Constituting Properties	
+as	(P) Constituting Properties	
+defined	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+x	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Fair	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Standards	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1938	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+203	(P) Constituting Properties	
+x	(P) Constituting Properties	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes the Government Accountability Office.
+
+In	(P) Constituting Properties	
+subparagraph	(P) Constituting Properties	(C) Context
+i		
+I		
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+covered	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+includes	(F) Constitutive Function	(F) Constitutive Function
+Government	(P) Constituting Properties	(P) Constituting Properties
+Accountability	(P) Constituting Properties	(P) Constituting Properties
+Office	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes the Library of Congress.
+
+In	(P) Constituting Properties	
+subparagraph	(P) Constituting Properties	(C) Context
+i		
+I		
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+covered	(E, prop) Constituted Entity Property	
+employer	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+includes	(F) Constitutive Function	(F) Constitutive Function
+Library	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+Congress	(P) Constituting Properties	(P) Constituting Properties
+
+#Text=For purposes of clause (i)(IV), a public agency shall be considered to be a person engaged in commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+clause	(P) Constituting Properties	(C) Context
+i	(P) Constituting Properties	
+IV	(P) Constituting Properties	
+public	(E, prop) Constituted Entity Property	(E) Constituted Entity
+agency	(E) Constituted Entity	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+considered	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+be	(C) Context	(F) Constitutive Function
+person	(C) Context	(P) Constituting Properties
+engaged	(C) Context	(P) Constituting Properties
+in	(C) Context	(P) Constituting Properties
+commerce	(C) Context	(P) Constituting Properties
+
+#Text=For purposes of clause (i)(IV), a public agency shall be considered to be a person engaged in an industry.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+clause	(P) Constituting Properties	(C) Context
+i	(P) Constituting Properties	
+IV	(P) Constituting Properties	
+public	(E, prop) Constituted Entity Property	(E) Constituted Entity
+agency	(E) Constituted Entity	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+considered	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+be	(C) Context	(F) Constitutive Function
+person	(C) Context	(P) Constituting Properties
+engaged	(C) Context	(P) Constituting Properties
+in	(C) Context	(P) Constituting Properties
+industry	(C) Context	(P) Constituting Properties
+
+#Text=For purposes of clause (i)(IV), a public agency shall be considered to be a person engaged in an activity affecting commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+clause	(P) Constituting Properties	(C) Context
+i	(P) Constituting Properties	
+IV	(P) Constituting Properties	
+public	(E, prop) Constituted Entity Property	(E) Constituted Entity
+agency	(E) Constituted Entity	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+be	(F) Constitutive Function	(F) Constitutive Function
+considered	(F) Constitutive Function	(P) Constituting Properties
+to	(C) Context	(P) Constituting Properties
+be	(C) Context	(F) Constitutive Function
+person	(C) Context	(P) Constituting Properties
+engaged	(C) Context	(P) Constituting Properties
+in	(C) Context	(P) Constituting Properties
+activity	(C) Context	(P) Constituting Properties
+affecting	(C) Context	(P) Constituting Properties
+commerce	(C) Context	(P) Constituting Properties
+
+#Text=For purposes of this subparagraph the term ``commerce'' means any activity in commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+activity	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any activity in which a labor dispute would hinder commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+activity	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+hinder	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(P) Constituting Properties Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any activity in which a labor dispute would obstruct commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+activity	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+obstruct	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(P) Constituting Properties Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any business in commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+business	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any business in which a labor dispute would hinder commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+business	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+hinder	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(P) Constituting Properties Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any business in which a labor dispute would obstruct commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+business	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+obstruct	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(P) Constituting Properties Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any industry in commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+industry	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any industry in which a labor dispute would hinder commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+industry	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+hinder	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(P) Constituting Properties Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any industry in which a labor dispute would obstruct commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+industry	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+obstruct	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(P) Constituting Properties Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any activity in commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+activity	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any activity in which a labor dispute would hinder commerce or the free flow of commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+activity	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+hinder	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any activity in commerce or in which a labor dispute would obstruct commerce or the free flow of commerce.
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+activity	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+obstruct	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any business in commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+business	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any business in which a labor dispute would hinder commerce or the free flow of commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+business	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+hinder	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any business in commerce or in which a labor dispute would obstruct commerce or the free flow of commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+business	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+obstruct	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any industry in commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(C) Context
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+industry	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any industry in commerce or in which a labor dispute would hinder commerce or the free flow of commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+industry	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+hinder	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any industry in commerce or in which a labor dispute would obstruct commerce or the free flow of commerce. 
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	(P) Constituting Properties
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	(P) Constituting Properties Property
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+any	(P) Constituting Properties	
+industry	(P) Constituting Properties	(P) Constituting Properties
+in	(P) Constituting Properties	
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+in	(P) Constituting Properties	
+which	(P) Constituting Properties	(P) Constituting Properties Property
+labor	(P) Constituting Properties	(P) Constituting Properties Property
+dispute	(P) Constituting Properties	(P) Constituting Properties Property
+would	(P) Constituting Properties	(P) Constituting Properties Property
+obstruct	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+or	(P) Constituting Properties	(E, prop) Constituted Entity Property
+free	(P) Constituting Properties	(P) Constituting Properties Property
+flow	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+commerce	(P) Constituting Properties	(P) Constituting Properties Property
+
+#Text=For purposes of this subparagraph the term ``commerce'' include ``commerce'' as defined in paragraphs (1) and (3) of section 501 of the Labor Management Relations Act of 1947 (29 U.S.C. 142 (1) and (3)).
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+commerce	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+include	(F) Constitutive Function	(F) Constitutive Function
+``	(P) Constituting Properties	
+commerce	(P) Constituting Properties	
+''	(P) Constituting Properties	
+as	(P) Constituting Properties	(P) Constituting Properties Property
+defined	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+paragraphs	(P) Constituting Properties	(P) Constituting Properties Property
+1	(P) Constituting Properties	
+and	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+501	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Management	(P) Constituting Properties	(P) Constituting Properties Property
+Relations	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1947	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+142	(P) Constituting Properties	(P) Constituting Properties Property
+1	(P) Constituting Properties	
+and	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' include any ``industry affecting commerce'' as defined in paragraphs (1) and (3) of section 501 of the Labor Management Relations Act of 1947 (29 U.S.C. 142 (1) and (3)).
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+terms	(E) Constituted Entity	
+``	(E, prop) Constituted Entity Property	
+industry	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+activity	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+affecting	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+commerce	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+include	(F) Constitutive Function	(F) Constitutive Function
+any	(P) Constituting Properties	
+``	(P) Constituting Properties	
+industry	(P) Constituting Properties	
+affecting	(P) Constituting Properties	(E, prop) Constituted Entity Property
+commerce	(P) Constituting Properties	
+''	(P) Constituting Properties	
+as	(P) Constituting Properties	
+defined	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+paragraphs	(P) Constituting Properties	(P) Constituting Properties Property
+1	(P) Constituting Properties	
+and	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+501	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Management	(P) Constituting Properties	(P) Constituting Properties Property
+Relations	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1947	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+142	(P) Constituting Properties	(P) Constituting Properties Property
+1	(P) Constituting Properties	
+and	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+
+#Text=For purposes of this subparagraph the term ``employee'' has the same meaning given such term in section 3(e) of the Fair Labor Standards Act of 1938 (29 U.S.C. 203(e)).
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+term	(E) Constituted Entity	(E) Constituted Entity
+`	(E, prop) Constituted Entity Property	
+`	(E, prop) Constituted Entity Property	
+employee	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+has	(F) Constitutive Function	
+same	(P) Constituting Properties	
+meaning	(P) Constituting Properties	(P) Constituting Properties
+given	(P) Constituting Properties	
+such	(P) Constituting Properties	(P) Constituting Properties Property
+term	(P) Constituting Properties	(E) Constituted Entity
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+e	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Fair	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Standards	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1938	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+203	(P) Constituting Properties	
+e	(P) Constituting Properties	
+
+#Text=For purposes of this subparagraph the term ``person'' has the same meaning given such term in section 3(a) of the Fair Labor Standards Act of 1938 (29 U.S.C. 203(a)).
+
+For	(P) Constituting Properties	
+purposes	(P) Constituting Properties	(C) Context
+of	(P) Constituting Properties	(P) Constituting Properties Property
+this	(P) Constituting Properties	(C) Context
+subparagraph	(P) Constituting Properties	(C) Context
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+person	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+has	(F) Constitutive Function	
+same	(P) Constituting Properties	
+meaning	(P) Constituting Properties	(P) Constituting Properties
+given	(P) Constituting Properties	
+such	(P) Constituting Properties	(P) Constituting Properties Property
+term	(P) Constituting Properties	(E) Constituted Entity
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Fair	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Standards	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1938	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+203	(P) Constituting Properties	
+
+#Text=The term ``employ'' has the meanings given such terms in section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C. 203).
+
+term	(E) Constituted Entity	(E) Constituted Entity
+`	(E, prop) Constituted Entity Property	
+`	(E, prop) Constituted Entity Property	
+employ	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+has	(F) Constitutive Function	
+meanings	(P) Constituting Properties	
+given	(P) Constituting Properties	(P) Constituting Properties Property
+such	(P) Constituting Properties	(P) Constituting Properties Property
+terms	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Fair	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Standards	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1938	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+203	(P) Constituting Properties	
+
+#Text=The term ``State'' has the meanings given such terms in section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C. 203).
+
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+State	(E) Constituted Entity	
+''	(E, prop) Constituted Entity Property	
+has	(F) Constitutive Function	
+meanings	(P) Constituting Properties	
+given	(P) Constituting Properties	(P) Constituting Properties Property
+such	(P) Constituting Properties	(P) Constituting Properties Property
+terms	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+3	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Fair	(P) Constituting Properties	(P) Constituting Properties Property
+Labor	(P) Constituting Properties	(P) Constituting Properties Property
+Standards	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1938	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+203	(P) Constituting Properties	
+
+#Text=The term ``health care provider'' has the meanings given such terms in section 101 of the Family and Medical Leave Act of 1993 (29 U.S.C. 2611).
+
+term	(E) Constituted Entity	(E) Constituted Entity
+``	(E, prop) Constituted Entity Property	
+health	(E) Constituted Entity	
+care	(E) Constituted Entity	(E, prop) Constituted Entity Property
+provider	(E) Constituted Entity	
+''	(E, prop) Constituted Entity Property	
+has	(F) Constitutive Function	
+meanings	(P) Constituting Properties	
+given	(P) Constituting Properties	(P) Constituting Properties Property
+such	(P) Constituting Properties	(P) Constituting Properties Property
+terms	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+101	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Family	(P) Constituting Properties	(P) Constituting Properties Property
+and	(P) Constituting Properties	(P) Constituting Properties Property
+Medical	(P) Constituting Properties	(P) Constituting Properties Property
+Leave	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1993	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+2611	(P) Constituting Properties	
+
+#Text=The terms ``son or daughter'' has the meanings given such terms in section 101 of the Family and Medical Leave Act of 1993 (29 U.S.C. 2611).
+
+terms	(E) Constituted Entity	(P) Constituting Properties Property
+``	(E, prop) Constituted Entity Property	
+son	(E, prop) Constituted Entity Property	
+or	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+daughter	(E, prop) Constituted Entity Property	
+''	(E, prop) Constituted Entity Property	
+has	(F) Constitutive Function	
+meanings	(P) Constituting Properties	
+given	(P) Constituting Properties	(P) Constituting Properties Property
+such	(P) Constituting Properties	(P) Constituting Properties Property
+terms	(P) Constituting Properties	(P) Constituting Properties Property
+in	(P) Constituting Properties	(P) Constituting Properties Property
+section	(P) Constituting Properties	(P) Constituting Properties Property
+101	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+Family	(P) Constituting Properties	(P) Constituting Properties Property
+and	(P) Constituting Properties	(P) Constituting Properties Property
+Medical	(P) Constituting Properties	(P) Constituting Properties Property
+Leave	(P) Constituting Properties	(P) Constituting Properties Property
+Act	(P) Constituting Properties	(P) Constituting Properties Property
+of	(P) Constituting Properties	(P) Constituting Properties Property
+1993	(P) Constituting Properties	(P) Constituting Properties Property
+29	(P) Constituting Properties	
+USC	(P) Constituting Properties	
+2611	(P) Constituting Properties	
+
+#Text=The term ``paid sick time'' means an increment of compensated leave that--(i) is provided by an employer for use during an absence from employment for a reason described in any paragraph of section 2(a); and (ii) is calculated based on the employee's required compensation under subparagraph (B) and the number of hours the employee would otherwise be normally scheduled to work (or the number of hours calculated under subparagraph (C)), except that in no event shall such paid sick time exceed-- (I) $511 per day and $5,110 in the aggregate for a use described in paragraph (1), (2), or (3) of section 5102(a); and (II) $200 per day and $2,000 in the aggregate for a use described in paragraph (4), (5), or (6) of section 5102(a).
+
+term	(E) Constituted Entity	(E) Constituted Entity
+`	(E, prop) Constituted Entity Property	
+`	(E, prop) Constituted Entity Property	
+paid	(E, prop) Constituted Entity Property	
+sick	(E, prop) Constituted Entity Property	(E, prop) Constituted Entity Property
+time	(E) Constituted Entity	
+''	(E, prop) Constituted Entity Property	
+means	(F) Constitutive Function	
+increment	(P) Constituting Properties	(P) Constituting Properties
+of	(P) Constituting Properties	(P) Constituting Properties
+compensated	(P) Constituting Properties	(P) Constituting Properties
+leave	(P) Constituting Properties	(P) Constituting Properties
+that	(P) Constituting Properties	
+--(	(P) Constituting Properties	
+i	(P) Constituting Properties	
+is		
+provided		(P) Constituting Properties Property
+by		(P) Constituting Properties Property
+employer		(P) Constituting Properties Property
+for		(P) Constituting Properties Property
+use		(P) Constituting Properties Property
+during		(P) Constituting Properties Property
+absence		(P) Constituting Properties Property
+from		(P) Constituting Properties Property
+employment		
+for		(P) Constituting Properties Property
+reason		(P) Constituting Properties Property
+described		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+any		(P) Constituting Properties Property
+paragraph		(P) Constituting Properties Property
+of		(P) Constituting Properties
+section		(P) Constituting Properties Property
+2		
+;		
+and		(P) Constituting Properties Property
+ii		
+is		
+calculated		(P) Constituting Properties Property
+based		(P) Constituting Properties Property
+on		(P) Constituting Properties Property
+employee		(P) Constituting Properties Property
+'s		
+required		(P) Constituting Properties Property
+compensation		(P) Constituting Properties Property
+under		(P) Constituting Properties Property
+subparagraph		(P) Constituting Properties Property
+B		
+and		(P) Constituting Properties Property
+number		(P) Constituting Properties Property
+of		(P) Constituting Properties
+hours		(P) Constituting Properties Property
+employee		(P) Constituting Properties Property
+would		(P) Constituting Properties Property
+otherwise		(P) Constituting Properties Property
+be		(P) Constituting Properties Property
+normally		(P) Constituting Properties Property
+scheduled		(P) Constituting Properties Property
+to		(P) Constituting Properties Property
+work		(P) Constituting Properties Property
+or		(P) Constituting Properties Property
+number		(P) Constituting Properties Property
+of		(P) Constituting Properties
+hours		(P) Constituting Properties Property
+calculated		(P) Constituting Properties Property
+under		(P) Constituting Properties Property
+subparagraph		(P) Constituting Properties Property
+C		
+except		
+that		
+in		(P) Constituting Properties Property
+no		
+event		
+shall		
+such		
+paid		
+sick		(E, prop) Constituted Entity Property
+time		
+exceed		(P) Constituting Properties Property
+--		
+I		
+$		
+511		
+per		(P) Constituting Properties Property
+day		(P) Constituting Properties Property
+and		(P) Constituting Properties Property
+$		
+5,110		
+in		(P) Constituting Properties Property
+aggregate		(P) Constituting Properties Property
+for		(P) Constituting Properties Property
+use		(P) Constituting Properties Property
+described		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+paragraph		(P) Constituting Properties Property
+1		
+2		
+or		(P) Constituting Properties Property
+3		
+of		(P) Constituting Properties
+section		(P) Constituting Properties Property
+5102		
+;		
+and		(P) Constituting Properties Property
+II		
+$		
+200		
+per		(P) Constituting Properties Property
+day		(P) Constituting Properties Property
+and		(P) Constituting Properties Property
+$		
+2,000		
+in		(P) Constituting Properties Property
+aggregate		(P) Constituting Properties Property
+for		(P) Constituting Properties Property
+use		(P) Constituting Properties Property
+described		(P) Constituting Properties Property
+in		(P) Constituting Properties Property
+paragraph		(P) Constituting Properties Property
+4		
+5		
+or		(P) Constituting Properties Property
+6		
+of		(P) Constituting Properties
+section		(P) Constituting Properties Property
+5102		
+
+#Text=Subject to subparagraph (A)(ii), the employee's required compensation under this subparagraph shall be not less than the greater of the following: (I) The employee's regular rate of pay (as determined under section 7(e) of the Fair Labor Standards Act of 1938 (29 U.S.C. 207(e)). 
+
+Subject		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+ii		
+employee		
+'s		
+required		(E) Constituted Entity
+compensation		(E) Constituted Entity
+under		(P) Constituting Properties
+this		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+shall		(M) Modal
+be		(F) Constitutive Function
+not		(P) Constituting Properties
+less		(P) Constituting Properties
+than		(P) Constituting Properties
+greater		(P) Constituting Properties
+of		(P) Constituting Properties
+following		
+:		
+
+#Text=Subject to subparagraph (A)(ii), the employee's required compensation under this subparagraph shall be not less than the greater of the following: (II) The minimum wage rate in effect under section 6(a)(1) of the Fair Labor Standards Act of 1938 (29 U.S.C. 206(a)(1)). 
+
+Subject		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+ii		
+employee		
+'s		
+required		(E) Constituted Entity
+compensation		(E) Constituted Entity
+under		(P) Constituting Properties
+this		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+shall		(M) Modal
+be		(F) Constitutive Function
+not		(P) Constituting Properties
+less		(P) Constituting Properties
+than		(P) Constituting Properties
+greater		(P) Constituting Properties
+of		(P) Constituting Properties
+following		
+:		
+
+#Text=Subject to subparagraph (A)(ii), the employee's required compensation under this subparagraph shall be not less than the greater of the following: (III) The minimum wage rate in effect for such employee in the applicable State or locality, whichever is greater, in which the employee is employed.
+
+Subject		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+ii		
+employee		(P) Constituting Properties
+'s		
+required		(E) Constituted Entity
+compensation		(E) Constituted Entity
+under		
+this		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+shall		(M) Modal
+be		(F) Constitutive Function
+not		(P) Constituting Properties
+less		(P) Constituting Properties
+than		(P) Constituting Properties
+greater		
+of		
+following		
+:		
+
+#Text=Subject to subparagraph (A)(ii), with respect to any paid sick time provided for any use described in paragraph (4), (5), or (6) of section 5102(a), the employee's required compensation under this subparagraph shall be two-thirds of the amount described in clause (B)(i).
+
+Subject		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+ii		
+with		(E, prop) Constituted Entity Property
+respect		(E, prop) Constituted Entity Property
+to		(E, prop) Constituted Entity Property
+any		(E, prop) Constituted Entity Property
+paid		(E, prop) Constituted Entity Property
+sick		(E, prop) Constituted Entity Property
+time		(E, prop) Constituted Entity Property
+provided		(E, prop) Constituted Entity Property
+for		(E, prop) Constituted Entity Property
+any		(E, prop) Constituted Entity Property
+use		(E, prop) Constituted Entity Property
+described		(E, prop) Constituted Entity Property
+in		(E, prop) Constituted Entity Property
+paragraph		(E, prop) Constituted Entity Property
+4		
+5		
+or		(E, prop) Constituted Entity Property
+6		
+of		(E, prop) Constituted Entity Property
+section		(E, prop) Constituted Entity Property
+5102		
+employee		
+'s		
+required		(E) Constituted Entity
+compensation		(E) Constituted Entity
+under		
+this		(E, prop) Constituted Entity Property
+subparagraph		(E, prop) Constituted Entity Property
+shall		(M) Modal
+be		(F) Constitutive Function
+two		(P) Constituting Properties
+thirds		(P) Constituting Properties
+of		(E, prop) Constituted Entity Property
+amount		(P) Constituting Properties
+described		(E, prop) Constituted Entity Property
+in		(E, prop) Constituted Entity Property
+clause		(P) Constituting Properties
+B		
+i		
+
+#Text=The Secretary of Labor shall have the authority to issue regulations for good cause under sections 553(b)(B) and 553(d)(A) of title 5, United States Code.
+
+Secretary	(E) Constituted Entity	(E) Constituted Entity
+of	(E, prop) Constituted Entity Property	(E) Constituted Entity
+Labor	(E, prop) Constituted Entity Property	(E) Constituted Entity
+shall	(M) Modal	(M) Modal
+have	(F) Constitutive Function	(F) Constitutive Function
+authority	(P) Constituting Properties	(P) Constituting Properties
+to	(P) Constituting Properties	(P) Constituting Properties
+issue	(P) Constituting Properties	(P) Constituting Properties
+regulations	(P) Constituting Properties	(P) Constituting Properties
+for	(P) Constituting Properties	(C) Context
+good	(P) Constituting Properties	(C) Context
+cause	(P) Constituting Properties	(C) Context
+under	(P) Constituting Properties	(C) Context
+sections	(P) Constituting Properties	(C) Context
+553	(P) Constituting Properties	
+b	(P) Constituting Properties	
+B	(P) Constituting Properties	
+and	(P) Constituting Properties	(C) Context
+553	(P) Constituting Properties	
+d	(P) Constituting Properties	
+of	(P) Constituting Properties	(E) Constituted Entity
+title	(P) Constituting Properties	(C) Context
+5	(P) Constituting Properties	
+United	(P) Constituting Properties	(C) Context
+States	(P) Constituting Properties	(C) Context
+Code	(P) Constituting Properties	(C) Context

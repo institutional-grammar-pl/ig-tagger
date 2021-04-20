@@ -1,0 +1,3455 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.IGCoreConstitutiveSyntax|Component
+
+
+#Text=The employee is unable to work.
+1-1	0-3	The	(E) Constituted Entity[1]
+1-2	4-12	employee	(E) Constituted Entity[1]
+1-3	13-15	is	(F) Constitutive Function
+1-4	16-22	unable	(P) Constituting Properties
+1-5	23-25	to	(C) Context[2]
+1-6	26-30	work	(C) Context[2]
+1-7	31-32	.	
+
+#Text=The employee is unable to telework.
+2-1	33-36	The	(E) Constituted Entity[3]
+2-2	37-45	employee	(E) Constituted Entity[3]
+2-3	46-48	is	(F) Constitutive Function
+2-4	49-55	unable	(P) Constituting Properties
+2-5	56-58	to	(C) Context[4]
+2-6	59-67	telework	(C) Context[4]
+2-7	68-69	.	
+
+#Text=The employee is subject to a Federal quarantine order related to COVID-19.
+3-1	70-73	The	(E) Constituted Entity[5]
+3-2	74-82	employee	(E) Constituted Entity[5]
+3-3	83-85	is	(F) Constitutive Function
+3-4	86-93	subject	(P) Constituting Properties
+3-5	94-96	to	(P) Constituting Properties[6]
+3-6	97-98	a	(P) Constituting Properties[6]
+3-7	99-106	Federal	(P) Constituting Properties[6]
+3-8	107-117	quarantine	(P) Constituting Properties[6]
+3-9	118-123	order	(P) Constituting Properties[6]
+3-10	124-131	related	(P) Constituting Properties[6]
+3-11	132-134	to	(P) Constituting Properties[6]
+3-12	135-140	COVID	(P) Constituting Properties[6]
+3-13	141-142	-	(P) Constituting Properties[6]
+3-14	142-144	19	(P) Constituting Properties[6]
+3-15	145-146	.	
+
+#Text=The employee is subject to a Federal isolation order related to COVID-19.
+4-1	146-149	The	(E) Constituted Entity[7]
+4-2	150-158	employee	(E) Constituted Entity[7]
+4-3	159-161	is	(F) Constitutive Function
+4-4	162-169	subject	(P) Constituting Properties
+4-5	170-172	to	(P) Constituting Properties[8]
+4-6	173-174	a	(P) Constituting Properties[8]
+4-7	175-182	Federal	(P) Constituting Properties[8]
+4-8	183-192	isolation	(P) Constituting Properties[8]
+4-9	193-198	order	(P) Constituting Properties[8]
+4-10	199-206	related	(P) Constituting Properties[8]
+4-11	207-209	to	(P) Constituting Properties[8]
+4-12	210-215	COVID	(P) Constituting Properties[8]
+4-13	216-217	-	(P) Constituting Properties[8]
+4-14	217-219	19	(P) Constituting Properties[8]
+4-15	220-221	.	
+
+#Text=The employee is subject to a State quarantine order related to COVID-19.
+5-1	221-224	The	(E) Constituted Entity[9]
+5-2	225-233	employee	(E) Constituted Entity[9]
+5-3	234-236	is	(F) Constitutive Function
+5-4	237-244	subject	(P) Constituting Properties
+5-5	245-247	to	(P) Constituting Properties[10]
+5-6	248-249	a	(P) Constituting Properties[10]
+5-7	250-255	State	(P) Constituting Properties[10]
+5-8	256-266	quarantine	(P) Constituting Properties[10]
+5-9	267-272	order	(P) Constituting Properties[10]
+5-10	273-280	related	(P) Constituting Properties[10]
+5-11	281-283	to	(P) Constituting Properties[10]
+5-12	284-289	COVID	(P) Constituting Properties[10]
+5-13	290-291	-	(P) Constituting Properties[10]
+5-14	291-293	19	(P) Constituting Properties[10]
+5-15	294-295	.	
+
+#Text=The employee is subject to a State isolation order related to COVID-19.
+6-1	295-298	The	(E) Constituted Entity[11]
+6-2	299-307	employee	(E) Constituted Entity[11]
+6-3	308-310	is	(F) Constitutive Function
+6-4	311-318	subject	(P) Constituting Properties
+6-5	319-321	to	(P) Constituting Properties[12]
+6-6	322-323	a	(P) Constituting Properties[12]
+6-7	324-329	State	(P) Constituting Properties[12]
+6-8	330-339	isolation	(P) Constituting Properties[12]
+6-9	340-345	order	(P) Constituting Properties[12]
+6-10	346-353	related	(P) Constituting Properties[12]
+6-11	354-356	to	(P) Constituting Properties[12]
+6-12	357-362	COVID	(P) Constituting Properties[12]
+6-13	363-364	-	(P) Constituting Properties[12]
+6-14	364-366	19	(P) Constituting Properties[12]
+6-15	367-368	.	
+
+#Text=The employee is subject to a local quarantine order related to COVID-19.
+7-1	368-371	The	(E) Constituted Entity[13]
+7-2	372-380	employee	(E) Constituted Entity[13]
+7-3	381-383	is	(F) Constitutive Function
+7-4	384-391	subject	(P) Constituting Properties
+7-5	392-394	to	(P) Constituting Properties[14]
+7-6	395-396	a	(P) Constituting Properties[14]
+7-7	397-402	local	(P) Constituting Properties[14]
+7-8	403-413	quarantine	(P) Constituting Properties[14]
+7-9	414-419	order	(P) Constituting Properties[14]
+7-10	420-427	related	(P) Constituting Properties[14]
+7-11	428-430	to	(P) Constituting Properties[14]
+7-12	431-436	COVID	(P) Constituting Properties[14]
+7-13	437-438	-	(P) Constituting Properties[14]
+7-14	438-440	19	(P) Constituting Properties[14]
+7-15	441-442	.	
+
+#Text=The employee is subject to a local isolation order related to COVID-19.
+8-1	442-445	The	(E) Constituted Entity[15]
+8-2	446-454	employee	(E) Constituted Entity[15]
+8-3	455-457	is	(F) Constitutive Function
+8-4	458-465	subject	(P) Constituting Properties
+8-5	466-468	to	(P) Constituting Properties[16]
+8-6	469-470	a	(P) Constituting Properties[16]
+8-7	471-476	local	(P) Constituting Properties[16]
+8-8	477-486	isolation	(P) Constituting Properties[16]
+8-9	487-492	order	(P) Constituting Properties[16]
+8-10	493-500	related	(P) Constituting Properties[16]
+8-11	501-503	to	(P) Constituting Properties[16]
+8-12	504-509	COVID	(P) Constituting Properties[16]
+8-13	510-511	-	(P) Constituting Properties[16]
+8-14	511-513	19	(P) Constituting Properties[16]
+8-15	514-515	.	
+
+#Text=An employee who is a health care provider.
+9-1	515-517	An	
+9-2	518-526	employee	
+9-3	527-530	who	
+9-4	531-533	is	
+9-5	534-535	a	
+9-6	536-542	health	
+9-7	543-547	care	
+9-8	548-556	provider	
+9-9	557-558	.	
+
+#Text=An employee who is an emergency responder
+10-1	559-561	An	
+10-2	562-570	employee	
+10-3	571-574	who	
+10-4	575-577	is	
+10-5	578-580	an	
+10-6	581-590	emergency	
+10-7	591-600	responder	
+10-8	601-602	.	
+
+#Text=An employee shall be entitled to paid sick time for an amount of hours determined under [statement 4].
+11-1	602-604	An	(E) Constituted Entity[17]
+11-2	605-613	employee	(E) Constituted Entity[17]
+11-3	614-619	shall	(M) Modal
+11-4	620-622	be	(F) Constitutive Function
+11-5	623-631	entitled	(F) Constitutive Function
+11-6	632-634	to	(P) Constituting Properties[18]
+11-7	635-639	paid	(P) Constituting Properties[18]
+11-8	640-644	sick	(P) Constituting Properties[18]
+11-9	645-649	time	(P) Constituting Properties[18]
+11-10	650-653	for	(P) Constituting Properties[19]
+11-11	654-656	an	(P) Constituting Properties[19]
+11-12	657-663	amount	(P) Constituting Properties[19]
+11-13	664-666	of	(P) Constituting Properties[19]
+11-14	667-672	hours	(P) Constituting Properties[19]
+11-15	673-683	determined	(P) Constituting Properties[19]
+11-16	684-689	under	(P) Constituting Properties[19]
+11-17	690-691	[	(P) Constituting Properties[19]
+11-18	691-700	statement	(P) Constituting Properties[19]
+11-19	701-702	4	(P) Constituting Properties[19]
+11-20	703-704	]	(P) Constituting Properties[19]
+11-21	704-705	.	
+
+#Text=The amount of hours of paid sick time to which a full-time employees are entitled shall be 80 hours.
+12-1	706-709	The	
+12-2	710-716	amount	
+12-3	717-719	of	
+12-4	720-725	hours	
+12-5	726-728	of	
+12-6	729-733	paid	
+12-7	734-738	sick	
+12-8	739-743	time	
+12-9	744-746	to	
+12-10	747-752	which	
+12-11	753-754	a	
+12-12	755-759	full	
+12-13	760-761	-	
+12-14	761-765	time	
+12-15	766-775	employees	
+12-16	776-779	are	
+12-17	780-788	entitled	
+12-18	789-794	shall	
+12-19	795-797	be	
+12-20	798-800	80	
+12-21	801-806	hours	
+12-22	807-808	.	
+
+#Text=The amount of hours of paid sick time to which a part-time employees are entitled shall be a number of hours equal to the number of hours that such employee works, on average, over a 2-week period.	
+13-1	808-811	The	(P) Constituting Properties[21]
+13-2	812-818	amount	(P) Constituting Properties[21]
+13-3	819-821	of	(P) Constituting Properties[21]
+13-4	822-827	hours	(P) Constituting Properties[21]
+13-5	828-830	of	(P) Constituting Properties[21]
+13-6	831-835	paid	(P) Constituting Properties[21]
+13-7	836-840	sick	(P) Constituting Properties[21]
+13-8	841-845	time	(P) Constituting Properties[21]
+13-9	846-848	to	(P) Constituting Properties[21]
+13-10	849-854	which	(P) Constituting Properties[21]
+13-11	855-856	a	(P) Constituting Properties[21]
+13-12	857-861	part	(P) Constituting Properties[21]
+13-13	862-863	-	(P) Constituting Properties[21]
+13-14	863-867	time	(P) Constituting Properties[21]
+13-15	868-877	employees	(P) Constituting Properties[21]
+13-16	878-881	are	(P) Constituting Properties[21]
+13-17	882-890	entitled	(P) Constituting Properties[21]
+13-18	891-896	shall	(M) Modal
+13-19	897-899	be	(F) Constitutive Function
+13-20	900-901	a	(E) Constituted Entity[20]
+13-21	902-908	number	(E) Constituted Entity
+13-22	909-911	of	
+13-23	912-917	hours	
+13-24	918-923	equal	
+13-25	924-926	to	
+13-26	927-930	the	
+13-27	931-937	number	
+13-28	938-940	of	
+13-29	941-946	hours	
+13-30	947-951	that	
+13-31	952-956	such	
+13-32	957-965	employee	
+13-33	966-971	works	
+13-34	972-973	,	
+13-35	973-975	on	
+13-36	976-983	average	
+13-37	984-985	,	
+13-38	985-989	over	
+13-39	990-991	a	
+13-40	992-993	2	
+13-41	994-995	-	
+13-42	995-999	week	
+13-43	1000-1006	period	
+13-44	1007-1008	.	
+
+#Text=Paid sick time under this section shall not carry over from 1 year to the next
+14-1	1008-1012	Paid	
+14-2	1013-1017	sick	
+14-3	1018-1022	time	
+14-4	1023-1028	under	
+14-5	1029-1033	this	
+14-6	1034-1041	section	
+14-7	1042-1047	shall	
+14-8	1048-1051	not	
+14-9	1052-1057	carry	
+14-10	1058-1062	over	
+14-11	1063-1067	from	
+14-12	1068-1069	1	
+14-13	1070-1074	year	
+14-14	1075-1077	to	
+14-15	1078-1081	the	
+14-16	1082-1086	next	
+14-17	1087-1088	.	
+
+#Text=Paid sick time provided to an employee under this Act shall cease beginning with the employee's next scheduled workshift.
+15-1	1088-1092	Paid	
+15-2	1093-1097	sick	
+15-3	1098-1102	time	
+15-4	1103-1111	provided	
+15-5	1112-1114	to	
+15-6	1115-1117	an	
+15-7	1118-1126	employee	
+15-8	1127-1132	under	
+15-9	1133-1137	this	
+
+#Text=Paid sick time provided to an employee under this Act shall cease immediately following the termination of the need for paid sick time under subsection (a).
+16-1	1211-1215	Paid	
+16-2	1216-1220	sick	
+16-3	1221-1225	time	
+16-4	1226-1234	provided	
+16-5	1235-1237	to	
+16-6	1238-1240	an	
+16-7	1241-1249	employee	
+16-8	1250-1255	under	
+16-9	1256-1260	this	
+
+#Text=The paid sick time under subsection (a) shall be available for immediate use by the employee for the purposes described in such subsection, regardless of how long the employee has been employed by an employer.
+17-1	1369-1372	The	(E) Constituted Entity[22]
+17-2	1373-1377	paid	(E, prop) Constituted Entity Property[22]
+17-3	1378-1382	sick	(E, prop) Constituted Entity Property[22]
+17-4	1383-1387	time	(E) Constituted Entity[22]
+17-5	1388-1393	under	(E, prop) Constituted Entity Property[22]
+17-6	1394-1404	subsection	(E, prop) Constituted Entity Property[22]
+17-7	1405-1406	(	
+17-8	1406-1407	a	
+17-9	1408-1409	)	
+17-10	1409-1414	shall	(M) Modal
+17-11	1415-1417	be	(F) Constitutive Function
+17-12	1418-1427	available	(P) Constituting Properties
+17-13	1428-1431	for	(P) Constituting Properties[23]
+17-14	1432-1441	immediate	(P) Constituting Properties[23]
+17-15	1442-1445	use	(P) Constituting Properties[23]
+17-16	1446-1448	by	(P) Constituting Properties[23]
+17-17	1449-1452	the	(P) Constituting Properties[23]
+17-18	1453-1461	employee	(P) Constituting Properties[23]
+17-19	1462-1465	for	(P) Constituting Properties[23]
+17-20	1466-1469	the	(P) Constituting Properties[23]
+17-21	1470-1478	purposes	(P) Constituting Properties[23]
+17-22	1479-1488	described	(P) Constituting Properties[23]
+17-23	1489-1491	in	(P) Constituting Properties[23]
+17-24	1492-1496	such	(P) Constituting Properties[23]
+17-25	1497-1507	subsection	(P) Constituting Properties[23]
+17-26	1508-1509	,	(P) Constituting Properties[23]
+17-27	1509-1519	regardless	(P) Constituting Properties[24]
+17-28	1520-1522	of	(P) Constituting Properties[24]
+17-29	1523-1526	how	(P) Constituting Properties[24]
+17-30	1527-1531	long	(P) Constituting Properties[24]
+17-31	1532-1535	the	(P) Constituting Properties[24]
+17-32	1536-1544	employee	(P) Constituting Properties[24]
+17-33	1545-1548	has	(P) Constituting Properties[24]
+17-34	1549-1553	been	(P) Constituting Properties[24]
+17-35	1554-1562	employed	(P) Constituting Properties[24]
+17-36	1563-1565	by	(P) Constituting Properties[24]
+17-37	1566-1568	an	(P) Constituting Properties[24]
+17-38	1569-1577	employer	(P) Constituting Properties[24]
+17-39	1578-1579	.	
+
+#Text=An employee may first use the paid sick time under subsection (a) for the purposes described in such subsection.
+18-1	1580-1582	An	(E) Constituted Entity[25]
+18-2	1583-1591	employee	(E) Constituted Entity[25]
+18-3	1592-1595	may	(M) Modal
+18-4	1596-1601	first	(C) Context[28]
+18-5	1602-1605	use	(F) Constitutive Function
+18-6	1606-1609	the	(P) Constituting Properties[26]
+18-7	1610-1614	paid	(P) Constituting Properties[26]
+18-8	1615-1619	sick	(P) Constituting Properties[26]
+18-9	1620-1624	time	(P) Constituting Properties[26]
+18-10	1625-1630	under	(P) Constituting Properties[26]
+18-11	1631-1641	subsection	(P) Constituting Properties[26]
+18-12	1642-1643	(	
+18-13	1643-1644	a	
+18-14	1645-1646	)	
+18-15	1646-1649	for	(P) Constituting Properties[27]
+18-16	1650-1653	the	(P) Constituting Properties[27]
+18-17	1654-1662	purposes	(P) Constituting Properties[27]
+18-18	1663-1672	described	(P) Constituting Properties[27]
+18-19	1673-1675	in	(P) Constituting Properties[27]
+18-20	1676-1680	such	(P) Constituting Properties[27]
+18-21	1681-1691	subsection	(P) Constituting Properties[27]
+18-22	1692-1693	.	
+
+#Text=Discharge shall be unlawful. 
+19-1	1694-1703	Discharge	(E) Constituted Entity[29]
+19-2	1704-1709	shall	(M) Modal
+19-3	1710-1712	be	(F) Constitutive Function
+19-4	1713-1721	unlawful	(P) Constituting Properties
+19-5	1722-1723	.	
+
+#Text=Discipline shall be unlawful.
+20-1	1725-1735	Discipline	(E) Constituted Entity[30]
+20-2	1736-1741	shall	(M) Modal
+20-3	1742-1744	be	(F) Constitutive Function
+20-4	1745-1753	unlawful	(P) Constituting Properties
+20-5	1754-1755	.	
+
+#Text=Discriminate against shall be unlawful.
+21-1	1756-1768	Discriminate	
+21-2	1769-1776	against	
+21-3	1777-1782	shall	
+21-4	1783-1785	be	
+21-5	1786-1794	unlawful	
+21-6	1795-1796	.	
+
+#Text=An employer who violates section 5102 shall be considered to have failed to pay minimum wages in violation of section 6 of the Fair Labor Standards Act of 1938 (29 U.S.C. 206).
+22-1	1797-1799	An	(E) Constituted Entity[31]
+22-2	1800-1808	employer	(E) Constituted Entity[31]
+22-3	1809-1812	who	(E, prop) Constituted Entity Property[31]
+22-4	1813-1821	violates	(E, prop) Constituted Entity Property[31]
+22-5	1822-1829	section	(E, prop) Constituted Entity Property[31]
+22-6	1830-1834	5102	(E, prop) Constituted Entity Property[31]
+22-7	1835-1840	shall	(M) Modal
+22-8	1841-1843	be	(F) Constitutive Function
+22-9	1844-1854	considered	(F) Constitutive Function
+22-10	1855-1857	to	(C) Context[32]
+22-11	1858-1862	have	(C) Context[32]
+22-12	1863-1869	failed	(C) Context[32]
+22-13	1870-1872	to	(C) Context[32]
+22-14	1873-1876	pay	(C) Context[32]
+22-15	1877-1884	minimum	(C) Context[32]
+22-16	1885-1890	wages	(C) Context[32]
+22-17	1891-1893	in	(C) Context[32]
+22-18	1894-1903	violation	(C) Context[32]
+22-19	1904-1906	of	(C) Context[32]
+22-20	1907-1914	section	(C) Context[32]
+22-21	1915-1916	6	(C) Context[32]
+22-22	1917-1919	of	(C) Context[32]
+22-23	1920-1923	the	(C) Context[32]
+22-24	1924-1928	Fair	(C) Context[32]
+22-25	1929-1934	Labor	(C) Context[32]
+22-26	1935-1944	Standards	(C) Context[32]
+22-27	1945-1948	Act	(C) Context[32]
+22-28	1949-1951	of	(C) Context[32]
+22-29	1952-1956	1938	(C) Context[32]
+22-30	1957-1958	(	(C) Context[32]
+22-31	1958-1960	29	(C) Context[32]
+22-32	1961-1964	USC	(C) Context[32]
+22-33	1965-1968	206	(C) Context[32]
+22-34	1969-1970	)	(C) Context[32]
+22-35	1970-1971	.	
+
+#Text=An employer who violates section 5102 shall be subject to the penalties described in sections 16 and 17 of such Act (29 U.S.C. 216; 217) with respect to such violation.
+23-1	1975-1977	An	(E) Constituted Entity[33]
+23-2	1978-1986	employer	(E) Constituted Entity[33]
+23-3	1987-1990	who	(E, prop) Constituted Entity Property[33]
+23-4	1991-1999	violates	(E, prop) Constituted Entity Property[33]
+23-5	2000-2007	section	(E, prop) Constituted Entity Property[33]
+23-6	2008-2012	5102	(E, prop) Constituted Entity Property[33]
+23-7	2013-2018	shall	(M) Modal
+23-8	2019-2021	be	(F) Constitutive Function
+23-9	2022-2029	subject	(P) Constituting Properties
+23-10	2030-2032	to	(P) Constituting Properties[34]
+23-11	2033-2036	the	(P) Constituting Properties[34]
+23-12	2037-2046	penalties	(P) Constituting Properties[34]
+23-13	2047-2056	described	(P) Constituting Properties[34]
+23-14	2057-2059	in	(P) Constituting Properties[34]
+23-15	2060-2068	sections	(P) Constituting Properties[34]
+23-16	2069-2071	16	(P) Constituting Properties[34]
+23-17	2072-2075	and	(P) Constituting Properties[34]
+23-18	2076-2078	17	(P) Constituting Properties[34]
+23-19	2079-2081	of	(P) Constituting Properties[34]
+23-20	2082-2086	such	(P) Constituting Properties[34]
+23-21	2087-2090	Act	(P) Constituting Properties[34]
+23-22	2091-2092	(	(P) Constituting Properties[34]
+23-23	2092-2094	29	(P) Constituting Properties[34]
+23-24	2095-2098	USC	(P) Constituting Properties[34]
+23-25	2099-2102	216	(P) Constituting Properties[34]
+23-26	2103-2104	;	(P) Constituting Properties[34]
+23-27	2104-2107	217	(P) Constituting Properties[34]
+23-28	2108-2109	)	(P) Constituting Properties[34]
+23-29	2109-2113	with	(P) Constituting Properties[34]
+23-30	2114-2121	respect	(P) Constituting Properties[34]
+23-31	2122-2124	to	(P) Constituting Properties[34]
+23-32	2125-2129	such	(P) Constituting Properties[34]
+23-33	2130-2139	violation	(P) Constituting Properties[34]
+23-34	2140-2141	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any other Federal law.
+24-1	2145-2152	Nothing	(E) Constituted Entity[35]
+24-2	2153-2155	in	(E, prop) Constituted Entity Property[35]
+24-3	2156-2160	this	(E, prop) Constituted Entity Property[35]
+24-4	2161-2164	Act	(E, prop) Constituted Entity Property[35]
+24-5	2165-2170	shall	(M) Modal
+24-6	2171-2173	be	(F) Constitutive Function
+24-7	2174-2183	construed	(F) Constitutive Function
+24-8	2184-2186	to	(P) Constituting Properties[36]
+24-9	2187-2189	in	(P) Constituting Properties[36]
+24-10	2190-2193	any	(P) Constituting Properties[36]
+24-11	2194-2197	way	(P) Constituting Properties[36]
+24-12	2198-2206	diminish	(P) Constituting Properties[36]
+24-13	2207-2210	the	(P) Constituting Properties[36]
+24-14	2211-2217	rights	(P) Constituting Properties[36]
+24-15	2218-2222	that	(P) Constituting Properties[36]
+24-16	2223-2225	an	(P) Constituting Properties[36]
+24-17	2226-2234	employee	(P) Constituting Properties[36]
+24-18	2235-2237	is	(P) Constituting Properties[36]
+24-19	2238-2246	entitled	(P) Constituting Properties[36]
+24-20	2247-2249	to	(P) Constituting Properties[36]
+24-21	2250-2255	under	(P) Constituting Properties[36]
+24-22	2256-2259	any	(P) Constituting Properties[36]
+24-23	2260-2265	other	(P) Constituting Properties[36]
+24-24	2266-2273	Federal	(P) Constituting Properties[36]
+24-25	2274-2277	law	(P) Constituting Properties[36]
+24-26	2278-2279	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any other Federal law.
+25-1	2280-2287	Nothing	(E) Constituted Entity[37]
+25-2	2288-2290	in	(E, prop) Constituted Entity Property[37]
+25-3	2291-2295	this	(E, prop) Constituted Entity Property[37]
+25-4	2296-2299	Act	(E, prop) Constituted Entity Property[37]
+25-5	2300-2305	shall	(M) Modal
+25-6	2306-2308	be	(F) Constitutive Function
+25-7	2309-2318	construed	(F) Constitutive Function
+25-8	2319-2321	to	(P) Constituting Properties[38]
+25-9	2322-2324	in	(P) Constituting Properties[38]
+25-10	2325-2328	any	(P) Constituting Properties[38]
+25-11	2329-2332	way	(P) Constituting Properties[38]
+25-12	2333-2341	diminish	(P) Constituting Properties[38]
+25-13	2342-2345	the	(P) Constituting Properties[38]
+25-14	2346-2354	benefits	(P) Constituting Properties[38]
+25-15	2355-2359	that	(P) Constituting Properties[38]
+25-16	2360-2362	an	(P) Constituting Properties[38]
+25-17	2363-2371	employee	(P) Constituting Properties[38]
+25-18	2372-2374	is	(P) Constituting Properties[38]
+25-19	2375-2383	entitled	(P) Constituting Properties[38]
+25-20	2384-2386	to	(P) Constituting Properties[38]
+25-21	2387-2392	under	(P) Constituting Properties[38]
+25-22	2393-2396	any	(P) Constituting Properties[38]
+25-23	2397-2402	other	(P) Constituting Properties[38]
+25-24	2403-2410	Federal	(P) Constituting Properties[38]
+25-25	2411-2414	law	(P) Constituting Properties[38]
+25-26	2415-2416	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any other State.
+26-1	2417-2424	Nothing	(E) Constituted Entity[39]
+26-2	2425-2427	in	(E, prop) Constituted Entity Property[39]
+26-3	2428-2432	this	(E, prop) Constituted Entity Property[39]
+26-4	2433-2436	Act	(E, prop) Constituted Entity Property[39]
+26-5	2437-2442	shall	(M) Modal
+26-6	2443-2445	be	(F) Constitutive Function
+26-7	2446-2455	construed	(F) Constitutive Function
+26-8	2456-2458	to	(P) Constituting Properties[40]
+26-9	2459-2461	in	(P) Constituting Properties[40]
+26-10	2462-2465	any	(P) Constituting Properties[40]
+26-11	2466-2469	way	(P) Constituting Properties[40]
+26-12	2470-2478	diminish	(P) Constituting Properties[40]
+26-13	2479-2482	the	(P) Constituting Properties[40]
+26-14	2483-2489	rights	(P) Constituting Properties[40]
+26-15	2490-2494	that	(P) Constituting Properties[40]
+26-16	2495-2497	an	(P) Constituting Properties[40]
+26-17	2498-2506	employee	(P) Constituting Properties[40]
+26-18	2507-2509	is	(P) Constituting Properties[40]
+26-19	2510-2518	entitled	(P) Constituting Properties[40]
+26-20	2519-2521	to	(P) Constituting Properties[40]
+26-21	2522-2527	under	(P) Constituting Properties[40]
+26-22	2528-2531	any	(P) Constituting Properties[40]
+26-23	2532-2537	other	(P) Constituting Properties[40]
+26-24	2538-2543	State	(P) Constituting Properties[40]
+26-25	2544-2545	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any other State.
+27-1	2546-2553	Nothing	(E) Constituted Entity[41]
+27-2	2554-2556	in	(E, prop) Constituted Entity Property[41]
+27-3	2557-2561	this	(E, prop) Constituted Entity Property[41]
+27-4	2562-2565	Act	(E, prop) Constituted Entity Property[41]
+27-5	2566-2571	shall	(M) Modal
+27-6	2572-2574	be	(F) Constitutive Function
+27-7	2575-2584	construed	(F) Constitutive Function
+27-8	2585-2587	to	(P) Constituting Properties[42]
+27-9	2588-2590	in	(P) Constituting Properties[42]
+27-10	2591-2594	any	(P) Constituting Properties[42]
+27-11	2595-2598	way	(P) Constituting Properties[42]
+27-12	2599-2607	diminish	(P) Constituting Properties[42]
+27-13	2608-2611	the	(P) Constituting Properties[42]
+27-14	2612-2620	benefits	(P) Constituting Properties[42]
+27-15	2621-2625	that	(P) Constituting Properties[42]
+27-16	2626-2628	an	(P) Constituting Properties[42]
+27-17	2629-2637	employee	(P) Constituting Properties[42]
+27-18	2638-2640	is	(P) Constituting Properties[42]
+27-19	2641-2649	entitled	(P) Constituting Properties[42]
+27-20	2650-2652	to	(P) Constituting Properties[42]
+27-21	2653-2658	under	(P) Constituting Properties[42]
+27-22	2659-2662	any	(P) Constituting Properties[42]
+27-23	2663-2668	other	(P) Constituting Properties[42]
+27-24	2669-2674	State	(P) Constituting Properties[42]
+27-25	2675-2676	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any local law.
+28-1	2677-2684	Nothing	(E) Constituted Entity[43]
+28-2	2685-2687	in	(E, prop) Constituted Entity Property[43]
+28-3	2688-2692	this	(E, prop) Constituted Entity Property[43]
+28-4	2693-2696	Act	(E, prop) Constituted Entity Property[43]
+28-5	2697-2702	shall	(M) Modal
+28-6	2703-2705	be	(F) Constitutive Function
+28-7	2706-2715	construed	(F) Constitutive Function
+28-8	2716-2718	to	(P) Constituting Properties[44]
+28-9	2719-2721	in	(P) Constituting Properties[44]
+28-10	2722-2725	any	(P) Constituting Properties[44]
+28-11	2726-2729	way	(P) Constituting Properties[44]
+28-12	2730-2738	diminish	(P) Constituting Properties[44]
+28-13	2739-2742	the	(P) Constituting Properties[44]
+28-14	2743-2749	rights	(P) Constituting Properties[44]
+28-15	2750-2754	that	(P) Constituting Properties[44]
+28-16	2755-2757	an	(P) Constituting Properties[44]
+28-17	2758-2766	employee	(P) Constituting Properties[44]
+28-18	2767-2769	is	(P) Constituting Properties[44]
+28-19	2770-2778	entitled	(P) Constituting Properties[44]
+28-20	2779-2781	to	(P) Constituting Properties[44]
+28-21	2782-2787	under	(P) Constituting Properties[44]
+28-22	2788-2791	any	(P) Constituting Properties[44]
+28-23	2792-2797	local	(P) Constituting Properties[44]
+28-24	2798-2801	law	(P) Constituting Properties[44]
+28-25	2802-2803	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any local law.
+29-1	2804-2811	Nothing	(E) Constituted Entity[45]
+29-2	2812-2814	in	(E, prop) Constituted Entity Property[45]
+29-3	2815-2819	this	(E, prop) Constituted Entity Property[45]
+29-4	2820-2823	Act	(E, prop) Constituted Entity Property[45]
+29-5	2824-2829	shall	(M) Modal
+29-6	2830-2832	be	(F) Constitutive Function
+29-7	2833-2842	construed	(F) Constitutive Function
+29-8	2843-2845	to	(P) Constituting Properties[46]
+29-9	2846-2848	in	(P) Constituting Properties[46]
+29-10	2849-2852	any	(P) Constituting Properties[46]
+29-11	2853-2856	way	(P) Constituting Properties[46]
+29-12	2857-2865	diminish	(P) Constituting Properties[46]
+29-13	2866-2869	the	(P) Constituting Properties[46]
+29-14	2870-2878	benefits	(P) Constituting Properties[46]
+29-15	2879-2883	that	(P) Constituting Properties[46]
+29-16	2884-2886	an	(P) Constituting Properties[46]
+29-17	2887-2895	employee	(P) Constituting Properties[46]
+29-18	2896-2898	is	(P) Constituting Properties[46]
+29-19	2899-2907	entitled	(P) Constituting Properties[46]
+29-20	2908-2910	to	(P) Constituting Properties[46]
+29-21	2911-2916	under	(P) Constituting Properties[46]
+29-22	2917-2920	any	(P) Constituting Properties[46]
+29-23	2921-2926	local	(P) Constituting Properties[46]
+29-24	2927-2930	law	(P) Constituting Properties[46]
+29-25	2931-2932	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any collective bargaining agreement.
+30-1	2933-2940	Nothing	(E) Constituted Entity[47]
+30-2	2941-2943	in	(E, prop) Constituted Entity Property[47]
+30-3	2944-2948	this	(E, prop) Constituted Entity Property[47]
+30-4	2949-2952	Act	(E, prop) Constituted Entity Property[47]
+30-5	2953-2958	shall	(M) Modal
+30-6	2959-2961	be	(F) Constitutive Function
+30-7	2962-2971	construed	(F) Constitutive Function
+30-8	2972-2974	to	(P) Constituting Properties[48]
+30-9	2975-2977	in	(P) Constituting Properties[48]
+30-10	2978-2981	any	(P) Constituting Properties[48]
+30-11	2982-2985	way	(P) Constituting Properties[48]
+30-12	2986-2994	diminish	(P) Constituting Properties[48]
+30-13	2995-2998	the	(P) Constituting Properties[48]
+30-14	2999-3005	rights	(P) Constituting Properties[48]
+30-15	3006-3010	that	(P) Constituting Properties[48]
+30-16	3011-3013	an	(P) Constituting Properties[48]
+30-17	3014-3022	employee	(P) Constituting Properties[48]
+30-18	3023-3025	is	(P) Constituting Properties[48]
+30-19	3026-3034	entitled	(P) Constituting Properties[48]
+30-20	3035-3037	to	(P) Constituting Properties[48]
+30-21	3038-3043	under	(P) Constituting Properties[48]
+30-22	3044-3047	any	(P) Constituting Properties[48]
+30-23	3048-3058	collective	(P) Constituting Properties[48]
+30-24	3059-3069	bargaining	(P) Constituting Properties[48]
+30-25	3070-3079	agreement	(P) Constituting Properties[48]
+30-26	3080-3081	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any collective bargaining agreement.
+31-1	3082-3089	Nothing	(E) Constituted Entity[49]
+31-2	3090-3092	in	(E, prop) Constituted Entity Property[49]
+31-3	3093-3097	this	(E, prop) Constituted Entity Property[49]
+31-4	3098-3101	Act	(E, prop) Constituted Entity Property[49]
+31-5	3102-3107	shall	(M) Modal
+31-6	3108-3110	be	(F) Constitutive Function
+31-7	3111-3120	construed	(F) Constitutive Function
+31-8	3121-3123	to	(P) Constituting Properties[50]
+31-9	3124-3126	in	(P) Constituting Properties[50]
+31-10	3127-3130	any	(P) Constituting Properties[50]
+31-11	3131-3134	way	(P) Constituting Properties[50]
+31-12	3135-3143	diminish	(P) Constituting Properties[50]
+31-13	3144-3147	the	(P) Constituting Properties[50]
+31-14	3148-3156	benefits	(P) Constituting Properties[50]
+31-15	3157-3161	that	(P) Constituting Properties[50]
+31-16	3162-3164	an	(P) Constituting Properties[50]
+31-17	3165-3173	employee	(P) Constituting Properties[50]
+31-18	3174-3176	is	(P) Constituting Properties[50]
+31-19	3177-3185	entitled	(P) Constituting Properties[50]
+31-20	3186-3188	to	(P) Constituting Properties[50]
+31-21	3189-3194	under	(P) Constituting Properties[50]
+31-22	3195-3198	any	(P) Constituting Properties[50]
+31-23	3199-3209	collective	(P) Constituting Properties[50]
+31-24	3210-3220	bargaining	(P) Constituting Properties[50]
+31-25	3221-3230	agreement	(P) Constituting Properties[50]
+31-26	3231-3232	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the rights that an employee is entitled to under any existing employer policy.
+32-1	3233-3240	Nothing	(E) Constituted Entity[51]
+32-2	3241-3243	in	(E, prop) Constituted Entity Property[51]
+32-3	3244-3248	this	(E, prop) Constituted Entity Property[51]
+32-4	3249-3252	Act	(E, prop) Constituted Entity Property[51]
+32-5	3253-3258	shall	(M) Modal
+32-6	3259-3261	be	(F) Constitutive Function
+32-7	3262-3271	construed	(F) Constitutive Function
+32-8	3272-3274	to	(P) Constituting Properties[52]
+32-9	3275-3277	in	(P) Constituting Properties[52]
+32-10	3278-3281	any	(P) Constituting Properties[52]
+32-11	3282-3285	way	(P) Constituting Properties[52]
+32-12	3286-3294	diminish	(P) Constituting Properties[52]
+32-13	3295-3298	the	(P) Constituting Properties[52]
+32-14	3299-3305	rights	(P) Constituting Properties[52]
+32-15	3306-3310	that	(P) Constituting Properties[52]
+32-16	3311-3313	an	(P) Constituting Properties[52]
+32-17	3314-3322	employee	(P) Constituting Properties[52]
+32-18	3323-3325	is	(P) Constituting Properties[52]
+32-19	3326-3334	entitled	(P) Constituting Properties[52]
+32-20	3335-3337	to	(P) Constituting Properties[52]
+32-21	3338-3343	under	(P) Constituting Properties[52]
+32-22	3344-3347	any	(P) Constituting Properties[52]
+32-23	3348-3356	existing	(P) Constituting Properties[52]
+32-24	3357-3365	employer	(P) Constituting Properties[52]
+32-25	3366-3372	policy	(P) Constituting Properties[52]
+32-26	3373-3374	.	
+
+#Text=Nothing in this Act shall be construed to in any way diminish the benefits that an employee is entitled to under any existing employer policy.
+33-1	3375-3382	Nothing	(E) Constituted Entity[53]
+33-2	3383-3385	in	(E, prop) Constituted Entity Property[53]
+33-3	3386-3390	this	(E, prop) Constituted Entity Property[53]
+33-4	3391-3394	Act	(E, prop) Constituted Entity Property[53]
+33-5	3395-3400	shall	(M) Modal
+33-6	3401-3403	be	(F) Constitutive Function
+33-7	3404-3413	construed	(F) Constitutive Function
+33-8	3414-3416	to	(P) Constituting Properties[54]
+33-9	3417-3419	in	(P) Constituting Properties[54]
+33-10	3420-3423	any	(P) Constituting Properties[54]
+33-11	3424-3427	way	(P) Constituting Properties[54]
+33-12	3428-3436	diminish	(P) Constituting Properties[54]
+33-13	3437-3440	the	(P) Constituting Properties[54]
+33-14	3441-3449	benefits	(P) Constituting Properties[54]
+33-15	3450-3454	that	(P) Constituting Properties[54]
+33-16	3455-3457	an	(P) Constituting Properties[54]
+33-17	3458-3466	employee	(P) Constituting Properties[54]
+33-18	3467-3469	is	(P) Constituting Properties[54]
+33-19	3470-3478	entitled	(P) Constituting Properties[54]
+33-20	3479-3481	to	(P) Constituting Properties[54]
+33-21	3482-3487	under	(P) Constituting Properties[54]
+33-22	3488-3491	any	(P) Constituting Properties[54]
+33-23	3492-3500	existing	(P) Constituting Properties[54]
+33-24	3501-3509	employer	(P) Constituting Properties[54]
+33-25	3510-3516	policy	(P) Constituting Properties[54]
+33-26	3517-3518	.	
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's termination from employment for paid sick time under this Act that has not been used by such employee.
+34-1	3519-3526	Nothing	(E) Constituted Entity[55]
+34-2	3527-3529	in	(E, prop) Constituted Entity Property[55]
+34-3	3530-3534	this	(E, prop) Constituted Entity Property[55]
+34-4	3535-3538	Act	(E, prop) Constituted Entity Property[55]
+34-5	3539-3544	shall	(M) Modal
+34-6	3545-3547	be	(F) Constitutive Function
+34-7	3548-3557	construed	(F) Constitutive Function
+34-8	3558-3560	to	(C) Context[56]
+34-9	3561-3568	require	(C) Context[56]
+34-10	3569-3578	financial	(C) Context[56]
+34-11	3579-3592	reimbursement	(C) Context[56]
+34-12	3593-3595	to	(C) Context[56]
+34-13	3596-3598	an	(C) Context[56]
+34-14	3599-3607	employee	(C) Context[56]
+34-15	3608-3612	from	(C) Context[56]
+34-16	3613-3615	an	(C) Context[56]
+34-17	3616-3624	employer	(C) Context[56]
+34-18	3625-3629	upon	(C) Context[56]
+34-19	3630-3633	the	(C) Context[56]
+34-20	3634-3642	employee	(C) Context[56]
+34-21	3643-3645	's	(C) Context[56]
+34-22	3646-3657	termination	(C) Context[56]
+34-23	3658-3662	from	(C) Context[56]
+34-24	3663-3673	employment	(C) Context[56]
+34-25	3674-3677	for	(C) Context[56]
+34-26	3678-3682	paid	(C) Context[56]
+34-27	3683-3687	sick	(C) Context[56]
+34-28	3688-3692	time	(C) Context[56]
+34-29	3693-3698	under	(C) Context[56]
+34-30	3699-3703	this	(C) Context[56]
+34-31	3704-3707	Act	(C) Context[56]
+34-32	3708-3712	that	(C) Context[56]
+34-33	3713-3716	has	(C) Context[56]
+34-34	3717-3720	not	(C) Context[56]
+34-35	3721-3725	been	(C) Context[56]
+34-36	3726-3730	used	(C) Context[56]
+34-37	3731-3733	by	(C) Context[56]
+34-38	3734-3738	such	(C) Context[56]
+34-39	3739-3747	employee	(C) Context[56]
+34-40	3748-3749	.	
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's resignation from employment for paid sick time under this Act that has not been used by such employee.
+35-1	3749-3756	Nothing	(E) Constituted Entity[57]
+35-2	3757-3759	in	(E, prop) Constituted Entity Property[57]
+35-3	3760-3764	this	(E, prop) Constituted Entity Property[57]
+35-4	3765-3768	Act	(E, prop) Constituted Entity Property[57]
+35-5	3769-3774	shall	(M) Modal
+35-6	3775-3777	be	(F) Constitutive Function
+35-7	3778-3787	construed	(F) Constitutive Function
+35-8	3788-3790	to	(C) Context[58]
+35-9	3791-3798	require	(C) Context[58]
+35-10	3799-3808	financial	(C) Context[58]
+35-11	3809-3822	reimbursement	(C) Context[58]
+35-12	3823-3825	to	(C) Context[58]
+35-13	3826-3828	an	(C) Context[58]
+35-14	3829-3837	employee	(C) Context[58]
+35-15	3838-3842	from	(C) Context[58]
+35-16	3843-3845	an	(C) Context[58]
+35-17	3846-3854	employer	(C) Context[58]
+35-18	3855-3859	upon	(C) Context[58]
+35-19	3860-3863	the	(C) Context[58]
+35-20	3864-3872	employee	(C) Context[58]
+35-21	3873-3875	's	(C) Context[58]
+35-22	3876-3887	resignation	(C) Context[58]
+35-23	3888-3892	from	(C) Context[58]
+35-24	3893-3903	employment	(C) Context[58]
+35-25	3904-3907	for	(C) Context[58]
+35-26	3908-3912	paid	(C) Context[58]
+35-27	3913-3917	sick	(C) Context[58]
+35-28	3918-3922	time	(C) Context[58]
+35-29	3923-3928	under	(C) Context[58]
+35-30	3929-3933	this	(C) Context[58]
+35-31	3934-3937	Act	(C) Context[58]
+35-32	3938-3942	that	(C) Context[58]
+35-33	3943-3946	has	(C) Context[58]
+35-34	3947-3950	not	(C) Context[58]
+35-35	3951-3955	been	(C) Context[58]
+35-36	3956-3960	used	(C) Context[58]
+35-37	3961-3963	by	(C) Context[58]
+35-38	3964-3968	such	(C) Context[58]
+35-39	3969-3977	employee	(C) Context[58]
+35-40	3978-3979	.	
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's retirement from employment for paid sick time under this Act that has not been used by such employee.
+36-1	3979-3986	Nothing	(E) Constituted Entity[59]
+36-2	3987-3989	in	(E, prop) Constituted Entity Property[59]
+36-3	3990-3994	this	(E, prop) Constituted Entity Property[59]
+36-4	3995-3998	Act	(E, prop) Constituted Entity Property[59]
+36-5	3999-4004	shall	(M) Modal
+36-6	4005-4007	be	(F) Constitutive Function
+36-7	4008-4017	construed	(F) Constitutive Function
+36-8	4018-4020	to	(C) Context[60]
+36-9	4021-4028	require	(C) Context[60]
+36-10	4029-4038	financial	(C) Context[60]
+36-11	4039-4052	reimbursement	(C) Context[60]
+36-12	4053-4055	to	(C) Context[60]
+36-13	4056-4058	an	(C) Context[60]
+36-14	4059-4067	employee	(C) Context[60]
+36-15	4068-4072	from	(C) Context[60]
+36-16	4073-4075	an	(C) Context[60]
+36-17	4076-4084	employer	(C) Context[60]
+36-18	4085-4089	upon	(C) Context[60]
+36-19	4090-4093	the	(C) Context[60]
+36-20	4094-4102	employee	(C) Context[60]
+36-21	4103-4105	's	(C) Context[60]
+36-22	4106-4116	retirement	(C) Context[60]
+36-23	4117-4121	from	(C) Context[60]
+36-24	4122-4132	employment	(C) Context[60]
+36-25	4133-4136	for	(C) Context[60]
+36-26	4137-4141	paid	(C) Context[60]
+36-27	4142-4146	sick	(C) Context[60]
+36-28	4147-4151	time	(C) Context[60]
+36-29	4152-4157	under	(C) Context[60]
+36-30	4158-4162	this	(C) Context[60]
+36-31	4163-4166	Act	(C) Context[60]
+36-32	4167-4171	that	(C) Context[60]
+36-33	4172-4175	has	(C) Context[60]
+36-34	4176-4179	not	(C) Context[60]
+36-35	4180-4184	been	(C) Context[60]
+36-36	4185-4189	used	(C) Context[60]
+36-37	4190-4192	by	(C) Context[60]
+36-38	4193-4197	such	(C) Context[60]
+36-39	4198-4206	employee	(C) Context[60]
+36-40	4207-4208	.	
+
+#Text=Nothing in this Act shall be construed to require financial reimbursement to an employee from an employer upon the employee's other separation from employment for paid sick time under this Act that has not been used by such employee.
+37-1	4208-4215	Nothing	(E) Constituted Entity[61]
+37-2	4216-4218	in	(E, prop) Constituted Entity Property[61]
+37-3	4219-4223	this	(E, prop) Constituted Entity Property[61]
+37-4	4224-4227	Act	(E, prop) Constituted Entity Property[61]
+37-5	4228-4233	shall	(M) Modal
+37-6	4234-4236	be	(F) Constitutive Function
+37-7	4237-4246	construed	(F) Constitutive Function
+37-8	4247-4249	to	(C) Context[62]
+37-9	4250-4257	require	(C) Context[62]
+37-10	4258-4267	financial	(C) Context[62]
+37-11	4268-4281	reimbursement	(C) Context[62]
+37-12	4282-4284	to	(C) Context[62]
+37-13	4285-4287	an	(C) Context[62]
+37-14	4288-4296	employee	(C) Context[62]
+37-15	4297-4301	from	(C) Context[62]
+37-16	4302-4304	an	(C) Context[62]
+37-17	4305-4313	employer	(C) Context[62]
+37-18	4314-4318	upon	(C) Context[62]
+37-19	4319-4322	the	(C) Context[62]
+37-20	4323-4331	employee	(C) Context[62]
+37-21	4332-4334	's	(C) Context[62]
+37-22	4335-4340	other	(C) Context[62]
+37-23	4341-4351	separation	(C) Context[62]
+37-24	4352-4356	from	(C) Context[62]
+37-25	4357-4367	employment	(C) Context[62]
+37-26	4368-4371	for	(C) Context[62]
+37-27	4372-4376	paid	(C) Context[62]
+37-28	4377-4381	sick	(C) Context[62]
+37-29	4382-4386	time	(C) Context[62]
+37-30	4387-4392	under	(C) Context[62]
+37-31	4393-4397	this	(C) Context[62]
+37-32	4398-4401	Act	(C) Context[62]
+37-33	4402-4406	that	(C) Context[62]
+37-34	4407-4410	has	(C) Context[62]
+37-35	4411-4414	not	(C) Context[62]
+37-36	4415-4419	been	(C) Context[62]
+37-37	4420-4424	used	(C) Context[62]
+37-38	4425-4427	by	(C) Context[62]
+37-39	4428-4432	such	(C) Context[62]
+37-40	4433-4441	employee	(C) Context[62]
+37-41	4442-4443	.	
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee's termination from employment for paid sick time under this Act that has not been used by such employee.
+38-1	4443-4450	Nothing	(E) Constituted Entity[63]
+38-2	4451-4453	in	(E, prop) Constituted Entity Property[63]
+38-3	4454-4458	this	(E, prop) Constituted Entity Property[63]
+38-4	4459-4462	Act	(E, prop) Constituted Entity Property[63]
+38-5	4463-4468	shall	(M) Modal
+38-6	4469-4471	be	(F) Constitutive Function
+38-7	4472-4481	construed	(F) Constitutive Function
+38-8	4482-4484	to	(C) Context[64]
+38-9	4485-4492	require	(C) Context[64]
+38-10	4493-4498	other	(C) Context[64]
+38-11	4499-4512	reimbursement	(C) Context[64]
+38-12	4513-4515	to	(C) Context[64]
+38-13	4516-4518	an	(C) Context[64]
+38-14	4519-4527	employee	(C) Context[64]
+38-15	4528-4532	from	(C) Context[64]
+38-16	4533-4535	an	(C) Context[64]
+38-17	4536-4544	employer	(C) Context[64]
+38-18	4545-4549	upon	(C) Context[64]
+38-19	4550-4553	the	(C) Context[64]
+38-20	4554-4562	employee	(C) Context[64]
+38-21	4563-4565	's	(C) Context[64]
+38-22	4566-4577	termination	(C) Context[64]
+38-23	4578-4582	from	(C) Context[64]
+38-24	4583-4593	employment	(C) Context[64]
+38-25	4594-4597	for	(C) Context[64]
+38-26	4598-4602	paid	(C) Context[64]
+38-27	4603-4607	sick	(C) Context[64]
+38-28	4608-4612	time	(C) Context[64]
+38-29	4613-4618	under	(C) Context[64]
+38-30	4619-4623	this	(C) Context[64]
+38-31	4624-4627	Act	(C) Context[64]
+38-32	4628-4632	that	(C) Context[64]
+38-33	4633-4636	has	(C) Context[64]
+38-34	4637-4640	not	(C) Context[64]
+38-35	4641-4645	been	(C) Context[64]
+38-36	4646-4650	used	(C) Context[64]
+38-37	4651-4653	by	(C) Context[64]
+38-38	4654-4658	such	(C) Context[64]
+38-39	4659-4667	employee	(C) Context[64]
+38-40	4668-4669	.	
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee' resignation from employment for paid sick time under this Act that has not been used by such employee.
+39-1	4669-4676	Nothing	(E) Constituted Entity[65]
+39-2	4677-4679	in	(E, prop) Constituted Entity Property[65]
+39-3	4680-4684	this	(E, prop) Constituted Entity Property[65]
+39-4	4685-4688	Act	(E, prop) Constituted Entity Property[65]
+39-5	4689-4694	shall	(M) Modal
+39-6	4695-4697	be	(F) Constitutive Function
+39-7	4698-4707	construed	(F) Constitutive Function
+39-8	4708-4710	to	(C) Context[66]
+39-9	4711-4718	require	(C) Context[66]
+39-10	4719-4724	other	(C) Context[66]
+39-11	4725-4738	reimbursement	(C) Context[66]
+39-12	4739-4741	to	(C) Context[66]
+39-13	4742-4744	an	(C) Context[66]
+39-14	4745-4753	employee	(C) Context[66]
+39-15	4754-4758	from	(C) Context[66]
+39-16	4759-4761	an	(C) Context[66]
+39-17	4762-4770	employer	(C) Context[66]
+39-18	4771-4775	upon	(C) Context[66]
+39-19	4776-4779	the	(C) Context[66]
+39-20	4780-4788	employee	(C) Context[66]
+39-21	4789-4790	'	(C) Context[66]
+39-22	4791-4802	resignation	(C) Context[66]
+39-23	4803-4807	from	(C) Context[66]
+39-24	4808-4818	employment	(C) Context[66]
+39-25	4819-4822	for	(C) Context[66]
+39-26	4823-4827	paid	(C) Context[66]
+39-27	4828-4832	sick	(C) Context[66]
+39-28	4833-4837	time	(C) Context[66]
+39-29	4838-4843	under	(C) Context[66]
+39-30	4844-4848	this	(C) Context[66]
+39-31	4849-4852	Act	(C) Context[66]
+39-32	4853-4857	that	(C) Context[66]
+39-33	4858-4861	has	(C) Context[66]
+39-34	4862-4865	not	(C) Context[66]
+39-35	4866-4870	been	(C) Context[66]
+39-36	4871-4875	used	(C) Context[66]
+39-37	4876-4878	by	(C) Context[66]
+39-38	4879-4883	such	(C) Context[66]
+39-39	4884-4892	employee	(C) Context[66]
+39-40	4893-4894	.	
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee's retirement from employment for paid sick time under this Act that has not been used by such employee.
+40-1	4894-4901	Nothing	(E) Constituted Entity[67]
+40-2	4902-4904	in	(E, prop) Constituted Entity Property[67]
+40-3	4905-4909	this	(E, prop) Constituted Entity Property[67]
+40-4	4910-4913	Act	(E, prop) Constituted Entity Property[67]
+40-5	4914-4919	shall	(M) Modal
+40-6	4920-4922	be	(F) Constitutive Function
+40-7	4923-4932	construed	(F) Constitutive Function
+40-8	4933-4935	to	(C) Context[68]
+40-9	4936-4943	require	(C) Context[68]
+40-10	4944-4949	other	(C) Context[68]
+40-11	4950-4963	reimbursement	(C) Context[68]
+40-12	4964-4966	to	(C) Context[68]
+40-13	4967-4969	an	(C) Context[68]
+40-14	4970-4978	employee	(C) Context[68]
+40-15	4979-4983	from	(C) Context[68]
+40-16	4984-4986	an	(C) Context[68]
+40-17	4987-4995	employer	(C) Context[68]
+40-18	4996-5000	upon	(C) Context[68]
+40-19	5001-5004	the	(C) Context[68]
+40-20	5005-5013	employee	(C) Context[68]
+40-21	5014-5016	's	(C) Context[68]
+40-22	5017-5027	retirement	(C) Context[68]
+40-23	5028-5032	from	(C) Context[68]
+40-24	5033-5043	employment	(C) Context[68]
+40-25	5044-5047	for	(C) Context[68]
+40-26	5048-5052	paid	(C) Context[68]
+40-27	5053-5057	sick	(C) Context[68]
+40-28	5058-5062	time	(C) Context[68]
+40-29	5063-5068	under	(C) Context[68]
+40-30	5069-5073	this	(C) Context[68]
+40-31	5074-5077	Act	(C) Context[68]
+40-32	5078-5082	that	(C) Context[68]
+40-33	5083-5086	has	(C) Context[68]
+40-34	5087-5090	not	(C) Context[68]
+40-35	5091-5095	been	(C) Context[68]
+40-36	5096-5100	used	(C) Context[68]
+40-37	5101-5103	by	(C) Context[68]
+40-38	5104-5108	such	(C) Context[68]
+40-39	5109-5117	employee	(C) Context[68]
+40-40	5118-5119	.	
+
+#Text=Nothing in this Act shall be construed to require other reimbursement to an employee from an employer upon the employee's other separation from employment for paid sick time under this Act that has not been used by such employee.
+41-1	5119-5126	Nothing	(E) Constituted Entity[69]
+41-2	5127-5129	in	(E, prop) Constituted Entity Property[69]
+41-3	5130-5134	this	(E, prop) Constituted Entity Property[69]
+41-4	5135-5138	Act	(E, prop) Constituted Entity Property[69]
+41-5	5139-5144	shall	(M) Modal
+41-6	5145-5147	be	(F) Constitutive Function
+41-7	5148-5157	construed	(F) Constitutive Function
+41-8	5158-5160	to	(C) Context[70]
+41-9	5161-5168	require	(C) Context[70]
+41-10	5169-5174	other	(C) Context[70]
+41-11	5175-5188	reimbursement	(C) Context[70]
+41-12	5189-5191	to	(C) Context[70]
+41-13	5192-5194	an	(C) Context[70]
+41-14	5195-5203	employee	(C) Context[70]
+41-15	5204-5208	from	(C) Context[70]
+41-16	5209-5211	an	(C) Context[70]
+41-17	5212-5220	employer	(C) Context[70]
+41-18	5221-5225	upon	(C) Context[70]
+41-19	5226-5229	the	(C) Context[70]
+41-20	5230-5238	employee	(C) Context[70]
+41-21	5239-5241	's	(C) Context[70]
+41-22	5242-5247	other	(C) Context[70]
+41-23	5248-5258	separation	(C) Context[70]
+41-24	5259-5263	from	(C) Context[70]
+41-25	5264-5274	employment	(C) Context[70]
+41-26	5275-5278	for	(C) Context[70]
+41-27	5279-5283	paid	(C) Context[70]
+41-28	5284-5288	sick	(C) Context[70]
+41-29	5289-5293	time	(C) Context[70]
+41-30	5294-5299	under	(C) Context[70]
+41-31	5300-5304	this	(C) Context[70]
+41-32	5305-5308	Act	(C) Context[70]
+41-33	5309-5313	that	(C) Context[70]
+41-34	5314-5317	has	(C) Context[70]
+41-35	5318-5321	not	(C) Context[70]
+41-36	5322-5326	been	(C) Context[70]
+41-37	5327-5331	used	(C) Context[70]
+41-38	5332-5334	by	(C) Context[70]
+41-39	5335-5339	such	(C) Context[70]
+41-40	5340-5348	employee	(C) Context[70]
+41-41	5349-5350	.	
+
+#Text=This Act shall take effect not later than 15 days after the date of enactment of this Act.
+42-1	5350-5354	This	(E) Constituted Entity[71]
+42-2	5355-5358	Act	(E) Constituted Entity[71]
+42-3	5359-5364	shall	(M) Modal
+42-4	5365-5369	take	(F) Constitutive Function
+42-5	5370-5376	effect	(P) Constituting Properties[72]
+42-6	5377-5380	not	(C) Context[75]
+42-7	5381-5386	later	(C) Context[75]
+42-8	5387-5391	than	(P) Constituting Properties[73]
+42-9	5392-5394	15	(P) Constituting Properties[73]
+42-10	5395-5399	days	(P) Constituting Properties[73]
+42-11	5400-5405	after	(P) Constituting Properties[74]
+42-12	5406-5409	the	(P) Constituting Properties[74]
+42-13	5410-5414	date	(P) Constituting Properties[74]
+42-14	5415-5417	of	(P) Constituting Properties[74]
+42-15	5418-5427	enactment	(P) Constituting Properties[74]
+42-16	5428-5430	of	(P) Constituting Properties[74]
+42-17	5431-5435	this	(P) Constituting Properties[74]
+42-18	5436-5440	Act.	(P) Constituting Properties[74]
+
+#Text=The requirements under this Act shall take effect not later than 15 days after the date of enactment of this Act.
+43-1	5442-5445	The	(E) Constituted Entity[76]
+43-2	5446-5458	requirements	(E) Constituted Entity[76]
+43-3	5459-5464	under	(E, prop) Constituted Entity Property[76]
+43-4	5465-5469	this	(E, prop) Constituted Entity Property[76]
+43-5	5470-5473	Act	(E, prop) Constituted Entity Property[76]
+43-6	5474-5479	shall	(M) Modal
+43-7	5480-5484	take	(F) Constitutive Function
+43-8	5485-5491	effect	(P) Constituting Properties[77]
+43-9	5492-5495	not	(C) Context[80]
+43-10	5496-5501	later	(C) Context[80]
+43-11	5502-5506	than	(P) Constituting Properties[78]
+43-12	5507-5509	15	(P) Constituting Properties[78]
+43-13	5510-5514	days	(P) Constituting Properties[78]
+43-14	5515-5520	after	(P) Constituting Properties[79]
+43-15	5521-5524	the	(P) Constituting Properties[79]
+43-16	5525-5529	date	(P) Constituting Properties[79]
+43-17	5530-5532	of	(P) Constituting Properties[79]
+43-18	5533-5542	enactment	(P) Constituting Properties[79]
+43-19	5543-5545	of	(P) Constituting Properties[79]
+43-20	5546-5550	this	(P) Constituting Properties[79]
+43-21	5551-5555	Act.	(P) Constituting Properties[79]
+
+#Text=This Act shall expire on December 31, 2020.
+44-1	5557-5561	This	(E) Constituted Entity[81]
+44-2	5562-5565	Act	(E) Constituted Entity[81]
+44-3	5566-5571	shall	(M) Modal
+44-4	5572-5578	expire	(F) Constitutive Function
+44-5	5579-5581	on	(P) Constituting Properties[82]
+44-6	5582-5590	December	(P) Constituting Properties[82]
+44-7	5591-5593	31	(P) Constituting Properties[82]
+44-8	5594-5595	,	(P) Constituting Properties[82]
+44-9	5595-5599	2020	(P) Constituting Properties[82]
+44-10	5600-5601	.	
+
+#Text=The requirements under this Act, shall expire on December 31, 2020.
+45-1	5602-5605	The	(E) Constituted Entity[83]
+45-2	5606-5618	requirements	(E) Constituted Entity[83]
+45-3	5619-5624	under	(E, prop) Constituted Entity Property[83]
+45-4	5625-5629	this	(E, prop) Constituted Entity Property[83]
+45-5	5630-5633	Act	(E, prop) Constituted Entity Property[83]
+45-6	5634-5635	,	
+45-7	5635-5640	shall	(M) Modal
+45-8	5641-5647	expire	(F) Constitutive Function
+45-9	5648-5650	on	(P) Constituting Properties[84]
+45-10	5651-5659	December	(P) Constituting Properties[84]
+45-11	5660-5662	31	(P) Constituting Properties[84]
+45-12	5663-5664	,	(P) Constituting Properties[84]
+45-13	5664-5668	2020	(P) Constituting Properties[84]
+45-14	5669-5670	.	
+
+#Text=The terms ``employee'' means an individual. 
+46-1	5671-5674	The	(E) Constituted Entity[85]
+46-2	5675-5680	terms	(E) Constituted Entity[85]
+46-3	5681-5682	`	(E, prop) Constituted Entity Property[85]
+46-4	5682-5683	`	(E, prop) Constituted Entity Property[85]
+46-5	5683-5691	employee	(E, prop) Constituted Entity Property[85]
+46-6	5692-5694	''	(E, prop) Constituted Entity Property[85]
+46-7	5694-5699	means	(F) Constitutive Function
+46-8	5700-5702	an	(P) Constituting Properties[86]
+46-9	5703-5713	individual	(P) Constituting Properties[86]
+46-10	5714-5715	.	
+
+#Text=[Individual] is an employee, as defined in section 3(e) of the Fair Labor Standards Act of 1938 (29 U.S.C. 203(e)), except that a reference in such section to an employer shall be considered to be a reference to an employer described in clauses (i)(I) and (ii) of paragraph (5)(A). 
+47-1	5717-5718	[	(P) Constituting Properties[88]
+47-2	5718-5728	Individual	(P) Constituting Properties[88]
+47-3	5729-5730	]	(P) Constituting Properties[88]
+47-4	5730-5732	is	(F) Constitutive Function
+47-5	5733-5735	an	(E) Constituted Entity[87]
+47-6	5736-5744	employee	(E) Constituted Entity
+47-7	5745-5746	,	
+47-8	5746-5748	as	
+47-9	5749-5756	defined	
+47-10	5757-5759	in	
+47-11	5760-5767	section	
+47-12	5768-5769	3	
+47-13	5770-5771	(	
+47-14	5771-5772	e	
+47-15	5773-5774	)	
+47-16	5774-5776	of	
+47-17	5777-5780	the	
+47-18	5781-5785	Fair	
+47-19	5786-5791	Labor	
+47-20	5792-5801	Standards	
+47-21	5802-5805	Act	
+47-22	5806-5808	of	
+47-23	5809-5813	1938	
+47-24	5814-5815	(	
+47-25	5815-5817	29	
+47-26	5818-5821	USC	
+47-27	5822-5825	203	
+47-28	5826-5827	(	
+47-29	5827-5828	e	
+47-30	5829-5830	)	
+47-31	5830-5831	)	
+47-32	5831-5832	,	
+47-33	5832-5838	except	
+47-34	5839-5843	that	
+47-35	5844-5845	a	
+47-36	5846-5855	reference	
+47-37	5856-5858	in	
+47-38	5859-5863	such	
+47-39	5864-5871	section	
+47-40	5872-5874	to	
+47-41	5875-5877	an	
+47-42	5878-5886	employer	
+47-43	5887-5892	shall	
+47-44	5893-5895	be	
+47-45	5896-5906	considered	
+47-46	5907-5909	to	
+47-47	5910-5912	be	
+47-48	5913-5914	a	
+47-49	5915-5924	reference	
+47-50	5925-5927	to	
+47-51	5928-5930	an	
+47-52	5931-5939	employer	
+47-53	5940-5949	described	
+47-54	5950-5952	in	
+47-55	5953-5960	clauses	
+47-56	5961-5962	(	
+47-57	5962-5963	i	
+47-58	5964-5965	)	
+47-59	5965-5966	(	
+47-60	5966-5967	I	
+47-61	5968-5969	)	
+47-62	5969-5972	and	
+47-63	5973-5974	(	
+47-64	5974-5976	ii	
+47-65	5977-5978	)	
+47-66	5978-5980	of	
+47-67	5981-5990	paragraph	
+47-68	5991-5992	(	
+47-69	5992-5993	5	
+47-70	5994-5995	)	
+47-71	5995-5996	(	
+47-72	5996-5997	A	
+47-73	5998-5999	)	
+47-74	5999-6000	.	
+
+#Text=[Individual] is not covered under subparagraph (E)including such an employee of the Library of Congress.  
+48-1	6001-6002	[	(E, prop) Constituted Entity Property[89]
+48-2	6002-6012	Individual	(E) Constituted Entity[89]
+48-3	6013-6014	]	(E, prop) Constituted Entity Property[89]
+48-4	6014-6016	is	(F) Constitutive Function
+48-5	6017-6020	not	(F) Constitutive Function|(C) Context[92]
+48-6	6021-6028	covered	(F) Constitutive Function
+48-7	6029-6034	under	(P) Constituting Properties[90]
+48-8	6035-6047	subparagraph	(P) Constituting Properties[90]
+48-9	6048-6049	(	(P) Constituting Properties[90]
+48-10	6049-6050	E	(P) Constituting Properties[90]
+48-11	6051-6052	)	(P) Constituting Properties[90]
+48-12	6052-6061	including	(P) Constituting Properties[91]
+48-13	6062-6066	such	(P) Constituting Properties[91]
+48-14	6067-6069	an	(P) Constituting Properties[91]
+48-15	6070-6078	employee	(P) Constituting Properties[91]
+48-16	6079-6081	of	(P) Constituting Properties[91]
+48-17	6082-6085	the	(P) Constituting Properties[91]
+48-18	6086-6093	Library	(P) Constituting Properties[91]
+48-19	6094-6096	of	(P) Constituting Properties[91]
+48-20	6097-6105	Congress	(P) Constituting Properties[91]
+48-21	6106-6107	.	
+
+#Text=[Individual] is not covered under subparagraph(F) including such an employee of the Library of Congress. 
+49-1	6109-6110	[	(E, prop) Constituted Entity Property[93]
+49-2	6110-6120	Individual	(E) Constituted Entity[93]
+49-3	6121-6122	]	(E, prop) Constituted Entity Property[93]
+49-4	6122-6124	is	(F) Constitutive Function
+49-5	6125-6128	not	(F) Constitutive Function|(C) Context[96]
+49-6	6129-6136	covered	(F) Constitutive Function
+49-7	6137-6142	under	(P) Constituting Properties[94]
+49-8	6143-6155	subparagraph	(P) Constituting Properties[94]
+49-9	6156-6157	(	(P) Constituting Properties[94]
+49-10	6157-6158	F	(P) Constituting Properties[94]
+49-11	6159-6160	)	(P) Constituting Properties[94]
+49-12	6160-6169	including	(P) Constituting Properties[95]
+49-13	6170-6174	such	(P) Constituting Properties[95]
+49-14	6175-6177	an	(P) Constituting Properties[95]
+49-15	6178-6186	employee	(P) Constituting Properties[95]
+49-16	6187-6189	of	(P) Constituting Properties[95]
+49-17	6190-6193	the	(P) Constituting Properties[95]
+49-18	6194-6201	Library	(P) Constituting Properties[95]
+49-19	6202-6204	of	(P) Constituting Properties[95]
+49-20	6205-6213	Congress	(P) Constituting Properties[95]
+49-21	6214-6215	.	
+
+#Text=[Individual] [is] employee of the Government Accountability Office.
+50-1	6216-6217	[	
+50-2	6217-6227	Individual	
+50-3	6228-6229	]	
+50-4	6229-6230	[	
+50-5	6230-6232	is	
+50-6	6233-6234	]	
+50-7	6234-6242	employee	
+50-8	6243-6245	of	
+50-9	6246-6249	the	
+50-10	6250-6260	Government	
+50-11	6261-6275	Accountability	
+50-12	6276-6282	Office	
+50-13	6283-6284	.	
+
+#Text=[Individual] is a State employee described in section 304(a) of the Government Employee Rights Act of 1991 (42 U.S.C. 2000e-16c(a)).
+51-1	6285-6286	[	(P) Constituting Properties[99]
+51-2	6286-6296	Individual	(P) Constituting Properties[99]
+51-3	6297-6298	]	(P) Constituting Properties[99]
+51-4	6298-6300	is	(F) Constitutive Function
+51-5	6301-6302	a	(E) Constituted Entity[97]
+51-6	6303-6308	State	
+51-7	6309-6317	employee	(E) Constituted Entity
+51-8	6318-6327	described	(E) Constituted Entity[98]
+51-9	6328-6330	in	(E, prop) Constituted Entity Property[98]
+51-10	6331-6338	section	(E, prop) Constituted Entity Property[98]
+51-11	6339-6342	304	(E, prop) Constituted Entity Property[98]
+51-12	6343-6344	(	(E, prop) Constituted Entity Property[98]
+51-13	6344-6345	a	(E, prop) Constituted Entity Property[98]
+51-14	6346-6347	)	(E, prop) Constituted Entity Property[98]
+51-15	6347-6349	of	
+51-16	6350-6353	the	
+51-17	6354-6364	Government	
+51-18	6365-6373	Employee	
+51-19	6374-6380	Rights	
+51-20	6381-6384	Act	
+51-21	6385-6387	of	
+51-22	6388-6392	1991	
+51-23	6393-6394	(	
+51-24	6394-6396	42	
+51-25	6397-6400	USC	
+51-26	6401-6406	2000e	
+51-27	6407-6408	-	
+51-28	6409-6412	16c	
+51-29	6413-6414	(	
+51-30	6414-6415	a	
+51-31	6416-6417	)	
+51-32	6417-6418	)	
+51-33	6418-6419	.	
+
+#Text=[Individual] is a State employee described in section 304(a) of the Government Employee Rights Act of 1991 (42 U.S.C. 2000e-16c(a)).
+52-1	6419-6420	[	(P) Constituting Properties[102]
+52-2	6420-6430	Individual	(P) Constituting Properties[102]
+52-3	6431-6432	]	(P) Constituting Properties[102]
+52-4	6432-6434	is	(F) Constitutive Function
+52-5	6435-6436	a	(E) Constituted Entity[100]
+52-6	6437-6442	State	
+52-7	6443-6451	employee	(E) Constituted Entity
+52-8	6452-6461	described	(E) Constituted Entity[101]
+52-9	6462-6464	in	(E, prop) Constituted Entity Property[101]
+52-10	6465-6472	section	(E, prop) Constituted Entity Property[101]
+52-11	6473-6476	304	(E, prop) Constituted Entity Property[101]
+52-12	6477-6478	(	(E, prop) Constituted Entity Property[101]
+52-13	6478-6479	a	(E, prop) Constituted Entity Property[101]
+52-14	6480-6481	)	(E, prop) Constituted Entity Property[101]
+52-15	6481-6483	of	
+52-16	6484-6487	the	
+52-17	6488-6498	Government	
+52-18	6499-6507	Employee	
+52-19	6508-6514	Rights	
+52-20	6515-6518	Act	
+52-21	6519-6521	of	
+52-22	6522-6526	1991	
+52-23	6527-6528	(	
+52-24	6528-6530	42	
+52-25	6531-6534	USC	
+52-26	6535-6540	2000e	
+52-27	6541-6542	-	
+52-28	6543-6546	16c	
+52-29	6547-6548	(	
+52-30	6548-6549	a	
+52-31	6550-6551	)	
+52-32	6551-6552	)	
+52-33	6552-6553	.	
+
+#Text=[Individual] is covered employee, as defined in section 101 of the Congressional Accountability Act of 1995 (2 U.S.C. 1301), other than an applicant for employment.
+53-1	6553-6554	[	(E, prop) Constituted Entity Property[103]
+53-2	6554-6564	Individual	(E) Constituted Entity[103]
+53-3	6565-6566	]	(E, prop) Constituted Entity Property[103]
+53-4	6566-6568	is	(F) Constitutive Function
+53-5	6569-6576	covered	(F) Constitutive Function
+53-6	6577-6585	employee	(C) Context[105]
+53-7	6586-6587	,	(C) Context[105]
+53-8	6587-6589	as	(P) Constituting Properties[104]
+53-9	6590-6597	defined	(P) Constituting Properties[104]
+53-10	6598-6600	in	(P) Constituting Properties[104]
+53-11	6601-6608	section	(P) Constituting Properties[104]
+53-12	6609-6612	101	(P) Constituting Properties[104]
+53-13	6613-6615	of	(P) Constituting Properties[104]
+53-14	6616-6619	the	(P) Constituting Properties[104]
+53-15	6620-6633	Congressional	(P) Constituting Properties[104]
+53-16	6634-6648	Accountability	(P) Constituting Properties[104]
+53-17	6649-6652	Act	(P) Constituting Properties[104]
+53-18	6653-6655	of	(P) Constituting Properties[104]
+53-19	6656-6660	1995	(P) Constituting Properties[104]
+53-20	6661-6662	(	(P) Constituting Properties[104]
+53-21	6662-6663	2	(P) Constituting Properties[104]
+53-22	6664-6667	USC	(P) Constituting Properties[104]
+53-23	6668-6672	1301	(P) Constituting Properties[104]
+53-24	6673-6674	)	(P) Constituting Properties[104]
+53-25	6674-6675	,	(P) Constituting Properties[104]
+53-26	6675-6680	other	(P) Constituting Properties[104]
+53-27	6681-6685	than	(P) Constituting Properties[104]
+53-28	6686-6688	an	(P) Constituting Properties[104]
+53-29	6689-6698	applicant	(P) Constituting Properties[104]
+53-30	6699-6702	for	(P) Constituting Properties[104]
+53-31	6703-6713	employment	(P) Constituting Properties[104]
+53-32	6714-6715	.	(C) Context[105]
+
+#Text=[Individual] is a covered employee, as defined in section 411(c) of title 3, United States Code.
+54-1	6719-6720	[	(P) Constituting Properties[107]
+54-2	6720-6730	Individual	(P) Constituting Properties[107]
+54-3	6731-6732	]	(P) Constituting Properties[107]
+54-4	6732-6734	is	(F) Constitutive Function
+54-5	6735-6736	a	(E) Constituted Entity[106]
+54-6	6737-6744	covered	
+54-7	6745-6753	employee	(E) Constituted Entity
+54-8	6754-6755	,	
+54-9	6755-6757	as	
+54-10	6758-6765	defined	
+54-11	6766-6768	in	
+54-12	6769-6776	section	
+54-13	6777-6780	411	
+54-14	6781-6782	(	
+54-15	6782-6783	c	
+54-16	6784-6785	)	
+54-17	6785-6787	of	
+54-18	6788-6793	title	
+54-19	6794-6795	3	
+54-20	6796-6797	,	
+54-21	6797-6803	United	
+54-22	6804-6810	States	
+54-23	6811-6815	Code	
+54-24	6816-6817	.	
+
+#Text=[Individual] is a Federal officer covered under subchapter V of chapter 63 of title 5, United States Code.
+55-1	6817-6818	[	
+55-2	6818-6828	Individual	
+55-3	6829-6830	]	
+55-4	6830-6832	is	
+55-5	6833-6834	a	
+55-6	6835-6842	Federal	
+55-7	6843-6850	officer	
+55-8	6851-6858	covered	
+55-9	6859-6864	under	
+55-10	6865-6875	subchapter	
+55-11	6876-6877	V	
+55-12	6878-6880	of	
+55-13	6881-6888	chapter	
+55-14	6889-6891	63	
+55-15	6892-6894	of	
+55-16	6895-6900	title	
+55-17	6901-6902	5	
+55-18	6903-6904	,	
+55-19	6904-6910	United	
+55-20	6911-6917	States	
+55-21	6918-6922	Code	
+55-22	6923-6924	.	
+
+#Text=[Individual] is a employee covered under subchapter V of chapter 63 of title 5, United States Code.
+56-1	6925-6926	[	
+56-2	6926-6936	Individual	
+56-3	6937-6938	]	
+56-4	6938-6940	is	
+56-5	6941-6942	a	
+56-6	6943-6951	employee	
+56-7	6952-6959	covered	
+56-8	6960-6965	under	
+56-9	6966-6976	subchapter	
+56-10	6977-6978	V	
+56-11	6979-6981	of	
+56-12	6982-6989	chapter	
+56-13	6990-6992	63	
+56-14	6993-6995	of	
+56-15	6996-7001	title	
+56-16	7002-7003	5	
+56-17	7004-7005	,	
+56-18	7005-7011	United	
+56-19	7012-7018	States	
+56-20	7019-7023	Code	
+56-21	7024-7025	.	
+
+#Text=[Individual] is any other individual occupying a position in the civil service (as that term is defined in section 2101(1) of title 5, United States Code).
+57-1	7026-7027	[	(E, prop) Constituted Entity Property[108]
+57-2	7027-7037	Individual	(E) Constituted Entity[108]
+57-3	7038-7039	]	(E, prop) Constituted Entity Property[108]
+57-4	7039-7041	is	(F) Constitutive Function
+57-5	7042-7045	any	(E) Constituted Entity[109]
+57-6	7046-7051	other	(E, prop) Constituted Entity Property[109]
+57-7	7052-7062	individual	(E) Constituted Entity[109]
+57-8	7063-7072	occupying	(E, prop) Constituted Entity Property[109]
+57-9	7073-7074	a	(E, prop) Constituted Entity Property[109]
+57-10	7075-7083	position	(E, prop) Constituted Entity Property[109]
+57-11	7084-7086	in	(E, prop) Constituted Entity Property[109]
+57-12	7087-7090	the	(E, prop) Constituted Entity Property[109]
+57-13	7091-7096	civil	(E, prop) Constituted Entity Property[109]
+57-14	7097-7104	service	(E, prop) Constituted Entity Property[109]
+57-15	7105-7106	(	(P) Constituting Properties[110]
+57-16	7106-7108	as	(P) Constituting Properties[110]
+57-17	7109-7113	that	(P) Constituting Properties[110]
+57-18	7114-7118	term	(P) Constituting Properties[110]
+57-19	7119-7121	is	(P) Constituting Properties[110]
+57-20	7122-7129	defined	(P) Constituting Properties[110]
+57-21	7130-7132	in	(P) Constituting Properties[110]
+57-22	7133-7140	section	(P) Constituting Properties[110]
+57-23	7141-7145	2101	(P) Constituting Properties[110]
+57-24	7146-7147	(	(P) Constituting Properties[110]
+57-25	7147-7148	1	(P) Constituting Properties[110]
+57-26	7149-7150	)	(P) Constituting Properties[110]
+57-27	7150-7152	of	(P) Constituting Properties[110]
+57-28	7153-7158	title	(P) Constituting Properties[110]
+57-29	7159-7160	5	(P) Constituting Properties[110]
+57-30	7161-7162	,	(P) Constituting Properties[110]
+57-31	7162-7168	United	(P) Constituting Properties[110]
+57-32	7169-7175	States	(P) Constituting Properties[110]
+57-33	7176-7180	Code	(P) Constituting Properties[110]
+57-34	7181-7182	)	(P) Constituting Properties[110]
+57-35	7182-7183	.	
+
+#Text=The term ``employer'' means a person
+58-1	7183-7186	The	(E) Constituted Entity[111]
+58-2	7187-7191	term	(E) Constituted Entity[111]
+58-3	7192-7193	`	(E, prop) Constituted Entity Property[111]
+58-4	7193-7194	`	(E, prop) Constituted Entity Property[111]
+58-5	7194-7202	employer	(E, prop) Constituted Entity Property[111]
+58-6	7203-7205	''	(E, prop) Constituted Entity Property[111]
+58-7	7205-7210	means	(F) Constitutive Function
+58-8	7211-7212	a	(P) Constituting Properties[112]
+58-9	7213-7219	person	(P) Constituting Properties[112]
+58-10	7220-7221	.	
+
+#Text=A person is a covered employer, as defined in subparagraph (B), who is not covered under subclause (V).
+59-1	7221-7222	A	(P) Constituting Properties[114]
+59-2	7223-7229	person	(P) Constituting Properties[114]
+59-3	7230-7232	is	(F) Constitutive Function
+59-4	7233-7234	a	(E) Constituted Entity[113]
+59-5	7235-7242	covered	
+59-6	7243-7251	employer	(E) Constituted Entity
+59-7	7252-7253	,	
+59-8	7253-7255	as	
+59-9	7256-7263	defined	
+59-10	7264-7266	in	
+59-11	7267-7279	subparagraph	
+59-12	7280-7281	(	
+59-13	7281-7282	B	
+59-14	7283-7284	)	
+59-15	7284-7285	,	
+59-16	7285-7288	who	
+59-17	7289-7291	is	
+59-18	7292-7295	not	
+59-19	7296-7303	covered	
+59-20	7304-7309	under	
+59-21	7310-7319	subclause	
+59-22	7320-7321	(	
+59-23	7321-7322	V	
+59-24	7323-7324	)	
+59-25	7324-7325	.	
+
+#Text=A person is an entity employing a State employee described in section 304(a) of the Government Employee Rights Act of 1991.
+60-1	7326-7327	A	(P) Constituting Properties[117]
+60-2	7328-7334	person	(P) Constituting Properties[117]
+60-3	7335-7337	is	(F) Constitutive Function
+60-4	7338-7340	an	(E) Constituted Entity[115]
+60-5	7341-7347	entity	(E) Constituted Entity
+60-6	7348-7357	employing	(E) Constituted Entity[116]
+60-7	7358-7359	a	(E, prop) Constituted Entity Property[116]
+60-8	7360-7365	State	(E, prop) Constituted Entity Property[116]
+60-9	7366-7374	employee	(E, prop) Constituted Entity Property[116]
+60-10	7375-7384	described	(E, prop) Constituted Entity Property[116]
+60-11	7385-7387	in	(E, prop) Constituted Entity Property[116]
+60-12	7388-7395	section	(E, prop) Constituted Entity Property[116]
+60-13	7396-7399	304	(E, prop) Constituted Entity Property[116]
+60-14	7400-7401	(	(E, prop) Constituted Entity Property[116]
+60-15	7401-7402	a	(E, prop) Constituted Entity Property[116]
+60-16	7403-7404	)	(E, prop) Constituted Entity Property[116]
+60-17	7404-7406	of	(E, prop) Constituted Entity Property[116]
+60-18	7407-7410	the	(E, prop) Constituted Entity Property[116]
+60-19	7411-7421	Government	(E, prop) Constituted Entity Property[116]
+60-20	7422-7430	Employee	(E, prop) Constituted Entity Property[116]
+60-21	7431-7437	Rights	(E, prop) Constituted Entity Property[116]
+60-22	7438-7441	Act	(E, prop) Constituted Entity Property[116]
+60-23	7442-7444	of	(E, prop) Constituted Entity Property[116]
+60-24	7445-7449	1991	(E, prop) Constituted Entity Property[116]
+60-25	7450-7451	.	
+
+#Text=A person is an employing office, as defined in section 101 of the Congressional Accountability Act of 1995.
+61-1	7451-7452	A	(P) Constituting Properties[119]
+61-2	7453-7459	person	(P) Constituting Properties[119]
+61-3	7460-7462	is	(F) Constitutive Function
+61-4	7463-7465	an	(E) Constituted Entity[118]
+61-5	7466-7475	employing	
+61-6	7476-7482	office	(E) Constituted Entity
+61-7	7483-7484	,	
+61-8	7484-7486	as	
+61-9	7487-7494	defined	
+61-10	7495-7497	in	
+61-11	7498-7505	section	
+61-12	7506-7509	101	
+61-13	7510-7512	of	
+61-14	7513-7516	the	
+61-15	7517-7530	Congressional	
+61-16	7531-7545	Accountability	
+61-17	7546-7549	Act	
+61-18	7550-7552	of	
+61-19	7553-7557	1995	
+61-20	7558-7559	.	
+
+#Text=A person is an employing office as defined in section 411(c) of title 3, United States Code.
+62-1	7560-7561	A	(E) Constituted Entity[120]
+62-2	7562-7568	person	(E) Constituted Entity[120]
+62-3	7569-7571	is	(F) Constitutive Function
+62-4	7572-7574	an	(P) Constituting Properties[121]
+62-5	7575-7584	employing	(F) Constitutive Function
+62-6	7585-7591	office	(P) Constituting Properties[121]
+62-7	7592-7594	as	(P) Constituting Properties[122]
+62-8	7595-7602	defined	(P) Constituting Properties[122]
+62-9	7603-7605	in	(P) Constituting Properties[122]
+62-10	7606-7613	section	(P) Constituting Properties[122]
+62-11	7614-7617	411	(P) Constituting Properties[122]
+62-12	7618-7619	(	(P) Constituting Properties[122]
+62-13	7619-7620	c	(P) Constituting Properties[122]
+62-14	7621-7622	)	(P) Constituting Properties[122]
+62-15	7622-7624	of	(P) Constituting Properties[122]
+62-16	7625-7630	title	(P) Constituting Properties[122]
+62-17	7631-7632	3	(P) Constituting Properties[122]
+62-18	7633-7634	,	(P) Constituting Properties[122]
+62-19	7634-7640	United	(P) Constituting Properties[122]
+62-20	7641-7647	States	(P) Constituting Properties[122]
+62-21	7648-7652	Code	(P) Constituting Properties[122]
+62-22	7653-7654	.	
+
+#Text=A person is an Executive Agency as defined in section 105 of title 5, United States Code, and including the U.S. Postal Service and the Postal Regulatory Commission.
+63-1	7654-7655	A	
+63-2	7656-7662	person	
+63-3	7663-7665	is	
+63-4	7666-7668	an	
+63-5	7669-7678	Executive	
+63-6	7679-7685	Agency	
+63-7	7686-7688	as	
+63-8	7689-7696	defined	
+63-9	7697-7699	in	
+63-10	7700-7707	section	
+63-11	7708-7711	105	
+63-12	7712-7714	of	
+63-13	7715-7720	title	
+63-14	7721-7722	5	
+63-15	7723-7724	,	
+63-16	7724-7730	United	
+63-17	7731-7737	States	
+63-18	7738-7742	Code	
+63-19	7743-7744	,	
+63-20	7744-7747	and	
+63-21	7748-7757	including	
+63-22	7758-7761	the	
+63-23	7762-7764	US	
+63-24	7765-7771	Postal	
+63-25	7772-7779	Service	
+63-26	7780-7783	and	
+63-27	7784-7787	the	
+63-28	7788-7794	Postal	
+63-29	7795-7805	Regulatory	
+63-30	7806-7816	Commission	
+63-31	7817-7818	.	
+
+#Text=A person is engaged in commerce (including government).
+64-1	7821-7822	A	(E) Constituted Entity[123]
+64-2	7823-7829	person	(E) Constituted Entity[123]
+64-3	7830-7832	is	(F) Constitutive Function
+64-4	7833-7840	engaged	(F) Constitutive Function
+64-5	7841-7843	in	(P) Constituting Properties[124]
+64-6	7844-7852	commerce	(P) Constituting Properties[124]
+64-7	7853-7854	(	(P) Constituting Properties[124]
+64-8	7854-7863	including	(P) Constituting Properties[124]
+64-9	7864-7874	government	(P) Constituting Properties[124]
+64-10	7875-7876	)	(P) Constituting Properties[124]
+64-11	7876-7877	.	
+
+#Text=A person is engaged in an industry.
+65-1	7878-7879	A	(E) Constituted Entity[125]
+65-2	7880-7886	person	(E) Constituted Entity[125]
+65-3	7887-7889	is	(F) Constitutive Function
+65-4	7890-7897	engaged	(F) Constitutive Function
+65-5	7898-7900	in	(P) Constituting Properties[126]
+65-6	7901-7903	an	(P) Constituting Properties[126]
+65-7	7904-7912	industry	(P) Constituting Properties[126]
+65-8	7913-7914	.	
+
+#Text=A person is engaged in activity affecting commerce (including government), as defined in subparagraph (B)(iii).
+66-1	7915-7916	A	(E) Constituted Entity[127]
+66-2	7917-7923	person	(E) Constituted Entity[127]
+66-3	7924-7926	is	(F) Constitutive Function
+66-4	7927-7934	engaged	(F) Constitutive Function
+66-5	7935-7937	in	(P) Constituting Properties[128]
+66-6	7938-7946	activity	(P) Constituting Properties[128]
+66-7	7947-7956	affecting	(P) Constituting Properties[128]
+66-8	7957-7965	commerce	(P) Constituting Properties[128]
+66-9	7966-7967	(	(P) Constituting Properties[128]
+66-10	7967-7976	including	(P) Constituting Properties[128]
+66-11	7977-7987	government	(P) Constituting Properties[128]
+66-12	7988-7989	)	(P) Constituting Properties[128]
+66-13	7989-7990	,	
+66-14	7990-7992	as	(P) Constituting Properties[128]
+66-15	7993-8000	defined	(P) Constituting Properties[128]
+66-16	8001-8003	in	(P) Constituting Properties[128]
+66-17	8004-8016	subparagraph	(P) Constituting Properties[128]
+66-18	8017-8018	(	(P) Constituting Properties[128]
+66-19	8018-8019	B	(P) Constituting Properties[128]
+66-20	8020-8021	)	(P) Constituting Properties[128]
+66-21	8021-8022	(	(P) Constituting Properties[128]
+66-22	8022-8025	iii	(P) Constituting Properties[128]
+66-23	8026-8027	)	(P) Constituting Properties[128]
+66-24	8027-8028	.	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' means.
+67-1	8028-8030	In	(P) Constituting Properties[130]
+67-2	8031-8043	subparagraph	(P) Constituting Properties[130]
+67-3	8044-8045	(	
+67-4	8045-8046	A	
+67-5	8047-8048	)	
+67-6	8048-8049	(	
+67-7	8049-8050	i	
+67-8	8051-8052	)	
+67-9	8052-8053	(	
+67-10	8053-8054	I	
+67-11	8055-8056	)	
+67-12	8056-8057	,	
+67-13	8057-8060	the	(E) Constituted Entity[129]
+67-14	8061-8065	term	(E) Constituted Entity[129]
+67-15	8066-8068	``	(E, prop) Constituted Entity Property[129]
+67-16	8068-8075	covered	(E, prop) Constituted Entity Property[129]
+67-17	8076-8084	employer	(E, prop) Constituted Entity Property[129]
+67-18	8085-8087	''	(E, prop) Constituted Entity Property[129]
+67-19	8087-8092	means	(F) Constitutive Function
+67-20	8093-8094	.	
+
+#Text=Any person engaged in commerce that in the case of a private entity, employs fewer than 500 employees.
+68-1	8093-8096	Any	(E) Constituted Entity[131]
+68-2	8097-8103	person	(E) Constituted Entity[131]
+68-3	8104-8111	engaged	(E, prop) Constituted Entity Property[131]
+68-4	8112-8114	in	(E, prop) Constituted Entity Property[131]
+68-5	8115-8123	commerce	(E, prop) Constituted Entity Property[131]
+68-6	8124-8128	that	(E) Constituted Entity[132]
+68-7	8129-8131	in	(P) Constituting Properties[133]
+68-8	8132-8135	the	(P) Constituting Properties[133]
+68-9	8136-8140	case	(P) Constituting Properties[133]
+68-10	8141-8143	of	(P) Constituting Properties[133]
+68-11	8144-8145	a	(P) Constituting Properties[133]
+68-12	8146-8153	private	(P) Constituting Properties[133]
+68-13	8154-8160	entity	(P) Constituting Properties[133]
+68-14	8161-8162	,	
+68-15	8162-8169	employs	(F) Constitutive Function
+68-16	8170-8175	fewer	(P) Constituting Properties[134]
+68-17	8176-8180	than	(P) Constituting Properties[134]
+68-18	8181-8184	500	(P) Constituting Properties[134]
+68-19	8185-8194	employees	(P) Constituting Properties[134]
+68-20	8195-8196	.	
+
+#Text=Any person engaged in commerce that in the case of a individual entity, employs fewer than 500 employees.
+69-1	8197-8200	Any	(E) Constituted Entity[135]
+69-2	8201-8207	person	(E) Constituted Entity[135]
+69-3	8208-8215	engaged	(E, prop) Constituted Entity Property[135]
+69-4	8216-8218	in	(E, prop) Constituted Entity Property[135]
+69-5	8219-8227	commerce	(E, prop) Constituted Entity Property[135]
+69-6	8228-8232	that	(E) Constituted Entity[136]
+69-7	8233-8235	in	(P) Constituting Properties[137]
+69-8	8236-8239	the	(P) Constituting Properties[137]
+69-9	8240-8244	case	(P) Constituting Properties[137]
+69-10	8245-8247	of	(P) Constituting Properties[137]
+69-11	8248-8249	a	(P) Constituting Properties[137]
+69-12	8250-8260	individual	(P) Constituting Properties[137]
+69-13	8261-8267	entity	(P) Constituting Properties[137]
+69-14	8268-8269	,	
+69-15	8269-8276	employs	(F) Constitutive Function
+69-16	8277-8282	fewer	(P) Constituting Properties[138]
+69-17	8283-8287	than	(P) Constituting Properties[138]
+69-18	8288-8291	500	(P) Constituting Properties[138]
+69-19	8292-8301	employees	(P) Constituting Properties[138]
+69-20	8302-8303	.	
+
+#Text=Any person engaged in commerce that in the case of a public agency employs 1 or more  employees.
+70-1	8304-8307	Any	(E) Constituted Entity[139]
+70-2	8308-8314	person	(E) Constituted Entity[139]
+70-3	8315-8322	engaged	(E, prop) Constituted Entity Property[139]
+70-4	8323-8325	in	(E, prop) Constituted Entity Property[139]
+70-5	8326-8334	commerce	(E, prop) Constituted Entity Property[139]
+70-6	8335-8339	that	(E) Constituted Entity[140]
+70-7	8340-8342	in	(P) Constituting Properties[141]
+70-8	8343-8346	the	(P) Constituting Properties[141]
+70-9	8347-8351	case	(P) Constituting Properties[141]
+70-10	8352-8354	of	(P) Constituting Properties[141]
+70-11	8355-8356	a	(P) Constituting Properties[141]
+70-12	8357-8363	public	(P) Constituting Properties[141]
+70-13	8364-8370	agency	(P) Constituting Properties[141]
+70-14	8371-8378	employs	(F) Constitutive Function
+70-15	8379-8380	1	(P) Constituting Properties[142]
+70-16	8381-8383	or	(P) Constituting Properties[142]
+70-17	8384-8388	more	(P) Constituting Properties[142]
+70-18	8389-8398	employees	(P) Constituting Properties[142]
+70-19	8399-8400	.	
+
+#Text=Any person engaged in commerce that in the case of any other entity that is not a private entity or individual, employs 1 or more  employees.
+71-1	8402-8405	Any	(E) Constituted Entity[143]
+71-2	8406-8412	person	(E) Constituted Entity[143]
+71-3	8413-8420	engaged	(E, prop) Constituted Entity Property[143]
+71-4	8421-8423	in	(E, prop) Constituted Entity Property[143]
+71-5	8424-8432	commerce	(E, prop) Constituted Entity Property[143]
+71-6	8433-8437	that	(P) Constituting Properties[144]
+71-7	8438-8440	in	(P) Constituting Properties[144]
+71-8	8441-8444	the	(P) Constituting Properties[144]
+71-9	8445-8449	case	(P) Constituting Properties[144]
+71-10	8450-8452	of	(P) Constituting Properties[144]
+71-11	8453-8456	any	(P) Constituting Properties[144]
+71-12	8457-8462	other	(P) Constituting Properties[144]
+71-13	8463-8469	entity	(P) Constituting Properties[144]
+71-14	8470-8474	that	(P) Constituting Properties[144]
+71-15	8475-8477	is	(P) Constituting Properties[144]
+71-16	8478-8481	not	(P) Constituting Properties[144]
+71-17	8482-8483	a	(P) Constituting Properties[144]
+71-18	8484-8491	private	(P) Constituting Properties[144]
+71-19	8492-8498	entity	(P) Constituting Properties[144]
+71-20	8499-8501	or	(P) Constituting Properties[144]
+71-21	8502-8512	individual	(P) Constituting Properties[144]
+71-22	8513-8514	,	
+71-23	8514-8521	employs	(F) Constitutive Function
+71-24	8522-8523	1	(P) Constituting Properties[145]
+71-25	8524-8526	or	(P) Constituting Properties[145]
+71-26	8527-8531	more	(P) Constituting Properties[145]
+71-27	8532-8541	employees	(P) Constituting Properties[145]
+71-28	8542-8543	.	
+
+#Text=Any person engaged in any industry that in the case of a private entity, employs fewer than 500 employees.
+72-1	8545-8548	Any	(E) Constituted Entity[146]
+72-2	8549-8555	person	(E) Constituted Entity[146]
+72-3	8556-8563	engaged	(E, prop) Constituted Entity Property[146]
+72-4	8564-8566	in	(E, prop) Constituted Entity Property[146]
+72-5	8567-8570	any	(E, prop) Constituted Entity Property[146]
+72-6	8571-8579	industry	(E, prop) Constituted Entity Property[146]
+72-7	8580-8584	that	(E) Constituted Entity[147]
+72-8	8585-8587	in	(P) Constituting Properties[148]
+72-9	8588-8591	the	(P) Constituting Properties[148]
+72-10	8592-8596	case	(P) Constituting Properties[148]
+72-11	8597-8599	of	(P) Constituting Properties[148]
+72-12	8600-8601	a	(P) Constituting Properties[148]
+72-13	8602-8609	private	(P) Constituting Properties[148]
+72-14	8610-8616	entity	(P) Constituting Properties[148]
+72-15	8617-8618	,	
+72-16	8618-8625	employs	(F) Constitutive Function
+72-17	8626-8631	fewer	(P) Constituting Properties[149]
+72-18	8632-8636	than	(P) Constituting Properties[149]
+72-19	8637-8640	500	(P) Constituting Properties[149]
+72-20	8641-8650	employees	(P) Constituting Properties[149]
+72-21	8651-8652	.	
+
+#Text=Any person engaged in any industry that in the case of a individual entity, employs fewer than 500 employees.
+73-1	8653-8656	Any	(E) Constituted Entity[150]
+73-2	8657-8663	person	(E) Constituted Entity[150]
+73-3	8664-8671	engaged	(E, prop) Constituted Entity Property[150]
+73-4	8672-8674	in	(E, prop) Constituted Entity Property[150]
+73-5	8675-8678	any	(E, prop) Constituted Entity Property[150]
+73-6	8679-8687	industry	(E, prop) Constituted Entity Property[150]
+73-7	8688-8692	that	(E) Constituted Entity[151]
+73-8	8693-8695	in	(P) Constituting Properties[152]
+73-9	8696-8699	the	(P) Constituting Properties[152]
+73-10	8700-8704	case	(P) Constituting Properties[152]
+73-11	8705-8707	of	(P) Constituting Properties[152]
+73-12	8708-8709	a	(P) Constituting Properties[152]
+73-13	8710-8720	individual	(P) Constituting Properties[152]
+73-14	8721-8727	entity	(P) Constituting Properties[152]
+73-15	8728-8729	,	
+73-16	8729-8736	employs	(F) Constitutive Function
+73-17	8737-8742	fewer	(P) Constituting Properties[153]
+73-18	8743-8747	than	(P) Constituting Properties[153]
+73-19	8748-8751	500	(P) Constituting Properties[153]
+73-20	8752-8761	employees	(P) Constituting Properties[153]
+73-21	8762-8763	.	
+
+#Text=Any person engaged in any industry that in the case of a public agency employs 1 or more  employees.
+74-1	8764-8767	Any	(E) Constituted Entity[154]
+74-2	8768-8774	person	(E) Constituted Entity[154]
+74-3	8775-8782	engaged	(E, prop) Constituted Entity Property[154]
+74-4	8783-8785	in	(E, prop) Constituted Entity Property[154]
+74-5	8786-8789	any	(E, prop) Constituted Entity Property[154]
+74-6	8790-8798	industry	(E, prop) Constituted Entity Property[154]
+74-7	8799-8803	that	(E) Constituted Entity[155]
+74-8	8804-8806	in	(P) Constituting Properties[156]
+74-9	8807-8810	the	(P) Constituting Properties[156]
+74-10	8811-8815	case	(P) Constituting Properties[156]
+74-11	8816-8818	of	(P) Constituting Properties[156]
+74-12	8819-8820	a	(P) Constituting Properties[156]
+74-13	8821-8827	public	(P) Constituting Properties[156]
+74-14	8828-8834	agency	(P) Constituting Properties[156]
+74-15	8835-8842	employs	(F) Constitutive Function
+74-16	8843-8844	1	(P) Constituting Properties[157]
+74-17	8845-8847	or	(P) Constituting Properties[157]
+74-18	8848-8852	more	(P) Constituting Properties[157]
+74-19	8853-8862	employees	(P) Constituting Properties[157]
+74-20	8863-8864	.	
+
+#Text=Any person engaged in any industry that in the case of any other entity that is not a private entity or individual, employs 1 or more  employees.
+75-1	8866-8869	Any	(E) Constituted Entity[158]
+75-2	8870-8876	person	(E) Constituted Entity[158]
+75-3	8877-8884	engaged	(E, prop) Constituted Entity Property[158]
+75-4	8885-8887	in	(E, prop) Constituted Entity Property[158]
+75-5	8888-8891	any	(E, prop) Constituted Entity Property[158]
+75-6	8892-8900	industry	(E, prop) Constituted Entity Property[158]
+75-7	8901-8905	that	(P) Constituting Properties[159]
+75-8	8906-8908	in	(P) Constituting Properties[159]
+75-9	8909-8912	the	(P) Constituting Properties[159]
+75-10	8913-8917	case	(P) Constituting Properties[159]
+75-11	8918-8920	of	(P) Constituting Properties[159]
+75-12	8921-8924	any	(P) Constituting Properties[159]
+75-13	8925-8930	other	(P) Constituting Properties[159]
+75-14	8931-8937	entity	(P) Constituting Properties[159]
+75-15	8938-8942	that	(P) Constituting Properties[159]
+75-16	8943-8945	is	(P) Constituting Properties[159]
+75-17	8946-8949	not	(P) Constituting Properties[159]
+75-18	8950-8951	a	(P) Constituting Properties[159]
+75-19	8952-8959	private	(P) Constituting Properties[159]
+75-20	8960-8966	entity	(P) Constituting Properties[159]
+75-21	8967-8969	or	(P) Constituting Properties[159]
+75-22	8970-8980	individual	(P) Constituting Properties[159]
+75-23	8981-8982	,	
+75-24	8982-8989	employs	(F) Constitutive Function
+75-25	8990-8991	1	(P) Constituting Properties[160]
+75-26	8992-8994	or	(P) Constituting Properties[160]
+75-27	8995-8999	more	(P) Constituting Properties[160]
+75-28	9000-9009	employees	(P) Constituting Properties[160]
+75-29	9010-9011	.	
+
+#Text=Any person engaged activity affecting commerce that in the case of a private entity employs fewer than 500 employees.
+76-1	9013-9016	Any	(E) Constituted Entity[161]
+76-2	9017-9023	person	(E) Constituted Entity[161]
+76-3	9024-9031	engaged	(E, prop) Constituted Entity Property[161]
+76-4	9032-9040	activity	(E, prop) Constituted Entity Property[161]
+76-5	9041-9050	affecting	(E, prop) Constituted Entity Property[161]
+76-6	9051-9059	commerce	(E, prop) Constituted Entity Property[161]
+76-7	9060-9064	that	(E) Constituted Entity[162]
+76-8	9065-9067	in	(P) Constituting Properties[163]
+76-9	9068-9071	the	(P) Constituting Properties[163]
+76-10	9072-9076	case	(P) Constituting Properties[163]
+76-11	9077-9079	of	(P) Constituting Properties[163]
+76-12	9080-9081	a	(P) Constituting Properties[163]
+76-13	9082-9089	private	(P) Constituting Properties[163]
+76-14	9090-9096	entity	(P) Constituting Properties[163]
+76-15	9097-9104	employs	(F) Constitutive Function
+76-16	9105-9110	fewer	(P) Constituting Properties[164]
+76-17	9111-9115	than	(P) Constituting Properties[164]
+76-18	9116-9119	500	(P) Constituting Properties[164]
+76-19	9120-9129	employees	(P) Constituting Properties[164]
+76-20	9130-9131	.	
+
+#Text=Any person engaged activity affecting commerce that in the case of a individual entity employs fewer than 500 employees.
+77-1	9132-9135	Any	(E) Constituted Entity[165]
+77-2	9136-9142	person	(E) Constituted Entity[165]
+77-3	9143-9150	engaged	(E, prop) Constituted Entity Property[165]
+77-4	9151-9159	activity	(E, prop) Constituted Entity Property[165]
+77-5	9160-9169	affecting	(E, prop) Constituted Entity Property[165]
+77-6	9170-9178	commerce	(E, prop) Constituted Entity Property[165]
+77-7	9179-9183	that	(E) Constituted Entity[166]
+77-8	9184-9186	in	(P) Constituting Properties[167]
+77-9	9187-9190	the	(P) Constituting Properties[167]
+77-10	9191-9195	case	(P) Constituting Properties[167]
+77-11	9196-9198	of	(P) Constituting Properties[167]
+77-12	9199-9200	a	(P) Constituting Properties[167]
+77-13	9201-9211	individual	(P) Constituting Properties[167]
+77-14	9212-9218	entity	(P) Constituting Properties[167]
+77-15	9219-9226	employs	(F) Constitutive Function
+77-16	9227-9232	fewer	(P) Constituting Properties[168]
+77-17	9233-9237	than	(P) Constituting Properties[168]
+77-18	9238-9241	500	(P) Constituting Properties[168]
+77-19	9242-9251	employees	(P) Constituting Properties[168]
+77-20	9252-9253	.	
+
+#Text=Any person engaged activity affecting commerce that in the case of a public agency employs 1 or more  employees.
+78-1	9254-9257	Any	(E) Constituted Entity[169]
+78-2	9258-9264	person	(E) Constituted Entity[169]
+78-3	9265-9272	engaged	(F) Constitutive Function
+78-4	9273-9281	activity	(P) Constituting Properties[170]
+78-5	9282-9291	affecting	(P) Constituting Properties[170]
+78-6	9292-9300	commerce	(P) Constituting Properties[170]
+78-7	9301-9305	that	(P) Constituting Properties[170]
+78-8	9306-9308	in	(P) Constituting Properties[170]
+78-9	9309-9312	the	(P) Constituting Properties[170]
+78-10	9313-9317	case	(P) Constituting Properties[170]
+78-11	9318-9320	of	(P) Constituting Properties[170]
+78-12	9321-9322	a	(P) Constituting Properties[170]
+78-13	9323-9329	public	(P) Constituting Properties[170]
+78-14	9330-9336	agency	(P) Constituting Properties[170]
+78-15	9337-9344	employs	(P) Constituting Properties[170]
+78-16	9345-9346	1	(P) Constituting Properties[170]
+78-17	9347-9349	or	(P) Constituting Properties[170]
+78-18	9350-9354	more	(P) Constituting Properties[170]
+78-19	9355-9364	employees	(P) Constituting Properties[170]
+78-20	9365-9366	.	
+
+#Text=Any person engaged activity affecting commerce that in the case any other entity that is not a private entity or individual, employs 1 or more  employees.
+79-1	9368-9371	Any	(E) Constituted Entity[171]
+79-2	9372-9378	person	(E) Constituted Entity[171]
+79-3	9379-9386	engaged	(E, prop) Constituted Entity Property[171]
+79-4	9387-9395	activity	(E, prop) Constituted Entity Property[171]
+79-5	9396-9405	affecting	(E, prop) Constituted Entity Property[171]
+79-6	9406-9414	commerce	(E, prop) Constituted Entity Property[171]
+79-7	9415-9419	that	(E) Constituted Entity[172]
+79-8	9420-9422	in	(E, prop) Constituted Entity Property[173]
+79-9	9423-9426	the	(E, prop) Constituted Entity Property[173]
+79-10	9427-9431	case	(E, prop) Constituted Entity Property[173]
+79-11	9432-9435	any	(E) Constituted Entity[173]
+79-12	9436-9441	other	(E, prop) Constituted Entity Property[173]
+79-13	9442-9448	entity	(E) Constituted Entity[173]
+79-14	9449-9453	that	(E, prop) Constituted Entity Property[173]
+79-15	9454-9456	is	(E, prop) Constituted Entity Property[173]
+79-16	9457-9460	not	(E, prop) Constituted Entity Property[173]
+79-17	9461-9462	a	(E, prop) Constituted Entity Property[173]
+79-18	9463-9470	private	(E, prop) Constituted Entity Property[173]
+79-19	9471-9477	entity	(E, prop) Constituted Entity Property[173]
+79-20	9478-9480	or	(E, prop) Constituted Entity Property[173]
+79-21	9481-9491	individual	(E, prop) Constituted Entity Property[173]
+79-22	9492-9493	,	
+79-23	9493-9500	employs	(F) Constitutive Function
+79-24	9501-9502	1	(P) Constituting Properties[174]
+79-25	9503-9505	or	(P) Constituting Properties[174]
+79-26	9506-9510	more	(P) Constituting Properties[174]
+79-27	9511-9520	employees	(P) Constituting Properties[174]
+79-28	9521-9522	.	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes.
+80-1	9524-9526	In	(P) Constituting Properties[176]
+80-2	9527-9539	subparagraph	(P) Constituting Properties[176]
+80-3	9540-9541	(	
+80-4	9541-9542	A	
+80-5	9543-9544	)	
+80-6	9544-9545	(	
+80-7	9545-9546	i	
+80-8	9547-9548	)	
+80-9	9548-9549	(	
+80-10	9549-9550	I	
+80-11	9551-9552	)	
+80-12	9552-9553	,	
+80-13	9553-9556	the	(E) Constituted Entity[175]
+80-14	9557-9561	term	(E) Constituted Entity[175]
+80-15	9562-9564	``	(E, prop) Constituted Entity Property[175]
+80-16	9564-9571	covered	(E, prop) Constituted Entity Property[175]
+80-17	9572-9580	employer	(E, prop) Constituted Entity Property[175]
+80-18	9581-9583	''	(E, prop) Constituted Entity Property[175]
+80-19	9583-9591	includes	(F) Constitutive Function
+80-20	9592-9593	.	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes any successor in  interest of an employer.
+81-1	9592-9594	In	(P) Constituting Properties[178]
+81-2	9595-9607	subparagraph	(P) Constituting Properties[178]
+81-3	9608-9609	(	
+81-4	9609-9610	A	
+81-5	9611-9612	)	
+81-6	9612-9613	(	
+81-7	9613-9614	i	
+81-8	9615-9616	)	
+81-9	9616-9617	(	
+81-10	9617-9618	I	
+81-11	9619-9620	)	
+81-12	9620-9621	,	
+81-13	9621-9624	the	(E) Constituted Entity[177]
+81-14	9625-9629	term	(E) Constituted Entity[177]
+81-15	9630-9632	``	(E, prop) Constituted Entity Property[177]
+81-16	9632-9639	covered	(E, prop) Constituted Entity Property[177]
+81-17	9640-9648	employer	(E, prop) Constituted Entity Property[177]
+81-18	9649-9651	''	(E, prop) Constituted Entity Property[177]
+81-19	9651-9659	includes	(F) Constitutive Function
+81-20	9660-9663	any	(P) Constituting Properties[179]
+81-21	9664-9673	successor	(P) Constituting Properties[179]
+81-22	9674-9676	in	(P) Constituting Properties[179]
+81-23	9677-9685	interest	(P) Constituting Properties[179]
+81-24	9686-9688	of	(P) Constituting Properties[179]
+81-25	9689-9691	an	(P) Constituting Properties[179]
+81-26	9692-9700	employer	(P) Constituting Properties[179]
+81-27	9701-9702	.	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes any ``public agency'', as defined in section 3(x) of  the Fair Labor Standards Act of 1938 (29  U.S.C. 203(x)). 
+82-1	9702-9704	In	(P) Constituting Properties[181]
+82-2	9705-9717	subparagraph	(P) Constituting Properties[181]
+82-3	9718-9719	(	
+82-4	9719-9720	A	
+82-5	9721-9722	)	
+82-6	9722-9723	(	
+82-7	9723-9724	i	
+82-8	9725-9726	)	
+82-9	9726-9727	(	
+82-10	9727-9728	I	
+82-11	9729-9730	)	
+82-12	9730-9731	,	
+82-13	9731-9734	the	(E) Constituted Entity[180]
+82-14	9735-9739	term	(E) Constituted Entity[180]
+82-15	9740-9742	``	(E, prop) Constituted Entity Property[180]
+82-16	9742-9749	covered	(E, prop) Constituted Entity Property[180]
+82-17	9750-9758	employer	(E, prop) Constituted Entity Property[180]
+82-18	9759-9761	''	(E, prop) Constituted Entity Property[180]
+82-19	9761-9769	includes	(F) Constitutive Function
+82-20	9770-9773	any	(P) Constituting Properties[182]
+82-21	9774-9776	``	(P) Constituting Properties[182]
+82-22	9776-9782	public	(P) Constituting Properties[182]
+82-23	9783-9789	agency	(P) Constituting Properties[182]
+82-24	9790-9792	''	(P) Constituting Properties[182]
+82-25	9792-9793	,	
+82-26	9793-9795	as	(P) Constituting Properties[183]
+82-27	9796-9803	defined	(P) Constituting Properties[183]
+82-28	9804-9806	in	(P) Constituting Properties[183]
+82-29	9807-9814	section	(P) Constituting Properties[183]
+82-30	9815-9816	3	(P) Constituting Properties[183]
+82-31	9817-9818	(	(P) Constituting Properties[183]
+82-32	9818-9819	x	(P) Constituting Properties[183]
+82-33	9820-9821	)	(P) Constituting Properties[183]
+82-34	9821-9823	of	(P) Constituting Properties[183]
+82-35	9824-9827	the	(P) Constituting Properties[183]
+82-36	9828-9832	Fair	(P) Constituting Properties[183]
+82-37	9833-9838	Labor	(P) Constituting Properties[183]
+82-38	9839-9848	Standards	(P) Constituting Properties[183]
+82-39	9849-9852	Act	(P) Constituting Properties[183]
+82-40	9853-9855	of	(P) Constituting Properties[183]
+82-41	9856-9860	1938	(P) Constituting Properties[183]
+82-42	9861-9862	(	(P) Constituting Properties[183]
+82-43	9862-9864	29	(P) Constituting Properties[183]
+82-44	9865-9868	USC	(P) Constituting Properties[183]
+82-45	9869-9872	203	(P) Constituting Properties[183]
+82-46	9873-9874	(	(P) Constituting Properties[183]
+82-47	9874-9875	x	(P) Constituting Properties[183]
+82-48	9876-9877	)	(P) Constituting Properties[183]
+82-49	9877-9878	)	(P) Constituting Properties[183]
+82-50	9878-9879	.	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes the Government Accountability Office.
+83-1	9882-9884	In	(P) Constituting Properties[185]
+83-2	9885-9897	subparagraph	(P) Constituting Properties[185]
+83-3	9898-9899	(	
+83-4	9899-9900	A	
+83-5	9901-9902	)	
+83-6	9902-9903	(	
+83-7	9903-9904	i	
+83-8	9905-9906	)	
+83-9	9906-9907	(	
+83-10	9907-9908	I	
+83-11	9909-9910	)	
+83-12	9910-9911	,	
+83-13	9911-9914	the	(E) Constituted Entity[184]
+83-14	9915-9919	term	(E) Constituted Entity[184]
+83-15	9920-9922	``	(E, prop) Constituted Entity Property[184]
+83-16	9922-9929	covered	(E, prop) Constituted Entity Property[184]
+83-17	9930-9938	employer	(E, prop) Constituted Entity Property[184]
+83-18	9939-9941	''	(E, prop) Constituted Entity Property[184]
+83-19	9941-9949	includes	(F) Constitutive Function
+83-20	9950-9953	the	(P) Constituting Properties[186]
+83-21	9954-9964	Government	(P) Constituting Properties[186]
+83-22	9965-9979	Accountability	(P) Constituting Properties[186]
+83-23	9980-9986	Office	(P) Constituting Properties[186]
+83-24	9987-9988	.	
+
+#Text=In subparagraph (A)(i)(I), the term ``covered employer'' includes the Library of Congress.
+84-1	9987-9989	In	(P) Constituting Properties[188]
+84-2	9990-10002	subparagraph	(P) Constituting Properties[188]
+84-3	10003-10004	(	
+84-4	10004-10005	A	
+84-5	10006-10007	)	
+84-6	10007-10008	(	
+84-7	10008-10009	i	
+84-8	10010-10011	)	
+84-9	10011-10012	(	
+84-10	10012-10013	I	
+84-11	10014-10015	)	
+84-12	10015-10016	,	
+84-13	10016-10019	the	(E) Constituted Entity[187]
+84-14	10020-10024	term	(E) Constituted Entity[187]
+84-15	10025-10027	``	(E, prop) Constituted Entity Property[187]
+84-16	10027-10034	covered	(E, prop) Constituted Entity Property[187]
+84-17	10035-10043	employer	(E, prop) Constituted Entity Property[187]
+84-18	10044-10046	''	(E, prop) Constituted Entity Property[187]
+84-19	10046-10054	includes	(F) Constitutive Function
+84-20	10055-10058	the	(P) Constituting Properties[189]
+84-21	10059-10066	Library	(P) Constituting Properties[189]
+84-22	10067-10069	of	(P) Constituting Properties[189]
+84-23	10070-10078	Congress	(P) Constituting Properties[189]
+84-24	10079-10080	.	
+
+#Text=For purposes of clause (i)(IV), a public agency shall be considered to be a person engaged in commerce.
+85-1	10079-10082	For	(P) Constituting Properties[191]
+85-2	10083-10091	purposes	(P) Constituting Properties[191]
+85-3	10092-10094	of	(P) Constituting Properties[191]
+85-4	10095-10101	clause	(P) Constituting Properties[191]
+85-5	10102-10103	(	(P) Constituting Properties[191]
+85-6	10103-10104	i	(P) Constituting Properties[191]
+85-7	10105-10106	)	(P) Constituting Properties[191]
+85-8	10106-10107	(	(P) Constituting Properties[191]
+85-9	10107-10109	IV	(P) Constituting Properties[191]
+85-10	10110-10111	)	(P) Constituting Properties[191]
+85-11	10111-10112	,	
+85-12	10112-10113	a	(E) Constituted Entity[190]
+85-13	10114-10120	public	(E, prop) Constituted Entity Property[190]
+85-14	10121-10127	agency	(E) Constituted Entity[190]
+85-15	10128-10133	shall	(M) Modal
+85-16	10134-10136	be	(F) Constitutive Function
+85-17	10137-10147	considered	(F) Constitutive Function
+85-18	10148-10150	to	(C) Context[192]
+85-19	10151-10153	be	(C) Context[192]
+85-20	10154-10155	a	(C) Context[192]
+85-21	10156-10162	person	(C) Context[192]
+85-22	10163-10170	engaged	(C) Context[192]
+85-23	10171-10173	in	(C) Context[192]
+85-24	10174-10182	commerce	(C) Context[192]
+85-25	10183-10184	.	
+
+#Text=For purposes of clause (i)(IV), a public agency shall be considered to be a person engaged in an industry.
+86-1	10184-10187	For	(P) Constituting Properties[194]
+86-2	10188-10196	purposes	(P) Constituting Properties[194]
+86-3	10197-10199	of	(P) Constituting Properties[194]
+86-4	10200-10206	clause	(P) Constituting Properties[194]
+86-5	10207-10208	(	(P) Constituting Properties[194]
+86-6	10208-10209	i	(P) Constituting Properties[194]
+86-7	10210-10211	)	(P) Constituting Properties[194]
+86-8	10211-10212	(	(P) Constituting Properties[194]
+86-9	10212-10214	IV	(P) Constituting Properties[194]
+86-10	10215-10216	)	(P) Constituting Properties[194]
+86-11	10216-10217	,	
+86-12	10217-10218	a	(E) Constituted Entity[193]
+86-13	10219-10225	public	(E, prop) Constituted Entity Property[193]
+86-14	10226-10232	agency	(E) Constituted Entity[193]
+86-15	10233-10238	shall	(M) Modal
+86-16	10239-10241	be	(F) Constitutive Function
+86-17	10242-10252	considered	(F) Constitutive Function
+86-18	10253-10255	to	(C) Context[195]
+86-19	10256-10258	be	(C) Context[195]
+86-20	10259-10260	a	(C) Context[195]
+86-21	10261-10267	person	(C) Context[195]
+86-22	10268-10275	engaged	(C) Context[195]
+86-23	10276-10278	in	(C) Context[195]
+86-24	10279-10281	an	(C) Context[195]
+86-25	10282-10290	industry	(C) Context[195]
+86-26	10291-10292	.	
+
+#Text=For purposes of clause (i)(IV), a public agency shall be considered to be a person engaged in an activity affecting commerce.
+87-1	10292-10295	For	(P) Constituting Properties[197]
+87-2	10296-10304	purposes	(P) Constituting Properties[197]
+87-3	10305-10307	of	(P) Constituting Properties[197]
+87-4	10308-10314	clause	(P) Constituting Properties[197]
+87-5	10315-10316	(	(P) Constituting Properties[197]
+87-6	10316-10317	i	(P) Constituting Properties[197]
+87-7	10318-10319	)	(P) Constituting Properties[197]
+87-8	10319-10320	(	(P) Constituting Properties[197]
+87-9	10320-10322	IV	(P) Constituting Properties[197]
+87-10	10323-10324	)	(P) Constituting Properties[197]
+87-11	10324-10325	,	
+87-12	10325-10326	a	(E) Constituted Entity[196]
+87-13	10327-10333	public	(E, prop) Constituted Entity Property[196]
+87-14	10334-10340	agency	(E) Constituted Entity[196]
+87-15	10341-10346	shall	(M) Modal
+87-16	10347-10349	be	(F) Constitutive Function
+87-17	10350-10360	considered	(F) Constitutive Function
+87-18	10361-10363	to	(C) Context[198]
+87-19	10364-10366	be	(C) Context[198]
+87-20	10367-10368	a	(C) Context[198]
+87-21	10369-10375	person	(C) Context[198]
+87-22	10376-10383	engaged	(C) Context[198]
+87-23	10384-10386	in	(C) Context[198]
+87-24	10387-10389	an	(C) Context[198]
+87-25	10390-10398	activity	(C) Context[198]
+87-26	10399-10408	affecting	(C) Context[198]
+87-27	10409-10417	commerce	(C) Context[198]
+87-28	10418-10419	.	
+
+#Text=For purposes of this subparagraph the term ``commerce'' means any activity in commerce.
+88-1	10419-10422	For	(P) Constituting Properties[200]
+88-2	10423-10431	purposes	(P) Constituting Properties[200]
+88-3	10432-10434	of	(P) Constituting Properties[200]
+88-4	10435-10439	this	(P) Constituting Properties[200]
+88-5	10440-10452	subparagraph	(P) Constituting Properties[200]
+88-6	10453-10456	the	(E) Constituted Entity[199]
+88-7	10457-10461	term	(E) Constituted Entity[199]
+88-8	10462-10464	``	(E, prop) Constituted Entity Property[199]
+88-9	10464-10472	commerce	(E, prop) Constituted Entity Property[199]
+88-10	10473-10475	''	(E, prop) Constituted Entity Property[199]
+88-11	10475-10480	means	(F) Constitutive Function
+88-12	10481-10484	any	(P) Constituting Properties[201]
+88-13	10485-10493	activity	(P) Constituting Properties[201]
+88-14	10494-10496	in	(P) Constituting Properties[201]
+88-15	10497-10505	commerce	(P) Constituting Properties[201]
+88-16	10506-10507	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any activity in which a labor dispute would hinder commerce or the free flow of commerce.
+89-1	10508-10511	For	(P) Constituting Properties[203]
+89-2	10512-10520	purposes	(P) Constituting Properties[203]
+89-3	10521-10523	of	(P) Constituting Properties[203]
+89-4	10524-10528	this	(P) Constituting Properties[203]
+89-5	10529-10541	subparagraph	(P) Constituting Properties[203]
+89-6	10542-10545	the	(E) Constituted Entity[202]
+89-7	10546-10551	terms	(E) Constituted Entity[202]
+89-8	10552-10554	``	(E, prop) Constituted Entity Property[202]
+89-9	10554-10562	commerce	(E, prop) Constituted Entity Property[202]
+89-10	10563-10565	''	(E, prop) Constituted Entity Property[202]
+89-11	10565-10570	means	(F) Constitutive Function
+89-12	10571-10574	any	(P) Constituting Properties[204]
+89-13	10575-10583	activity	(P) Constituting Properties[204]
+89-14	10584-10586	in	(P) Constituting Properties[204]
+89-15	10587-10592	which	(P) Constituting Properties[204]
+89-16	10593-10594	a	(P) Constituting Properties[204]
+89-17	10595-10600	labor	(P) Constituting Properties[204]
+89-18	10601-10608	dispute	(P) Constituting Properties[204]
+89-19	10609-10614	would	(P) Constituting Properties[204]
+89-20	10615-10621	hinder	(P) Constituting Properties[204]
+89-21	10622-10630	commerce	(P) Constituting Properties[204]
+89-22	10631-10633	or	(P) Constituting Properties[204]
+89-23	10634-10637	the	(P) Constituting Properties[204]
+89-24	10638-10642	free	(P) Constituting Properties[204]
+89-25	10643-10647	flow	(P) Constituting Properties[204]
+89-26	10648-10650	of	(P) Constituting Properties[204]
+89-27	10651-10659	commerce	(P) Constituting Properties[204]
+89-28	10660-10661	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any activity in which a labor dispute would obstruct commerce or the free flow of commerce.
+90-1	10662-10665	For	(P) Constituting Properties[206]
+90-2	10666-10674	purposes	(P) Constituting Properties[206]
+90-3	10675-10677	of	(P) Constituting Properties[206]
+90-4	10678-10682	this	(P) Constituting Properties[206]
+90-5	10683-10695	subparagraph	(P) Constituting Properties[206]
+90-6	10696-10699	the	(E) Constituted Entity[205]
+90-7	10700-10705	terms	(E) Constituted Entity[205]
+90-8	10706-10708	``	(E, prop) Constituted Entity Property[205]
+90-9	10708-10716	commerce	(E, prop) Constituted Entity Property[205]
+90-10	10717-10719	''	(E, prop) Constituted Entity Property[205]
+90-11	10719-10724	means	(F) Constitutive Function
+90-12	10725-10728	any	(P) Constituting Properties[207]
+90-13	10729-10737	activity	(P) Constituting Properties[207]
+90-14	10738-10740	in	(P) Constituting Properties[207]
+90-15	10741-10746	which	(P) Constituting Properties[207]
+90-16	10747-10748	a	(P) Constituting Properties[207]
+90-17	10749-10754	labor	(P) Constituting Properties[207]
+90-18	10755-10762	dispute	(P) Constituting Properties[207]
+90-19	10763-10768	would	(P) Constituting Properties[207]
+90-20	10769-10777	obstruct	(P) Constituting Properties[207]
+90-21	10778-10786	commerce	(P) Constituting Properties[207]
+90-22	10787-10789	or	(P) Constituting Properties[207]
+90-23	10790-10793	the	(P) Constituting Properties[207]
+90-24	10794-10798	free	(P) Constituting Properties[207]
+90-25	10799-10803	flow	(P) Constituting Properties[207]
+90-26	10804-10806	of	(P) Constituting Properties[207]
+90-27	10807-10815	commerce	(P) Constituting Properties[207]
+90-28	10816-10817	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any business in commerce.
+91-1	10818-10821	For	(P) Constituting Properties[209]
+91-2	10822-10830	purposes	(P) Constituting Properties[209]
+91-3	10831-10833	of	(P) Constituting Properties[209]
+91-4	10834-10838	this	(P) Constituting Properties[209]
+91-5	10839-10851	subparagraph	(P) Constituting Properties[209]
+91-6	10852-10855	the	(E) Constituted Entity[208]
+91-7	10856-10861	terms	(E) Constituted Entity[208]
+91-8	10862-10864	``	(E, prop) Constituted Entity Property[208]
+91-9	10864-10872	commerce	(E, prop) Constituted Entity Property[208]
+91-10	10873-10875	''	(E, prop) Constituted Entity Property[208]
+91-11	10875-10880	means	(F) Constitutive Function
+91-12	10881-10884	any	(P) Constituting Properties[210]
+91-13	10885-10893	business	(P) Constituting Properties[210]
+91-14	10894-10896	in	(P) Constituting Properties[210]
+91-15	10897-10905	commerce	(P) Constituting Properties[210]
+91-16	10906-10907	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any business in which a labor dispute would hinder commerce or the free flow of commerce.
+92-1	10908-10911	For	(P) Constituting Properties[212]
+92-2	10912-10920	purposes	(P) Constituting Properties[212]
+92-3	10921-10923	of	(P) Constituting Properties[212]
+92-4	10924-10928	this	(P) Constituting Properties[212]
+92-5	10929-10941	subparagraph	(P) Constituting Properties[212]
+92-6	10942-10945	the	(E) Constituted Entity[211]
+92-7	10946-10951	terms	(E) Constituted Entity[211]
+92-8	10952-10954	``	(E, prop) Constituted Entity Property[211]
+92-9	10954-10962	commerce	(E, prop) Constituted Entity Property[211]
+92-10	10963-10965	''	(E, prop) Constituted Entity Property[211]
+92-11	10965-10970	means	(F) Constitutive Function
+92-12	10971-10974	any	(P) Constituting Properties[213]
+92-13	10975-10983	business	(P) Constituting Properties[213]
+92-14	10984-10986	in	(P) Constituting Properties[213]
+92-15	10987-10992	which	(P) Constituting Properties[213]
+92-16	10993-10994	a	(P) Constituting Properties[213]
+92-17	10995-11000	labor	(P) Constituting Properties[213]
+92-18	11001-11008	dispute	(P) Constituting Properties[213]
+92-19	11009-11014	would	(P) Constituting Properties[213]
+92-20	11015-11021	hinder	(P) Constituting Properties[213]
+92-21	11022-11030	commerce	(P) Constituting Properties[213]
+92-22	11031-11033	or	(P) Constituting Properties[213]
+92-23	11034-11037	the	(P) Constituting Properties[213]
+92-24	11038-11042	free	(P) Constituting Properties[213]
+92-25	11043-11047	flow	(P) Constituting Properties[213]
+92-26	11048-11050	of	(P) Constituting Properties[213]
+92-27	11051-11059	commerce	(P) Constituting Properties[213]
+92-28	11060-11061	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any business in which a labor dispute would obstruct commerce or the free flow of commerce.
+93-1	11062-11065	For	(P) Constituting Properties[215]
+93-2	11066-11074	purposes	(P) Constituting Properties[215]
+93-3	11075-11077	of	(P) Constituting Properties[215]
+93-4	11078-11082	this	(P) Constituting Properties[215]
+93-5	11083-11095	subparagraph	(P) Constituting Properties[215]
+93-6	11096-11099	the	(E) Constituted Entity[214]
+93-7	11100-11105	terms	(E) Constituted Entity[214]
+93-8	11106-11108	``	(E, prop) Constituted Entity Property[214]
+93-9	11108-11116	commerce	(E, prop) Constituted Entity Property[214]
+93-10	11117-11119	''	(E, prop) Constituted Entity Property[214]
+93-11	11119-11124	means	(F) Constitutive Function
+93-12	11125-11128	any	(P) Constituting Properties[216]
+93-13	11129-11137	business	(P) Constituting Properties[216]
+93-14	11138-11140	in	(P) Constituting Properties[216]
+93-15	11141-11146	which	(P) Constituting Properties[216]
+93-16	11147-11148	a	(P) Constituting Properties[216]
+93-17	11149-11154	labor	(P) Constituting Properties[216]
+93-18	11155-11162	dispute	(P) Constituting Properties[216]
+93-19	11163-11168	would	(P) Constituting Properties[216]
+93-20	11169-11177	obstruct	(P) Constituting Properties[216]
+93-21	11178-11186	commerce	(P) Constituting Properties[216]
+93-22	11187-11189	or	(P) Constituting Properties[216]
+93-23	11190-11193	the	(P) Constituting Properties[216]
+93-24	11194-11198	free	(P) Constituting Properties[216]
+93-25	11199-11203	flow	(P) Constituting Properties[216]
+93-26	11204-11206	of	(P) Constituting Properties[216]
+93-27	11207-11215	commerce	(P) Constituting Properties[216]
+93-28	11216-11217	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any industry in commerce.
+94-1	11218-11221	For	(P) Constituting Properties[218]
+94-2	11222-11230	purposes	(P) Constituting Properties[218]
+94-3	11231-11233	of	(P) Constituting Properties[218]
+94-4	11234-11238	this	(P) Constituting Properties[218]
+94-5	11239-11251	subparagraph	(P) Constituting Properties[218]
+94-6	11252-11255	the	(E) Constituted Entity[217]
+94-7	11256-11261	terms	(E) Constituted Entity[217]
+94-8	11262-11264	``	(E, prop) Constituted Entity Property[217]
+94-9	11264-11272	commerce	(E, prop) Constituted Entity Property[217]
+94-10	11273-11275	''	(E, prop) Constituted Entity Property[217]
+94-11	11275-11280	means	(F) Constitutive Function
+94-12	11281-11284	any	(P) Constituting Properties[219]
+94-13	11285-11293	industry	(P) Constituting Properties[219]
+94-14	11294-11296	in	(P) Constituting Properties[219]
+94-15	11297-11305	commerce	(P) Constituting Properties[219]
+94-16	11306-11307	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any industry in which a labor dispute would hinder commerce or the free flow of commerce.
+95-1	11308-11311	For	(P) Constituting Properties[221]
+95-2	11312-11320	purposes	(P) Constituting Properties[221]
+95-3	11321-11323	of	(P) Constituting Properties[221]
+95-4	11324-11328	this	(P) Constituting Properties[221]
+95-5	11329-11341	subparagraph	(P) Constituting Properties[221]
+95-6	11342-11345	the	(E) Constituted Entity[220]
+95-7	11346-11351	terms	(E) Constituted Entity[220]
+95-8	11352-11354	``	(E, prop) Constituted Entity Property[220]
+95-9	11354-11362	commerce	(E, prop) Constituted Entity Property[220]
+95-10	11363-11365	''	(E, prop) Constituted Entity Property[220]
+95-11	11365-11370	means	(F) Constitutive Function
+95-12	11371-11374	any	(P) Constituting Properties[222]
+95-13	11375-11383	industry	(P) Constituting Properties[222]
+95-14	11384-11386	in	(P) Constituting Properties[222]
+95-15	11387-11392	which	(P) Constituting Properties[222]
+95-16	11393-11394	a	(P) Constituting Properties[222]
+95-17	11395-11400	labor	(P) Constituting Properties[222]
+95-18	11401-11408	dispute	(P) Constituting Properties[222]
+95-19	11409-11414	would	(P) Constituting Properties[222]
+95-20	11415-11421	hinder	(P) Constituting Properties[222]
+95-21	11422-11430	commerce	(P) Constituting Properties[222]
+95-22	11431-11433	or	(P) Constituting Properties[222]
+95-23	11434-11437	the	(P) Constituting Properties[222]
+95-24	11438-11442	free	(P) Constituting Properties[222]
+95-25	11443-11447	flow	(P) Constituting Properties[222]
+95-26	11448-11450	of	(P) Constituting Properties[222]
+95-27	11451-11459	commerce	(P) Constituting Properties[222]
+95-28	11460-11461	.	
+
+#Text=For purposes of this subparagraph the terms ``commerce'' means any industry in which a labor dispute would obstruct commerce or the free flow of commerce.
+96-1	11462-11465	For	(P) Constituting Properties[224]
+96-2	11466-11474	purposes	(P) Constituting Properties[224]
+96-3	11475-11477	of	(P) Constituting Properties[224]
+96-4	11478-11482	this	(P) Constituting Properties[224]
+96-5	11483-11495	subparagraph	(P) Constituting Properties[224]
+96-6	11496-11499	the	(E) Constituted Entity[223]
+96-7	11500-11505	terms	(E) Constituted Entity[223]
+96-8	11506-11508	``	(E, prop) Constituted Entity Property[223]
+96-9	11508-11516	commerce	(E, prop) Constituted Entity Property[223]
+96-10	11517-11519	''	(E, prop) Constituted Entity Property[223]
+96-11	11519-11524	means	(F) Constitutive Function
+96-12	11525-11528	any	(P) Constituting Properties[225]
+96-13	11529-11537	industry	(P) Constituting Properties[225]
+96-14	11538-11540	in	(P) Constituting Properties[225]
+96-15	11541-11546	which	(P) Constituting Properties[225]
+96-16	11547-11548	a	(P) Constituting Properties[225]
+96-17	11549-11554	labor	(P) Constituting Properties[225]
+96-18	11555-11562	dispute	(P) Constituting Properties[225]
+96-19	11563-11568	would	(P) Constituting Properties[225]
+96-20	11569-11577	obstruct	(P) Constituting Properties[225]
+96-21	11578-11586	commerce	(P) Constituting Properties[225]
+96-22	11587-11589	or	(P) Constituting Properties[225]
+96-23	11590-11593	the	(P) Constituting Properties[225]
+96-24	11594-11598	free	(P) Constituting Properties[225]
+96-25	11599-11603	flow	(P) Constituting Properties[225]
+96-26	11604-11606	of	(P) Constituting Properties[225]
+96-27	11607-11615	commerce	(P) Constituting Properties[225]
+96-28	11616-11617	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any activity in commerce. 
+97-1	11618-11621	For	(P) Constituting Properties[227]
+97-2	11622-11630	purposes	(P) Constituting Properties[227]
+97-3	11631-11633	of	(P) Constituting Properties[227]
+97-4	11634-11638	this	(P) Constituting Properties[227]
+97-5	11639-11651	subparagraph	(P) Constituting Properties[227]
+97-6	11652-11655	the	(E) Constituted Entity[226]
+97-7	11656-11661	terms	(E) Constituted Entity[226]
+97-8	11662-11664	``	(E, prop) Constituted Entity Property[226]
+97-9	11664-11672	industry	(E, prop) Constituted Entity Property[226]
+97-10	11673-11675	or	(E, prop) Constituted Entity Property[226]
+97-11	11676-11684	activity	(E, prop) Constituted Entity Property[226]
+97-12	11685-11694	affecting	(E, prop) Constituted Entity Property[226]
+97-13	11695-11703	commerce	(E, prop) Constituted Entity Property[226]
+97-14	11704-11706	''	(E, prop) Constituted Entity Property[226]
+97-15	11706-11711	means	(F) Constitutive Function
+97-16	11712-11715	any	(P) Constituting Properties[228]
+97-17	11716-11724	activity	(P) Constituting Properties[228]
+97-18	11725-11727	in	(P) Constituting Properties[228]
+97-19	11728-11736	commerce	(P) Constituting Properties[228]
+97-20	11737-11738	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any activity in which a labor dispute would hinder commerce or the free flow of commerce. 
+98-1	11740-11743	For	(P) Constituting Properties[230]
+98-2	11744-11752	purposes	(P) Constituting Properties[230]
+98-3	11753-11755	of	(P) Constituting Properties[230]
+98-4	11756-11760	this	(P) Constituting Properties[230]
+98-5	11761-11773	subparagraph	(P) Constituting Properties[230]
+98-6	11774-11777	the	(E) Constituted Entity[229]
+98-7	11778-11783	terms	(E) Constituted Entity[229]
+98-8	11784-11786	``	(E, prop) Constituted Entity Property[229]
+98-9	11786-11794	industry	(E, prop) Constituted Entity Property[229]
+98-10	11795-11797	or	(E, prop) Constituted Entity Property[229]
+98-11	11798-11806	activity	(E, prop) Constituted Entity Property[229]
+98-12	11807-11816	affecting	(E, prop) Constituted Entity Property[229]
+98-13	11817-11825	commerce	(E, prop) Constituted Entity Property[229]
+98-14	11826-11828	''	(E, prop) Constituted Entity Property[229]
+98-15	11828-11833	means	(F) Constitutive Function
+98-16	11834-11837	any	(P) Constituting Properties[231]
+98-17	11838-11846	activity	(P) Constituting Properties[231]
+98-18	11847-11849	in	(P) Constituting Properties[231]
+98-19	11850-11855	which	(P) Constituting Properties[231]
+98-20	11856-11857	a	(P) Constituting Properties[231]
+98-21	11858-11863	labor	(P) Constituting Properties[231]
+98-22	11864-11871	dispute	(P) Constituting Properties[231]
+98-23	11872-11877	would	(P) Constituting Properties[231]
+98-24	11878-11884	hinder	(P) Constituting Properties[231]
+98-25	11885-11893	commerce	(P) Constituting Properties[231]
+98-26	11894-11896	or	(P) Constituting Properties[231]
+98-27	11897-11900	the	(P) Constituting Properties[231]
+98-28	11901-11905	free	(P) Constituting Properties[231]
+98-29	11906-11910	flow	(P) Constituting Properties[231]
+98-30	11911-11913	of	(P) Constituting Properties[231]
+98-31	11914-11922	commerce	(P) Constituting Properties[231]
+98-32	11923-11924	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any activity in commerce or in which a labor dispute would obstruct commerce or the free flow of commerce.
+99-1	11926-11929	For	(P) Constituting Properties[233]
+99-2	11930-11938	purposes	(P) Constituting Properties[233]
+99-3	11939-11941	of	(P) Constituting Properties[233]
+99-4	11942-11946	this	(P) Constituting Properties[233]
+99-5	11947-11959	subparagraph	(P) Constituting Properties[233]
+99-6	11960-11963	the	(E) Constituted Entity[232]
+99-7	11964-11969	terms	(E) Constituted Entity[232]
+99-8	11970-11972	``	(E, prop) Constituted Entity Property[232]
+99-9	11972-11980	industry	(E, prop) Constituted Entity Property[232]
+99-10	11981-11983	or	(E, prop) Constituted Entity Property[232]
+99-11	11984-11992	activity	(E, prop) Constituted Entity Property[232]
+99-12	11993-12002	affecting	(E, prop) Constituted Entity Property[232]
+99-13	12003-12011	commerce	(E, prop) Constituted Entity Property[232]
+99-14	12012-12014	''	(E, prop) Constituted Entity Property[232]
+99-15	12014-12019	means	(F) Constitutive Function
+99-16	12020-12023	any	(P) Constituting Properties[234]
+99-17	12024-12032	activity	(P) Constituting Properties[234]
+99-18	12033-12035	in	(P) Constituting Properties[234]
+99-19	12036-12044	commerce	(P) Constituting Properties[234]
+99-20	12045-12047	or	(P) Constituting Properties[234]
+99-21	12048-12050	in	(P) Constituting Properties[234]
+99-22	12051-12056	which	(P) Constituting Properties[234]
+99-23	12057-12058	a	(P) Constituting Properties[234]
+99-24	12059-12064	labor	(P) Constituting Properties[234]
+99-25	12065-12072	dispute	(P) Constituting Properties[234]
+99-26	12073-12078	would	(P) Constituting Properties[234]
+99-27	12079-12087	obstruct	(P) Constituting Properties[234]
+99-28	12088-12096	commerce	(P) Constituting Properties[234]
+99-29	12097-12099	or	(P) Constituting Properties[234]
+99-30	12100-12103	the	(P) Constituting Properties[234]
+99-31	12104-12108	free	(P) Constituting Properties[234]
+99-32	12109-12113	flow	(P) Constituting Properties[234]
+99-33	12114-12116	of	(P) Constituting Properties[234]
+99-34	12117-12125	commerce	(P) Constituting Properties[234]
+99-35	12126-12127	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any business in commerce. 
+100-1	12128-12131	For	(P) Constituting Properties[236]
+100-2	12132-12140	purposes	(P) Constituting Properties[236]
+100-3	12141-12143	of	(P) Constituting Properties[236]
+100-4	12144-12148	this	(P) Constituting Properties[236]
+100-5	12149-12161	subparagraph	(P) Constituting Properties[236]
+100-6	12162-12165	the	(E) Constituted Entity[235]
+100-7	12166-12171	terms	(E) Constituted Entity[235]
+100-8	12172-12174	``	(E, prop) Constituted Entity Property[235]
+100-9	12174-12182	industry	(E, prop) Constituted Entity Property[235]
+100-10	12183-12185	or	(E, prop) Constituted Entity Property[235]
+100-11	12186-12194	activity	(E, prop) Constituted Entity Property[235]
+100-12	12195-12204	affecting	(E, prop) Constituted Entity Property[235]
+100-13	12205-12213	commerce	(E, prop) Constituted Entity Property[235]
+100-14	12214-12216	''	(E, prop) Constituted Entity Property[235]
+100-15	12216-12221	means	(F) Constitutive Function
+100-16	12222-12225	any	(P) Constituting Properties[237]
+100-17	12226-12234	business	(P) Constituting Properties[237]
+100-18	12235-12237	in	(P) Constituting Properties[237]
+100-19	12238-12246	commerce	(P) Constituting Properties[237]
+100-20	12247-12248	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any business in which a labor dispute would hinder commerce or the free flow of commerce. 
+101-1	12250-12253	For	(P) Constituting Properties[239]
+101-2	12254-12262	purposes	(P) Constituting Properties[239]
+101-3	12263-12265	of	(P) Constituting Properties[239]
+101-4	12266-12270	this	(P) Constituting Properties[239]
+101-5	12271-12283	subparagraph	(P) Constituting Properties[239]
+101-6	12284-12287	the	(E) Constituted Entity[238]
+101-7	12288-12293	terms	(E) Constituted Entity[238]
+101-8	12294-12296	``	(E, prop) Constituted Entity Property[238]
+101-9	12296-12304	industry	(E, prop) Constituted Entity Property[238]
+101-10	12305-12307	or	(E, prop) Constituted Entity Property[238]
+101-11	12308-12316	activity	(E, prop) Constituted Entity Property[238]
+101-12	12317-12326	affecting	(E, prop) Constituted Entity Property[238]
+101-13	12327-12335	commerce	(E, prop) Constituted Entity Property[238]
+101-14	12336-12338	''	(E, prop) Constituted Entity Property[238]
+101-15	12338-12343	means	(F) Constitutive Function
+101-16	12344-12347	any	(P) Constituting Properties[240]
+101-17	12348-12356	business	(P) Constituting Properties[240]
+101-18	12357-12359	in	(P) Constituting Properties[240]
+101-19	12360-12365	which	(P) Constituting Properties[240]
+101-20	12366-12367	a	(P) Constituting Properties[240]
+101-21	12368-12373	labor	(P) Constituting Properties[240]
+101-22	12374-12381	dispute	(P) Constituting Properties[240]
+101-23	12382-12387	would	(P) Constituting Properties[240]
+101-24	12388-12394	hinder	(P) Constituting Properties[240]
+101-25	12395-12403	commerce	(P) Constituting Properties[240]
+101-26	12404-12406	or	(P) Constituting Properties[240]
+101-27	12407-12410	the	(P) Constituting Properties[240]
+101-28	12411-12415	free	(P) Constituting Properties[240]
+101-29	12416-12420	flow	(P) Constituting Properties[240]
+101-30	12421-12423	of	(P) Constituting Properties[240]
+101-31	12424-12432	commerce	(P) Constituting Properties[240]
+101-32	12433-12434	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any business in commerce or in which a labor dispute would obstruct commerce or the free flow of commerce. 
+102-1	12436-12439	For	(P) Constituting Properties[242]
+102-2	12440-12448	purposes	(P) Constituting Properties[242]
+102-3	12449-12451	of	(P) Constituting Properties[242]
+102-4	12452-12456	this	(P) Constituting Properties[242]
+102-5	12457-12469	subparagraph	(P) Constituting Properties[242]
+102-6	12470-12473	the	(E) Constituted Entity[241]
+102-7	12474-12479	terms	(E) Constituted Entity[241]
+102-8	12480-12482	``	(E, prop) Constituted Entity Property[241]
+102-9	12482-12490	industry	(E, prop) Constituted Entity Property[241]
+102-10	12491-12493	or	(E, prop) Constituted Entity Property[241]
+102-11	12494-12502	activity	(E, prop) Constituted Entity Property[241]
+102-12	12503-12512	affecting	(E, prop) Constituted Entity Property[241]
+102-13	12513-12521	commerce	(E, prop) Constituted Entity Property[241]
+102-14	12522-12524	''	(E, prop) Constituted Entity Property[241]
+102-15	12524-12529	means	(F) Constitutive Function
+102-16	12530-12533	any	(P) Constituting Properties[243]
+102-17	12534-12542	business	(P) Constituting Properties[243]
+102-18	12543-12545	in	(P) Constituting Properties[243]
+102-19	12546-12554	commerce	(P) Constituting Properties[243]
+102-20	12555-12557	or	(P) Constituting Properties[243]
+102-21	12558-12560	in	(P) Constituting Properties[243]
+102-22	12561-12566	which	(P) Constituting Properties[243]
+102-23	12567-12568	a	(P) Constituting Properties[243]
+102-24	12569-12574	labor	(P) Constituting Properties[243]
+102-25	12575-12582	dispute	(P) Constituting Properties[243]
+102-26	12583-12588	would	(P) Constituting Properties[243]
+102-27	12589-12597	obstruct	(P) Constituting Properties[243]
+102-28	12598-12606	commerce	(P) Constituting Properties[243]
+102-29	12607-12609	or	(P) Constituting Properties[243]
+102-30	12610-12613	the	(P) Constituting Properties[243]
+102-31	12614-12618	free	(P) Constituting Properties[243]
+102-32	12619-12623	flow	(P) Constituting Properties[243]
+102-33	12624-12626	of	(P) Constituting Properties[243]
+102-34	12627-12635	commerce	(P) Constituting Properties[243]
+102-35	12636-12637	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any industry in commerce. 
+103-1	12639-12642	For	(P) Constituting Properties[245]
+103-2	12643-12651	purposes	(P) Constituting Properties[245]
+103-3	12652-12654	of	(P) Constituting Properties[245]
+103-4	12655-12659	this	(P) Constituting Properties[245]
+103-5	12660-12672	subparagraph	(P) Constituting Properties[245]
+103-6	12673-12676	the	(E) Constituted Entity[244]
+103-7	12677-12682	terms	(E) Constituted Entity[244]
+103-8	12683-12685	``	(E, prop) Constituted Entity Property[244]
+103-9	12685-12693	industry	(E, prop) Constituted Entity Property[244]
+103-10	12694-12696	or	(E, prop) Constituted Entity Property[244]
+103-11	12697-12705	activity	(E, prop) Constituted Entity Property[244]
+103-12	12706-12715	affecting	(E, prop) Constituted Entity Property[244]
+103-13	12716-12724	commerce	(E, prop) Constituted Entity Property[244]
+103-14	12725-12727	''	(E, prop) Constituted Entity Property[244]
+103-15	12727-12732	means	(F) Constitutive Function
+103-16	12733-12736	any	(P) Constituting Properties[246]
+103-17	12737-12745	industry	(P) Constituting Properties[246]
+103-18	12746-12748	in	(P) Constituting Properties[246]
+103-19	12749-12757	commerce	(P) Constituting Properties[246]
+103-20	12758-12759	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any industry in commerce or in which a labor dispute would hinder commerce or the free flow of commerce. 
+104-1	12761-12764	For	(P) Constituting Properties[248]
+104-2	12765-12773	purposes	(P) Constituting Properties[248]
+104-3	12774-12776	of	(P) Constituting Properties[248]
+104-4	12777-12781	this	(P) Constituting Properties[248]
+104-5	12782-12794	subparagraph	(P) Constituting Properties[248]
+104-6	12795-12798	the	(E) Constituted Entity[247]
+104-7	12799-12804	terms	(E) Constituted Entity[247]
+104-8	12805-12807	``	(E, prop) Constituted Entity Property[247]
+104-9	12807-12815	industry	(E, prop) Constituted Entity Property[247]
+104-10	12816-12818	or	(E, prop) Constituted Entity Property[247]
+104-11	12819-12827	activity	(E, prop) Constituted Entity Property[247]
+104-12	12828-12837	affecting	(E, prop) Constituted Entity Property[247]
+104-13	12838-12846	commerce	(E, prop) Constituted Entity Property[247]
+104-14	12847-12849	''	(E, prop) Constituted Entity Property[247]
+104-15	12849-12854	means	(F) Constitutive Function
+104-16	12855-12858	any	(P) Constituting Properties[249]
+104-17	12859-12867	industry	(P) Constituting Properties[249]
+104-18	12868-12870	in	(P) Constituting Properties[249]
+104-19	12871-12879	commerce	(P) Constituting Properties[249]
+104-20	12880-12882	or	(P) Constituting Properties[249]
+104-21	12883-12885	in	(P) Constituting Properties[249]
+104-22	12886-12891	which	(P) Constituting Properties[249]
+104-23	12892-12893	a	(P) Constituting Properties[249]
+104-24	12894-12899	labor	(P) Constituting Properties[249]
+104-25	12900-12907	dispute	(P) Constituting Properties[249]
+104-26	12908-12913	would	(P) Constituting Properties[249]
+104-27	12914-12920	hinder	(P) Constituting Properties[249]
+104-28	12921-12929	commerce	(P) Constituting Properties[249]
+104-29	12930-12932	or	(P) Constituting Properties[249]
+104-30	12933-12936	the	(P) Constituting Properties[249]
+104-31	12937-12941	free	(P) Constituting Properties[249]
+104-32	12942-12946	flow	(P) Constituting Properties[249]
+104-33	12947-12949	of	(P) Constituting Properties[249]
+104-34	12950-12958	commerce	(P) Constituting Properties[249]
+104-35	12959-12960	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' means any industry in commerce or in which a labor dispute would obstruct commerce or the free flow of commerce. 
+105-1	12962-12965	For	(P) Constituting Properties[251]
+105-2	12966-12974	purposes	(P) Constituting Properties[251]
+105-3	12975-12977	of	(P) Constituting Properties[251]
+105-4	12978-12982	this	(P) Constituting Properties[251]
+105-5	12983-12995	subparagraph	(P) Constituting Properties[251]
+105-6	12996-12999	the	(E) Constituted Entity[250]
+105-7	13000-13005	terms	(E) Constituted Entity[250]
+105-8	13006-13008	``	(E, prop) Constituted Entity Property[250]
+105-9	13008-13016	industry	(E, prop) Constituted Entity Property[250]
+105-10	13017-13019	or	(E, prop) Constituted Entity Property[250]
+105-11	13020-13028	activity	(E, prop) Constituted Entity Property[250]
+105-12	13029-13038	affecting	(E, prop) Constituted Entity Property[250]
+105-13	13039-13047	commerce	(E, prop) Constituted Entity Property[250]
+105-14	13048-13050	''	(E, prop) Constituted Entity Property[250]
+105-15	13050-13055	means	(F) Constitutive Function
+105-16	13056-13059	any	(P) Constituting Properties[252]
+105-17	13060-13068	industry	(P) Constituting Properties[252]
+105-18	13069-13071	in	(P) Constituting Properties[252]
+105-19	13072-13080	commerce	(P) Constituting Properties[252]
+105-20	13081-13083	or	(P) Constituting Properties[252]
+105-21	13084-13086	in	(P) Constituting Properties[252]
+105-22	13087-13092	which	(P) Constituting Properties[252]
+105-23	13093-13094	a	(P) Constituting Properties[252]
+105-24	13095-13100	labor	(P) Constituting Properties[252]
+105-25	13101-13108	dispute	(P) Constituting Properties[252]
+105-26	13109-13114	would	(P) Constituting Properties[252]
+105-27	13115-13123	obstruct	(P) Constituting Properties[252]
+105-28	13124-13132	commerce	(P) Constituting Properties[252]
+105-29	13133-13135	or	(P) Constituting Properties[252]
+105-30	13136-13139	the	(P) Constituting Properties[252]
+105-31	13140-13144	free	(P) Constituting Properties[252]
+105-32	13145-13149	flow	(P) Constituting Properties[252]
+105-33	13150-13152	of	(P) Constituting Properties[252]
+105-34	13153-13161	commerce	(P) Constituting Properties[252]
+105-35	13162-13163	.	
+
+#Text=For purposes of this subparagraph the term ``commerce'' include ``commerce'' as defined in paragraphs (1) and (3) of section 501 of the Labor Management Relations Act of 1947 (29 U.S.C. 142 (1) and (3)).
+106-1	13165-13168	For	(P) Constituting Properties[254]
+106-2	13169-13177	purposes	(P) Constituting Properties[254]
+106-3	13178-13180	of	(P) Constituting Properties[254]
+106-4	13181-13185	this	(P) Constituting Properties[254]
+106-5	13186-13198	subparagraph	(P) Constituting Properties[254]
+106-6	13199-13202	the	(E) Constituted Entity[253]
+106-7	13203-13207	term	(E) Constituted Entity[253]
+106-8	13208-13210	``	(E, prop) Constituted Entity Property[253]
+106-9	13210-13218	commerce	(E, prop) Constituted Entity Property[253]
+106-10	13219-13221	''	(E, prop) Constituted Entity Property[253]
+106-11	13221-13228	include	(F) Constitutive Function
+106-12	13229-13231	``	(P) Constituting Properties[255]
+106-13	13231-13239	commerce	(P) Constituting Properties[255]
+106-14	13240-13242	''	(P) Constituting Properties[255]
+106-15	13242-13244	as	(P) Constituting Properties[256]
+106-16	13245-13252	defined	(P) Constituting Properties[256]
+106-17	13253-13255	in	(P) Constituting Properties[256]
+106-18	13256-13266	paragraphs	(P) Constituting Properties[256]
+106-19	13267-13268	(	(P) Constituting Properties[256]
+106-20	13268-13269	1	(P) Constituting Properties[256]
+106-21	13270-13271	)	(P) Constituting Properties[256]
+106-22	13271-13274	and	(P) Constituting Properties[256]
+106-23	13275-13276	(	(P) Constituting Properties[256]
+106-24	13276-13277	3	(P) Constituting Properties[256]
+106-25	13278-13279	)	(P) Constituting Properties[256]
+106-26	13279-13281	of	(P) Constituting Properties[256]
+106-27	13282-13289	section	(P) Constituting Properties[256]
+106-28	13290-13293	501	(P) Constituting Properties[256]
+106-29	13294-13296	of	(P) Constituting Properties[256]
+106-30	13297-13300	the	(P) Constituting Properties[256]
+106-31	13301-13306	Labor	(P) Constituting Properties[256]
+106-32	13307-13317	Management	(P) Constituting Properties[256]
+106-33	13318-13327	Relations	(P) Constituting Properties[256]
+106-34	13328-13331	Act	(P) Constituting Properties[256]
+106-35	13332-13334	of	(P) Constituting Properties[256]
+106-36	13335-13339	1947	(P) Constituting Properties[256]
+106-37	13340-13341	(	(P) Constituting Properties[256]
+106-38	13341-13343	29	(P) Constituting Properties[256]
+106-39	13344-13347	USC	(P) Constituting Properties[256]
+106-40	13348-13351	142	(P) Constituting Properties[256]
+106-41	13352-13353	(	(P) Constituting Properties[256]
+106-42	13353-13354	1	(P) Constituting Properties[256]
+106-43	13355-13356	)	(P) Constituting Properties[256]
+106-44	13356-13359	and	(P) Constituting Properties[256]
+106-45	13360-13361	(	(P) Constituting Properties[256]
+106-46	13361-13362	3	(P) Constituting Properties[256]
+106-47	13363-13364	)	(P) Constituting Properties[256]
+106-48	13364-13365	)	(P) Constituting Properties[256]
+106-49	13365-13366	.	
+
+#Text=For purposes of this subparagraph the terms ``industry or activity affecting commerce'' include any ``industry affecting commerce'' as defined in paragraphs (1) and (3) of section 501 of the Labor Management Relations Act of 1947 (29 U.S.C. 142 (1) and (3)).
+107-1	13370-13373	For	(P) Constituting Properties[258]
+107-2	13374-13382	purposes	(P) Constituting Properties[258]
+107-3	13383-13385	of	(P) Constituting Properties[258]
+107-4	13386-13390	this	(P) Constituting Properties[258]
+107-5	13391-13403	subparagraph	(P) Constituting Properties[258]
+107-6	13404-13407	the	(E) Constituted Entity[257]
+107-7	13408-13413	terms	(E) Constituted Entity[257]
+107-8	13414-13416	``	(E, prop) Constituted Entity Property[257]
+107-9	13416-13424	industry	(E, prop) Constituted Entity Property[257]
+107-10	13425-13427	or	(E, prop) Constituted Entity Property[257]
+107-11	13428-13436	activity	(E, prop) Constituted Entity Property[257]
+107-12	13437-13446	affecting	(E, prop) Constituted Entity Property[257]
+107-13	13447-13455	commerce	(E, prop) Constituted Entity Property[257]
+107-14	13456-13458	''	(E, prop) Constituted Entity Property[257]
+107-15	13458-13465	include	(F) Constitutive Function
+107-16	13466-13469	any	(P) Constituting Properties[259]
+107-17	13470-13472	``	(P) Constituting Properties[259]
+107-18	13472-13480	industry	(P) Constituting Properties[259]
+107-19	13481-13490	affecting	(P) Constituting Properties[259]
+107-20	13491-13499	commerce	(P) Constituting Properties[259]
+107-21	13500-13502	''	(P) Constituting Properties[259]
+107-22	13502-13504	as	(P) Constituting Properties[260]
+107-23	13505-13512	defined	(P) Constituting Properties[260]
+107-24	13513-13515	in	(P) Constituting Properties[260]
+107-25	13516-13526	paragraphs	(P) Constituting Properties[260]
+107-26	13527-13528	(	(P) Constituting Properties[260]
+107-27	13528-13529	1	(P) Constituting Properties[260]
+107-28	13530-13531	)	(P) Constituting Properties[260]
+107-29	13531-13534	and	(P) Constituting Properties[260]
+107-30	13535-13536	(	(P) Constituting Properties[260]
+107-31	13536-13537	3	(P) Constituting Properties[260]
+107-32	13538-13539	)	(P) Constituting Properties[260]
+107-33	13539-13541	of	(P) Constituting Properties[260]
+107-34	13542-13549	section	(P) Constituting Properties[260]
+107-35	13550-13553	501	(P) Constituting Properties[260]
+107-36	13554-13556	of	(P) Constituting Properties[260]
+107-37	13557-13560	the	(P) Constituting Properties[260]
+107-38	13561-13566	Labor	(P) Constituting Properties[260]
+107-39	13567-13577	Management	(P) Constituting Properties[260]
+107-40	13578-13587	Relations	(P) Constituting Properties[260]
+107-41	13588-13591	Act	(P) Constituting Properties[260]
+107-42	13592-13594	of	(P) Constituting Properties[260]
+107-43	13595-13599	1947	(P) Constituting Properties[260]
+107-44	13600-13601	(	(P) Constituting Properties[260]
+107-45	13601-13603	29	(P) Constituting Properties[260]
+107-46	13604-13607	USC	(P) Constituting Properties[260]
+107-47	13608-13611	142	(P) Constituting Properties[260]
+107-48	13612-13613	(	(P) Constituting Properties[260]
+107-49	13613-13614	1	(P) Constituting Properties[260]
+107-50	13615-13616	)	(P) Constituting Properties[260]
+107-51	13616-13619	and	(P) Constituting Properties[260]
+107-52	13620-13621	(	(P) Constituting Properties[260]
+107-53	13621-13622	3	(P) Constituting Properties[260]
+107-54	13623-13624	)	(P) Constituting Properties[260]
+107-55	13624-13625	)	(P) Constituting Properties[260]
+107-56	13625-13626	.	(P) Constituting Properties[260]
+
+#Text=For purposes of this subparagraph the term ``employee'' has the same meaning given such term in section 3(e) of the Fair Labor Standards Act of 1938 (29 U.S.C. 203(e)).
+108-1	13630-13633	For	(P) Constituting Properties[262]
+108-2	13634-13642	purposes	(P) Constituting Properties[262]
+108-3	13643-13645	of	(P) Constituting Properties[262]
+108-4	13646-13650	this	(P) Constituting Properties[262]
+108-5	13651-13663	subparagraph	(P) Constituting Properties[262]
+108-6	13664-13667	the	(E) Constituted Entity[261]
+108-7	13668-13672	term	(E) Constituted Entity[261]
+108-8	13673-13674	`	(E, prop) Constituted Entity Property[261]
+108-9	13674-13675	`	(E, prop) Constituted Entity Property[261]
+108-10	13675-13683	employee	(E, prop) Constituted Entity Property[261]
+108-11	13684-13686	''	(E, prop) Constituted Entity Property[261]
+108-12	13686-13689	has	(F) Constitutive Function
+108-13	13690-13693	the	(P) Constituting Properties[263]
+108-14	13694-13698	same	(P) Constituting Properties[263]
+108-15	13699-13706	meaning	(P) Constituting Properties[263]
+108-16	13707-13712	given	(P) Constituting Properties[263]
+108-17	13713-13717	such	(P) Constituting Properties[263]
+108-18	13718-13722	term	(P) Constituting Properties[263]
+108-19	13723-13725	in	(P) Constituting Properties[263]
+108-20	13726-13733	section	(P) Constituting Properties[263]
+108-21	13734-13735	3	(P) Constituting Properties[263]
+108-22	13736-13737	(	(P) Constituting Properties[263]
+108-23	13737-13738	e	(P) Constituting Properties[263]
+108-24	13739-13740	)	(P) Constituting Properties[263]
+108-25	13740-13742	of	(P) Constituting Properties[263]
+108-26	13743-13746	the	(P) Constituting Properties[263]
+108-27	13747-13751	Fair	(P) Constituting Properties[263]
+108-28	13752-13757	Labor	(P) Constituting Properties[263]
+108-29	13758-13767	Standards	(P) Constituting Properties[263]
+108-30	13768-13771	Act	(P) Constituting Properties[263]
+108-31	13772-13774	of	(P) Constituting Properties[263]
+108-32	13775-13779	1938	(P) Constituting Properties[263]
+108-33	13780-13781	(	(P) Constituting Properties[263]
+108-34	13781-13783	29	(P) Constituting Properties[263]
+108-35	13784-13787	USC	(P) Constituting Properties[263]
+108-36	13788-13791	203	(P) Constituting Properties[263]
+108-37	13792-13793	(	(P) Constituting Properties[263]
+108-38	13793-13794	e	(P) Constituting Properties[263]
+108-39	13795-13796	)	(P) Constituting Properties[263]
+108-40	13796-13797	)	(P) Constituting Properties[263]
+108-41	13797-13798	.	
+
+#Text=For purposes of this subparagraph the term ``person'' has the same meaning given such term in section 3(a) of the Fair Labor Standards Act of 1938 (29 U.S.C. 203(a)).
+109-1	13800-13803	For	(P) Constituting Properties[265]
+109-2	13804-13812	purposes	(P) Constituting Properties[265]
+109-3	13813-13815	of	(P) Constituting Properties[265]
+109-4	13816-13820	this	(P) Constituting Properties[265]
+109-5	13821-13833	subparagraph	(P) Constituting Properties[265]
+109-6	13834-13837	the	(E) Constituted Entity[264]
+109-7	13838-13842	term	(E) Constituted Entity[264]
+109-8	13843-13845	``	(E, prop) Constituted Entity Property[264]
+109-9	13845-13851	person	(E, prop) Constituted Entity Property[264]
+109-10	13852-13854	''	(E, prop) Constituted Entity Property[264]
+109-11	13854-13857	has	(F) Constitutive Function
+109-12	13858-13861	the	(P) Constituting Properties[266]
+109-13	13862-13866	same	(P) Constituting Properties[266]
+109-14	13867-13874	meaning	(P) Constituting Properties[266]
+109-15	13875-13880	given	(P) Constituting Properties[266]
+109-16	13881-13885	such	(P) Constituting Properties[266]
+109-17	13886-13890	term	(P) Constituting Properties[266]
+109-18	13891-13893	in	(P) Constituting Properties[266]
+109-19	13894-13901	section	(P) Constituting Properties[266]
+109-20	13902-13903	3	(P) Constituting Properties[266]
+109-21	13904-13905	(	(P) Constituting Properties[266]
+109-22	13905-13906	a	(P) Constituting Properties[266]
+109-23	13907-13908	)	(P) Constituting Properties[266]
+109-24	13908-13910	of	(P) Constituting Properties[266]
+109-25	13911-13914	the	(P) Constituting Properties[266]
+109-26	13915-13919	Fair	(P) Constituting Properties[266]
+109-27	13920-13925	Labor	(P) Constituting Properties[266]
+109-28	13926-13935	Standards	(P) Constituting Properties[266]
+109-29	13936-13939	Act	(P) Constituting Properties[266]
+109-30	13940-13942	of	(P) Constituting Properties[266]
+109-31	13943-13947	1938	(P) Constituting Properties[266]
+109-32	13948-13949	(	(P) Constituting Properties[266]
+109-33	13949-13951	29	(P) Constituting Properties[266]
+109-34	13952-13955	USC	(P) Constituting Properties[266]
+109-35	13956-13959	203	(P) Constituting Properties[266]
+109-36	13960-13961	(	(P) Constituting Properties[266]
+109-37	13961-13962	a	(P) Constituting Properties[266]
+109-38	13963-13964	)	(P) Constituting Properties[266]
+109-39	13964-13965	)	(P) Constituting Properties[266]
+109-40	13965-13966	.	
+
+#Text=The term ``employ'' has the meanings given such terms in section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C. 203).
+110-1	13968-13971	The	(E) Constituted Entity[267]
+110-2	13972-13976	term	(E) Constituted Entity[267]
+110-3	13977-13978	`	(E, prop) Constituted Entity Property[267]
+110-4	13978-13979	`	(E, prop) Constituted Entity Property[267]
+110-5	13979-13985	employ	(E, prop) Constituted Entity Property[267]
+110-6	13986-13988	''	(E, prop) Constituted Entity Property[267]
+110-7	13988-13991	has	(F) Constitutive Function
+110-8	13992-13995	the	(P) Constituting Properties[268]
+110-9	13996-14004	meanings	(P) Constituting Properties[268]
+110-10	14005-14010	given	(P) Constituting Properties[268]
+110-11	14011-14015	such	(P) Constituting Properties[268]
+110-12	14016-14021	terms	(P) Constituting Properties[268]
+110-13	14022-14024	in	(P) Constituting Properties[268]
+110-14	14025-14032	section	(P) Constituting Properties[268]
+110-15	14033-14034	3	(P) Constituting Properties[268]
+110-16	14035-14037	of	(P) Constituting Properties[268]
+110-17	14038-14041	the	(P) Constituting Properties[268]
+110-18	14042-14046	Fair	(P) Constituting Properties[268]
+110-19	14047-14052	Labor	(P) Constituting Properties[268]
+110-20	14053-14062	Standards	(P) Constituting Properties[268]
+110-21	14063-14066	Act	(P) Constituting Properties[268]
+110-22	14067-14069	of	(P) Constituting Properties[268]
+110-23	14070-14074	1938	(P) Constituting Properties[268]
+110-24	14075-14076	(	(P) Constituting Properties[268]
+110-25	14076-14078	29	(P) Constituting Properties[268]
+110-26	14079-14082	USC	(P) Constituting Properties[268]
+110-27	14083-14086	203	(P) Constituting Properties[268]
+110-28	14087-14088	)	(P) Constituting Properties[268]
+110-29	14088-14089	.	
+
+#Text=The term ``State'' has the meanings given such terms in section 3 of the Fair Labor Standards Act of 1938 (29 U.S.C. 203).
+111-1	14093-14096	The	(E) Constituted Entity[269]
+111-2	14097-14101	term	(E) Constituted Entity[269]
+111-3	14102-14104	``	(E, prop) Constituted Entity Property[270]
+111-4	14104-14109	State	(E) Constituted Entity[270]
+111-5	14110-14112	''	(E, prop) Constituted Entity Property[270]
+111-6	14112-14115	has	(F) Constitutive Function
+111-7	14116-14119	the	(P) Constituting Properties[271]
+111-8	14120-14128	meanings	(P) Constituting Properties[271]
+111-9	14129-14134	given	(P) Constituting Properties[271]
+111-10	14135-14139	such	(P) Constituting Properties[271]
+111-11	14140-14145	terms	(P) Constituting Properties[271]
+111-12	14146-14148	in	(P) Constituting Properties[271]
+111-13	14149-14156	section	(P) Constituting Properties[271]
+111-14	14157-14158	3	(P) Constituting Properties[271]
+111-15	14159-14161	of	(P) Constituting Properties[271]
+111-16	14162-14165	the	(P) Constituting Properties[271]
+111-17	14166-14170	Fair	(P) Constituting Properties[271]
+111-18	14171-14176	Labor	(P) Constituting Properties[271]
+111-19	14177-14186	Standards	(P) Constituting Properties[271]
+111-20	14187-14190	Act	(P) Constituting Properties[271]
+111-21	14191-14193	of	(P) Constituting Properties[271]
+111-22	14194-14198	1938	(P) Constituting Properties[271]
+111-23	14199-14200	(	(P) Constituting Properties[271]
+111-24	14200-14202	29	(P) Constituting Properties[271]
+111-25	14203-14206	USC	(P) Constituting Properties[271]
+111-26	14207-14210	203	(P) Constituting Properties[271]
+111-27	14211-14212	)	(P) Constituting Properties[271]
+111-28	14212-14213	.	
+
+#Text=The term ``health care provider'' has the meanings given such terms in section 101 of the Family and Medical Leave Act of 1993 (29 U.S.C. 2611).
+112-1	14217-14220	The	(E) Constituted Entity[272]
+112-2	14221-14225	term	(E) Constituted Entity[272]
+112-3	14226-14228	``	(E, prop) Constituted Entity Property[273]
+112-4	14228-14234	health	(E) Constituted Entity[273]
+112-5	14235-14239	care	(E) Constituted Entity[273]
+112-6	14240-14248	provider	(E) Constituted Entity[273]
+112-7	14249-14251	''	(E, prop) Constituted Entity Property[273]
+112-8	14251-14254	has	(F) Constitutive Function
+112-9	14255-14258	the	(P) Constituting Properties[274]
+112-10	14259-14267	meanings	(P) Constituting Properties[274]
+112-11	14268-14273	given	(P) Constituting Properties[274]
+112-12	14274-14278	such	(P) Constituting Properties[274]
+112-13	14279-14284	terms	(P) Constituting Properties[274]
+112-14	14285-14287	in	(P) Constituting Properties[274]
+112-15	14288-14295	section	(P) Constituting Properties[274]
+112-16	14296-14299	101	(P) Constituting Properties[274]
+112-17	14300-14302	of	(P) Constituting Properties[274]
+112-18	14303-14306	the	(P) Constituting Properties[274]
+112-19	14307-14313	Family	(P) Constituting Properties[274]
+112-20	14314-14317	and	(P) Constituting Properties[274]
+112-21	14318-14325	Medical	(P) Constituting Properties[274]
+112-22	14326-14331	Leave	(P) Constituting Properties[274]
+112-23	14332-14335	Act	(P) Constituting Properties[274]
+112-24	14336-14338	of	(P) Constituting Properties[274]
+112-25	14339-14343	1993	(P) Constituting Properties[274]
+112-26	14344-14345	(	(P) Constituting Properties[274]
+112-27	14345-14347	29	(P) Constituting Properties[274]
+112-28	14348-14351	USC	(P) Constituting Properties[274]
+112-29	14352-14356	2611	(P) Constituting Properties[274]
+112-30	14357-14358	)	(P) Constituting Properties[274]
+112-31	14358-14359	.	
+
+#Text=The terms ``son or daughter'' has the meanings given such terms in section 101 of the Family and Medical Leave Act of 1993 (29 U.S.C. 2611).
+113-1	14363-14366	The	(E) Constituted Entity[275]
+113-2	14367-14372	terms	(E) Constituted Entity[275]
+113-3	14373-14375	``	(E, prop) Constituted Entity Property[275]
+113-4	14375-14378	son	(E, prop) Constituted Entity Property[275]
+113-5	14379-14381	or	(E, prop) Constituted Entity Property[275]
+113-6	14382-14390	daughter	(E, prop) Constituted Entity Property[275]
+113-7	14391-14393	''	(E, prop) Constituted Entity Property[275]
+113-8	14393-14396	has	(F) Constitutive Function
+113-9	14397-14400	the	(P) Constituting Properties[276]
+113-10	14401-14409	meanings	(P) Constituting Properties[276]
+113-11	14410-14415	given	(P) Constituting Properties[276]
+113-12	14416-14420	such	(P) Constituting Properties[276]
+113-13	14421-14426	terms	(P) Constituting Properties[276]
+113-14	14427-14429	in	(P) Constituting Properties[276]
+113-15	14430-14437	section	(P) Constituting Properties[276]
+113-16	14438-14441	101	(P) Constituting Properties[276]
+113-17	14442-14444	of	(P) Constituting Properties[276]
+113-18	14445-14448	the	(P) Constituting Properties[276]
+113-19	14449-14455	Family	(P) Constituting Properties[276]
+113-20	14456-14459	and	(P) Constituting Properties[276]
+113-21	14460-14467	Medical	(P) Constituting Properties[276]
+113-22	14468-14473	Leave	(P) Constituting Properties[276]
+113-23	14474-14477	Act	(P) Constituting Properties[276]
+113-24	14478-14480	of	(P) Constituting Properties[276]
+113-25	14481-14485	1993	(P) Constituting Properties[276]
+113-26	14486-14487	(	(P) Constituting Properties[276]
+113-27	14487-14489	29	(P) Constituting Properties[276]
+113-28	14490-14493	USC	(P) Constituting Properties[276]
+113-29	14494-14498	2611	(P) Constituting Properties[276]
+113-30	14499-14500	)	(P) Constituting Properties[276]
+113-31	14500-14501	.	
+
+#Text=The term ``paid sick time'' means an increment of compensated leave that--(i) is provided by an employer for use during an absence from employment for a reason described in any paragraph of section 2(a); and (ii) is calculated based on the employee's required compensation under subparagraph (B) and the number of hours the employee would otherwise be normally scheduled to work (or the number of hours calculated under subparagraph (C)), except that in no event shall such paid sick time exceed-- (I) $511 per day and $5,110 in the aggregate for a use described in paragraph (1), (2), or (3) of section 5102(a); and (II) $200 per day and $2,000 in the aggregate for a use described in paragraph (4), (5), or (6) of section 5102(a).
+114-1	14505-14508	The	(E) Constituted Entity[277]
+114-2	14509-14513	term	(E) Constituted Entity[277]
+114-3	14514-14515	`	(E, prop) Constituted Entity Property[278]
+114-4	14515-14516	`	(E, prop) Constituted Entity Property[278]
+114-5	14516-14520	paid	(E, prop) Constituted Entity Property[278]
+114-6	14521-14525	sick	(E, prop) Constituted Entity Property[278]
+114-7	14526-14530	time	(E) Constituted Entity[278]
+114-8	14531-14533	''	(E, prop) Constituted Entity Property[278]
+114-9	14533-14538	means	(F) Constitutive Function
+114-10	14539-14541	an	(P) Constituting Properties[279]
+114-11	14542-14551	increment	(P) Constituting Properties[279]
+114-12	14552-14554	of	(P) Constituting Properties[279]
+114-13	14555-14566	compensated	(P) Constituting Properties[279]
+114-14	14567-14572	leave	(P) Constituting Properties[279]
+114-15	14573-14577	that	(P) Constituting Properties[279]
+114-16	14578-14581	--(	(P) Constituting Properties[279]
+114-17	14581-14582	i	(P) Constituting Properties[279]
+114-18	14583-14584	)	(P) Constituting Properties[279]
+114-19	14584-14586	is	
+114-20	14587-14595	provided	
+114-21	14596-14598	by	
+114-22	14599-14601	an	
+114-23	14602-14610	employer	
+114-24	14611-14614	for	
+114-25	14615-14618	use	
+114-26	14619-14625	during	
+114-27	14626-14628	an	
+114-28	14629-14636	absence	
+114-29	14637-14641	from	
+114-30	14642-14652	employment	
+114-31	14653-14656	for	
+114-32	14657-14658	a	
+114-33	14659-14665	reason	
+114-34	14666-14675	described	
+114-35	14676-14678	in	
+114-36	14679-14682	any	
+114-37	14683-14692	paragraph	
+114-38	14693-14695	of	
+114-39	14696-14703	section	
+114-40	14704-14705	2	
+114-41	14706-14707	(	
+114-42	14707-14708	a	
+114-43	14709-14710	)	
+114-44	14710-14711	;	
+114-45	14711-14714	and	
+114-46	14715-14716	(	
+114-47	14716-14718	ii	
+114-48	14719-14720	)	
+114-49	14720-14722	is	
+114-50	14723-14733	calculated	
+114-51	14734-14739	based	
+114-52	14740-14742	on	
+114-53	14743-14746	the	
+114-54	14747-14755	employee	
+114-55	14756-14758	's	
+114-56	14759-14767	required	
+114-57	14768-14780	compensation	
+114-58	14781-14786	under	
+114-59	14787-14799	subparagraph	
+114-60	14800-14801	(	
+114-61	14801-14802	B	
+114-62	14803-14804	)	
+114-63	14804-14807	and	
+114-64	14808-14811	the	
+114-65	14812-14818	number	
+114-66	14819-14821	of	
+114-67	14822-14827	hours	
+114-68	14828-14831	the	
+114-69	14832-14840	employee	
+114-70	14841-14846	would	
+114-71	14847-14856	otherwise	
+114-72	14857-14859	be	
+114-73	14860-14868	normally	
+114-74	14869-14878	scheduled	
+114-75	14879-14881	to	
+114-76	14882-14886	work	
+114-77	14887-14888	(	
+114-78	14888-14890	or	
+114-79	14891-14894	the	
+114-80	14895-14901	number	
+114-81	14902-14904	of	
+114-82	14905-14910	hours	
+114-83	14911-14921	calculated	
+114-84	14922-14927	under	
+114-85	14928-14940	subparagraph	
+114-86	14941-14942	(	
+114-87	14942-14943	C	
+114-88	14944-14945	)	
+114-89	14945-14946	)	
+114-90	14946-14947	,	
+114-91	14947-14953	except	
+114-92	14954-14958	that	
+114-93	14959-14961	in	
+114-94	14962-14964	no	
+114-95	14965-14970	event	
+114-96	14971-14976	shall	
+114-97	14977-14981	such	
+114-98	14982-14986	paid	
+114-99	14987-14991	sick	
+114-100	14992-14996	time	
+114-101	14997-15003	exceed	
+114-102	15004-15006	--	
+114-103	15006-15007	(	
+114-104	15007-15008	I	
+114-105	15009-15010	)	
+114-106	15010-15011	$	
+114-107	15012-15015	511	
+114-108	15016-15019	per	
+114-109	15020-15023	day	
+114-110	15024-15027	and	
+114-111	15028-15029	$	
+114-112	15030-15035	5,110	
+114-113	15036-15038	in	
+114-114	15039-15042	the	
+114-115	15043-15052	aggregate	
+114-116	15053-15056	for	
+114-117	15057-15058	a	
+114-118	15059-15062	use	
+114-119	15063-15072	described	
+114-120	15073-15075	in	
+114-121	15076-15085	paragraph	
+114-122	15086-15087	(	
+114-123	15087-15088	1	
+114-124	15089-15090	)	
+114-125	15090-15091	,	
+114-126	15091-15092	(	
+114-127	15092-15093	2	
+114-128	15094-15095	)	
+114-129	15095-15096	,	
+114-130	15096-15098	or	
+114-131	15099-15100	(	
+114-132	15100-15101	3	
+114-133	15102-15103	)	
+114-134	15103-15105	of	
+114-135	15106-15113	section	
+114-136	15114-15118	5102	
+114-137	15119-15120	(	
+114-138	15120-15121	a	
+114-139	15122-15123	)	
+114-140	15123-15124	;	
+114-141	15124-15127	and	
+114-142	15128-15129	(	
+114-143	15129-15131	II	
+114-144	15132-15133	)	
+114-145	15133-15134	$	
+114-146	15135-15138	200	
+114-147	15139-15142	per	
+114-148	15143-15146	day	
+114-149	15147-15150	and	
+114-150	15151-15152	$	
+114-151	15153-15158	2,000	
+114-152	15159-15161	in	
+114-153	15162-15165	the	
+114-154	15166-15175	aggregate	
+114-155	15176-15179	for	
+114-156	15180-15181	a	
+114-157	15182-15185	use	
+114-158	15186-15195	described	
+114-159	15196-15198	in	
+114-160	15199-15208	paragraph	
+114-161	15209-15210	(	
+114-162	15210-15211	4	
+114-163	15212-15213	)	
+114-164	15213-15214	,	
+114-165	15214-15215	(	
+114-166	15215-15216	5	
+114-167	15217-15218	)	
+114-168	15218-15219	,	
+114-169	15219-15221	or	
+114-170	15222-15223	(	
+114-171	15223-15224	6	
+114-172	15225-15226	)	
+114-173	15226-15228	of	
+114-174	15229-15236	section	
+114-175	15237-15241	5102	
+114-176	15242-15243	(	
+114-177	15243-15244	a	
+114-178	15245-15246	)	
+114-179	15246-15247	.	
+
+#Text=Subject to subparagraph (A)(ii), the employee's required compensation under this subparagraph shall be not less than the greater of the following: (I) The employee's regular rate of pay (as determined under section 7(e) of the Fair Labor Standards Act of 1938 (29 U.S.C. 207(e)). 
+115-1	15239-15246	Subject	
+115-2	15247-15249	to	
+115-3	15250-15262	subparagraph	
+115-4	15263-15264	(	
+115-5	15264-15265	A	
+115-6	15266-15267	)	
+115-7	15267-15268	(	
+115-8	15268-15270	ii	
+115-9	15271-15272	)	
+115-10	15272-15273	,	
+115-11	15273-15276	the	
+115-12	15277-15285	employee	
+115-13	15286-15288	's	
+115-14	15289-15297	required	
+115-15	15298-15310	compensation	
+115-16	15311-15316	under	
+115-17	15317-15321	this	
+115-18	15322-15334	subparagraph	
+115-19	15335-15340	shall	
+115-20	15341-15343	be	
+115-21	15344-15347	not	
+115-22	15348-15352	less	
+115-23	15353-15357	than	
+115-24	15358-15361	the	
+115-25	15362-15369	greater	
+115-26	15370-15372	of	
+115-27	15373-15376	the	
+115-28	15377-15386	following	
+115-29	15387-15388	:	
+
+#Text=Subject to subparagraph (A)(ii), the employee's required compensation under this subparagraph shall be not less than the greater of the following: (II) The minimum wage rate in effect under section 6(a)(1) of the Fair Labor Standards Act of 1938 (29 U.S.C. 206(a)(1)). 
+116-1	15521-15528	Subject	
+116-2	15529-15531	to	
+116-3	15532-15544	subparagraph	
+116-4	15545-15546	(	
+116-5	15546-15547	A	
+116-6	15548-15549	)	
+116-7	15549-15550	(	
+116-8	15550-15552	ii	
+116-9	15553-15554	)	
+116-10	15554-15555	,	
+116-11	15555-15558	the	
+116-12	15559-15567	employee	
+116-13	15568-15570	's	
+116-14	15571-15579	required	
+116-15	15580-15592	compensation	
+116-16	15593-15598	under	
+116-17	15599-15603	this	
+116-18	15604-15616	subparagraph	
+116-19	15617-15622	shall	
+116-20	15623-15625	be	
+116-21	15626-15629	not	
+116-22	15630-15634	less	
+116-23	15635-15639	than	
+116-24	15640-15643	the	
+116-25	15644-15651	greater	
+116-26	15652-15654	of	
+116-27	15655-15658	the	
+116-28	15659-15668	following	
+116-29	15669-15670	:	
+
+#Text=Subject to subparagraph (A)(ii), the employee's required compensation under this subparagraph shall be not less than the greater of the following: (III) The minimum wage rate in effect for such employee in the applicable State or locality, whichever is greater, in which the employee is employed.
+117-1	15792-15799	Subject	
+117-2	15800-15802	to	
+117-3	15803-15815	subparagraph	
+117-4	15816-15817	(	
+117-5	15817-15818	A	
+117-6	15819-15820	)	
+117-7	15820-15821	(	
+117-8	15821-15823	ii	
+117-9	15824-15825	)	
+117-10	15825-15826	,	
+117-11	15826-15829	the	
+117-12	15830-15838	employee	
+117-13	15839-15841	's	
+117-14	15842-15850	required	
+117-15	15851-15863	compensation	
+117-16	15864-15869	under	
+117-17	15870-15874	this	
+117-18	15875-15887	subparagraph	
+117-19	15888-15893	shall	
+117-20	15894-15896	be	
+117-21	15897-15900	not	
+117-22	15901-15905	less	
+117-23	15906-15910	than	
+117-24	15911-15914	the	
+117-25	15915-15922	greater	
+117-26	15923-15925	of	
+117-27	15926-15929	the	
+117-28	15930-15939	following	
+117-29	15940-15941	:	
+
+#Text=Subject to subparagraph (A)(ii), with respect to any paid sick time provided for any use described in paragraph (4), (5), or (6) of section 5102(a), the employee's required compensation under this subparagraph shall be two-thirds of the amount described in clause (B)(i).
+118-1	16090-16097	Subject	
+118-2	16098-16100	to	
+118-3	16101-16113	subparagraph	
+118-4	16114-16115	(	
+118-5	16115-16116	A	
+118-6	16117-16118	)	
+118-7	16118-16119	(	
+118-8	16119-16121	ii	
+118-9	16122-16123	)	
+118-10	16123-16124	,	
+118-11	16124-16128	with	
+118-12	16129-16136	respect	
+118-13	16137-16139	to	
+118-14	16140-16143	any	
+118-15	16144-16148	paid	
+118-16	16149-16153	sick	
+118-17	16154-16158	time	
+118-18	16159-16167	provided	
+118-19	16168-16171	for	
+118-20	16172-16175	any	
+118-21	16176-16179	use	
+118-22	16180-16189	described	
+118-23	16190-16192	in	
+118-24	16193-16202	paragraph	
+118-25	16203-16204	(	
+118-26	16204-16205	4	
+118-27	16206-16207	)	
+118-28	16207-16208	,	
+118-29	16208-16209	(	
+118-30	16209-16210	5	
+118-31	16211-16212	)	
+118-32	16212-16213	,	
+118-33	16213-16215	or	
+118-34	16216-16217	(	
+118-35	16217-16218	6	
+118-36	16219-16220	)	
+118-37	16220-16222	of	
+118-38	16223-16230	section	
+118-39	16231-16235	5102	
+118-40	16236-16237	(	
+118-41	16237-16238	a	
+118-42	16239-16240	)	
+118-43	16240-16241	,	
+118-44	16241-16244	the	
+118-45	16245-16253	employee	
+118-46	16254-16256	's	
+118-47	16257-16265	required	
+118-48	16266-16278	compensation	
+118-49	16279-16284	under	
+118-50	16285-16289	this	
+118-51	16290-16302	subparagraph	
+118-52	16303-16308	shall	
+118-53	16309-16311	be	
+118-54	16312-16315	two	
+118-55	16316-16317	-	
+118-56	16317-16323	thirds	
+118-57	16324-16326	of	
+118-58	16327-16330	the	
+118-59	16331-16337	amount	
+118-60	16338-16347	described	
+118-61	16348-16350	in	
+118-62	16351-16357	clause	
+118-63	16358-16359	(	
+118-64	16359-16360	B	
+118-65	16361-16362	)	
+118-66	16362-16363	(	
+118-67	16363-16364	i	
+118-68	16365-16366	)	
+118-69	16366-16367	.	
+
+#Text=The Secretary of Labor shall have the authority to issue regulations for good cause under sections 553(b)(B) and 553(d)(A) of title 5, United States Code.
+119-1	16363-16366	The	(E) Constituted Entity[280]
+119-2	16367-16376	Secretary	(E) Constituted Entity[280]
+119-3	16377-16379	of	(E, prop) Constituted Entity Property[280]
+119-4	16380-16385	Labor	(E, prop) Constituted Entity Property[280]
+119-5	16386-16391	shall	(M) Modal
+119-6	16392-16396	have	(F) Constitutive Function
+119-7	16397-16400	the	(P) Constituting Properties[281]
+119-8	16401-16410	authority	(P) Constituting Properties[281]
+119-9	16411-16413	to	(P) Constituting Properties[281]
+119-10	16414-16419	issue	(P) Constituting Properties[281]
+119-11	16420-16431	regulations	(P) Constituting Properties[281]
+119-12	16432-16435	for	(P) Constituting Properties[281]
+119-13	16436-16440	good	(P) Constituting Properties[281]
+119-14	16441-16446	cause	(P) Constituting Properties[281]
+119-15	16447-16452	under	(P) Constituting Properties[281]
+119-16	16453-16461	sections	(P) Constituting Properties[281]
+119-17	16462-16465	553	(P) Constituting Properties[281]
+119-18	16466-16467	(	(P) Constituting Properties[281]
+119-19	16467-16468	b	(P) Constituting Properties[281]
+119-20	16469-16470	)	(P) Constituting Properties[281]
+119-21	16470-16471	(	(P) Constituting Properties[281]
+119-22	16471-16472	B	(P) Constituting Properties[281]
+119-23	16473-16474	)	(P) Constituting Properties[281]
+119-24	16474-16477	and	(P) Constituting Properties[281]
+119-25	16478-16481	553	(P) Constituting Properties[281]
+119-26	16482-16483	(	(P) Constituting Properties[281]
+119-27	16483-16484	d	(P) Constituting Properties[281]
+119-28	16485-16486	)	(P) Constituting Properties[281]
+119-29	16486-16487	(	(P) Constituting Properties[281]
+119-30	16487-16488	A	(P) Constituting Properties[281]
+119-31	16489-16490	)	(P) Constituting Properties[281]
+119-32	16490-16492	of	(P) Constituting Properties[281]
+119-33	16493-16498	title	(P) Constituting Properties[281]
+119-34	16499-16500	5	(P) Constituting Properties[281]
+119-35	16501-16502	,	(P) Constituting Properties[281]
+119-36	16502-16508	United	(P) Constituting Properties[281]
+119-37	16509-16515	States	(P) Constituting Properties[281]
+119-38	16516-16520	Code	(P) Constituting Properties[281]
+119-39	16521-16522	.	

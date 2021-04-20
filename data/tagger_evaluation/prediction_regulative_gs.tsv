@@ -1,0 +1,2016 @@
+
+#Text=An employer shall provide to each employee employed by the employer paid sick time.
+
+employer	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+provide	(I) Aim	(I) Aim
+to	(C) Context	
+each	(C) Context	
+employee	(C) Context	(B) Object
+employed	(C) Context	
+by	(C) Context	
+employer	(C) Context	(A) Attribute
+paid	(C) Context	(B) Object
+sick	(C) Context	(B) Object
+time	(C) Context	(B) Object
+
+#Text=The employee has been advised by a health care provider to self-quarantine due to concerns related to COVID-19.
+
+employee	(A) Attribute	(B) Object
+has	(I) Aim	(I) Aim
+been	(I) Aim	(I) Aim
+advised	(I) Aim	(I) Aim
+by	(C) Context	
+health	(C) Context	(A) Attribute
+care	(C) Context	(A) Attribute
+provider	(C) Context	(A) Attribute
+to	(C) Context	(C) Context
+self	(C) Context	(B) Object
+quarantine	(C) Context	(B) Object
+due	(C) Context	
+to	(C) Context	(C) Context
+concerns	(C) Context	(C) Context
+related	(C) Context	(C) Context
+to	(C) Context	(C) Context
+COVID	(C) Context	(C) Context
+19	(C) Context	(C) Context
+
+#Text=The employee is experiencing symptoms of COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+experiencing	(I) Aim	(I) Aim
+symptoms	(B) Object	(B) Object
+of	(B) Object	(B) Object
+COVID	(B) Object	(B) Object
+19	(B, prop) Object_Property	(B) Object
+
+#Text=The employee is seeking a medical diagnosis
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+seeking	(I) Aim	(I) Aim
+medical	(B) Object	(B) Object
+diagnosis	(B) Object	(B) Object
+
+#Text=The employee is caring for an individual who is subject to Federal quarantine order related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+is	(C) Context	(I) Aim
+subject	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+Federal	(C) Context	(B, prop) Object_Property
+quarantine	(C) Context	(B, prop) Object_Property
+order	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for an individual who is subject to Federal isolation order related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+is	(C) Context	(I) Aim
+subject	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+Federal	(C) Context	(B, prop) Object_Property
+isolation	(C) Context	(B, prop) Object_Property
+order	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for an individual who is subject to State quarantine order related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+is	(C) Context	(I) Aim
+subject	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+State	(C) Context	(B, prop) Object_Property
+quarantine	(C) Context	(B, prop) Object_Property
+order	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for an individual who is subject to State isolation order related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+is	(C) Context	(I) Aim
+subject	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+State	(C) Context	(B, prop) Object_Property
+isolation	(C) Context	(B, prop) Object_Property
+order	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for an individual who is subject to local quarantine order related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+is	(C) Context	(I) Aim
+subject	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+local	(C) Context	(B, prop) Object_Property
+quarantine	(C) Context	(B, prop) Object_Property
+order	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for an individual who is subject to local isolation order related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+is	(C) Context	(I) Aim
+subject	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+local	(C) Context	(B, prop) Object_Property
+isolation	(C) Context	(B, prop) Object_Property
+order	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for an individual who has been advised by a health care provider to self-quarantine due to concerns related to COVID-19.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+individual	(C) Context	(B) Object
+who	(C) Context	
+has	(C) Context	
+been	(C) Context	
+advised	(C) Context	(B, prop) Object_Property
+by	(C) Context	(B, prop) Object_Property
+health	(C) Context	(B, prop) Object_Property
+care	(C) Context	(B, prop) Object_Property
+provider	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+self	(C) Context	(B, prop) Object_Property
+quarantine	(C) Context	(B, prop) Object_Property
+due	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+concerns	(C) Context	(B, prop) Object_Property
+related	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+COVID	(C) Context	(B, prop) Object_Property
+19	(C) Context	(B, prop) Object_Property
+
+#Text=The employee is caring for a son of such employee if the school of the son has been closed.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+son	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	
+employee	(C) Context	(A) Attribute
+if	(C) Context	
+school	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+son	(C) Context	(B) Object
+has	(C) Context	(C) Context
+been	(C) Context	(C) Context
+closed	(C) Context	(C) Context
+
+#Text=The employee is caring for a son of such employee if the place of care of the son has been closed.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+son	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	
+employee	(C) Context	(A) Attribute
+if	(C) Context	
+place	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+care	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+son	(C) Context	(B) Object
+has	(C) Context	(C) Context
+been	(C) Context	(C) Context
+closed	(C) Context	(C) Context
+
+#Text=The employee is caring for a son of such employee if the child care provider of son is unavailable, due to COVID-19 precautions.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+son	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	
+employee	(C) Context	(A) Attribute
+if	(C) Context	
+child	(C) Context	(C) Context
+care	(C) Context	(C) Context
+provider	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+son	(C) Context	(B) Object
+is	(C) Context	(I) Aim
+unavailable	(C) Context	
+due	(C) Context	(C) Context
+to	(C) Context	(C) Context
+COVID	(C) Context	(C) Context
+19	(C) Context	(C) Context
+precautions	(C) Context	(C) Context
+
+#Text=The employee is caring for a daughter of such employee if the school or place of care of the daughter has been closed.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+daughter	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	
+employee	(C) Context	(A) Attribute
+if	(C) Context	
+school	(C) Context	(C) Context
+or	(C) Context	
+place	(C) Context	
+of	(C) Context	(B, prop) Object_Property
+care	(C) Context	
+of	(C) Context	(B, prop) Object_Property
+daughter	(C) Context	(B) Object
+has	(C) Context	(C) Context
+been	(C) Context	(C) Context
+closed	(C) Context	(C) Context
+
+#Text=The employee is caring for a daughter of such employee if the place of care of the daughter has been closed.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+daughter	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	
+employee	(C) Context	(A) Attribute
+if	(C) Context	
+place	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+care	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+daughter	(C) Context	(B) Object
+has	(C) Context	(C) Context
+been	(C) Context	(C) Context
+closed	(C) Context	(C) Context
+
+#Text=The employee is caring for a daughter of such employee if the child care provider of daughter is unavailable, due to COVID-19 precautions.
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+caring	(I) Aim	(I) Aim
+for	(C) Context	
+daughter	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	
+employee	(C) Context	(A) Attribute
+if	(C) Context	
+child	(C) Context	(C) Context
+care	(C) Context	(C) Context
+provider	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+daughter	(C) Context	(B) Object
+is	(C) Context	(I) Aim
+unavailable	(C) Context	
+due	(C) Context	(C) Context
+to	(C) Context	(C) Context
+COVID	(C) Context	(C) Context
+19	(C) Context	(C) Context
+precautions	(C) Context	(C) Context
+
+#Text=The employee is experiencing any other substantially similar condition specified by the Secretary of Health and Human Services in consultation with the Secretary of the Treasury and the Secretary of Labor
+
+employee	(A) Attribute	(A) Attribute
+is	(I) Aim	(I) Aim
+experiencing	(I) Aim	(I) Aim
+any	(B) Object	(B, prop) Object_Property
+other	(B) Object	
+substantially	(B, prop) Object_Property	(B, prop) Object_Property
+similar	(B) Object	
+condition	(B) Object	(B) Object
+specified	(B, prop) Object_Property	(B, prop) Object_Property
+by	(B, prop) Object_Property	(B, prop) Object_Property
+Secretary	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+Health	(B, prop) Object_Property	(B, prop) Object_Property
+and	(B, prop) Object_Property	(B, prop) Object_Property
+Human	(B, prop) Object_Property	(B, prop) Object_Property
+Services	(B, prop) Object_Property	(B, prop) Object_Property
+in	(B, prop) Object_Property	(B, prop) Object_Property
+consultation	(B, prop) Object_Property	(B, prop) Object_Property
+with	(B, prop) Object_Property	(B, prop) Object_Property
+Secretary	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+Treasury	(B, prop) Object_Property	(B, prop) Object_Property
+and	(B, prop) Object_Property	(B, prop) Object_Property
+Secretary	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+Labor	(B, prop) Object_Property	(B, prop) Object_Property
+
+#Text=An employer may elect.
+
+employer	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+elect	(I) Aim	(I) Aim
+
+#Text=[The employer] excludes the employee from the application of this subsection.
+
+employer	(A) Attribute	(A) Attribute
+excludes	(I) Aim	(I) Aim
+employee	(B) Object	(B) Object
+from	(C) Context	
+application	(C) Context	(B) Object
+of	(C) Context	(B) Object
+this	(C) Context	(B) Object
+subsection	(C) Context	(B) Object
+
+#Text=An employer may not require, as a condition of providing paid sick time under this Act, that the employee involved search for or find a replacement employee to cover the hours during which the employee is using paid sick time.
+
+employer	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+not	(I) Aim	(D) Deontic
+require	(I) Aim	(I) Aim
+as	(C) Context	(C) Context
+condition	(C) Context	(C) Context
+of	(C) Context	(C) Context
+providing	(C) Context	(C) Context
+paid	(C) Context	(C) Context
+sick	(C) Context	(C) Context
+time	(C) Context	(C) Context
+under	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act	(C) Context	(C) Context
+that	(B) Object	
+employee	(B) Object	
+involved	(B) Object	
+search	(B) Object	
+for	(B) Object	
+or	(B) Object	
+find	(B) Object	
+replacement	(B) Object	
+employee	(B) Object	
+to	(B) Object	
+cover	(B) Object	
+hours	(B) Object	
+during	(B) Object	
+which	(B) Object	
+employee	(B) Object	
+is	(B) Object	
+using	(B) Object	
+paid	(B) Object	(C) Context
+sick	(B) Object	(C) Context
+time	(B) Object	(C) Context
+
+#Text=The employee searches for a replacement employee to cover the hours during which the employee is using paid sick time.
+
+employee	(A) Attribute	(A) Attribute
+searches	(I) Aim	(I) Aim
+for	(C) Context	
+replacement	(C) Context	
+employee	(C) Context	(A) Attribute
+to	(C) Context	(B, prop) Object_Property
+cover	(C) Context	(B, prop) Object_Property
+hours	(C) Context	(B, prop) Object_Property
+during	(C) Context	(B, prop) Object_Property
+which	(C) Context	(B, prop) Object_Property
+employee	(C) Context	(A) Attribute
+is	(C) Context	(B, prop) Object_Property
+using	(C) Context	(B, prop) Object_Property
+paid	(C) Context	(B, prop) Object_Property
+sick	(C) Context	(B, prop) Object_Property
+time	(C) Context	(B, prop) Object_Property
+
+#Text=The employee finds a replacement employee to cover the hours during which the employee is using paid sick time.
+
+employee	(A) Attribute	(A) Attribute
+finds	(I) Aim	(I) Aim
+replacement	(B) Object	
+employee	(B) Object	(A) Attribute
+to	(C) Context	(B, prop) Object_Property
+cover		(B, prop) Object_Property
+hours	(B) Object	(B, prop) Object_Property
+during	(B, prop) Object_Property	(B, prop) Object_Property
+which	(B, prop) Object_Property	(B, prop) Object_Property
+employee	(B, prop) Object_Property	(A) Attribute
+is	(B, prop) Object_Property	(B, prop) Object_Property
+using	(B, prop) Object_Property	(B, prop) Object_Property
+paid	(B, prop) Object_Property	(B, prop) Object_Property
+sick	(B, prop) Object_Property	(B, prop) Object_Property
+time	(B, prop) Object_Property	(B, prop) Object_Property
+
+#Text=An employee may first use the paid sick time under subsection (a) for the purposes described in such subsection.
+
+employee	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+first	(C) Context	
+use	(I) Aim	(I) Aim
+paid	(B) Object	(B) Object
+sick	(B) Object	(B) Object
+time	(B) Object	(B) Object
+under	(B) Object	(B, prop) Object_Property
+subsection	(B) Object	(B, prop) Object_Property
+for	(C) Context	(C) Context
+purposes	(C) Context	(C) Context
+described	(C) Context	(C) Context
+in	(C) Context	(C) Context
+such	(C) Context	(C) Context
+subsection	(C) Context	(B, prop) Object_Property
+
+#Text=An employer may not require an employee to use other paid leave provided by the employer to the employee before the employee uses the paid sick time under subsection (a).
+
+employer	(A) Attribute	
+may	(D) Deontic	
+not	(I) Aim	
+require	(I) Aim	
+employee	(B) Object	
+to	(B, prop) Object_Property	
+use	(B, prop) Object_Property	
+other	(B, prop) Object_Property	
+paid	(B, prop) Object_Property	
+leave	(B, prop) Object_Property	
+provided	(B, prop) Object_Property	
+by	(B, prop) Object_Property	
+employer	(B, prop) Object_Property	
+to	(B, prop) Object_Property	
+employee	(B, prop) Object_Property	
+before	(B, prop) Object_Property	
+employee	(B, prop) Object_Property	
+uses	(B, prop) Object_Property	
+paid	(B, prop) Object_Property	
+sick	(B, prop) Object_Property	
+time	(B, prop) Object_Property	
+under	(B, prop) Object_Property	
+subsection	(B, prop) Object_Property	
+
+#Text=An employer may not require an employee to use other paid leave provided by the employer to the employee before the employee uses the paid sick time under subsection (a).
+
+employer	(A) Attribute	
+may	(D) Deontic	
+not	(I) Aim	
+require	(I) Aim	
+employee	(B) Object	
+to	(B, prop) Object_Property	
+use	(B, prop) Object_Property	
+other	(B, prop) Object_Property	
+paid	(B, prop) Object_Property	
+leave	(B, prop) Object_Property	
+provided	(B, prop) Object_Property	
+by	(B, prop) Object_Property	
+employer	(B, prop) Object_Property	
+to	(B, prop) Object_Property	
+employee	(B, prop) Object_Property	
+before	(B, prop) Object_Property	
+employee	(B, prop) Object_Property	
+uses	(B, prop) Object_Property	
+paid	(B, prop) Object_Property	
+sick	(B, prop) Object_Property	
+time	(B, prop) Object_Property	
+under	(B, prop) Object_Property	
+subsection	(B, prop) Object_Property	
+
+#Text=Each employer shall post, in conspicuous places on the premises of the employer where notices to employees are customarily posted, a notice, to be prepared or approved by the Secretary of Labor, of the requirements described in this Act.
+
+Each	(A) Attribute	
+employer	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+post	(I) Aim	(I) Aim
+in	(C) Context	(B, prop) Object_Property
+conspicuous	(C) Context	(C) Context
+places	(C) Context	(C) Context
+on	(C) Context	(C) Context
+premises	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+employer	(C) Context	(A) Attribute
+where	(C) Context	(C) Context
+notices	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+employees	(C) Context	(C) Context
+are	(C) Context	(C) Context
+customarily	(C) Context	(C) Context
+posted	(C) Context	(C) Context
+notice	(C) Context	(B) Object
+to	(C) Context	(B, prop) Object_Property
+be	(C) Context	(B, prop) Object_Property
+prepared	(C) Context	(B, prop) Object_Property
+or	(C) Context	
+approved	(C) Context	(B, prop) Object_Property
+by	(C) Context	(B, prop) Object_Property
+Secretary	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+Labor	(C) Context	
+of	(C) Context	(B, prop) Object_Property
+requirements	(C) Context	(B, prop) Object_Property
+described	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+this	(C) Context	(B, prop) Object_Property
+Act.	(C) Context	
+
+#Text=Each employer shall keep posted, in conspicuous places on the premises of the employer where notices to employees are customarily posted, a notice, to be prepared or approved by the Secretary of Labor, of the requirements described in this Act.
+
+Each	(A) Attribute	
+employer	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+keep	(I) Aim	(I) Aim
+posted		(I) Aim
+in	(C) Context	(B, prop) Object_Property
+conspicuous	(C) Context	(C) Context
+places	(C) Context	(C) Context
+on	(C) Context	(C) Context
+premises	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+employer	(C) Context	(A) Attribute
+where	(C) Context	(C) Context
+notices	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+employees	(C) Context	(C) Context
+are	(C) Context	(C) Context
+customarily	(C) Context	(C) Context
+posted	(C) Context	(I) Aim
+notice	(C) Context	(B) Object
+to	(C) Context	(B, prop) Object_Property
+be	(C) Context	(B, prop) Object_Property
+prepared	(C) Context	(B, prop) Object_Property
+or	(C) Context	
+approved	(C) Context	(B, prop) Object_Property
+by	(C) Context	(B, prop) Object_Property
+Secretary	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+Labor	(C) Context	
+of	(C) Context	(B, prop) Object_Property
+requirements	(C) Context	(B, prop) Object_Property
+described	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+this	(C) Context	(B, prop) Object_Property
+Act.	(C) Context	
+
+#Text=Employee takes leave in accordance with this Act
+
+Employee	(A) Attribute	
+takes	(I) Aim	(I) Aim
+leave	(B) Object	(B) Object
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act.	(C) Context	
+
+#Text=Employee has filed any complaint.
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+filed	(I) Aim	(I) Aim
+any	(B) Object	(B, prop) Object_Property
+complaint	(B) Object	(B) Object
+
+#Text=Employee has instituted any proceeding under this Act.
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+instituted	(I) Aim	(I) Aim
+any	(B) Object	
+proceeding	(B) Object	(B) Object
+under	(B) Object	(B, prop) Object_Property
+this	(B, prop) Object_Property	(B, prop) Object_Property
+Act.	(B) Object	
+
+#Text=Employee has instituted any proceeding related to this Act (including a proceeding that seeks enforcement of this Act).
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+instituted	(I) Aim	(I) Aim
+any	(B) Object	
+proceeding	(B) Object	(B) Object
+related	(B) Object	(B, prop) Object_Property
+to	(B, prop) Object_Property	(B, prop) Object_Property
+this	(B, prop) Object_Property	(B, prop) Object_Property
+Act	(B, prop) Object_Property	(B, prop) Object_Property
+including	(B) Object	
+proceeding	(B) Object	(B) Object
+that	(B, prop) Object_Property	(B, prop) Object_Property
+seeks	(B, prop) Object_Property	(B, prop) Object_Property
+enforcement	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+this	(B, prop) Object_Property	(B, prop) Object_Property
+Act	(B, prop) Object_Property	(B, prop) Object_Property
+
+#Text=Employee has caused to be instituted any proceeding under this Act.
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+caused	(I) Aim	(I) Aim
+to	(C) Context	(I) Aim
+be	(C) Context	(I) Aim
+instituted		(I) Aim
+any	(B, prop) Object_Property	
+proceeding	(B) Object	(B) Object
+under	(B, prop) Object_Property	(B, prop) Object_Property
+this	(B, prop) Object_Property	(B, prop) Object_Property
+Act.	(B, prop) Object_Property	
+
+#Text=Employee has caused to be instituted any proceeding related to this Act (including a proceeding that seeks enforcement of this Act
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+caused	(I) Aim	(I) Aim
+to	(C) Context	(I) Aim
+be	(C) Context	(I) Aim
+instituted		(I) Aim
+any	(B, prop) Object_Property	
+proceeding	(B) Object	(B) Object
+related	(B, prop) Object_Property	(B, prop) Object_Property
+to	(B, prop) Object_Property	(I) Aim
+this	(B, prop) Object_Property	(B, prop) Object_Property
+Act	(B, prop) Object_Property	(B, prop) Object_Property
+including	(C) Context	
+proceeding	(C) Context	(B) Object
+that	(C) Context	(B, prop) Object_Property
+seeks	(C) Context	(B, prop) Object_Property
+enforcement	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+this	(C) Context	(B, prop) Object_Property
+Act.	(C) Context	
+
+#Text=Employee has testified in any proceeding under this Act.
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+testified	(I) Aim	(I) Aim
+in	(C) Context	(C) Context
+any	(C) Context	(C) Context
+proceeding	(C) Context	(C) Context
+under	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act.	(C) Context	
+
+#Text=Employee has testified in any proceeding related to this Act (including a proceeding that seeks enforcement of this Act).
+
+Employee	(A) Attribute	
+has	(I) Aim	(I) Aim
+testified	(I) Aim	(I) Aim
+in	(C) Context	(C) Context
+any	(C) Context	(C) Context
+proceeding	(C) Context	(C) Context
+related	(C) Context	(C) Context
+to	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act	(C) Context	(C) Context
+including	(C) Context	
+proceeding	(C) Context	(C) Context
+that	(C) Context	(C) Context
+seeks	(C) Context	(C) Context
+enforcement	(C) Context	(C) Context
+of	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act	(C) Context	(C) Context
+
+#Text=Employee is about to testify in any proceeding under this Act.
+
+Employee	(A) Attribute	
+is	(I) Aim	(I) Aim
+about	(I) Aim	(I) Aim
+to	(C) Context	(I) Aim
+testify		(I) Aim
+in	(C) Context	(C) Context
+any	(C) Context	(C) Context
+proceeding	(C) Context	(C) Context
+under	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act.	(C) Context	
+
+#Text=Employee who is about to testify in any proceeding related to this Act (including a proceeding that seeks enforcement of this Act).
+
+Employee		
+who		
+is		(I) Aim
+about		(I) Aim
+to		(I) Aim
+testify		(I) Aim
+in		(C) Context
+any		(C) Context
+proceeding		(C) Context
+related		(C) Context
+to		(I) Aim
+this		(C) Context
+Act		(C) Context
+including		
+proceeding		(C) Context
+that		(C) Context
+seeks		(C) Context
+enforcement		(C) Context
+of		(C) Context
+this		(C) Context
+Act		(C) Context
+
+#Text=An employer signatory to a multiemployer collective bargaining agreement may, consistent with its bargaining obligations and its collective bargaining agreement, fulfill its obligations under this Act.
+
+employer	(A, prop) Attribute_Property	(A) Attribute
+signatory	(A) Attribute	(A, prop) Attribute_Property
+to	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+multiemployer	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+collective	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+bargaining	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+agreement	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+may	(I) Aim	(D) Deontic
+consistent		(C) Context
+with	(C) Context	(C) Context
+its	(C) Context	(B, prop) Object_Property
+bargaining	(C) Context	(A, prop) Attribute_Property
+obligations	(C) Context	(B, prop) Object_Property
+and	(C) Context	
+its	(C) Context	(B, prop) Object_Property
+collective	(C) Context	(A, prop) Attribute_Property
+bargaining	(C) Context	(A, prop) Attribute_Property
+agreement	(C) Context	(A, prop) Attribute_Property
+fulfill	(C) Context	(I) Aim
+its	(C) Context	(B, prop) Object_Property
+obligations	(C) Context	(B, prop) Object_Property
+under	(C) Context	(B, prop) Object_Property
+this	(C) Context	(B, prop) Object_Property
+Act.	(C) Context	
+
+#Text=Employees may secure pay from such fund based on hours they have worked under the multiemployer collective bargaining agreement for the uses specified in section 5102(a).16.1.
+
+Employees	(A) Attribute	
+may	(D) Deontic	(D) Deontic
+secure	(I) Aim	(I) Aim
+pay		(B) Object
+from	(C) Context	(B, prop) Object_Property
+such	(C) Context	(B, prop) Object_Property
+fund	(C) Context	(B, prop) Object_Property
+based	(C) Context	(C) Context
+on	(C) Context	(C) Context
+hours	(C) Context	(C) Context
+they	(C) Context	(C) Context
+have	(C) Context	(C) Context
+worked	(C) Context	(C) Context
+under	(C) Context	(C) Context
+multiemployer	(C) Context	(C) Context
+collective	(C) Context	(C) Context
+bargaining	(C) Context	(C) Context
+agreement	(C) Context	(C) Context
+for	(C) Context	(C) Context
+uses	(C) Context	(C) Context
+specified	(C) Context	(C) Context
+in	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5102	(C) Context	
+161	(C) Context	
+
+#Text=Employees may secure pay from such plan based on hours they have worked under the multiemployer collective bargaining agreement for the uses specified in section 5102(a).
+
+Employees	(A) Attribute	
+may	(D) Deontic	(D) Deontic
+secure	(I) Aim	(I) Aim
+pay		(B) Object
+from	(C) Context	(B, prop) Object_Property
+such	(C) Context	(B, prop) Object_Property
+plan	(C) Context	(B, prop) Object_Property
+based	(C) Context	(C) Context
+on	(C) Context	(C) Context
+hours	(C) Context	(C) Context
+they	(C) Context	(C) Context
+have	(C) Context	(C) Context
+worked	(C) Context	(C) Context
+under	(C) Context	(C) Context
+multiemployer	(C) Context	(C) Context
+collective	(C) Context	(C) Context
+bargaining	(C) Context	(C) Context
+agreement	(C) Context	(C) Context
+for	(C) Context	(C) Context
+uses	(C) Context	(C) Context
+specified	(C) Context	(C) Context
+in	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5102	(C) Context	
+
+#Text=Employees may secure pay from such program based on hours they have worked under the multiemployer collective bargaining agreement for the uses specified in section 5102(a).
+
+Employees	(A) Attribute	
+may	(D) Deontic	(D) Deontic
+secure	(I) Aim	(I) Aim
+pay		(B) Object
+from	(C) Context	(B, prop) Object_Property
+such	(C) Context	(B, prop) Object_Property
+program	(C) Context	(B, prop) Object_Property
+based	(C) Context	(C) Context
+on	(C) Context	(C) Context
+hours	(C) Context	(C) Context
+they	(C) Context	(C) Context
+have	(C) Context	(C) Context
+worked	(C) Context	(C) Context
+under	(C) Context	(C) Context
+multiemployer	(C) Context	(C) Context
+collective	(C) Context	(C) Context
+bargaining	(C) Context	(C) Context
+agreement	(C) Context	(C) Context
+for	(C) Context	(C) Context
+uses	(C) Context	(C) Context
+specified	(C) Context	(C) Context
+in	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5102	(C) Context	
+
+#Text=Any person  acting directly in the interest of an employer in  relation to an employee (within the meaning of such phrase in  section 3(d) of the Fair Labor Standards Act of 1938 (29 U.S.C.  203(d)). 
+
+Any		
+person		(A) Attribute
+acting		(I) Aim
+directly		
+in		(C) Context
+interest		(C) Context
+of		(C) Context
+employer		(C) Context
+in		(C) Context
+relation		(C) Context
+to		(C) Context
+employee		(C) Context
+within		
+meaning		(C) Context
+of		(C) Context
+such		(C) Context
+phrase		(C) Context
+in		(C) Context
+section		(C) Context
+3		
+d		
+of		(C) Context
+Fair		(C) Context
+Labor		(C) Context
+Standards		(C) Context
+Act		(C) Context
+of		(C) Context
+1938		(C) Context
+29		
+USC		
+203		
+d		
+
+#Text=Any person  acting indirectly in the interest of an employer in  relation to an employee (within the meaning of such phrase in  section 3(d) of the Fair Labor Standards Act of 1938 (29 U.S.C.  203(d)). 
+
+Any		
+person		(A) Attribute
+acting		(I) Aim
+indirectly		
+in		(C) Context
+interest		(C) Context
+of		(C) Context
+employer		(C) Context
+in		(C) Context
+relation		(C) Context
+to		(C) Context
+employee		(C) Context
+within		
+meaning		(C) Context
+of		(C) Context
+such		(C) Context
+phrase		(C) Context
+in		(C) Context
+section		(C) Context
+3		
+d		
+of		(C) Context
+Fair		(C) Context
+Labor		(C) Context
+Standards		(C) Context
+Act		(C) Context
+of		(C) Context
+1938		(C) Context
+29		
+USC		
+203		
+d		
+
+#Text=In the case of a part-time employee described in section 5102(b)(2)(B) whose schedule varies from week to week to such an extent that an employer is unable to determine with certainty the number of hours the employee would have worked if such employee had not taken paid sick time under section 2(a) and employer subject to clause (ii)], the employer shall  use a number equal to the average number of hours that the employee was scheduled per day over the 6-month period ending on the date on which the employee takes the paid sick time, including hours for which the employee took leave of any type.
+
+In	(C) Context	(C) Context
+case	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+part	(C) Context	(C) Context
+time	(C) Context	(C) Context
+employee	(C) Context	(B, prop) Object_Property
+described	(C) Context	(C) Context
+in	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5102	(C) Context	
+b	(C) Context	
+2	(C) Context	
+B	(C) Context	
+whose	(C) Context	(C) Context
+schedule	(C) Context	(C) Context
+varies	(C) Context	(C) Context
+from	(C) Context	(C) Context
+week	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+week	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+such	(C) Context	(C) Context
+extent	(C) Context	(C) Context
+that	(C) Context	(B, prop) Object_Property
+employer	(C) Context	(A) Attribute
+is	(C) Context	(C) Context
+unable	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+determine	(C) Context	(C) Context
+with	(C) Context	(C) Context
+certainty	(C) Context	(C) Context
+number	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+hours	(C) Context	(B, prop) Object_Property
+employee	(C) Context	(B, prop) Object_Property
+would	(C) Context	(C) Context
+have	(C) Context	(C) Context
+worked	(C) Context	(C) Context
+if	(C) Context	(C) Context
+such	(C) Context	(C) Context
+employee	(C) Context	(B, prop) Object_Property
+had	(C) Context	(C) Context
+not	(C) Context	(C) Context
+taken	(C) Context	(C) Context
+paid	(C) Context	(B, prop) Object_Property
+sick	(C) Context	(B, prop) Object_Property
+time	(C) Context	(C) Context
+under	(C) Context	(C) Context
+section	(C) Context	(C) Context
+2	(C) Context	
+and	(C) Context	
+employer	(C) Context	(A) Attribute
+subject	(C) Context	
+to	(C) Context	(B, prop) Object_Property
+clause	(C) Context	(C) Context
+ii	(C) Context	
+employer	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+use	(I) Aim	(I) Aim
+number	(B) Object	(B) Object
+equal	(B) Object	(B, prop) Object_Property
+to	(B, prop) Object_Property	(B, prop) Object_Property
+average	(B, prop) Object_Property	(B, prop) Object_Property
+number	(B, prop) Object_Property	(B) Object
+of	(B, prop) Object_Property	(B, prop) Object_Property
+hours	(B, prop) Object_Property	(B, prop) Object_Property
+that	(B, prop) Object_Property	(B, prop) Object_Property
+employee	(B, prop) Object_Property	(B, prop) Object_Property
+was	(B, prop) Object_Property	(B, prop) Object_Property
+scheduled	(B, prop) Object_Property	(B, prop) Object_Property
+per	(B, prop) Object_Property	(B, prop) Object_Property
+day	(B, prop) Object_Property	(B, prop) Object_Property
+over	(B, prop) Object_Property	(B, prop) Object_Property
+6	(B, prop) Object_Property	(B, prop) Object_Property
+month	(B, prop) Object_Property	(B, prop) Object_Property
+period	(B, prop) Object_Property	(B, prop) Object_Property
+ending	(B, prop) Object_Property	(B, prop) Object_Property
+on	(B, prop) Object_Property	(B, prop) Object_Property
+date	(B, prop) Object_Property	(B, prop) Object_Property
+on	(B, prop) Object_Property	(B, prop) Object_Property
+which	(B, prop) Object_Property	(B, prop) Object_Property
+employee	(B, prop) Object_Property	(B, prop) Object_Property
+takes	(B, prop) Object_Property	(B, prop) Object_Property
+paid	(B, prop) Object_Property	(B, prop) Object_Property
+sick	(B, prop) Object_Property	(B, prop) Object_Property
+time	(B, prop) Object_Property	(C) Context
+including	(B, prop) Object_Property	(B, prop) Object_Property
+hours	(B, prop) Object_Property	(B, prop) Object_Property
+for	(B, prop) Object_Property	(B, prop) Object_Property
+which	(B, prop) Object_Property	(B, prop) Object_Property
+employee	(B, prop) Object_Property	(B, prop) Object_Property
+took	(B, prop) Object_Property	(B, prop) Object_Property
+leave	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+any	(B, prop) Object_Property	(B, prop) Object_Property
+type	(B, prop) Object_Property	
+
+#Text=In the case of a part-time employee described in section 5102(b)(2)(B) whose schedule varies from week to week to such an extent that an employer is unable to determine with certainty the number of hours the employee would have worked if such employee had not taken paid sick time under section 2(a) the employer shall use the following in place of such number: the reasonable expectation of the employee at the time of hiring of the average number of hours per day that the employee would normally be scheduled to work.
+
+In	(C) Context	(C) Context
+case	(C) Context	(C) Context
+of	(C) Context	(B, prop) Object_Property
+part	(C) Context	(C) Context
+time	(C) Context	(B, prop) Object_Property
+employee	(C) Context	(B, prop) Object_Property
+described	(C) Context	(C) Context
+in	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5102	(C) Context	
+b	(C) Context	
+2	(C) Context	
+B	(C) Context	
+whose	(C) Context	(C) Context
+schedule	(C) Context	(C) Context
+varies	(C) Context	(C) Context
+from	(C) Context	(C) Context
+week	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+week	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+such	(C) Context	(C) Context
+extent	(C) Context	(C) Context
+that	(C) Context	(B, prop) Object_Property
+employer	(C) Context	(A) Attribute
+is	(C) Context	(C) Context
+unable	(C) Context	(C) Context
+to	(C) Context	(B, prop) Object_Property
+determine	(C) Context	(C) Context
+with	(C) Context	(C) Context
+certainty	(C) Context	(C) Context
+number	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+hours	(C) Context	(B, prop) Object_Property
+employee	(A) Attribute	(B, prop) Object_Property
+would		(B, prop) Object_Property
+have	(I) Aim	(C) Context
+worked	(I) Aim	(C) Context
+if	(C) Context	(C) Context
+such	(C) Context	(C) Context
+employee	(C) Context	(B, prop) Object_Property
+had	(C) Context	(C) Context
+not	(C) Context	(C) Context
+taken	(C) Context	(C) Context
+paid	(C) Context	(C) Context
+sick	(C) Context	(C) Context
+time	(C) Context	(B, prop) Object_Property
+under	(C) Context	(C) Context
+section	(C) Context	(C) Context
+2	(C) Context	
+employer	(C) Context	(A) Attribute
+shall	(C) Context	(D) Deontic
+use	(C) Context	(I) Aim
+following	(C) Context	
+in	(C) Context	(C) Context
+place	(C) Context	
+of	(C) Context	(B, prop) Object_Property
+such	(C) Context	(C) Context
+number	(C) Context	(B, prop) Object_Property
+:	(C) Context	
+reasonable	(C) Context	
+expectation	(C) Context	(B) Object
+of	(C) Context	(B, prop) Object_Property
+employee	(C) Context	(B, prop) Object_Property
+at	(C) Context	(B, prop) Object_Property
+time	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+hiring	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+average	(C) Context	(B, prop) Object_Property
+number	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+hours	(C) Context	(B, prop) Object_Property
+per	(C) Context	(B, prop) Object_Property
+day	(C) Context	(B, prop) Object_Property
+that	(C) Context	(B, prop) Object_Property
+employee	(C) Context	(B, prop) Object_Property
+would	(C) Context	(B, prop) Object_Property
+normally	(C) Context	(B, prop) Object_Property
+be	(C) Context	(B, prop) Object_Property
+scheduled	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+work	(C) Context	(B, prop) Object_Property
+
+#Text=The employee works over the 6-month period ending on the date on which the employee takes the paid sick time, including hours for which the employee took leave of any type
+
+employee	(A) Attribute	(A) Attribute
+works	(I) Aim	(I) Aim
+over	(C) Context	(C) Context
+6	(C) Context	(C) Context
+month	(C) Context	(C) Context
+period	(C) Context	(C) Context
+ending	(C) Context	(C) Context
+on	(C) Context	(C) Context
+date	(C) Context	(C) Context
+on	(C) Context	(C) Context
+which	(C) Context	(C) Context
+employee	(C) Context	(A) Attribute
+takes	(C) Context	(C) Context
+paid	(C) Context	(C) Context
+sick	(C) Context	(C) Context
+time	(C) Context	
+including	(C) Context	(C) Context
+hours	(C) Context	(C) Context
+for	(C) Context	(C) Context
+which	(C) Context	(C) Context
+employee	(C) Context	(A) Attribute
+took	(C) Context	(C) Context
+leave	(C) Context	(C) Context
+of	(C) Context	(C) Context
+any	(C) Context	(C) Context
+type	(C) Context	(C) Context
+
+#Text=Not later than 15 days after the date of the enactment of this Act, the Secretary of Labor shall issue guidelines to assist employers in calculating the amount of paid sick time under subparagraph (A).
+
+Not	(C) Context	
+later	(C) Context	(C) Context
+than	(C) Context	(C) Context
+15	(C) Context	(C) Context
+days	(C) Context	(C) Context
+after	(C) Context	(C) Context
+date	(C) Context	(C) Context
+of	(C) Context	(A) Attribute
+enactment	(C) Context	(C) Context
+of	(C) Context	(A) Attribute
+this	(C) Context	(C) Context
+Act	(C) Context	(C) Context
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+issue	(I) Aim	(I) Aim
+guidelines	(B) Object	(B) Object
+to	(B, prop) Object_Property	(C) Context
+assist	(B, prop) Object_Property	(C) Context
+employers	(B, prop) Object_Property	(C) Context
+in	(B, prop) Object_Property	(C) Context
+calculating	(B, prop) Object_Property	(C) Context
+amount	(B, prop) Object_Property	(C) Context
+of	(B, prop) Object_Property	(A) Attribute
+paid	(B, prop) Object_Property	(C) Context
+sick	(B, prop) Object_Property	(C) Context
+time	(B, prop) Object_Property	(C) Context
+under	(B, prop) Object_Property	(C) Context
+subparagraph	(B, prop) Object_Property	(C) Context
+
+#Text=After the first workday (or portion thereof) an employee receives paid sick time under this Act, an employer may require the employee to follow reasonable notice procedures in order to continue receiving such paid sick time.
+
+After	(C) Context	
+first	(C) Context	(C) Context
+workday	(C) Context	(C) Context
+or	(C) Context	
+portion	(C) Context	(C) Context
+thereof	(C) Context	
+employee	(C) Context	(B) Object
+receives	(C) Context	(C) Context
+paid	(C) Context	(C) Context
+sick	(C) Context	(C) Context
+time	(C) Context	(C) Context
+under	(C) Context	(C) Context
+this	(C) Context	(C) Context
+Act	(C) Context	
+employer	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+require	(I) Aim	(I) Aim
+employee	(B) Object	(B) Object
+to	(C) Context	(B) Object
+follow		(B) Object
+reasonable	(B, prop) Object_Property	(B) Object
+notice	(B, prop) Object_Property	(B) Object
+procedures	(B) Object	(B) Object
+in	(C) Context	(C) Context
+order	(C) Context	(C) Context
+to	(C) Context	(B) Object
+continue	(C) Context	(C) Context
+receiving	(C) Context	(C) Context
+such	(C) Context	(C) Context
+paid	(C) Context	(C) Context
+sick	(C) Context	(C) Context
+time	(C) Context	(C) Context
+
+#Text=The Secretary of Labor excludes certain health care providers from the definition of employee under section 5110(1).
+
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+excludes	(I) Aim	(I) Aim
+certain	(B) Object	(B, prop) Object_Property
+health	(B, prop) Object_Property	(B) Object
+care	(B) Object	(B) Object
+providers	(B) Object	(B) Object
+from	(C) Context	(C) Context
+definition	(C) Context	(C) Context
+of	(C) Context	(A) Attribute
+employee	(C) Context	(C) Context
+under	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5110	(C) Context	
+1	(C) Context	
+
+#Text=The Secretary of Labor excludes certain emergency responders from the definition of employee under section 5110(1).
+
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+excludes	(I) Aim	(I) Aim
+certain	(B) Object	(B, prop) Object_Property
+emergency	(B) Object	(B) Object
+responders	(B) Object	(B) Object
+from	(C) Context	(C) Context
+definition	(C) Context	(C) Context
+of	(C) Context	(A) Attribute
+employee	(C) Context	(C) Context
+under	(C) Context	(C) Context
+section	(C) Context	(C) Context
+5110	(C) Context	
+1	(C) Context	
+
+#Text=The Secretary of Labor allow. 
+
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+allow	(I) Aim	(I) Aim
+
+#Text=The employer of health care providers opts out.
+
+employer	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+health	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+care	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+providers	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+opts	(I) Aim	(I) Aim
+out		(I) Aim
+
+#Text=The employer of emergency responders opts out.
+
+employer	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+emergency	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+responders	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+opts	(I) Aim	(I) Aim
+out		(I) Aim
+
+#Text=The Secretary of Labor exempts businesses with fewer than 50 employees from the requirements of section 5102(a)(5) when the imposition of such requirements would jeopardize the viability of the business as a going concern.
+
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+exempts	(I) Aim	(I) Aim
+businesses	(B) Object	(B) Object
+with	(B) Object	(B, prop) Object_Property
+fewer	(B, prop) Object_Property	(B, prop) Object_Property
+than	(B, prop) Object_Property	(B, prop) Object_Property
+50	(B, prop) Object_Property	(B, prop) Object_Property
+employees	(B) Object	(B, prop) Object_Property
+from	(C) Context	(B, prop) Object_Property
+requirements	(C) Context	(B, prop) Object_Property
+of	(C) Context	(A) Attribute
+section	(C) Context	(B, prop) Object_Property
+5102	(C) Context	
+5	(C) Context	
+when	(C) Context	(C) Context
+imposition	(C) Context	(C) Context
+of	(C) Context	(A) Attribute
+such	(C) Context	(C) Context
+requirements	(C) Context	(B, prop) Object_Property
+would	(C) Context	(C) Context
+jeopardize	(C) Context	(C) Context
+viability	(C) Context	(C) Context
+of	(C) Context	(A) Attribute
+business	(C) Context	(C) Context
+as	(C) Context	(C) Context
+going	(C) Context	(C) Context
+concern	(C) Context	
+
+#Text=The Secretary of Labor as necessary, carries out the purposes of this Act.
+
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+as	(A, prop) Attribute_Property	(C) Context
+necessary	(A, prop) Attribute_Property	(C) Context
+carries	(I) Aim	(I) Aim
+out		(I) Aim
+purposes	(B) Object	(B) Object
+of	(B) Object	(A) Attribute
+this	(B, prop) Object_Property	(B) Object
+Act.	(B) Object	(B) Object
+
+#Text=The Secretary of Labor as necessary ensures consistency between this Act and Division C and Division G of the Families First Coronavirus Response Act.
+
+Secretary	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A) Attribute
+Labor	(A, prop) Attribute_Property	(A) Attribute
+as	(A, prop) Attribute_Property	(C) Context
+necessary	(A, prop) Attribute_Property	(C) Context
+ensures	(I) Aim	(I) Aim
+consistency	(B) Object	(B) Object
+between	(B) Object	(B) Object
+this	(B, prop) Object_Property	(B) Object
+Act	(B) Object	(B) Object
+and	(B, prop) Object_Property	(B) Object
+Division	(B, prop) Object_Property	(B) Object
+C	(B, prop) Object_Property	(B) Object
+and	(B, prop) Object_Property	(B) Object
+Division	(B, prop) Object_Property	(B) Object
+G	(B, prop) Object_Property	(B) Object
+of	(B, prop) Object_Property	(A) Attribute
+Families	(B, prop) Object_Property	(B) Object
+First	(B, prop) Object_Property	(B) Object
+Coronavirus	(B, prop) Object_Property	(B) Object
+Response	(B) Object	(B) Object
+Act.	(B) Object	(B) Object
+
+#Text=The General Assembly shall meet in ordinary session every two years.
+
+General	(A, prop) Attribute_Property	(A) Attribute
+Assembly	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+meet	(I) Aim	(I) Aim
+in	(C) Context	(C) Context
+ordinary	(C) Context	(C) Context
+session	(C) Context	(C) Context
+every		(C) Context
+two		(C) Context
+years		(C) Context
+
+#Text=[The General Assembly] may meet in extraordinary session.
+
+General	(A, prop) Attribute_Property	(A) Attribute
+Assembly	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+meet	(I) Aim	(I) Aim
+in	(C) Context	(C) Context
+extraordinary	(C) Context	(C) Context
+session	(C) Context	(C) Context
+
+#Text=It decides [to meet].
+
+It	(A) Attribute	(A) Attribute
+decides	(I) Aim	(I) Aim
+to	(C) Context	(B) Object
+meet		(B) Object
+
+#Text=The Intergovernmental Committee for the Safeguarding of the Intangible Cultural Heritage requests [to meet]. 
+
+Intergovernmental		(A) Attribute
+Committee		(A) Attribute
+for		(A) Attribute
+Safeguarding		(A) Attribute
+of		(A) Attribute
+Intangible		(A) Attribute
+Cultural		(A) Attribute
+Heritage		(A) Attribute
+requests		(I) Aim
+to		(B) Object
+meet		(B) Object
+
+#Text=At least one-third of the States Parties requests [to meet].
+
+At		(A) Attribute
+least		(A) Attribute
+one		(A) Attribute
+third		(A) Attribute
+of		(A) Attribute
+States		(A) Attribute
+Parties		(A) Attribute
+requests		(I) Aim
+to		(B) Object
+meet		(B) Object
+
+#Text=The General Assembly shall adopt its own Rules of Procedure.
+
+General	(A, prop) Attribute_Property	(A) Attribute
+Assembly	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+adopt	(I) Aim	(I) Aim
+its	(B) Object	(B, prop) Object_Property
+own	(B) Object	(B, prop) Object_Property
+Rules	(B) Object	(B) Object
+of	(B) Object	(B) Object
+Procedure	(B) Object	(B) Object
+
+#Text=Every two years, the General Assembly shall renew half of the States Members of the Committee.
+
+Every		
+two		(C) Context
+years		(C) Context
+General	(A, prop) Attribute_Property	(A) Attribute
+Assembly	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+renew	(I) Aim	(I) Aim
+half	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+States	(B, prop) Object_Property	(B, prop) Object_Property
+Members	(B) Object	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+Committee	(B, prop) Object_Property	
+
+#Text=[the General Assembly] shall also elect as many States Members of the Committee as required to fill vacancies.
+
+General	(A, prop) Attribute_Property	(A) Attribute
+Assembly	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+also	(C) Context	(C) Context
+elect	(I) Aim	(I) Aim
+as	(B, prop) Object_Property	(B, prop) Object_Property
+many	(B) Object	
+States	(B) Object	(B) Object
+Members	(B) Object	(B) Object
+of	(B) Object	(B) Object
+Committee	(B) Object	(B) Object
+as	(C) Context	(B, prop) Object_Property
+required	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+fill	(C) Context	(B, prop) Object_Property
+vacancies	(C) Context	(B, prop) Object_Property
+
+#Text=States Members of the Committee shall choose as their representatives persons who are qualified in the various fields of the intangible cultural heritage.
+
+States	(A, prop) Attribute_Property	(A) Attribute
+Members	(A) Attribute	(A) Attribute
+of	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+Committee	(A, prop) Attribute_Property	(A, prop) Attribute_Property
+shall	(D) Deontic	(D) Deontic
+choose	(I) Aim	(I) Aim
+as	(C) Context	(C) Context
+their	(C) Context	(C) Context
+representatives	(C) Context	(C) Context
+persons	(C) Context	(B) Object
+who	(C) Context	(B, prop) Object_Property
+are	(C) Context	(B, prop) Object_Property
+qualified	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+various	(C) Context	(B, prop) Object_Property
+fields	(C) Context	(B, prop) Object_Property
+of	(C) Context	(A, prop) Attribute_Property
+intangible	(C) Context	(B, prop) Object_Property
+cultural	(C) Context	(B, prop) Object_Property
+heritage	(C) Context	(B, prop) Object_Property
+
+#Text=The Committee promotes the objectives of the Convention.
+
+Committee	(A) Attribute	(A) Attribute
+promotes	(I) Aim	(I) Aim
+objectives	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Convention	(B) Object	(B, prop) Object_Property
+
+#Text=The Committee promotes the objectives of the Convention.
+
+Committee	(A) Attribute	(A) Attribute
+promotes	(I) Aim	(I) Aim
+objectives	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Convention	(B) Object	(B, prop) Object_Property
+
+#Text=The Committee encourages the implementation [of the Convention].
+
+Committee	(A) Attribute	(A) Attribute
+encourages	(I) Aim	(I) Aim
+implementation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Convention	(B) Object	(B, prop) Object_Property
+
+#Text=The Committee monitors the implementation [of the Convention].
+
+Committee	(A) Attribute	(A) Attribute
+monitors	(I) Aim	(I) Aim
+implementation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Convention	(B) Object	(B, prop) Object_Property
+
+#Text=The Committee provide guidance on best practices for the safeguarding of the intangible cultural heritage.
+
+Committee	(A) Attribute	(A) Attribute
+provide	(I) Aim	(I) Aim
+guidance	(B) Object	(B) Object
+on	(B) Object	
+best	(B) Object	(B) Object
+practices	(B) Object	(B) Object
+for	(B, prop) Object_Property	
+safeguarding	(B, prop) Object_Property	
+of	(B, prop) Object_Property	
+intangible	(B, prop) Object_Property	
+cultural	(B, prop) Object_Property	
+heritage	(B, prop) Object_Property	
+
+#Text=The Committee makes recommendations on measures for the safeguarding of the intangible cultural heritage.
+
+Committee	(A) Attribute	(A) Attribute
+makes	(I) Aim	(I) Aim
+recommendations	(B) Object	(B) Object
+on	(B) Object	
+measures	(B) Object	(B) Object
+for	(B, prop) Object_Property	
+safeguarding	(B, prop) Object_Property	
+of	(B, prop) Object_Property	
+intangible	(B, prop) Object_Property	
+cultural	(B, prop) Object_Property	
+heritage	(B, prop) Object_Property	
+
+#Text=The Committee prepares a draft plan for the use of the resources of the Fund, in accordance with Article 25.
+
+Committee	(A) Attribute	(A) Attribute
+prepares	(I) Aim	(I) Aim
+draft	(B) Object	(B) Object
+plan	(B) Object	(B) Object
+for	(B) Object	(B, prop) Object_Property
+use	(B) Object	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+resources	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+Fund	(B, prop) Object_Property	(B, prop) Object_Property
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+Article	(C) Context	(C) Context
+25	(C) Context	(C) Context
+
+#Text=The Committee submits to the General Assembly for approval a draft plan for the use of the resources of the Fund, in accordance with Article 25.
+
+Committee	(A) Attribute	(A) Attribute
+submits	(I) Aim	(I) Aim
+to	(C) Context	(C) Context
+General	(C) Context	(C) Context
+Assembly	(C) Context	(C) Context
+for	(C) Context	(B, prop) Object_Property
+approval	(C) Context	
+draft	(B) Object	(B) Object
+plan	(B) Object	(B) Object
+for	(B) Object	(B, prop) Object_Property
+use	(B) Object	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+resources	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+Fund	(B, prop) Object_Property	(B, prop) Object_Property
+in	(C) Context	
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+Article	(C) Context	(C) Context
+25	(C) Context	(C) Context
+
+#Text=The Committee seeks means of increasing its resources in accordance with Article 25.
+
+Committee	(A) Attribute	(A) Attribute
+seeks	(I) Aim	(I) Aim
+means	(B) Object	(B) Object
+of	(B, prop) Object_Property	(B, prop) Object_Property
+increasing	(B, prop) Object_Property	(B, prop) Object_Property
+its	(B, prop) Object_Property	(B, prop) Object_Property
+resources	(B, prop) Object_Property	(B, prop) Object_Property
+in	(B, prop) Object_Property	(C) Context
+accordance	(B, prop) Object_Property	(C) Context
+with	(B, prop) Object_Property	(C) Context
+Article	(B, prop) Object_Property	(C) Context
+25	(B, prop) Object_Property	(C) Context
+
+#Text=The Committee takes the necessary measures to [increase its resources], in accordance with Article 25.
+
+Committee	(A) Attribute	(A) Attribute
+takes	(I) Aim	(I) Aim
+necessary	(B) Object	
+measures	(B) Object	(B) Object
+to	(B, prop) Object_Property	
+increase	(B, prop) Object_Property	(B, prop) Object_Property
+its	(B, prop) Object_Property	(B, prop) Object_Property
+resources	(B, prop) Object_Property	(B, prop) Object_Property
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+Article	(C) Context	(C) Context
+25	(C) Context	(C) Context
+
+#Text=The Committee prepares operational directives for the implementation of this Convention.
+
+Committee	(A) Attribute	(A) Attribute
+prepares	(I) Aim	(I) Aim
+operational	(B) Object	
+directives	(B) Object	(B) Object
+for	(B) Object	
+implementation	(B) Object	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+this	(B, prop) Object_Property	(B, prop) Object_Property
+Convention	(B, prop) Object_Property	(B, prop) Object_Property
+
+#Text=The Committee submits to the General Assembly for approval operational directives for the implementation of this Convention.
+
+Committee	(A) Attribute	(A) Attribute
+submits	(I) Aim	(I) Aim
+to	(C) Context	(C) Context
+General	(C) Context	(C) Context
+Assembly	(C) Context	
+for	(C) Context	(B, prop) Object_Property
+approval	(C) Context	(C) Context
+operational	(C) Context	(B) Object
+directives	(C) Context	(B) Object
+for	(C) Context	(B, prop) Object_Property
+implementation	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+this	(C) Context	(B, prop) Object_Property
+Convention	(C) Context	(B, prop) Object_Property
+
+#Text=The Committee examines, in accordance with Article 29, the reports submitted by States Parties.
+
+Committee	(A) Attribute	(A) Attribute
+examines	(I) Aim	(I) Aim
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+Article	(C) Context	(C) Context
+29	(C) Context	
+reports		(B) Object
+submitted		(B, prop) Object_Property
+by		(B, prop) Object_Property
+States		(B, prop) Object_Property
+Parties		(B, prop) Object_Property
+
+#Text=The Committee summarizes [the reports submitted by States Parties] for the General Assembly.
+
+Committee	(A) Attribute	(A) Attribute
+summarizes	(I) Aim	(I) Aim
+reports	(B) Object	(B) Object
+submitted	(B, prop) Object_Property	(B) Object
+by	(B, prop) Object_Property	(B) Object
+States	(B, prop) Object_Property	(B) Object
+Parties	(B, prop) Object_Property	(B) Object
+for	(C) Context	(C) Context
+General	(C) Context	(C) Context
+Assembly	(C) Context	(C) Context
+
+#Text=The Committee examines requests submitted by States Parties.
+
+Committee	(A) Attribute	(A) Attribute
+examines	(I) Aim	(I) Aim
+requests	(B) Object	(B) Object
+submitted	(B, prop) Object_Property	(B, prop) Object_Property
+by	(B, prop) Object_Property	(B, prop) Object_Property
+States	(B, prop) Object_Property	(B, prop) Object_Property
+Parties	(B, prop) Object_Property	(B, prop) Object_Property
+
+#Text=The Committee decides on [requests submitted by States Parties], in accordance with objective selection criteria to be established by the Committee and approved by the General Assembly for inscription on the lists and proposals mentioned under Articles 16, 17 and 18.
+
+Committee	(A) Attribute	(A) Attribute
+decides	(I) Aim	(I) Aim
+on	(C) Context	(I) Aim
+requests	(B) Object	(B) Object
+submitted	(B, prop) Object_Property	(B) Object
+by	(B, prop) Object_Property	(B) Object
+States	(B, prop) Object_Property	(B) Object
+Parties	(B, prop) Object_Property	(B) Object
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+objective	(C) Context	(C) Context
+selection	(C) Context	(C) Context
+criteria	(C) Context	(C) Context
+to	(C) Context	(C) Context
+be	(C) Context	(C) Context
+established	(C) Context	(C) Context
+by	(C) Context	(B) Object
+Committee	(C) Context	(A) Attribute
+and	(C) Context	(C) Context
+approved	(C) Context	(C) Context
+by	(C) Context	(B) Object
+General	(C) Context	(C) Context
+Assembly	(C) Context	(C) Context
+for	(C) Context	(C) Context
+inscription	(C) Context	(C) Context
+on	(C) Context	(I) Aim
+lists	(C) Context	(C) Context
+and	(C) Context	(C) Context
+proposals	(C) Context	(C) Context
+mentioned	(C) Context	(C) Context
+under	(C) Context	(C) Context
+Articles	(C) Context	(C) Context
+16	(C) Context	
+17	(C) Context	(C) Context
+and	(C) Context	(C) Context
+18	(C) Context	(C) Context
+
+#Text=The Committee decides on [requests submitted by States Parties], in accordance with objective selection criteria to be established by the Committee and approved by the General Assembly for the granting of international assistance in accordance with Article 22.
+
+Committee	(A) Attribute	(A) Attribute
+decides	(I) Aim	(I) Aim
+on	(C) Context	(I) Aim
+requests	(B) Object	(B) Object
+submitted	(B, prop) Object_Property	(B) Object
+by	(B, prop) Object_Property	(B) Object
+States	(B, prop) Object_Property	(B) Object
+Parties	(B, prop) Object_Property	(B) Object
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+objective	(C) Context	(C) Context
+selection	(C) Context	(C) Context
+criteria	(C) Context	(C) Context
+to	(C) Context	(C) Context
+be	(C) Context	(C) Context
+established	(C) Context	(C) Context
+by	(C) Context	(B) Object
+Committee	(C) Context	(A) Attribute
+and	(C) Context	(C) Context
+approved	(C) Context	(C) Context
+by	(C) Context	(B) Object
+General	(C) Context	(C) Context
+Assembly	(C) Context	(C) Context
+for	(C) Context	(C) Context
+granting	(C) Context	(C) Context
+of	(C) Context	(C) Context
+international	(C) Context	(C) Context
+assistance	(C) Context	(C) Context
+in	(C) Context	(C) Context
+accordance	(C) Context	(C) Context
+with	(C) Context	(C) Context
+Article	(C) Context	(C) Context
+22	(C) Context	(C) Context
+
+#Text=[the Committee] shall report to [the General Assembly] on all its activities.
+
+Committee	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+report	(I) Aim	(I) Aim
+to	(C) Context	
+General	(C) Context	(B) Object
+Assembly	(C) Context	(B) Object
+on	(C) Context	
+all	(C) Context	(B) Object
+its	(C) Context	(B) Object
+activities	(C) Context	(B) Object
+
+#Text=[the Committee] shall report to [the General Assembly] on all its decisions.
+
+Committee	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+report	(I) Aim	(I) Aim
+to	(C) Context	
+General	(C) Context	(B) Object
+Assembly	(C) Context	(B) Object
+on	(C) Context	
+all	(C) Context	(B) Object
+its	(C) Context	(B) Object
+decisions	(C) Context	
+
+#Text=The Committee may establish, on a temporary basis, whatever ad hoc consultative bodies [the Committee] deems necessary to carry out its task.
+
+Committee	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+establish	(I) Aim	(I) Aim
+on	(C) Context	(C) Context
+temporary	(C) Context	(C) Context
+basis	(C) Context	(C) Context
+whatever	(C) Context	
+ad	(C) Context	
+hoc	(C) Context	
+consultative	(C) Context	(B) Object
+bodies	(C) Context	(B) Object
+Committee	(C) Context	(A) Attribute
+deems	(C) Context	(B, prop) Object_Property
+necessary	(C) Context	(B, prop) Object_Property
+to	(C) Context	(B, prop) Object_Property
+carry	(C) Context	(B, prop) Object_Property
+out	(C) Context	(B, prop) Object_Property
+its	(C) Context	(B, prop) Object_Property
+task	(C) Context	(B, prop) Object_Property
+
+#Text=The Committee may invite to its meetings any public bodies with recognized competence in the various fields of the intangible cultural heritage, in order to consult them on specific matters.
+
+Committee	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+invite	(I) Aim	(I) Aim
+to	(C) Context	(C) Context
+its	(C) Context	(C) Context
+meetings	(C) Context	
+any	(C) Context	
+public	(C) Context	(B) Object
+bodies	(C) Context	(B) Object
+with	(C) Context	
+recognized	(C) Context	(B, prop) Object_Property
+competence	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+various	(C) Context	(B, prop) Object_Property
+fields	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+intangible	(C) Context	(B, prop) Object_Property
+cultural	(C) Context	(B, prop) Object_Property
+heritage	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+order	(C) Context	(C) Context
+to	(C) Context	(C) Context
+consult	(C) Context	(C) Context
+them	(C) Context	(C) Context
+on	(C) Context	(C) Context
+specific	(C) Context	(C) Context
+matters	(C) Context	(C) Context
+
+#Text=The Committee may invite to its meetings any private bodies with recognized competence in the various fields of the intangible cultural heritage, in order to consult them on specific matters.
+
+Committee	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+invite	(I) Aim	(I) Aim
+to	(C) Context	(C) Context
+its	(C) Context	(C) Context
+meetings	(C) Context	
+any	(C) Context	
+private	(C) Context	(B) Object
+bodies	(C) Context	(B) Object
+with	(C) Context	
+recognized	(C) Context	(B, prop) Object_Property
+competence	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+various	(C) Context	(B, prop) Object_Property
+fields	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+intangible	(C) Context	(B, prop) Object_Property
+cultural	(C) Context	(B, prop) Object_Property
+heritage	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+order	(C) Context	(C) Context
+to	(C) Context	(C) Context
+consult	(C) Context	(C) Context
+them	(C) Context	(C) Context
+on	(C) Context	(C) Context
+specific	(C) Context	(C) Context
+matters	(C) Context	(C) Context
+
+#Text=The Committee may invite to its meetings any private persons with recognized competence in the various fields of the intangible cultural heritage, in order to consult them on specific matters.
+
+Committee	(A) Attribute	(A) Attribute
+may	(D) Deontic	(D) Deontic
+invite	(I) Aim	(I) Aim
+to	(C) Context	(C) Context
+its	(C) Context	(C) Context
+meetings	(C) Context	
+any	(C) Context	
+private	(C) Context	(B) Object
+persons	(C) Context	(B) Object
+with	(C) Context	
+recognized	(C) Context	(B, prop) Object_Property
+competence	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+various	(C) Context	(B, prop) Object_Property
+fields	(C) Context	(B, prop) Object_Property
+of	(C) Context	(B, prop) Object_Property
+intangible	(C) Context	(B, prop) Object_Property
+cultural	(C) Context	(B, prop) Object_Property
+heritage	(C) Context	(B, prop) Object_Property
+in	(C) Context	(B, prop) Object_Property
+order	(C) Context	(C) Context
+to	(C) Context	(C) Context
+consult	(C) Context	(C) Context
+them	(C) Context	(C) Context
+on	(C) Context	(C) Context
+specific	(C) Context	(C) Context
+matters	(C) Context	(C) Context
+
+#Text=The Committee shall propose to the General Assembly the accreditation of non-governmental organizations with recognized competence in the field of the intangible cultural heritage to act in an advisory capacity to the Committee.
+
+Committee	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+propose	(I) Aim	(I) Aim
+to	(C) Context	(B, prop) Object_Property
+General	(C) Context	(B) Object
+Assembly	(C) Context	(B) Object
+accreditation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+non-governmental	(B) Object	
+organizations	(B) Object	(B, prop) Object_Property
+with	(B) Object	(B, prop) Object_Property
+recognized	(B) Object	(B, prop) Object_Property
+competence	(B) Object	(B, prop) Object_Property
+in	(B, prop) Object_Property	(B, prop) Object_Property
+field	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+intangible	(B, prop) Object_Property	(B, prop) Object_Property
+cultural	(B, prop) Object_Property	(B, prop) Object_Property
+heritage	(B, prop) Object_Property	(B, prop) Object_Property
+to	(B, prop) Object_Property	(B, prop) Object_Property
+act	(B, prop) Object_Property	(B, prop) Object_Property
+in	(B, prop) Object_Property	(B, prop) Object_Property
+advisory	(B, prop) Object_Property	(B, prop) Object_Property
+capacity	(B, prop) Object_Property	(B, prop) Object_Property
+to	(B, prop) Object_Property	(B, prop) Object_Property
+Committee	(B, prop) Object_Property	(A) Attribute
+
+#Text=The Committee shall also propose to the General Assembly the criteria for and modalities of such accreditation.
+
+Committee	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+also	(C) Context	
+propose	(I) Aim	(I) Aim
+to	(C) Context	
+General	(C) Context	(B) Object
+Assembly	(C) Context	(B) Object
+criteria	(B) Object	(B) Object
+for	(B, prop) Object_Property	(B, prop) Object_Property
+and	(B, prop) Object_Property	(B, prop) Object_Property
+modalities	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+such	(B, prop) Object_Property	(B, prop) Object_Property
+accreditation	(B, prop) Object_Property	
+
+#Text=The Secretariat shall prepare the documentation of the General Assembly.
+
+Secretariat	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+prepare	(I) Aim	(I) Aim
+documentation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+General	(B, prop) Object_Property	(B, prop) Object_Property
+Assembly	(B) Object	(B, prop) Object_Property
+
+#Text=The Secretariat shall prepare the documentation of the Committee.
+
+Secretariat	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+prepare	(I) Aim	(I) Aim
+documentation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Committee	(B) Object	(B, prop) Object_Property
+
+#Text=The Secretariat shall prepare the draft agenda of the General Assembly's meetings.
+
+Secretariat	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+prepare	(I) Aim	(I) Aim
+draft	(B) Object	(B) Object
+agenda	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+General	(B, prop) Object_Property	(B, prop) Object_Property
+Assembly	(B, prop) Object_Property	
+'s	(B, prop) Object_Property	
+meetings	(B) Object	(B, prop) Object_Property
+
+#Text=The Secretariat shall prepare the draft agenda of the Committee's meetings.
+
+Secretariat	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+prepare	(I) Aim	(I) Aim
+draft	(B) Object	(B) Object
+agenda	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Committee	(B, prop) Object_Property	
+'s	(B, prop) Object_Property	
+meetings	(B) Object	(B, prop) Object_Property
+
+#Text=The Secretariat shall ensure the implementation of the General Assembly's decisions.
+
+Secretariat	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+ensure	(I) Aim	(I) Aim
+implementation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+General	(B, prop) Object_Property	(B, prop) Object_Property
+Assembly	(B, prop) Object_Property	
+'s	(B, prop) Object_Property	
+decisions	(B) Object	(B, prop) Object_Property
+
+#Text=The Secretariat shall ensure the implementation of the Committee's decisions.
+
+Secretariat	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+ensure	(I) Aim	(I) Aim
+implementation	(B) Object	(B) Object
+of	(B) Object	(B, prop) Object_Property
+Committee	(B, prop) Object_Property	
+'s	(B, prop) Object_Property	
+decisions	(B) Object	(B, prop) Object_Property
+
+#Text=Each State Party shall take the necessary measures to ensure the safeguarding of the intangible cultural heritage present in its territory. 
+
+Each	(A) Attribute	
+State	(A, prop) Attribute_Property	(A) Attribute
+Party	(A) Attribute	(A) Attribute
+shall	(D) Deontic	(D) Deontic
+take	(I) Aim	(I) Aim
+necessary	(B) Object	
+measures	(B) Object	(B) Object
+to	(B, prop) Object_Property	
+ensure	(B, prop) Object_Property	(B, prop) Object_Property
+safeguarding	(B, prop) Object_Property	(B, prop) Object_Property
+of	(B, prop) Object_Property	(B, prop) Object_Property
+intangible	(B, prop) Object_Property	(B, prop) Object_Property
+cultural	(B, prop) Object_Property	(B, prop) Object_Property
+heritage	(B, prop) Object_Property	(B, prop) Object_Property
+present	(B, prop) Object_Property	(B, prop) Object_Property
+in	(B, prop) Object_Property	(B, prop) Object_Property
+its	(B, prop) Object_Property	(B, prop) Object_Property
+territory	(B, prop) Object_Property	(B, prop) Object_Property
