@@ -57,7 +57,7 @@ def find_goldstandard(sentence, gs):
 def find_tag(word, tags):
 
     for elem in tags:
-        if elem[0] == word:
+        if elem[0].lower() == word.lower():
             return elem[1]
     return ""
 
@@ -77,7 +77,7 @@ def write_gs(title, path_data, gs):
                     f_output.write("\n")
                 elif row != "\n":
                     splitted_row = row.split("\t")
-                    word = splitted_row[2]
+                    word = splitted_row[2].replace(".", "")
                     tag = find_tag(word, real_tag['tags'])
                     output = splitted_row[-2] + "\t" + splitted_row[-1].split("[")[0].replace("\n", "") + "\t" + tag + "\n"
                     if word.lower() not in [".", "-", "(", ")", "[", "]", ",", "the", "a", "an"]:
