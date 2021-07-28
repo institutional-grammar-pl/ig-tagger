@@ -64,13 +64,13 @@ def annotate_text(text, output_path, language='en', output_format='tsv', layer='
     annotate_sentences(sentences, output_path, language, output_format, layer, conllu_path)
 
 
-@click.command()
-@click.argument("input", type=click.Path(exists=True))
-@click.argument("output", type=click.Path(exists=False))
-@click.argument("layer", required=False, default="both")
+# @click.command()
+# @click.argument("input", type=click.Path(exists=True))
+# @click.argument("output", type=click.Path(exists=False))
+# @click.argument("layer", required=False, default="both")
 #@click.argument("language", default="en", required=False)
 #@click.argument("output_format", default="tsv", required=False)
-@click.argument("conllu_path", default=False, required=False)
+# @click.argument("conllu_path", default=False, required=False)
 def annotate_file(input, output, layer, conllu_path):
 
     with open(input, "r") as f:
