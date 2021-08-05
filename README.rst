@@ -27,7 +27,7 @@ Example
 
 	``python ig_script.py <task_type> <input_file_path> <output_file_path>``
 
-1. Split text document into sentences::
+1. Split text document into sentences (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”)::
 
 	python ig_script.py atomize input_text.txt sentences.txt
 
