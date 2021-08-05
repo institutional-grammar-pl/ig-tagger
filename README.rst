@@ -25,12 +25,13 @@ Installation (version 1 - based on virtual environment)
 Example 
 -------
 
+	``python ig_script.py <task_type> <input_file_path> <output_file_path>``
+
 1. Split text document into sentences::
 
 	python ig_script.py atomize input_text.txt sentences.txt
 
-2. Split sentence document into constitutive/regulative files. Two new file will be created
-_constitutive and _regulative::
+2. Split sentence document into constitutive/regulative files. Two new file will be created _constitutive and _regulative::
 
 	python ig_script.py classify sentences.txt classified_sentences.txt
 	
