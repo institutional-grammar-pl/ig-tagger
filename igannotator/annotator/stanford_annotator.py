@@ -1,6 +1,8 @@
 import pandas as pd
-import stanfordnlp
+import stanza as stanfordnlp
+from stanza.utils.conll import CoNLL
 from io import StringIO
+import tempfile
 
 from igannotator.annotator.annotator import BaseAnnotator
 
@@ -36,7 +38,10 @@ class StanfordAnnotator(BaseAnnotator):
 
     def annotate(self, text: str):
         doc_response = self._annotator(text)
-        conll_string = doc_response.conll_file.conll_as_string()
+        fp, tmp = tempfile.mkstemp()
+        CoNLL.write_doc2conll(doc_response, tmp)
+        with open(tmp, encoding='utf-8') as f:
+            conll_string = f.read()
         return [
             self._sentence_to_df(sentence)
             for sentence in conll_string.split("\n\n")

@@ -43,9 +43,11 @@ def get_sentence_and_tags(
 
         word_tags = find_word_tag(tags, x.id, layers)
 
+        # if len(word_tags[layers[0]]) > 2:
+        #     print("exit! word with multiple tags found")
+        #     exit(word_tags[layers[0]])
         if len(word_tags[layers[0]]) > 2:
-            print("exit! word with multiple tags found")
-            exit(word_tags[layers[0]])
+            word_tags[layers[0]] = word_tags[layer[0]][-1]
 
         start = id_to_position[x.id]
         stop = id_to_position[x.id] + len(str(x))

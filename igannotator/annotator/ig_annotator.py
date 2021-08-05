@@ -1,5 +1,8 @@
 from typing import List, Tuple
-import stanfordnlp
+from io import StringIO
+import tempfile
+from stanza.utils.conll import CoNLL
+import stanza as stanfordnlp
 import warnings
 import numpy as np
 
@@ -16,9 +19,9 @@ class IgAnnotator(BaseAnnotator):
         super().__init__()
         self.language = language
         self.layers = layers
-
+        stanfordnlp.download('en')
         stanfordnlp.download(
-            self.language, self.resources_dir, confirm_if_exists=False, force=True
+            self.language, self.resources_dir
         )
 
         self._stanford_annotator = StanfordAnnotator(language=self.language)
@@ -59,7 +62,11 @@ class IgAnnotator(BaseAnnotator):
         processed_sentence = self._preprocess(sentence)
 
         doc_response = self._stanford_annotator._annotator(processed_sentence)
-        return doc_response.conll_file.conll_as_string()
+        fp, tmp = tempfile.mkstemp()
+        CoNLL.write_doc2conll(doc_response, tmp)
+        with open(tmp, encoding='utf-8') as f:
+            conll_string = f.read()
+        return conll_string
 
 
     def annotate_nested_statement(self, annotations, tree, current_component_id, depth, layer):
