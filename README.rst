@@ -25,18 +25,16 @@ Installation (version 1 - based on virtual environment)
 Example 
 -------
 
-1. Run annotation for example.txt file (sentence are separated by empty line)::
+1. Split text document into sentences. 
+	``python ig_script.py atomize input_text.txt sentences.txt``
 
-	python main.py data/example.txt data/example.tsv reg
+2. Split sentence document into constitutive/regulative files. Two new file will be created:
+_constitutive and _regulative:
+	``python ig_script.py classify sentences.txt classified_sentences.txt``
+	
+3. Tag both type of sentences:
+	``python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt constitutive``
+	``python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt regulative``
+	
 
-Description of parameters
--------
-
-* ``input``  - path to input file. Sentences in this file should be separated by empty line.
-
-* ``output`` - path to output file
-
-* ``layer`` - which IG layers should be used in annotation. Values 'reg', 'cons' and 'both' are allowed. Default: 'both'.
-
-* ``conllu_path`` - if specified then conllu file will be saved to this path. Default: 'None'
 
