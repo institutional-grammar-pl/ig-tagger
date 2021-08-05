@@ -52,6 +52,14 @@ def cmdline_args():
         required=False
     )
 
+    p.add_argument(
+        "--split_type",
+        help="""
+        optional setting for split type:
+        'spacy' or 'regex'
+        to check which one is a better heuristic"""
+    )
+
     # group1 = p.add_mutually_exclusive_group(required=True)
     # group1.add_argument('--enable', action="store_true")
     # group1.add_argument('--disable', action="store_false")
@@ -59,24 +67,37 @@ def cmdline_args():
     return p.parse_args()
 
 
-if __name__ == '__main__':
+def return_or_raise(x):
+    if x:
+        return x
+    else:
+        raise ValueError()
 
+
+if __name__ == '__main__':
     if sys.version_info < (3, 5, 0):
         sys.stderr.write("You need python 3.5 or later to run this script\n")
         sys.exit(1)
 
     try:
         args = cmdline_args()
-        input_path = Path(args.input_file_path) if args.input_file_path else ValueError()
-        output_path = Path(args.output_file_path) if args.output_file_path else ValueError()
+        input_path = Path(return_or_raise(args.input_file_path))
+        output_path = Path(return_or_raise(args.output_file_path))
         if args.action_type == 'atomize':
             atomize(input_path, output_path)
+            print('Done')
         elif args.action_type == 'classify':
-            split(input_path, output_path)
+            if args.split_type in ['spacy', 'regex']:
+                split(input_path, output_path, args.split_type)
+            else:
+                split(input_path, output_path)
+            print('Done')
         elif args.action_type == 'tag' and args.sentence_type in ['regulative', 'constitutive']:
-            annotate_file(input_path, output_path, args.sentence_type, True)
+            type_param = 'reg' if args.sentence_type == 'regulative' else 'cons'
+            annotate_file(input_path, output_path, type_param, True)
+            print('Done')
         else:
-            ValueError()
+            raise ValueError("Wrong parameters.")
     except Exception as e:
         print(e)
 

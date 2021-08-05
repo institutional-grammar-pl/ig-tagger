@@ -28,12 +28,13 @@ def split(in_path, out_path):
         else:
             constitutive.append(sentence)
 
-    constitutive_path = Path(out_path) + 'constitutive.txt'
-    regulative_path = Path(out_path) + 'regulative.txt'
+    out_path = Path(out_path)
+    constitutive_path = out_path.parent / (out_path.stem + '_constitutive.txt')
+    regulative_path = out_path.parent / (out_path.stem + '_regulative.txt')
 
     with open(constitutive_path, 'w+') as cont_file:
         cont_file.write('\n\n'.join(constitutive))
 
     with open(regulative_path, 'w+') as reg_file:
-        reg_file.write('\n\n'.join(reg_file))
+        reg_file.write('\n\n'.join(regulative))
 

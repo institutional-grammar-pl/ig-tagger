@@ -61,10 +61,10 @@ def gen_atomic_statements(sentence):
         return sentence
 
 
-def atomize(input_path, output_path):
+def atomize(input_path, output_path, sentence_split_type='spacy'):
     with open(input_path, 'r') as input_:
         text = input_.read()
-    sents = get_sentences(text)
+    sents = get_sentences(text, sentence_split_type)
 
     with open(output_path, 'w+') as output:
         output.write('\n\n'.join(sents))
