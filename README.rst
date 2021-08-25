@@ -21,6 +21,7 @@ Installation (version 1 - based on virtual environment)
 3. Install dependencies::
 
     pip install -r requirements.txt
+    python3 -m spacy download en_core_web_sm
 
 Example 
 -------
