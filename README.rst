@@ -40,8 +40,8 @@ Split type possible values: 'spacy', 'regex'.
 	
 3. Tag both type of sentences::
 
-	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt --sentence-type constitutive
-	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt --sentence-type regulative
+	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt --sentence_type constitutive
+	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt --sentence_type regulative
 	
 
 
