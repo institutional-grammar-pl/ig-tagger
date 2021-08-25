@@ -29,7 +29,9 @@ Example
 
 1. Split text document into sentences (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”)::
 
-	python ig_script.py atomize input_text.txt sentences.txt
+	python ig_script.py atomize input_text.txt sentences.txt --split_type spacy
+	
+Split type possible values: 'spacy', 'regex'.
 
 2. Split sentence document into constitutive/regulative files. Two new file will be created _constitutive and _regulative::
 
@@ -37,8 +39,8 @@ Example
 	
 3. Tag both type of sentences::
 
-	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt constitutive
-	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt regulative
+	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt --sentence-type constitutive
+	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt --sentence-type regulative
 	
 
 
