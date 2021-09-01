@@ -2,13 +2,10 @@ policydemic-annotator
 ===========
 Institutional Grammar annotator package.
 
-New version of annotator for IG 2.0 was written as a part of diploma thesis.
-It is an extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
-
 Usage
 -----
 
-Installation (version 1 - based on virtual environment)
+Installation
 ------------
 1. Create a virtual environment::
 
@@ -20,7 +17,8 @@ Installation (version 1 - based on virtual environment)
 
 3. Install dependencies::
 
-    pip install -r requirements.txt
+    pip install -r requirements.txt or pip install -r requirements_linux.txt
+    python3 -m spacy download en_core_web_sm
 
 Example 
 -------
@@ -39,8 +37,8 @@ Split type possible values: 'spacy', 'regex'.
 	
 3. Tag both type of sentences::
 
-	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt --sentence-type constitutive
-	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt --sentence-type regulative
+	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt --sentence_type constitutive
+	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt --sentence_type regulative
 	
 
 
