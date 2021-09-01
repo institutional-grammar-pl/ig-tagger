@@ -20,7 +20,7 @@ Installation
     pip install -r requirements.txt or pip install -r requirements_linux.txt
     python3 -m spacy download en_core_web_sm
 
-Example 
+Usage
 -------
 
 	``python ig_script.py <task_type> <input_file_path> <output_file_path>``
@@ -29,7 +29,8 @@ Example
 
 	python ig_script.py atomize input_text.txt sentences.txt --split_type spacy
 	
-Split type possible values: 'spacy', 'regex'.
+Split type possible values: 'spacy', 'regex'. Spacy variant uses special tool for recognizing beginings and ends of sentences in text. Regex variant uses simple matching based on capital letter and period at the end of the sentence.
+Both splits recognizer enumeration based on a, b, c... or 1, 2, 3... (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”) to split bigger sentences into smaller ones.
 
 2. Split sentence document into constitutive/regulative files. Two new file will be created _constitutive and _regulative::
 
