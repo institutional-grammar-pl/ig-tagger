@@ -2,13 +2,10 @@ policydemic-annotator
 ===========
 Institutional Grammar annotator package.
 
-New version of annotator for IG 2.0 was written as a part of diploma thesis.
-It is an extension to ``igannotator`` - written by the group of students during `Text Mining` course at Warsaw University of Technology.
-
 Usage
 -----
 
-Installation (version 1 - based on virtual environment)
+Installation
 ------------
 1. Create a virtual environment::
 
@@ -20,7 +17,7 @@ Installation (version 1 - based on virtual environment)
 
 3. Install dependencies::
 
-    pip install -r requirements.txt
+    pip install -r requirements.txt or pip install -r requirements_linux.txt
     python3 -m spacy download en_core_web_sm
 
 Example 
