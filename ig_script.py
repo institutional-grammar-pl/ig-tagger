@@ -95,10 +95,7 @@ if __name__ == '__main__':
         elif args.action_type == 'tag' and args.sentence_type in ['regulative', 'constitutive']:
             type_param = 'reg' if args.sentence_type == 'regulative' else 'cons'
             annotate_file(input_path, output_path, type_param, True)
-            print('Done')
         else:
             raise ValueError("Wrong parameters.")
     except Exception as e:
         print(e)
-
-    print()
