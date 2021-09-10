@@ -39,8 +39,8 @@ Both splits recognizer enumeration based on a, b, c... or 1, 2, 3... to split bi
 	
 3. Tag both type of sentences::
 
-	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.txt --sentence_type constitutive
-	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.txt --sentence_type regulative
+	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv --sentence_type constitutive
+	python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.tsv --sentence_type regulative
 	
 4. Merge two files::
 
