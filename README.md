@@ -1,7 +1,9 @@
-# Institutional Grammar annotator
+# [Institutional Grammar 2.0](https://arxiv.org/abs/2008.08937) annotator
+
+Python tool for processing and tagging sentences with IG 2.0 syntax. 
 
 
-# Usage
+# Manual
 
 ## Installation
 
@@ -20,25 +22,26 @@
 
 ## Chain of tools
 
+Possible tasks are executed as shell commands on files:
+
 > `python ig_script.py <task_type> <input_file_path> <output_file_path>`
 
-1.  Split text document into sentences (xxx xxx (a) ccc, (b) vvv” ->
-    “xxx xxx ccc”, “xxx xxx vvv”):
+### Split text document into sentences
 
-        python ig_script.py atomize input_text.txt sentences.txt --split_type spacy
+Input:
+>	Plain .txt file with text.
+Output:
+>	Plain .txt file with sentences separated by new lines. 
+Command:
+>        `python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based`
+About:
+Complex sentences with enumerations are splitted into atomic sentences when it is possible. (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”).
 
-Split type possible values: ‘spacy’, ‘regex’. Spacy variant uses special
-tool (Spacy library) for recognizing beginings and ends of sentences in
-text. Regex variant uses simple matching based on capital letter and
-period at the end of the sentence (Regular expressions). These two are
-different aproaches and can give different results. Basic option is
-regex, but the idea is to compare results during real work.
+Split type possible values: ‘ml’, ‘rule_based’. ML variant uses special tool ([Spacy library](https://spacy.io)) for recognizing beginnings and ends of sentences in text. Rule based variant uses simple matching based on capital letter and period at the end of the sentence (regular expressions). 
 
-Both splits recognizer enumeration based on a, b, c… or 1, 2, 3… to
-split bigger sentences into smaller ones. Which is implemented as
-matching such expressions (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”,
-“xxx xxx vvv”) in sentence, then splitting and constructing new
-sentences from extracted parts.
+These two are different aproaches and can give different results. Basic option is rule_based, but it is recommended to compare results on each use case.
+
+Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”).
 
 2.  Split sentence document into constitutive/regulative files. Two new
     file will be created \_constitutive and \_regulative:
