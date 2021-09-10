@@ -30,12 +30,16 @@ Possible tasks are executed as shell commands on files:
 Input:
 
 Plain .txt file with text.
+
 Output:
 	
 Plain .txt file with sentences separated by new empty lines. 
+
 Command:
 >	python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based
+
 About:
+
 Complex sentences with enumerations are splitted into atomic sentences when it is possible. (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”).
 
 Split type possible values: ‘ml’, ‘rule_based’. ML variant uses special tool ([Spacy library](https://spacy.io)) for recognizing beginnings and ends of sentences in text. Rule based variant uses simple matching based on capital letter and period at the end of the sentence (regular expressions). 
@@ -48,12 +52,15 @@ Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split big
 Input:
 
 Plain .txt file with sentences separated by new lines.
+
 Output:
 
 .tsv file with 2 columns: ['sentence_type', 'text'].
+
 Command:
 
 >	python ig_script.py classify sentences.txt classified_sentences.txt
+
 About:
 
 ### IG tagging:
