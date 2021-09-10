@@ -63,6 +63,10 @@ Plain .txt file with sentences separated by new lines.
 
 **About**:
 
+Sentences are classified as regulative (`r`) or constitutive (`c`). For this purpose simple ML model is prepared trained on small annotated dataset. Output file should be reviewed and corrected manually.
+
+[The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/rc_07_2021/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better  classifier.
+
 ### IG tagging:
 Input:
 >
