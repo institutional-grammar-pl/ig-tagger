@@ -43,21 +43,33 @@ These two are different aproaches and can give different results. Basic option i
 
 Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”).
 
-### Split sentence document into constitutive/regulative
+### Assign sentence type
 Input:
 >	Plain .txt file with sentences separated by new lines.
 Output:
 >	.tsv file with 2 columns: ['sentence_type', 'text'].
-
-        python ig_script.py classify sentences.txt classified_sentences.txt
+Command:
+>        `python ig_script.py classify sentences.txt classified_sentences.txt`
+About:
 
 ### IG tagging:
+Input:
+>
+Output:
+>
+Command:
+>	`python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv`
+About:
 
-        python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv --sentence_type constitutive
-        python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.tsv --sentence_type regulative
 
-4.  Merge two files:
-	
+### Conversion to horizontal Excel format of IG document
+Input:
+>
+Output:
+>
+Command:
+>	
+About:	
 	
 
 
