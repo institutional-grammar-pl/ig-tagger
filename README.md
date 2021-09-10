@@ -1,9 +1,9 @@
-policydemic-annotator =========== Institutional Grammar annotator
-package.
+# Institutional Grammar annotator
+
 
 # Usage
 
-# Installation
+## Installation
 
 1.  Create a virtual environment:
 
@@ -18,7 +18,7 @@ package.
         pip install -r requirements.txt or pip install -r requirements_linux.txt
         python3 -m spacy download en_core_web_sm
 
-# Usage
+## Chain of tools
 
 > `python ig_script.py <task_type> <input_file_path> <output_file_path>`
 
