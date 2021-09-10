@@ -27,18 +27,18 @@ Possible tasks are executed as shell commands on files:
 
 ### Split text document into sentences
 
-Input:
+**Input**:
 
 Plain .txt file with text.
 
-Output:
+**Output**:
 	
 Plain .txt file with sentences separated by new empty lines. 
 
-Command:
+**Command**:
 >	python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based
 
-About:
+**About**:
 
 Complex sentences with enumerations are splitted into atomic sentences when it is possible. (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”).
 
@@ -49,19 +49,19 @@ These two are different aproaches and can give different results. Basic option i
 Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”).
 
 ### Assign sentence type
-Input:
+**Input**:
 
 Plain .txt file with sentences separated by new lines.
 
-Output:
+**Output**:
 
 .tsv file with 2 columns: ['sentence_type', 'text'].
 
-Command:
+**Command**:
 
 >	python ig_script.py classify sentences.txt classified_sentences.txt
 
-About:
+**About**:
 
 ### IG tagging:
 Input:
