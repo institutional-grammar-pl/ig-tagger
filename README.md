@@ -8,32 +8,33 @@ Python tool for processing and tagging sentences with IG 2.0 syntax.
 ## Installation
 
 1.  Create a virtual environment:
-
-        python -m venv .env
+>	python -m venv .env
 
 2.  Activate the virtual environment:
 
-        source .env/bin/activate
+>	source .env/bin/activate
 
 3.  Install dependencies:
 
-        pip install -r requirements.txt or pip install -r requirements_linux.txt
-        python3 -m spacy download en_core_web_sm
+>	pip install -r requirements.txt or pip install -r requirements_linux.txt
+>       python3 -m spacy download en_core_web_sm
 
 ## Chain of tools
 
 Possible tasks are executed as shell commands on files:
 
-> `python ig_script.py <task_type> <input_file_path> <output_file_path> --some-additional-option`
+>	python ig_script.py <task_type> <input_file_path> <output_file_path> --some-additional-option
 
 ### Split text document into sentences
 
 Input:
->	Plain .txt file with text.
+
+Plain .txt file with text.
 Output:
->	Plain .txt file with sentences separated by new empty lines. 
+	
+Plain .txt file with sentences separated by new empty lines. 
 Command:
->        `python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based`
+>	python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based
 About:
 Complex sentences with enumerations are splitted into atomic sentences when it is possible. (xxx xxx (a) ccc, (b) vvv” -> “xxx xxx ccc”, “xxx xxx vvv”).
 
@@ -45,11 +46,14 @@ Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split big
 
 ### Assign sentence type
 Input:
->	Plain .txt file with sentences separated by new lines.
+
+Plain .txt file with sentences separated by new lines.
 Output:
->	.tsv file with 2 columns: ['sentence_type', 'text'].
+
+.tsv file with 2 columns: ['sentence_type', 'text'].
 Command:
->        `python ig_script.py classify sentences.txt classified_sentences.txt`
+
+>	python ig_script.py classify sentences.txt classified_sentences.txt
 About:
 
 ### IG tagging:
@@ -58,7 +62,7 @@ Input:
 Output:
 >
 Command:
->	`python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv`
+>	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv
 About:
 
 
