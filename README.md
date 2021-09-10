@@ -24,14 +24,14 @@ Python tool for processing and tagging sentences with IG 2.0 syntax.
 
 Possible tasks are executed as shell commands on files:
 
-> `python ig_script.py <task_type> <input_file_path> <output_file_path>`
+> `python ig_script.py <task_type> <input_file_path> <output_file_path> --some-additional-option`
 
 ### Split text document into sentences
 
 Input:
 >	Plain .txt file with text.
 Output:
->	Plain .txt file with sentences separated by new lines. 
+>	Plain .txt file with sentences separated by new empty lines. 
 Command:
 >        `python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based`
 About:
@@ -43,12 +43,15 @@ These two are different aproaches and can give different results. Basic option i
 
 Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”).
 
-2.  Split sentence document into constitutive/regulative files. Two new
-    file will be created \_constitutive and \_regulative:
+### Split sentence document into constitutive/regulative
+Input:
+>	Plain .txt file with sentences separated by new lines.
+Output:
+>	.tsv file with 2 columns: ['sentence_type', 'text'].
 
         python ig_script.py classify sentences.txt classified_sentences.txt
 
-3.  Tag both type of sentences:
+### IG tagging:
 
         python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv --sentence_type constitutive
         python ig_script.py tag classified_sentences_regulative.txt  tagged_regulative.tsv --sentence_type regulative
