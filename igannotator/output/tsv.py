@@ -71,7 +71,7 @@ def get_sentence_and_tags(
 
 
 def write_tsv_representation(
-    output_file, trees_with_tags: List[Tuple[LexicalTreeNode, List[IGTag]]], layers: str
+    output_file, trees_with_tags: List[Tuple[LexicalTreeNode, List[IGTag]]], layers: List[str]
 ):
     with open(output_file, "w", encoding="utf-8") as output:
         output.write('#FORMAT=WebAnno TSV 3.2\n')
@@ -91,7 +91,7 @@ def write_tsv_representation(
                 sent_word = str(sent_id + 1) + "-" + str(word_data['word_id'])
                 span = ''.join([str(offset+word_data['start']), "-", str(offset + word_data['stop'])])
                 word = word_data['word']
-                line = [sent_word, span, word]
+                line = [sent_id, sent_word, span, word]
                 for layer in layers:
                     word_tags = ''
                     for depth in ['depth_1', 'depth_2']:

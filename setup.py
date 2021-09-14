@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="igannotator",
-    version="1.1.0",
+    version="1.2.0",
     url=" ",
     license='MIT',
 
@@ -23,26 +23,33 @@ setup(
     author_email=" ",
 
     description="Institutional Grammar 2.0 annotation package.",
-    long_description=read("README.rst"),
+    long_description=read("README.md"),
 
-    packages=find_packages(exclude=('tests',)),
+    packages=find_packages(),
 
-    install_requires=[],
+    entry_points={
+        "console_scripts": [
+            "ig-cli = igannotator.ig_script:main"
+        ]
+    },
+
+    install_requires=[
+        "stanza==1.2.2",
+        "pandas==1.3.3",
+        "spacy==3.1.1",
+        "joblib==1.0.1",
+        "scikit-learn==0.23.1"
+    ],
+
+    package_data={"igannotator": ["sentence_type_classifier.joblib"]},
 
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-    ],
-
-    entry_points= {
-        'console_scripts': ['ig_annotator = igannotator.main:console_entry']
-    }
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+    ]
 )
