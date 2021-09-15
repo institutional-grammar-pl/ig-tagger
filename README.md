@@ -28,6 +28,7 @@ source .env/bin/activate
 
 3. Install package
 ```  
+python -m pip install --upgrade pip
 python -m pip install igannotator
 ```
 

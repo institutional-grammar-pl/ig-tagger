@@ -36,7 +36,7 @@ setup(
 
     install_requires=[
         "stanza==1.2.2",
-        "pandas==1.3.3",
+        "pandas>=1.1&<=1.3.9",
         "spacy==3.1.1",
         "joblib==1.0.1",
         "scikit-learn==0.23.1"
