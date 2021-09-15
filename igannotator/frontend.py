@@ -24,6 +24,7 @@ def atomize(input_path: Path, output_path: Path, sentence_split_type: str = 'rul
         text = input_.read()
     sentences = get_sentences(text, sentence_split_type)
 
+    output_path = set_extension(output_path)
     with open(output_path, 'w+') as output:
         output.write('\n\n'.join(sentences))
 
