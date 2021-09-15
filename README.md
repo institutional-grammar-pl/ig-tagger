@@ -1,29 +1,48 @@
 # [Institutional Grammar 2.0](https://arxiv.org/abs/2008.08937) annotator
 
-Python tool for processing and tagging sentences with IG 2.0 syntax. 
+# About
+Python tool for processing and tagging sentences with IG 2.0 syntax with additional tools for text cleaning, preprocessing and postprocesing. 
+
+# Contributions
+
+The tool is based on the results of previous work on Institutional Grammar annotation:
+1. Group project for previous version of IG syntax and Polish language - [link](https://github.com/rzepinskip/ig-annotator) 
+2. Work by [Aleksandra Wichrowska](https://github.com/airi314) on developing rules for English language and new IG 2.0 syntax.
 
 
 # Manual
 
+Package can be used within `import igannotator` with object-oriented operations included in `igannotator.backend` and file operations included in `igannotator.frontend`. 
+
 ## Installation
 
-1.  Create a virtual environment:
->	python -m venv .env
+1. Create a virtual environment:
 
-2.  Activate the virtual environment:
+    ```python -m venv .env```
 
->	source .env/bin/activate
+2. Activate the virtual environment:
 
-3.  Install dependencies:
+    ```source .env/bin/activate```
 
->	pip install -r requirements.txt or pip install -r requirements_linux.txt
->       python3 -m spacy download en_core_web_sm
+3. Install package
+    ```
+   python -m pip install igannotator
+    ```
 
-## Chain of tools
+
+
+
+
+## Chain of command line tools **ig-cli**
 
 Possible tasks are executed as shell commands on files:
 
->	python ig_script.py <task_type> <input_file_path> <output_file_path> --some-additional-option
+	```ig-cli <task_type> <input_file_path> <output_file_path> --some-additional-option```
+
+### Help
+To show information about possible commands, arguments and options execute:
+
+    ```ig-cli -h```
 
 ### Split text document into sentences
 
@@ -36,7 +55,7 @@ Plain .txt file with text.
 Plain .txt file with sentences separated by new empty lines. 
 
 **Command**:
->	python ig_script.py atomize input_text.txt sentences.txt --split_type rule_based
+    ```ig-cli atomize input_text.txt sentences.txt --split_type rule_based```
 
 **About**:
 
@@ -59,21 +78,21 @@ Plain .txt file with sentences separated by new lines.
 
 **Command**:
 
->	python ig_script.py classify sentences.txt classified_sentences.txt
+	```ig-cli classify sentences.txt classified_sentences.txt```
 
 **About**:
 
 Sentences are classified as regulative (`r`) or constitutive (`c`). For this purpose simple ML model is prepared trained on small annotated dataset. Output file should be reviewed and corrected manually.
 
-[The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/rc_07_2021/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better  classifier.
+[The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/rc_07_2021/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
 
 ### IG tagging:
 Input:
->
+> .tsv file with 3 columns ['sentence no.', text, 'sentence_type'] compatible with results of `classify` command.
 Output:
->
+> .tsv file with tagged sentences
 Command:
->	python ig_script.py tag classified_sentences_constitutive.txt tagged_constitutive.tsv
+	```ig-cli tag classified_sentences.txt tagged_sentences.tsv```
 About:
 
 
@@ -86,5 +105,6 @@ Command:
 >	
 About:	
 	
-
+### Comparison of results
+Comparison between files (e.g. for quality/error assessment) is possible via other tools such as (`diff` - command line tool, [diffchecker](https://www.diffchecker.com) - web tool)
 
