@@ -15,14 +15,15 @@ def read(filename):
 
 setup(
     name="igannotator",
-    version="1.2.1",
+    version="1.2.2",
     url=" ",
     license='MIT',
 
     author="Aleksandra Wichrowska, Karol Saputa",
     author_email=" ",
 
-    description="Institutional Grammar 2.0 annotation package.",
+    description="Sentence annotation with Institutional Grammar 2.0 "
+                "syntax with natural language processing for document analysis",
     long_description=read("README.md"),
     long_description_content_type='text/markdown',
 
