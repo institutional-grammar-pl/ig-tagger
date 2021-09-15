@@ -1,4 +1,5 @@
 from typing import List, Tuple
+from collections import defaultdict
 import re
 
 import pandas as pd
@@ -18,6 +19,13 @@ from igannotator.sentence_type import (
 from igannotator.annotations import (
     annotate_sentences
 )
+
+layer_type = {
+    'c': 'cons',
+    'r': 'reg'
+}
+
+sen_types = ['r', 'c']
 
 
 def get_sentences(
@@ -69,10 +77,13 @@ def get_sentence_type(sentences: List[str]) -> pd.DataFrame:
 
     df.sentence_type = df.sentence_type.apply(lambda val: 'r' if val else 'c')
 
+    df.index += 1
+
     return df
 
 
 def get_annotated_sentences(sentences: pd.DataFrame) -> Tuple[
+    List[int],
     List[Tuple[LexicalTreeNode, List[IGTag]]],
     List[str]
 ]:
@@ -84,22 +95,36 @@ def get_annotated_sentences(sentences: pd.DataFrame) -> Tuple[
     trees_with_tags = []
     layers = []
 
-    st_groups = sentences.groupby(by='sentence_type')
+    sen_groups = sentences.groupby(by='sentence_type').groups
 
-    for name, group in st_groups:
-        st_type = group['sentence_type'][0].lower()
-        if st_type == 'r':
-            layer_type = 'reg'
-        elif st_type == 'c':
-            layer_type = 'cons'
-        else:
-            raise ValueError()
+    # check sentence type column values
+    if set(pd.unique(sentences.sentence_type)).isdisjoint({'r', 'c'}):
+        raise ValueError('Unexpected sentence type!')
 
+    # tag r/c sentences separately
+    annotations_by_type = dict()
+    layers = []
+    for sen_type in sen_types:
+        sen_to_ann = sentences.loc[sen_groups[sen_type], 'text']
         curr_trees, curr_layers = annotate_sentences(
-            list(group['text']),
-            language='en', layer=layer_type, conllu_path=False, output_format='tsv', output_path=None)
+            list(sen_to_ann),
+            language='en', layer=layer_type[sen_type], conllu_path=False, output_format='tsv', output_path=None)
 
-        trees_with_tags.extend(curr_trees)
+        annotations_by_type[sen_type] = curr_trees
         layers.extend(curr_layers)
 
-    return sentences.index, trees_with_tags, layers
+    # merge sentences in original sequence
+
+    max_ind = sentences.shape[0]
+    annotations = []
+    count = defaultdict(int)
+    for sen_ind in range(1, max_ind+1):
+        for sen_type in sen_types:
+            if sen_ind in sen_groups[sen_type]:
+                annotations.append(
+                    annotations_by_type[sen_type][count[sen_type]]
+                )
+                count[sen_type] += 1
+                break
+
+    return annotations, layers, sentences.index

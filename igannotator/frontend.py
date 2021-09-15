@@ -44,9 +44,9 @@ def annotate_sentence_type(in_path: Path, out_path: Path):
 
 def annotate_ig(in_path: Path, out_path: Path):
     df = pd.read_csv(in_path, sep=sep, index_col=0)
-    tokens, layers = get_annotated_sentences(df)
+    annotations = get_annotated_sentences(df)
     out_path = set_extension(out_path)
-    write_tsv_representation(out_path, tokens, layers)
+    write_tsv_representation(out_path, *annotations)
 
 
 

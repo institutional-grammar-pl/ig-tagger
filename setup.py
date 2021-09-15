@@ -25,7 +25,7 @@ setup(
     description="Institutional Grammar 2.0 annotation package.",
     long_description=read("README.md"),
 
-    packages=find_packages(),
+    packages=find_packages(exclude=('tests',)),
 
     entry_points={
         "console_scripts": [
