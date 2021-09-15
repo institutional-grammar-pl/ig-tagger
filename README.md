@@ -99,14 +99,19 @@ Sentences are classified as regulative (`r`) or constitutive (`c`). For this pur
 
 ### IG tagging:
 **Input**:
+
 .tsv file with 3 columns ['sentence no.', text, 'sentence_type'] compatible with results of `classify` command.
+
 **Output**:
+
 .tsv file with tagged sentences
+
 **Command**:
 ```
 ig-cli tag classified_sentences.txt tagged_sentences.tsv
 ```
-About:
+**About**:
+
 Tagging is based on natural language processing with linguistic features recognition
 and rules constructed for mapping of linguistic features to Institutional Grammar tags.
 Every sentence is analysed accordingly then results are saved with tags corresponding to each word token.
