@@ -1,13 +1,13 @@
-# [Institutional Grammar 2.0](https://arxiv.org/abs/2008.08937) annotator
+# Institutional Grammar 2.0 annotator
 
 # About
-Python tool for processing and tagging sentences with IG 2.0 syntax with additional tools for text cleaning, preprocessing and postprocesing. 
+Python tool for processing and tagging sentences with [IG 2.0 syntax](https://arxiv.org/abs/2008.08937) with additional tools for text cleaning, preprocessing and postprocesing. 
 
 # Contributions
 
 The tool is based on the results of previous work on Institutional Grammar annotation:
 1. Group project for previous version of IG syntax and Polish language - [link](https://github.com/rzepinskip/ig-annotator) 
-2. Work by [Aleksandra Wichrowska](https://github.com/airi314) on developing rules for English language and new IG 2.0 syntax.
+2. Work by Aleksandra Wichrowska on developing rules for English language and new IG 2.0 syntax - [link](https://github.com/airi314/annotator/tree/master)
 
 
 # Manual
