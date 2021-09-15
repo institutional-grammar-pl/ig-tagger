@@ -46,6 +46,8 @@ To show information about possible commands, arguments and options execute:
 ig-cli -h
 ```
 
+----------------------------------------------------------
+
 ### Split text document into sentences
 
 **Input**:
@@ -71,6 +73,8 @@ These two are different aproaches and can give different results. Basic option i
 
 Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”).
 
+----------------------------------------------------------
+
 ### Assign sentence type
 **Input**:
 
@@ -91,17 +95,20 @@ Sentences are classified as regulative (`r`) or constitutive (`c`). For this pur
 
 [The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/rc_07_2021/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
 
+----------------------------------------------------------
+
 ### IG tagging:
 Input:
-> .tsv file with 3 columns ['sentence no.', text, 'sentence_type'] compatible with results of `classify` command.
+.tsv file with 3 columns ['sentence no.', text, 'sentence_type'] compatible with results of `classify` command.
 Output:
-> .tsv file with tagged sentences
+.tsv file with tagged sentences
 Command:
 ```
 ig-cli tag classified_sentences.txt tagged_sentences.tsv
 ```
 About:
 
+----------------------------------------------------------
 
 ### Conversion to horizontal Excel format of IG document
 Input:
