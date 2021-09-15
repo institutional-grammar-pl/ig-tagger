@@ -1,13 +1,8 @@
 # Institutional Grammar 2.0 annotator
+[![PyPI Latest Release](https://img.shields.io/pypi/v/igannotator.svg)](https://pypi.org/project/igannotator/)
 
 # About
 Python tool for processing and tagging sentences with [IG 2.0 syntax](https://arxiv.org/abs/2008.08937) with additional tools for text cleaning, preprocessing and postprocessing. 
-
-# Contributions
-
-The tool is based on the results of previous work on Institutional Grammar annotation:
-1. Group project for the previous version of IG syntax and Polish language - [link](https://github.com/rzepinskip/ig-annotator) 
-2. Work by Aleksandra Wichrowska on developing rules for English language and new IG 2.0 syntax - [link](https://github.com/airi314/annotator/tree/master)
 
 
 # Manual
@@ -30,6 +25,7 @@ source .env/bin/activate
 ```  
 python -m pip install --upgrade pip
 python -m pip install igannotator
+ig-cli
 ```
 
 
@@ -133,3 +129,8 @@ Every sentence is analysed accordingly then results are saved with tags correspo
 ### Comparison of results
 Comparison between files (e.g. for quality/error assessment) is possible via other tools such as (`diff` - command line tool, [diffchecker](https://www.diffchecker.com) - web tool)
 
+# Contributions
+
+The tool is based on the results of previous work on Institutional Grammar annotation:
+1. Group project for the previous version of IG syntax and Polish language - [link](https://github.com/rzepinskip/ig-annotator) 
+2. Work by Aleksandra Wichrowska on developing rules for English language and new IG 2.0 syntax - [link](https://github.com/airi314/annotator/tree/master)
