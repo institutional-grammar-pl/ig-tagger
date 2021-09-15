@@ -1,4 +1,5 @@
 # Institutional Grammar 2.0 annotator
+[![PyPI Latest Release](https://img.shields.io/pypi/v/pandas.svg)](https://pypi.org/project/igannotator/)
 
 # About
 Python tool for processing and tagging sentences with [IG 2.0 syntax](https://arxiv.org/abs/2008.08937) with additional tools for text cleaning, preprocessing and postprocessing. 
