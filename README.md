@@ -118,6 +118,8 @@ Output:
 Command:
 >	
 About:	
+
+----------------------------------------------------------
 	
 ### Comparison of results
 Comparison between files (e.g. for quality/error assessment) is possible via other tools such as (`diff` - command line tool, [diffchecker](https://www.diffchecker.com) - web tool)
