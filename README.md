@@ -18,31 +18,33 @@ Package can be used within `import igannotator` with object-oriented operations 
 
 1. Create a virtual environment:
 
-    ```python -m venv .env```
-
+```
+python -m venv .env
+```
 2. Activate the virtual environment:
-
-    ```source .env/bin/activate```
+```
+source .env/bin/activate
+```
 
 3. Install package
-    ```
-   python -m pip install igannotator
-    ```
-
-
-
+```  
+python -m pip install igannotator
+```
 
 
 ## Chain of command line tools **ig-cli**
 
 Possible tasks are executed as shell commands on files:
 
-	```ig-cli <task_type> <input_file_path> <output_file_path> --some-additional-option```
+```
+ig-cli <task_type> <input_file_path> <output_file_path> --some-additional-option
+```
 
 ### Help
 To show information about possible commands, arguments and options execute:
-
-    ```ig-cli -h```
+```
+ig-cli -h
+```
 
 ### Split text document into sentences
 
@@ -55,7 +57,9 @@ Plain .txt file with text.
 Plain .txt file with sentences separated by new empty lines. 
 
 **Command**:
-    ```ig-cli atomize input_text.txt sentences.txt --split_type rule_based```
+```
+ig-cli atomize input_text.txt sentences.txt --split_type rule_based
+```
 
 **About**:
 
@@ -77,8 +81,9 @@ Plain .txt file with sentences separated by new lines.
 .tsv file with 2 columns: ['sentence_type', 'text'].
 
 **Command**:
-
-	```ig-cli classify sentences.txt classified_sentences.txt```
+```
+ig-cli classify sentences.txt classified_sentences.txt
+```
 
 **About**:
 
@@ -92,7 +97,9 @@ Input:
 Output:
 > .tsv file with tagged sentences
 Command:
-	```ig-cli tag classified_sentences.txt tagged_sentences.tsv```
+```
+ig-cli tag classified_sentences.txt tagged_sentences.tsv
+```
 About:
 
 
