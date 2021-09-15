@@ -85,6 +85,7 @@ def main():
         else:
             raise ValueError("Wrong parameters.")
     except Exception as e:
+        print("Error during processing:")
         print(e)
 
 
