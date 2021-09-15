@@ -45,7 +45,7 @@ setup(
     package_data={"igannotator": ["sentence_type_classifier.joblib"]},
 
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 4 - Beta',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
