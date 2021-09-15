@@ -107,10 +107,13 @@ Command:
 ig-cli tag classified_sentences.txt tagged_sentences.tsv
 ```
 About:
+Tagging is based on natural language processing with linguistic features recognition
+and rules constructed for mapping of linguistic features to Institutional Grammar tags.
+Every sentence is analysed accordingly then results are saved with tags corresponding to each word token.
 
 ----------------------------------------------------------
 
-### Conversion to horizontal Excel format of IG document
+### Conversion to horizontal Excel format of IG document  (in the future)
 Input:
 >
 Output:
