@@ -98,11 +98,11 @@ Sentences are classified as regulative (`r`) or constitutive (`c`). For this pur
 ----------------------------------------------------------
 
 ### IG tagging:
-Input:
+**Input**:
 .tsv file with 3 columns ['sentence no.', text, 'sentence_type'] compatible with results of `classify` command.
-Output:
+**Output**:
 .tsv file with tagged sentences
-Command:
+**Command**:
 ```
 ig-cli tag classified_sentences.txt tagged_sentences.tsv
 ```
@@ -114,13 +114,13 @@ Every sentence is analysed accordingly then results are saved with tags correspo
 ----------------------------------------------------------
 
 ### Conversion to horizontal Excel format of IG document  (in the future)
-Input:
+**Input**:
 >
-Output:
+**Output**:
 >
-Command:
+**Command**:
 >	
-About:	
+**About**:	
 
 ----------------------------------------------------------
 	
