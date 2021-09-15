@@ -30,6 +30,7 @@ source .env/bin/activate
 ```  
 python -m pip install --upgrade pip
 python -m pip install igannotator
+ig-cli
 ```
 
 
