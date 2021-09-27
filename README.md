@@ -83,7 +83,7 @@ Plain .txt file with sentences separated by new lines.
 
 **Command**:
 ```
-ig-cli classify sentences.txt classified_sentences.txt
+ig-cli classify sentences.tsv classified_sentences.tsv
 ```
 
 **About**:
@@ -105,7 +105,7 @@ Sentences are classified as regulative (`r`) or constitutive (`c`). For this pur
 
 **Command**:
 ```
-ig-cli tag classified_sentences.txt tagged_sentences.tsv
+ig-cli tag classified_sentences.tsv tagged_sentences.tsv
 ```
 **About**:
 
