@@ -33,6 +33,7 @@ def cmdline_args():
 
     p.add_argument(
         "--output_file_path",
+        "-o",
         help="""
         optional setting for path to save the result
         """

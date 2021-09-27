@@ -53,12 +53,21 @@ Plain .txt file with text.
 
 **Output**:
 	
-Plain .txt file with sentences separated by new empty lines. 
+Plain .txt file with sentences separated by new empty lines or .tsv file with ['sentence no.', 'sentence_type', 'text'] columns
+(with optional parameter `--format=tsv`)
 
 **Command**:
 ```
-ig-cli atomize input_text.txt sentences.txt --split_type rule_based
+ig-cli atomize input_text.txt
+ig-cli atomize input_text.txt sentences.txt --split_type ml
+ig-cli atomize input_text.txt --format txt
 ```
+
+**Optional parameters**
+
+* --format (txt/tsv)
+* --output_file_path 
+* --split_type (ml/rule_based)
 
 **About**:
 
@@ -79,18 +88,21 @@ Plain .txt file with sentences separated by new lines.
 
 **Output**:
 
-.tsv file with 2 columns: ['sentence_type', 'text'].
+.tsv file with 2 columns: ['sentence no.', 'sentence_type', 'text'].
 
 **Command**:
 ```
-ig-cli classify sentences.tsv classified_sentences.tsv
+ig-cli classify sentences.tsv
 ```
+
+**Optional parameters**
+
+* --output_file_path 
 
 **About**:
 
 Sentences are classified as regulative (`r`) or constitutive (`c`). For this purpose, simple ML model is prepared trained on a small annotated dataset. The output file should be reviewed and corrected manually.
 
-[The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/rc_07_2021/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
 
 ----------------------------------------------------------
 
@@ -107,6 +119,12 @@ Sentences are classified as regulative (`r`) or constitutive (`c`). For this pur
 ```
 ig-cli tag classified_sentences.tsv tagged_sentences.tsv
 ```
+
+**Optional parameters**
+
+* --output_file_path 
+
+
 **About**:
 
 Tagging is based on natural language processing with linguistic features recognition
@@ -126,8 +144,13 @@ Every sentence is analysed accordingly then results are saved with tags correspo
 
 ----------------------------------------------------------
 	
-### Comparison of results
+## Comparison of results
 Comparison between files (e.g. for quality/error assessment) is possible via other tools such as (`diff` - command line tool (use `diff -h` for detailed instruction), [diffchecker](https://www.diffchecker.com) - web tool)
+
+## Technical information
+
+### Update of models
+* **Sentence type classification** - [The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/master/igannotator/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
 
 # Contributions
 
