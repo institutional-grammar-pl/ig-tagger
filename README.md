@@ -57,7 +57,7 @@ Plain **.txt** file with sentences separated by new empty lines or **.tsv** file
 **Command**:
 ```
 ig-cli atomize input_text.txt
-ig-cli atomize input_text.txt sentences.txt --split_type ml
+ig-cli atomize input_text.txt -o sentences.txt --split_type ml
 ig-cli atomize input_text.txt --format txt
 ```
 
@@ -126,7 +126,7 @@ Sentences are classified as regulative (`r`) or constitutive (`c`). For this pur
 
 **Command**:
 ```
-ig-cli tag classified_sentences.tsv tagged_sentences.tsv
+ig-cli tag classified_sentences.tsv -o tagged_sentences.tsv
 ```
 
 **Optional parameters**
