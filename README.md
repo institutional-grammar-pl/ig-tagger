@@ -7,8 +7,6 @@ Python tool for processing and tagging sentences with [IG 2.0 syntax](https://ar
 
 # Manual
 
-The package can be used within `import igannotator` with object-oriented operations included in `igannotator.backend` and file operations included in `igannotator.frontend`. 
-
 ## Installation
 
 1. Create a virtual environment:
@@ -162,6 +160,15 @@ Comparison between files (e.g. for quality/error assessment) is possible via oth
 
 ### Update of models
 * **Sentence type classification** - [The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/master/igannotator/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
+
+### Programming interface
+
+The package can be used within `import igannotator` with object-oriented operations included in `igannotator.backend` and file operations included in `igannotator.frontend`. 
+```
+from igannotator import backend
+backend.get_annotated_sentences(df)
+```
+
 
 # Contributions
 
