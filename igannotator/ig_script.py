@@ -32,9 +32,9 @@ def cmdline_args():
     )
 
     p.add_argument(
-        "output_file_path",
+        "--output_file_path",
         help="""
-        path to save the result
+        optional setting for path to save the result
         """
     )
 
@@ -50,6 +50,14 @@ def cmdline_args():
         "--split_type",
         help="""
         optional setting for split type ('rule_based' or 'ml') while using `atomize` action
+        """
+    )
+
+    p.add_argument(
+        "--format",
+        help="""
+        optional setting for atomize function to set tsv/tsv output format. Possible values are 'tsv' and 'txt'.
+        Only for atomize function.
         """
     )
 
@@ -71,12 +79,14 @@ def main():
     try:
         args = cmdline_args()
         input_path = Path(return_or_raise(args.input_file_path))
-        output_path = Path(return_or_raise(args.output_file_path))
+        output_path = Path(args.output_file_path) if args.output_file_path else None
+        out_format = args.format if args.format == 'tsv' else 'txt'
+
         if args.action_type == 'atomize':
             if args.split_type in ['ml', 'rule_based']:
-                atomize(input_path, output_path, args.split_type)
+                atomize(input_path, output_path, args.split_type, out_format)
             else:
-                atomize(input_path, output_path)
+                atomize(input_path, output_path=output_path, output_format=out_format)
             print('Done')
         elif args.action_type == 'classify':
             annotate_sentence_type(input_path, output_path)

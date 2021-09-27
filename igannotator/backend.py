@@ -44,6 +44,7 @@ def get_sentences(
     """
     # remove new lines
     txt = re.sub('\n|:|"|;', ' ', txt)
+
     if sentence_split_type == 'ml':  # split text into sentences by spacy
         doc = nlp(txt)
         sentences = doc.sents
