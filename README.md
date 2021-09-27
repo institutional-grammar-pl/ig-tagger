@@ -32,7 +32,7 @@ ig-cli
 Possible tasks are executed as shell commands on files:
 
 ```
-ig-cli <task_type> <input_file_path> <output_file_path> --some-additional-option
+ig-cli <task_type> <input_file_path> -o output_file_path --some-additional-option
 ```
 
 ### Help
