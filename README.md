@@ -127,7 +127,7 @@ Every sentence is analysed accordingly then results are saved with tags correspo
 ----------------------------------------------------------
 	
 ### Comparison of results
-Comparison between files (e.g. for quality/error assessment) is possible via other tools such as (`diff` - command line tool, [diffchecker](https://www.diffchecker.com) - web tool)
+Comparison between files (e.g. for quality/error assessment) is possible via other tools such as (`diff` - command line tool (use `diff -h` for detailed instruction), [diffchecker](https://www.diffchecker.com) - web tool)
 
 # Contributions
 
