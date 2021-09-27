@@ -15,7 +15,7 @@ def read(filename):
 
 setup(
     name="igannotator",
-    version="1.2.3",
+    version="1.3",
     url=" ",
     license='MIT',
 
@@ -46,7 +46,7 @@ setup(
     package_data={"igannotator": ["sentence_type_classifier.joblib"]},
 
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.6',
