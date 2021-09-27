@@ -50,10 +50,16 @@ def annotate_sentence_type(in_path: Path, out_path: Path = None):
     if not out_path:
         out_path = set_alt_name(in_path, 'sen_type')
 
-    with open(in_path, 'r') as input_:
-        file_text = input_.read()
+    if in_path.suffix == '.txt':
+        with open(in_path, 'r') as input_:
+            file_text = input_.read()
+        sentences = file_text.split('\n\n')
+    elif in_path.suffix == '.tsv':
+        df = pd.read_csv(in_path, sep=sep, index_col=0)
+        sentences = df.text
+    else:
+        return
 
-    sentences = file_text.split('\n\n')
     sentences = [re.sub(r'\n|\t', ' ', sen) for sen in sentences]
     df = get_sentence_type(sentences)
 

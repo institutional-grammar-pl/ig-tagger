@@ -24,6 +24,7 @@ def cmdline_args():
         3) 'tag' - annotate with IG
         """
     )
+
     p.add_argument(
         "input_file_path",
         help="""
@@ -38,14 +39,6 @@ def cmdline_args():
         optional setting for path to save the result
         """
     )
-
-    # p.add_argument(
-    #     "--sentence_type",
-    #     help="""
-    #     'regulative' or 'constitutive'
-    #     """,
-    #     required=False
-    # )
 
     p.add_argument(
         "--split_type",

@@ -49,11 +49,11 @@ ig-cli -h
 
 **Input**:
 
-Plain .txt file with text.
+Plain **.txt** file with text.
 
 **Output**:
 	
-Plain .txt file with sentences separated by new empty lines or .tsv file with ['sentence no.', 'sentence_type', 'text'] columns
+Plain **.txt** file with sentences separated by new empty lines or **.tsv** file with ['sentence no.', 'sentence_type', 'text'] columns
 (with optional parameter `--format=tsv`)
 
 **Command**:
@@ -75,20 +75,31 @@ Complex sentences with enumerations are splitted into atomic sentences when it i
 
 Split type possible values: ‘ml’, ‘rule_based’. ML variant uses  a special tool ([Spacy library](https://spacy.io)) for recognizing the beginnings and ends of sentences in text. Rule-based variant uses simple matching based on capital letter and period at the end of the sentence (regular expressions). 
 
-These two are different approaches and can give different results. The basic option is rule_based, but it is recommended to compare results on each use case.
+These two are different approaches and can give different results. The basic option is rule_based, ml can do better with lower quality text because of considering whole sentence structure (not only dots and capital letters).
 
-Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in the sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”).
+Both splits recognize enumeration based on a, b, c… or 1, 2, 3… to split bigger sentences into smaller ones. Which is implemented as matching such expressions (xxx xxx (a) ccc, (b) vvv”) in the sentence, then splitting and constructing new sentences from extracted parts (“xxx xxx ccc”, “xxx xxx vvv”). 
+
+For example:
+
+ 1. The employee is subject to  (1) a Federal quarantine order related to COVID-19 (2) a Federal isolation order related to COVID-19.
+
+ 2. The employee is subject to a Federal quarantine order related to COVID-19.
+
+ 3. The employee is subject to a Federal isolation order related to COVID-19.
+
+Sentences 2-3 are extracted from sentence 1 based on `(1) (2)` pattern.
+
 
 ----------------------------------------------------------
 
 ### Assign sentence type
 **Input**:
 
-Plain .txt file with sentences separated by new lines.
+Plain **.txt** file with sentences separated by new lines or **.tsv** file with 3 columns ['sentence no.', 'sentence_type', 'text']. (Based on file extension)
 
 **Output**:
 
-.tsv file with 2 columns: ['sentence no.', 'sentence_type', 'text'].
+**.tsv** file with 3 columns: ['sentence no.', 'sentence_type', 'text'].
 
 **Command**:
 ```
@@ -157,3 +168,4 @@ Comparison between files (e.g. for quality/error assessment) is possible via oth
 The tool is based on the results of previous work on Institutional Grammar annotation:
 1. Group project for the previous version of IG syntax and Polish language - [link](https://github.com/rzepinskip/ig-annotator) 
 2. Work by Aleksandra Wichrowska on developing rules for English language and new IG 2.0 syntax - [link](https://github.com/airi314/annotator/tree/master)
+3. Work by Karolina Seweryn on ML models: constitutive/regulative classification
