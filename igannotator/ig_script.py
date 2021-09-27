@@ -1,5 +1,6 @@
 import sys
 import argparse
+import traceback
 from pathlib import Path
 
 from igannotator.frontend import (
@@ -87,6 +88,7 @@ def main():
     except Exception as e:
         print("Error during processing:")
         print(e)
+        print(traceback.format_exc())
 
 
 if __name__ == '__main__':

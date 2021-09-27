@@ -1,4 +1,5 @@
 from pathlib import Path
+import re
 
 import pandas as pd
 
@@ -34,6 +35,7 @@ def annotate_sentence_type(in_path: Path, out_path: Path):
         file_text = input_.read()
 
     sentences = file_text.split('\n\n')
+    sentences = [re.sub(r'\n|\t', ' ', sen) for sen in sentences]
     df = get_sentence_type(sentences)
 
     out_path = set_extension(

@@ -98,13 +98,15 @@ def get_annotated_sentences(sentences: pd.DataFrame) -> Tuple[
     sen_groups = sentences.groupby(by='sentence_type').groups
 
     # check sentence type column values
-    if set(pd.unique(sentences.sentence_type)).isdisjoint({'r', 'c'}):
+    if set(pd.unique(sentences.sentence_type)).isdisjoint(set(sen_types)):
         raise ValueError('Unexpected sentence type!')
 
     # tag r/c sentences separately
     annotations_by_type = dict()
     layers = []
     for sen_type in sen_types:
+        if sen_type not in sen_groups.keys():
+            sen_groups[sen_type] = []
         sen_to_ann = sentences.loc[sen_groups[sen_type], 'text']
         curr_trees, curr_layers = annotate_sentences(
             list(sen_to_ann),
