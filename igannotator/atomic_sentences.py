@@ -2,7 +2,7 @@ import re
 
 import spacy
 
-spacy_model_name = 'en_core_web_sm'
+spacy_model_name = 'en_core_web_lg'
 if not spacy.util.is_package(spacy_model_name):
     spacy.cli.download(spacy_model_name)
 nlp = spacy.load(spacy_model_name)
