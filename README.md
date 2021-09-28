@@ -64,7 +64,7 @@ ig-cli atomize input_text.txt --format txt
 **Optional parameters**
 
 * --format (txt/tsv)
-* --output_file_path 
+* --output_file_path -o
 * --split_type (ml/rule_based)
 
 **About**:
@@ -106,7 +106,7 @@ ig-cli classify sentences.tsv
 
 **Optional parameters**
 
-* --output_file_path 
+* --output_file_path -o 
 
 **About**:
 
@@ -131,7 +131,7 @@ ig-cli tag classified_sentences.tsv -o tagged_sentences.tsv
 
 **Optional parameters**
 
-* --output_file_path 
+* --output_file_path -o
 
 
 **About**:
