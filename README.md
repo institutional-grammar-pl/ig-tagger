@@ -168,6 +168,7 @@ The package can be used within `import igtagger` with object-oriented operations
 from igtagger import backend
 backend.get_annotated_sentences(df)
 ```
+Detailed documentation is in the [PDF](https://github.com/institutional-grammar-pl/ig-tagger/blob/master/igannotator.backend%20API%20documentation.pdf).
 
 
 # Contributions
