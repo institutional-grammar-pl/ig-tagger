@@ -8,7 +8,7 @@ from igannotator.rulesexecutor.rules import IGTag, find_word_tag
 
 def get_sentence_and_tags(
 
-    tree: LexicalTreeNode, tags: List[IGTag], layers: []
+        tree: LexicalTreeNode, tags: List[IGTag], layers: []
 ) -> Tuple[str, List[Tuple[str, int, int, str]]]:
     sentence = ""
     id_to_position = dict()
@@ -50,31 +50,35 @@ def get_sentence_and_tags(
         #     print("exit! word with multiple tags found")
         #     exit(word_tags[layers[0]])
         if len(word_tags[layers[0]]) > 2:
-            word_tags[layers[0]] = word_tags[layer[0]][-1]
+            word_tags[layers[0]] = [word_tags[layers[0]][0]]
 
         start = id_to_position[x.id]
         stop = id_to_position[x.id] + len(str(x))
 
         word_data = {'word': str(x), 'word_id': x.id, 'start': start, 'stop': stop,
-                'tags': {'reg': {'depth_1': [], 'depth_2': []}, 'cons': {'depth_1': [], 'depth_2': []}}}
+                     'tags': {'reg': {'depth_1': [], 'depth_2': []}, 'cons': {'depth_1': [], 'depth_2': []}}}
 
         for layer in layers:
             if word_tags[layer] == []:
                 word_data['tags'][layer]['depth_1'].append({'tag_name': '', 'tag_id': ''})
                 word_data['tags'][layer]['depth_2'].append({})
             elif len(word_tags[layer]) == 1:
-                word_data['tags'][layer]['depth_1'].append({'tag_name': tag_names[str(word_tags[layer][0].tag_name)], 'tag_id': word_tags[layer][0].tag_id})
+                word_data['tags'][layer]['depth_1'].append(
+                    {'tag_name': tag_names[str(word_tags[layer][0].tag_name)], 'tag_id': word_tags[layer][0].tag_id})
                 word_data['tags'][layer]['depth_2'].append({})
             else:
-                word_data['tags'][layer]['depth_1'].append({'tag_name': tag_names[str(word_tags[layer][0].tag_name)], 'tag_id': word_tags[layer][0].tag_id})
-                word_data['tags'][layer]['depth_2'].append({'tag_name': tag_names[str(word_tags[layer][1].tag_name)], 'tag_id': word_tags[layer][1].tag_id})
+                word_data['tags'][layer]['depth_1'].append(
+                    {'tag_name': tag_names[str(word_tags[layer][0].tag_name)], 'tag_id': word_tags[layer][0].tag_id})
+                word_data['tags'][layer]['depth_2'].append(
+                    {'tag_name': tag_names[str(word_tags[layer][1].tag_name)], 'tag_id': word_tags[layer][1].tag_id})
         results[word_id] = word_data
 
     return results
 
 
 def write_tsv_representation(
-    output_file, trees_with_tags: List[Tuple[LexicalTreeNode, List[IGTag]]], layers: List[str], index: List[numpy.int64]
+        output_file, trees_with_tags: List[Tuple[LexicalTreeNode, List[IGTag]]], layers: List[str],
+        index: List[numpy.int64]
 ):
     with open(output_file, "w", encoding="utf-8") as output:
         output.write('#FORMAT=WebAnno TSV 3.2\n')
@@ -88,11 +92,11 @@ def write_tsv_representation(
 
         offset = 0
         for sent_id, (sentence, tree, tags) in enumerate(trees_with_tags):
-            output.write('#Text='+sentence+'\n')
+            output.write('#Text=' + sentence + '\n')
             results = get_sentence_and_tags(tree, tags, layers)
             for word_data in results.values():
                 sent_word = str(sent_id + 1) + "-" + str(word_data['word_id'])
-                span = ''.join([str(offset+word_data['start']), "-", str(offset + word_data['stop'])])
+                span = ''.join([str(offset + word_data['start']), "-", str(offset + word_data['stop'])])
                 word = word_data['word']
                 line = [str(index[sent_id]), sent_word, span, word]
                 for layer in layers:
