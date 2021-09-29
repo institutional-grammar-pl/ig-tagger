@@ -91,7 +91,7 @@ class IgAnnotator(BaseAnnotator):
             return [], current_component_id
         nested_tags = []
 
-        if depth > 2:
+        if depth > 1:
             return nested_tags, current_component_id
         sent = [x.value for x in tree.get_all_descendants()]
         for tag_id in ids:
