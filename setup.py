@@ -14,8 +14,8 @@ def read(filename):
 
 
 setup(
-    name="igannotator",
-    version="1.3.2",
+    name="ig-tagger",
+    version="1.3.3",
     url=" ",
     license='MIT',
 
@@ -31,7 +31,7 @@ setup(
 
     entry_points={
         "console_scripts": [
-            "ig-cli = igannotator.ig_script:main"
+            "ig-cli = igtagger.ig_script:main"
         ]
     },
 
@@ -43,7 +43,7 @@ setup(
         "scikit-learn==0.23.1"
     ],
 
-    package_data={"igannotator": ["sentence_type_classifier.joblib"]},
+    package_data={"igtagger": ["sentence_type_classifier.joblib"]},
 
     classifiers=[
         'Development Status :: 5 - Production/Stable',

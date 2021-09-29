@@ -1,5 +1,5 @@
 # Institutional Grammar 2.0 annotator
-[![PyPI Latest Release](https://img.shields.io/pypi/v/igannotator.svg)](https://pypi.org/project/igannotator/)
+[![PyPI Latest Release](https://img.shields.io/pypi/v/ig-tagger.svg)](https://pypi.org/project/ig-tagger/)
 
 # About
 Python tool for processing and tagging sentences with [IG 2.0 syntax](https://arxiv.org/abs/2008.08937) with additional tools for text cleaning, preprocessing and postprocessing. 
@@ -22,7 +22,7 @@ source .env/bin/activate
 3. Install package
 ```  
 python -m pip install --upgrade pip
-python -m pip install igannotator
+python -m pip install ig-tagger
 ig-cli
 ```
 
@@ -159,13 +159,13 @@ Comparison between files (e.g. for quality/error assessment) is possible via oth
 ## Technical information
 
 ### Update of models
-* **Sentence type classification** - [The ML model](https://github.com/institutional-grammar-pl/policydemic-annotator/blob/master/igannotator/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
+* **Sentence type classification** - [The ML model](https://github.com/institutional-grammar-pl/ig-tagger/blob/master/igtagger/sentence_type_classifier.joblib) can be changed/retrained as a new file with serialized Python object with `.predict(self, sentences: List[str]) -> List[bool]` method and returns True for regulative sentences. Corrected files can be gathered for building better classifier.
 
 ### Programming interface
 
-The package can be used within `import igannotator` with object-oriented operations included in `igannotator.backend` and file operations included in `igannotator.frontend`. 
+The package can be used within `import igtagger` with object-oriented operations included in `igtagger.backend` and file operations included in `igtagger.frontend`. 
 ```
-from igannotator import backend
+from igtagger import backend
 backend.get_annotated_sentences(df)
 ```
 

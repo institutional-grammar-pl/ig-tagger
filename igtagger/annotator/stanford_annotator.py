@@ -4,7 +4,7 @@ from stanza.utils.conll import CoNLL
 from io import StringIO
 import tempfile
 
-from igannotator.annotator.annotator import BaseAnnotator
+from igtagger.annotator.annotator import BaseAnnotator
 
 
 class StanfordAnnotator(BaseAnnotator):

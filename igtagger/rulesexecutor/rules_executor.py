@@ -1,9 +1,9 @@
 from typing import List
-import igannotator.rulesexecutor.rules_english_constitutive as rules_en_cons
-import igannotator.rulesexecutor.rules_english_regulative as rules_en_reg
+import igtagger.rulesexecutor.rules_english_constitutive as rules_en_cons
+import igtagger.rulesexecutor.rules_english_regulative as rules_en_reg
 
-from igannotator.rulesexecutor.rules import IGTag, Rule
-from igannotator.annotator.lexical_tree import LexicalTreeNode
+from igtagger.rulesexecutor.rules import IGTag, Rule
+from igtagger.annotator.lexical_tree import LexicalTreeNode
 
 
 class RulesExecutor:

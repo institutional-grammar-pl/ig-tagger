@@ -1,7 +1,7 @@
-from igannotator.rulesexecutor.rules import Rule, IGTag
+from igtagger.rulesexecutor.rules import Rule, IGTag
 from typing import List
-from igannotator.rulesexecutor.ig_element import IGElement
-from igannotator.annotator.lexical_tree import LexicalTreeNode
+from igtagger.rulesexecutor.ig_element import IGElement
+from igtagger.annotator.lexical_tree import LexicalTreeNode
 
 
 class ConstitutiveRules(Rule):

@@ -4,19 +4,19 @@ import re
 
 import pandas as pd
 
-from igannotator.annotator.lexical_tree import LexicalTreeNode
-from igannotator.atomic_sentences import (
+from igtagger.annotator.lexical_tree import LexicalTreeNode
+from igtagger.atomic_sentences import (
     filter_sentence,
     gen_atomic_statements,
     nlp
 )
-from igannotator.rulesexecutor.rules import IGTag
+from igtagger.rulesexecutor.rules import IGTag
 
-from igannotator.sentence_type import (
+from igtagger.sentence_type import (
     model_pipeline
 )
 
-from igannotator.annotations import (
+from igtagger.annotations import (
     annotate_sentences
 )
 

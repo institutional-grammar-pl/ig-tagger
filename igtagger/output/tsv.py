@@ -2,8 +2,8 @@ from typing import List, Tuple
 
 import numpy
 
-from igannotator.annotator.lexical_tree import LexicalTreeNode
-from igannotator.rulesexecutor.rules import IGTag, find_word_tag
+from igtagger.annotator.lexical_tree import LexicalTreeNode
+from igtagger.rulesexecutor.rules import IGTag, find_word_tag
 
 
 def get_sentence_and_tags(

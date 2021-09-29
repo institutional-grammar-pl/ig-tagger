@@ -1,6 +1,6 @@
 import click
-from igannotator.output.tsv import write_tsv_representation
-from igannotator.annotator.ig_annotator import IgAnnotator
+from igtagger.output.tsv import write_tsv_representation
+from igtagger.annotator.ig_annotator import IgAnnotator
 import re
 
 

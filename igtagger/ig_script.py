@@ -3,7 +3,7 @@ import argparse
 import traceback
 from pathlib import Path
 
-from igannotator.frontend import (
+from igtagger.frontend import (
     atomize,
     annotate_sentence_type,
     annotate_ig

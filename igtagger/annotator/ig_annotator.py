@@ -6,11 +6,11 @@ import stanza as stanfordnlp
 import warnings
 import numpy as np
 
-from igannotator.annotator.annotator import BaseAnnotator
-from igannotator.annotator.lexical_tree import LexicalTreeNode
-from igannotator.rulesexecutor.rules import IGTag
-from igannotator.annotator.stanford_annotator import StanfordAnnotator
-from igannotator.rulesexecutor.rules_executor import IGRulesExecutor
+from igtagger.annotator.annotator import BaseAnnotator
+from igtagger.annotator.lexical_tree import LexicalTreeNode
+from igtagger.rulesexecutor.rules import IGTag
+from igtagger.annotator.stanford_annotator import StanfordAnnotator
+from igtagger.rulesexecutor.rules_executor import IGRulesExecutor
 
 
 class IgAnnotator(BaseAnnotator):

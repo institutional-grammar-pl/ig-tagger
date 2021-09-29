@@ -3,12 +3,12 @@ import re
 
 import pandas as pd
 
-from igannotator.backend import (
+from igtagger.backend import (
     get_sentences,
     get_sentence_type,
     get_annotated_sentences
 )
-from igannotator.output.tsv import write_tsv_representation
+from igtagger.output.tsv import write_tsv_representation
 
 sep = '\t'
 
