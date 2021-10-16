@@ -15,11 +15,11 @@ def read(filename):
 
 setup(
     name="ig-tagger",
-    version="1.3.3",
+    version="1.3.4",
     url=" ",
     license='MIT',
 
-    author="Aleksandra Wichrowska, Karol Saputa",
+    author="Anna Wróblewska, Bartosz Pieliński, Karol Saputa, Aleksandra Wichrowska, Karolina Seweryn",
     author_email=" ",
 
     description="Sentence annotation with Institutional Grammar 2.0 "

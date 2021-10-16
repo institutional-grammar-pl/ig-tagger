@@ -172,6 +172,7 @@ Detailed documentation is in the [PDF](https://github.com/institutional-grammar-
 
 
 # Contributions
+Project leaders: [Anna Wróblewska](https://orcid.org/0000-0002-3407-7570), [Bartosz Pieliński](https://orcid.org/0000-0003-2664-2135) 
 
 The tool is based on the results of previous work on Institutional Grammar annotation:
 1. Group project for the previous version of IG syntax and Polish language - [link](https://github.com/rzepinskip/ig-annotator) 
