@@ -93,7 +93,7 @@ Sentences 2-3 are extracted from sentence 1 based on `(1) (2)` pattern.
 ### Assign sentence type
 **Input**:
 
-Plain **.txt** file with sentences separated by new lines or **.tsv** file with 3 columns ['sentence no.', 'sentence_type', 'text']. (Based on file extension)
+Plain **.txt** file with sentences separated by two new lines (**\n\n**) or **.tsv** file with 3 columns ['sentence no.', 'sentence_type', 'text']. (Based on file extension)
 
 **Output**:
 
